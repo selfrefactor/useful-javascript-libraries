@@ -1,0 +1,25 @@
+{
+  "name": "useful-javascript-libraries",
+  "version": "1.0.0",
+  "description": "Collection of Javascript libraries",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/selfrefactor/useful-javascript-libraries.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/selfrefactor/useful-javascript-libraries/issues"
+  },
+  "homepage": "https://github.com/selfrefactor/useful-javascript-libraries#readme",
+  "dependencies": {
+    "esm": "^3.0.84",
+    "rambdax": "^0.17.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2"
+  }
+}
