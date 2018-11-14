@@ -1,6 +1,3 @@
-/**
- * @jest-environment node
- */
 const {toGithubURL} = require('./toGithubURL')
 
 test('', async () => {
