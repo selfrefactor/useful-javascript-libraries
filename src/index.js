@@ -1,5 +1,4 @@
 import {readFileSync} from 'fs'
-import rp from 'request-promise'
 import { map, reject, includes, filter, startsWith, s, remove } from 'rambdax'
 s()
 
