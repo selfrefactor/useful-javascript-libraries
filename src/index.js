@@ -1,19 +1,20 @@
-import {readdirSync, readFileSync} from 'fs'
+import {readFileSync} from 'fs'
 import rp from 'request-promise'
-import { startsWith, s, remove } from 'rambdax'
+import { map, reject, includes, filter, startsWith, s, remove } from 'rambdax'
 s()
 
 void async function populate(){
-  const [bookmarksFile] = readdirSync(__dirname)
-    .filter(startsWith('bookmarks'))
-
-  if(!bookmarksFile) return
   const bookmarksContent = readFileSync(
-    `${__dirname}/${bookmarksFile}`
+    `${process.cwd()}/links.txt`
   ).toString()
 
-  const y = bookmarksContent
-    .match(/HREF="[a-zA-Z:\/\.\?#]+"/g)
-    .s(x => x.map(remove(/HREF="|"/g)))
+  const y = bookmarksContent.split('\n')
+    .s(reject(includes('gist.')))
+    .s(reject(includes('?tab')))
+    .s(reject(includes('trending')))
+    .s(filter(
+      x => x.includes('github.com') || x.includes('npmjs'))
+    )
   console.log({y})
+  console.log({y: y.length})
 }()
