@@ -1,2 +1,3 @@
 node_module
 *.html
+.node_modules
