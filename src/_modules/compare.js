@@ -10,7 +10,6 @@ function compare(a,b){
   const stars = Math.floor(a.stargazers_count - b.stargazers_count)*STARS
 
   const total = updated + issues + stars
-  console.log({total, updated, issues, stars})
 
   return total
 }
