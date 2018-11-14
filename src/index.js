@@ -1,19 +1,19 @@
 require('env')('special')
 import {readFileSync, writeFileSync} from 'fs'
-import {replace, template, multiline,mapAsync, mapFastAsync, take, remove, reject, includes, filter, s, sort } from 'rambdax'
+import {replace, template ,mapAsync, mapFastAsync, take, remove, reject, includes, filter, s, sort } from 'rambdax'
 import {toGithubURL} from './_modules/toGithubURL'
 import {repoData} from './_modules/repoData'
 import {compare} from './_modules/compare'
-import {pascalCase} from 'string-fn'
+import {titleCase} from 'string-fn'
 
-const TITLE = '# Useful Javascript libraries'
+const TITLE = '# Useful Javascript libraries\n\n'
 const TEMPLATE = [
-    '## [{{name}}]({{html_url}})',
+    '## [{{title}}]({{html_url}})',
     '> {{description}}',
-    // '[{{html_url}}](link)',
   ].join('\n\n')
 
-  console.log(TEMPLATE)
+const TEMPLATE_NO_DESC = '## [{{name}}]({{html_url}})'
+
 const normalized = [ 'https://github.com/parro-it/screen-info',
 'https://github.com/jonschlinkert/markdown-toc',
 'https://github.com/jonschlinkert/remarkable',
@@ -59,22 +59,21 @@ void async function populate(){
     .s(filter(
       x => x.includes('github.com') || x.includes('npmjs'))
     )
-    .s(take(3))
-  
+    .s(take(10))
       
-  // const withCorrectLinks = await mapFastAsync(async x => {
-  //   return x.includes('github.com') ? 
-  //     x :
-  //     toGithubURL(x)
-  // })(allLinks)  
+  const withCorrectLinks = await mapFastAsync(async x => {
+    return x.includes('github.com') ? 
+      x :
+      toGithubURL(x)
+  })(allLinks)  
 
-  // const normalized = withCorrectLinks.map(
-  //   x => {
-  //     const replaced = replace(/(git:)|(ssh:)/, 'https:', x)
+  const normalized = withCorrectLinks.map(
+    x => {
+      const replaced = replace(/(git:)|(ssh:)/, 'https:', x)
 
-  //     return remove('git@', replaced)
-  //   }
-  // )
+      return remove('git@', replaced)
+    }
+  )
 
   const withRepoDataRaw = await mapFastAsync(repoData, normalized)
   const withRepoData = withRepoDataRaw.filter(Boolean)
@@ -82,12 +81,19 @@ void async function populate(){
   const sorted = sort(compare, withRepoData)
 
   const content = sorted.map(
-    x => template(TEMPLATE, x) + '\n'
+    x => {
+      const templateInput = {...x, title: titleCase(x.name)}
+      const templated = x.description ?
+          template(TEMPLATE, templateInput) :
+          template(TEMPLATE_NO_DESC, templateInput)
+
+        return `${templated}\n`  
+    }
   ).join('\n')    
 
   writeFileSync(
     `${process.cwd()}/README.md`,
-    content
+    `${TITLE}${content}`
   )
 
 }()
