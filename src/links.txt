@@ -204,7 +204,6 @@ https://github.com/tunnckoCore/resources
 https://github.com/sweekson/typescript-examples/tree/master/classes
 https://github.com/vadimdemedes/ink
 https://github.com/nefe/vscode-extension-tutorial/blob/master/vsc-extension-quickstart.md
-javascript:(function()%7Bwindow.location%3D'https%3A%2F%2Fchromedevtools.github.io%2Ftimeline-viewer%2F%3FloadTimelineFromURL%3Dhttps%3A%2F%2Fpuppeteeraas.com%2Ftrace%3Furl%3D'%2BencodeURIComponent(window.location)%7D)()
 https://github.com/OptimalBits/redbird
 https://github.com/satya164/web-worker-proxy
 https://github.com/fastify/fastify-react
