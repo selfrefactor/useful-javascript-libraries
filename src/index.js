@@ -1,7 +1,6 @@
 require('env')('special')
 import {readFileSync, writeFileSync} from 'fs'
 import {
-  take,
   filter, 
   includes, 
   mapAsync, 
@@ -24,7 +23,7 @@ const TEMPLATE = [
     '> {{description}}',
   ].join('\n\n')
 
-const TEMPLATE_NO_DESC = '## [{{name}}]({{html_url}})'
+const TEMPLATE_NO_DESC = '## [{{title}}]({{url}})'
 
 s()
 void async function populate(){
@@ -39,7 +38,6 @@ void async function populate(){
     .s(filter(
       x => x.includes('github.com') || x.includes('npmjs'))
     )
-    .s(take(22))
 
   let counter = 0    
   const withCorrectLinks = await mapAsync(async x => {
