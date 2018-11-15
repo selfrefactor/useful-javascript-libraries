@@ -26,9 +26,9 @@ const TEMPLATE = [
 const TEMPLATE_NO_DESC = '## [{{title}}]({{url}})'
 
 s()
-void async function populate(){
+async function populate(fileName){
   const bookmarksContent = readFileSync(
-    `${__dirname}/links.txt`
+    `${__dirname}/${fileName}.txt`
   ).toString()
 
   const allLinks = bookmarksContent.split('\n')
@@ -90,7 +90,10 @@ void async function populate(){
 
   writeFileSync(
     `${process.cwd()}/README.md`,
-    `${TITLE}${content}`
+    `${TITLE}${content}/n---/n`
   )
 
-}()
+}
+
+populate('links').then(console.log).catch(consoele.log)
+// populate('linksSecondary').then(console.log).catch(consoele.log)
