@@ -1,5 +1,6 @@
 require('env')('special')
 import {readFileSync, writeFileSync} from 'fs'
+import {writeJSONSync, readJSONSync} from 'fs-extra'
 import {
   filter, 
   includes, 
@@ -17,6 +18,7 @@ import {repoData} from './_modules/repoData'
 import {compare} from './_modules/compare'
 import {titleCase} from 'string-fn'
 
+const LINKS = `${__dirname}/links.json`
 const TITLE = '# Useful Javascript libraries\n\n'
 const TEMPLATE = [
     '## [{{title}}]({{url}})',
@@ -26,11 +28,8 @@ const TEMPLATE = [
 const TEMPLATE_NO_DESC = '## [{{title}}]({{url}})'
 
 s()
-async function populate(fileName){
-  const bookmarksContent = readFileSync(
-    `${__dirname}/${fileName}.txt`
-  ).toString()
 
+function generateLinks(bookmarksContent){
   const allLinks = bookmarksContent.split('\n')
     .s(reject(includes('gist.')))
     .s(reject(includes('?tab')))
@@ -39,23 +38,44 @@ async function populate(fileName){
       x => x.includes('github.com') || x.includes('npmjs'))
     )
 
-  let counter = 0    
-  const withCorrectLinks = await mapAsync(async x => {
-    console.log({I: counter++})
+    const withCorrectLinks = await mapAsync(async x => {
+      return x.includes('github.com') ? 
+        x :
+        toGithubURL(x)
+    })(allLinks)
 
-    return x.includes('github.com') ? 
-      x :
-      toGithubURL(x)
-  })(allLinks)  
+    return withCorrectLinks.map(
+      x => {
+        const replaced = replace(/(git:)|(ssh:)/, 'https:', x)
+  
+        return remove('git@', replaced)
+      }
+    )
+}
 
-  const normalized = withCorrectLinks.map(
-    x => {
-      const replaced = replace(/(git:)|(ssh:)/, 'https:', x)
+async function createDataJSON(){
+  const bookmarksContent = readFileSync(
+    `${__dirname}/links.txt`
+  ).toString()
 
-      return remove('git@', replaced)
-    }
+  const bookmarksContentSecondary = readFileSync(
+    `${__dirname}/linksSecondary.txt`
+  ).toString()
+
+  const links = await generateLinks(bookmarksContent)
+  const linksSecondary = await generateLinks(bookmarksContentSecondary)
+  
+  writeJSONSync(
+    LINKS,
+    {links, linksSecondary}
   )
+}
 
+async function populate(createFlag){
+  if(createFlag) await createDataJSON()
+
+  const {links, linksSecondary} = readJSONSync(LINKS)
+ 
   const withRepoDataRaw = await mapAsync(
     async x => {
       console.log({J: counter++})
@@ -95,5 +115,5 @@ async function populate(fileName){
 
 }
 
-populate('links').then(console.log).catch(consoele.log)
+populate(true).then(console.log).catch(consoele.log)
 // populate('linksSecondary').then(console.log).catch(consoele.log)

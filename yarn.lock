@@ -1108,6 +1108,15 @@ fragment-cache@^0.2.1:
   dependencies:
     map-cache "^0.2.2"
 
+fs-extra@^7.0.1:
+  version "7.0.1"
+  resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-7.0.1.tgz#4f189c44aa123b895f722804f55ea23eadc348e9"
+  integrity sha512-YJDaCJZEnBmcbw13fvdAM9AwNOJwOzrE4pqMqBq5nFiEqXUqHwlK4B+3pUw6JNvfSPtX05xFHtYy/1ni01eGCw==
+  dependencies:
+    graceful-fs "^4.1.2"
+    jsonfile "^4.0.0"
+    universalify "^0.1.0"
+
 "fs-extra@https://github.com/jprichardson/node-fs-extra#4.0.2":
   version "4.0.2"
   resolved "https://github.com/jprichardson/node-fs-extra#1dd5c18e2e4eb2ebb4e390da0072cc0702025b83"
@@ -2212,6 +2221,12 @@ load-json-file@^1.0.0:
     pinkie-promise "^2.0.0"
     strip-bom "^2.0.0"
 
+"loading-bar@https://github.com/selfrefactor/loading-bar#0.4.1":
+  version "0.1.0"
+  resolved "https://github.com/selfrefactor/loading-bar#a476a390bb9d38bae8d1e2d1254fa9322b7e868a"
+  dependencies:
+    rambdax "^0.13.4"
+
 locate-path@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/locate-path/-/locate-path-2.0.0.tgz#2b568b265eec944c6d9c0de9c3dbbbca0354cd8e"
@@ -2845,6 +2860,11 @@ rambda@^1.0.9:
 "rambda@https://github.com/selfrefactor/rambda#1.0.3":
   version "1.0.0"
   resolved "https://github.com/selfrefactor/rambda#e20c65fb2289e18a86e106483fd2f947ae7f42cc"
+
+rambdax@^0.13.4:
+  version "0.13.9"
+  resolved "https://registry.yarnpkg.com/rambdax/-/rambdax-0.13.9.tgz#aec9cadbc51238e461651cd0a083ec1b42a9566b"
+  integrity sha512-0DySV9OScYV0oTX/xJx+gRejhAafieC4X+/SFe6nRwuM3lSJ5MmDe+3X6qFjyRit9CxhvrjA/irblMD53jK/5w==
 
 rambdax@^0.17.0:
   version "0.17.0"
