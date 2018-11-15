@@ -71,11 +71,15 @@ async function createDataJSON(){
   )
 }
 
-async function populate(createFlag){
+export async function createScores(){
+}
+
+async function populate({createFlag, scoreFlag}){
   if(createFlag) await createDataJSON()
 
   const {links, linksSecondary} = readJSONSync(LINKS)
- 
+ if(scoreFlag) await createScores()
+
   const withRepoDataRaw = await mapAsync(
     async x => {
       console.log({J: counter++})
@@ -115,5 +119,8 @@ async function populate(createFlag){
 
 }
 
-populate(true).then(console.log).catch(consoele.log)
+populate({
+  createFlag: true,
+  scoreFlag: true,
+}).then(console.log).catch(consoele.log)
 // populate('linksSecondary').then(console.log).catch(consoele.log)
