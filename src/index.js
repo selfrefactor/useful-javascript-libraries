@@ -1,6 +1,18 @@
 require('env')('special')
 import {readFileSync, writeFileSync} from 'fs'
-import {replace, template ,mapAsync, remove, reject, includes, filter, s, sort } from 'rambdax'
+import {
+  take,
+  filter, 
+  includes, 
+  mapAsync, 
+  reject, 
+  remove, 
+  replace, 
+  s, 
+  sort,
+  template,
+  uniqWith,
+} from 'rambdax'
 import {toGithubURL} from './_modules/toGithubURL'
 import {repoData} from './_modules/repoData'
 import {compare} from './_modules/compare'
@@ -8,7 +20,7 @@ import {titleCase} from 'string-fn'
 
 const TITLE = '# Useful Javascript libraries\n\n'
 const TEMPLATE = [
-    '## [{{title}}]({{html_url}})',
+    '## [{{title}}]({{url}})',
     '> {{description}}',
   ].join('\n\n')
 
@@ -27,9 +39,11 @@ void async function populate(){
     .s(filter(
       x => x.includes('github.com') || x.includes('npmjs'))
     )
+    .s(take(22))
+
   let counter = 0    
   const withCorrectLinks = await mapAsync(async x => {
-    console.log({i: counter++})
+    console.log({I: counter++})
 
     return x.includes('github.com') ? 
       x :
@@ -46,7 +60,7 @@ void async function populate(){
 
   const withRepoDataRaw = await mapAsync(
     async x => {
-      console.log({j: counter++})
+      console.log({J: counter++})
 
       return repoData(x)
     }, 
@@ -55,10 +69,19 @@ void async function populate(){
   const withRepoData = withRepoDataRaw.filter(Boolean)
 
   const sorted = sort(compare, withRepoData)
-
-  const content = sorted.map(
+  const soUniq = uniqWith(
+    (a,b) => a.name === b.name, 
+    sorted
+  )
+  console.log({sorted: sorted.length})  
+  console.log({soUniq: soUniq.length})  
+  const content = soUniq.map(
     x => {
-      const templateInput = {...x, title: titleCase(x.name)}
+      const templateInput = {
+        title: titleCase(x.name),
+        description: x.description ? x.description.trim() : '',
+        url: x.html_url
+      }
       const templated = x.description ?
           template(TEMPLATE, templateInput) :
           template(TEMPLATE_NO_DESC, templateInput)

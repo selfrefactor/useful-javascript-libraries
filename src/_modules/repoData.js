@@ -3,7 +3,9 @@ const { get } = require('axios')
 
 async function repoData(input){
   try {
-    const [owner, repo] = takeLast(2,input.split('/'))
+    const splitted = input.split('/')
+    if(splitted.length !== 5) return false
+    const [owner, repo] = takeLast(2,splitted)
     
     const url = multiline(`
       https://api.github.com
@@ -11,6 +13,7 @@ async function repoData(input){
       ${owner}
       ${repo}?access_token=${process.env.GITHUB}  
     `, '/')
+
     const {status,data} = await get(url)
     if(status>200) return false
     
