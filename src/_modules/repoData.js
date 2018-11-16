@@ -16,7 +16,7 @@ async function repoData(input){
 
     const {status,data} = await get(url)
     if(status>200) return false
-    
+    console.log({owner, repo})
     return pick(
       'language,name,description,html_url,updated_at,stargazers_count,open_issues',
       data

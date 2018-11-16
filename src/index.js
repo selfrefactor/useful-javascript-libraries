@@ -12,20 +12,23 @@ import {
   flatten,
   replace, 
   s, 
+  map,
   sortBy,
   template,
+  take,
   uniqWith,
 } from 'rambdax'
 import {toGithubURL} from './_modules/toGithubURL'
 import {repoData} from './_modules/repoData'
+import {getScore} from './_modules/getScore'
 import {titleCase} from 'string-fn'
 
 const SECONDARY_INPUT = `${__dirname}/gists.json`
 const SECONDARY_OUTPUT = `${__dirname}/linksSecondary.txt`
 const LINKS = `${__dirname}/links.json`
 const REPO_DATA = `${__dirname}/repoData.json`
-const TITLE = '# Useful Javascript libraries\n\n'
-const OTHER_TITLE = '# Other libraries\n\n'
+const TITLE = '# {{num}} Useful Javascript libraries\n\n'
+const OTHER_TITLE = '# {{num}} Other libraries and resources\n\n'
 const TEMPLATE = [
     '## [{{title}}]({{url}})',
     '> {{description}}',
@@ -43,6 +46,7 @@ async function generateLinks(bookmarksContent){
     .s(filter(
       x => x.includes('github.com') || x.includes('npmjs'))
     )
+    .s(take(11))
 
     const withCorrectLinks = await mapAsync(async x => {
       return x.includes('github.com') ? 
@@ -50,13 +54,15 @@ async function generateLinks(bookmarksContent){
         toGithubURL(x)
     })(allLinks)
 
-    return withCorrectLinks.map(
-      x => {
-        const replaced = replace(/(git:)|(ssh:)/, 'https:', x)
+
+    return withCorrectLinks
+      .s(filter(Boolean))
+      .s(map(x => {
+          const replaced = replace(/(git:)|(ssh:)/, 'https:', x)
   
-        return remove('git@', replaced)
-      }
-    )
+          return remove('git@', replaced)
+        })
+      )
 }
 
 async function createDataJSON(){
@@ -69,7 +75,9 @@ async function createDataJSON(){
   ).toString()
 
   const links = await generateLinks(bookmarksContent)
-  const linksSecondary = await generateLinks(bookmarksContentSecondary)
+  const linksSecondary = await generateLinks(
+    bookmarksContentSecondary
+  )
   
   writeJSONSync(
     LINKS,
@@ -79,18 +87,21 @@ async function createDataJSON(){
 
 export async function createScores(){
   const {links, linksSecondary} = readJSONSync(LINKS)
-  const withRepoDataRaw = await mapAsync(repoData(x),links)
+  const withRepoDataRaw = await mapAsync(repoData,links)
   const withRepoDataSecondaryRaw = await mapAsync(
-    repoData(x),
+    repoData,
     linksSecondary
   )
 
   const withRepoData = withRepoDataRaw.filter(Boolean)
-  const withRepoDataSecondary = withRepoDataSecondaryRaw.filter(Boolean)
+  const withRepoDataSecondary = withRepoDataSecondaryRaw
+    .filter(Boolean)
 
-  const score = withRepoData.map(getScore)
+  const score = withRepoData.map(
+    x => ({...x, score: getScore(x, true)})
+  )
   const scoreSecondary = withRepoDataSecondary.map(
-    x => getScore(x, true)
+    x => ({...x, score: getScore(x, true)})
   )
 
   writeJSONSync(
@@ -146,15 +157,18 @@ async function populate({createData, createReadme, score, update}){
     sorted
   )
 
-  const jsLibs = soUniq.filter(x => x.language === 'javascript')
-  const otherLibs = soUniq.filter(x => x.language !== 'javascript')
+  const jsLibs = soUniq.filter(x => x.language === 'JavaScript')
+  const otherLibs = soUniq.filter(x => x.language !== 'JavaScript')
   
   const jsContent = createReadmePartial(jsLibs)
   const otherContent = createReadmePartial(otherLibs)
  
+  const jsTitle = template(TITLE,{num:jsLibs.length})
+  const otherTitle = template(OTHER_TITLE,{num:otherLibs.length})
+  
   writeFileSync(
     `${process.cwd()}/README.md`,
-    `${TITLE}${jsContent}/n---/n${OTHER_TITLE}${otherContent}`
+    `${jsTitle}${jsContent}\n---\n${otherTitle}${otherContent}`
   )
 }
 
@@ -162,5 +176,5 @@ populate({
   update: false,
   createData: false,
   score: false,
-  createReadme: false,
+  createReadme: true,
 }).then(console.log).catch(console.log)
