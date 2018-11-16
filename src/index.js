@@ -108,11 +108,12 @@ function createReadmePartial(list){
   ).join('\n')    
 }
 
-async function populate({createFlag, scoreFlag}){
-  if(createFlag) await createDataJSON()
-
- if(scoreFlag) await createScores()
-
+async function populate({createData, createReadme, score, updateSecondary}){
+  if(updateSecondary) await createDataJSON()
+  if(createData) await createDataJSON()
+  if(score) await createScores()
+  if(!createReadme) return
+  
   const {repoData} = readJSONSync(REPO_DATA)
   const sorted = sortBy(prop('score'), repoData)
   const soUniq = uniqWith(
@@ -133,6 +134,8 @@ async function populate({createFlag, scoreFlag}){
 }
 
 populate({
-  createFlag: true,
-  scoreFlag: true,
+  updateSecondary: true,
+  createData: false,
+  score: false,
+  createReadme: false,
 }).then(console.log).catch(consoele.log)
