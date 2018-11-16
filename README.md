@@ -1,4 +1,4 @@
-# 354 Useful Javascript libraries
+# 386 Useful Javascript libraries
 
 ## [Esformatter Align](https://github.com/manuelstofer/esformatter-align)
 
@@ -108,6 +108,10 @@
 
 > A 5 stage audio envelope generator
 
+## [Shallow Equal Explain](https://github.com/OliverJAsh/shallow-equal-explain)
+
+> `shallowEqualExplain` function that returns an object explaining the difference (instead of the usual boolean). Useful for debugging React `PureComponent`s.
+
 ## [React Router](https://github.com/router5/react-router5)
 
 > Helpers for using router5 with React [MOVED]
@@ -139,6 +143,10 @@
 ## [Consolemock](https://github.com/ttmarek/consolemock)
 
 > A tool for testing console logs
+
+## [Tslint Misc Rules](https://github.com/jwbay/tslint-misc-rules)
+
+> Collection of miscellaneous TSLint rules
 
 ## [Bundle Phobia Cli](https://github.com/AdrieanKhisbe/bundle-phobia-cli)
 
@@ -230,9 +238,17 @@
 
 > Webpack plugin to detect unused files and unused exports in used files
 
+## [Sh Exec](https://github.com/rwu823/sh-exec)
+
+> 💻 Use `Template literals` write shell script made happy ❤️.
+
 ## [Tour](https://github.com/tourjs/tour)
 
 > Touring and on-boarding for javascript applications
+
+## [Vscode Gitflow](https://github.com/vector-of-bool/vscode-gitflow)
+
+> Gitflow integration for Visual Studio Code
 
 ## [Timeago React](https://github.com/hustcc/timeago-react)
 
@@ -274,6 +290,10 @@
 
 ## [Js Proxy](https://github.com/gergob/jsProxy)
 
+## [Chrome Promise](https://github.com/tfoxy/chrome-promise)
+
+> Promises for chrome JavaScript APIs used in extensions and apps.
+
 ## [Yarnhook](https://github.com/frontsideair/yarnhook)
 
 > Run `yarn install`, `npm install` or `pnpm install` on git hooks automatically
@@ -281,6 +301,10 @@
 ## [Screamer Js](https://github.com/willianjusten/screamer-js)
 
 > Screamer.js is a Vanilla Javascript plugin to provide simple yet fully customisable web notifications using Web Notifications API.
+
+## [Expo And Typescript](https://github.com/janaagaard75/expo-and-typescript)
+
+> Demo app using Expo and TypeScript & Type definitions for the Expo SDK.
 
 ## [Get Screen Media](https://github.com/otalk/getScreenMedia)
 
@@ -330,6 +354,14 @@
 
 > A Jest package for mocking mongoose models
 
+## [Tslint Consistent Codestyle](https://github.com/ajafff/tslint-consistent-codestyle)
+
+> Collection of awesome rules to extend TSLint
+
+## [Tslint Clean Code](https://github.com/Glavin001/tslint-clean-code)
+
+> TSLint rules for enforcing Clean Code
+
 ## [Timm](https://github.com/guigrpa/timm)
 
 > Immutability helpers with fast reads and acceptable writes
@@ -337,6 +369,10 @@
 ## [Worker Pouch](https://github.com/pouchdb-community/worker-pouch)
 
 > Easy way to use PouchDB inside a Web Worker or Service Worker
+
+## [Ts Runtime](https://github.com/fabiandev/ts-runtime)
+
+> Runtime Type Checks for TypeScript
 
 ## [Esformatter Jsx](https://github.com/royriojas/esformatter-jsx)
 
@@ -429,6 +465,18 @@
 ## [Pretty Ms](https://github.com/sindresorhus/pretty-ms)
 
 > Convert milliseconds to a human readable string: `1337000000` → `15d 11h 23m 20s`
+
+## [Dtslint](https://github.com/Microsoft/dtslint)
+
+> A utility built on TSLint for linting TypeScript declaration (.d.ts) files.
+
+## [Inspectpack](https://github.com/FormidableLabs/inspectpack)
+
+> An inspection tool for Webpack frontend JavaScript bundles.
+
+## [Tslint Immutable](https://github.com/jonaskello/tslint-immutable)
+
+> TSLint rules to disable mutation in TypeScript.
 
 ## [Readline Sync](https://github.com/anseki/readline-sync)
 
@@ -526,6 +574,10 @@
 
 > Colors and formatting for the console
 
+## [React Sortable Pane](https://github.com/bokuweb/react-sortable-pane)
+
+> :sparkles: A sortable and resizable pane component for React.
+
 ## [Node Deep Equal](https://github.com/substack/node-deep-equal)
 
 > node's assert.deepEqual algorithm
@@ -570,6 +622,10 @@
 
 > A simple worker-manager for clustered Node.js apps
 
+## [Tslint Config Prettier](https://github.com/prettier/tslint-config-prettier)
+
+> Use tslint with prettier without any conflict
+
 ## [Histore](https://github.com/developit/histore)
 
 > 🏬 200b key-value store backed by navigation state
@@ -578,9 +634,17 @@
 
 > Provides snackbar notifications for React
 
+## [Mlhelper](https://github.com/laoqiren/mlhelper)
+
+> Algorithms and utils for Machine Learning in JavaScript.
+
 ## [Turbo Ws](https://github.com/hugmanrique/turbo-ws)
 
 > :dash: Blazing fast low-level WebSocket server
+
+## [Flipping](https://github.com/davidkpiano/flipping)
+
+> Flipping awesome animations.
 
 ## [Mauerwerk](https://github.com/drcmda/mauerwerk)
 
@@ -594,9 +658,17 @@
 
 > A minimal React JS application starter kit
 
+## [Tslint Eslint Rules](https://github.com/buzinas/tslint-eslint-rules)
+
+> Improve your TSLint with the missing ESLint rules
+
 ## [Systeminformation](https://github.com/sebhildebrandt/systeminformation)
 
 > System Information Library for Node.JS
+
+## [Octohint](https://github.com/pd4d10/octohint)
+
+> The missing IntelliSense hint for GitHub and GitLab
 
 ## [Merge Images](https://github.com/lukechilds/merge-images)
 
@@ -641,6 +713,10 @@
 ## [Enzyme To Json](https://github.com/adriantoine/enzyme-to-json)
 
 > Snapshot test your Enzyme wrappers
+
+## [Tslint Microsoft Contrib](https://github.com/Microsoft/tslint-microsoft-contrib)
+
+> A set of TSLint rules used on some Microsoft projects.
 
 ## [Fuzzyset Js](https://github.com/Glench/fuzzyset.js)
 
@@ -798,6 +874,10 @@
 
 > Flat, simple, responsive and hackable Color-Picker. No dependencies, no jQuery. Compatible with all CSS Frameworks e.g. Bootstrap, Materialize.
 
+## [Typescript Library Starter](https://github.com/alexjoverm/typescript-library-starter)
+
+> Starter kit with zero-config for building a library in TypeScript, featuring RollupJS, Jest, Prettier, TSLint, Semantic Release, and more!
+
 ## [Appmetrics Js](https://github.com/ebidel/appmetrics.js)
 
 > A small (< 1kb) library for measuring things in your web app and reporting the results to Google Analytics.
@@ -890,6 +970,10 @@
 
 > Collect performance metrics for your library/application.
 
+## [Design Patterns In Typescript](https://github.com/torokmark/design_patterns_in_typescript)
+
+> :triangular_ruler: Design pattern implementations in TypeScript
+
 ## [Rogue Js](https://github.com/alidcastano/rogue.js)
 
 > Rogue.js -  the "nearly invisible" server-rendering framework for React applications
@@ -905,6 +989,10 @@
 ## [React Fix It](https://github.com/MicheleBertoli/react-fix-it)
 
 > Automagically generate tests from errors
+
+## [Ghost Text](https://github.com/GhostText/GhostText)
+
+> 👻 Use your text editor to write in your browser. Everything you type in the editor will be instantly updated in the browser (and vice versa).
 
 ## [React Animations](https://github.com/FormidableLabs/react-animations)
 
@@ -938,6 +1026,10 @@
 
 > 📷  Image Processing Component for React
 
+## [Pretty Algorithms](https://github.com/jiayihu/pretty-algorithms)
+
+> 🌊 Pretty, common and useful algorithms with modern JS and beautiful tests
+
 ## [React Perf Devtool](https://github.com/nitin42/react-perf-devtool)
 
 > A browser developer tool extension to inspect performance of React components.
@@ -950,6 +1042,10 @@
 
 > 🚦 Your own mini Travis CI to run tests locally
 
+## [Typestyle](https://github.com/typestyle/typestyle)
+
+> Making CSS Typesafe 🌹
+
 ## [Loadjs](https://github.com/muicss/loadjs)
 
 > A tiny async loader / dependency manager for modern browsers (789 bytes)
@@ -957,6 +1053,10 @@
 ## [Pennywise](https://github.com/kamranahmedse/pennywise)
 
 > Cross-platform application to open any website or media in a floating window
+
+## [Alm](https://github.com/alm-tools/alm)
+
+> :rose: A :cloud: ready IDE just for TypeScript :heart:
 
 ## [Platform Js](https://github.com/bestiejs/platform.js)
 
@@ -985,6 +1085,10 @@
 ## [Daydream](https://github.com/segmentio/daydream)
 
 > A chrome extension to record your actions into a nightmare or puppeteer script
+
+## [Electron Forge](https://github.com/electron-userland/electron-forge)
+
+> A complete tool for creating, publishing, and installing modern Electron applications
 
 ## [Binaryjs](https://github.com/binaryjs/binaryjs)
 
@@ -1027,6 +1131,10 @@
 ## [React Swipeable Views](https://github.com/oliviertassinari/react-swipeable-views)
 
 > A React component for swipeable views. :snowflake:
+
+## [After Js](https://github.com/jaredpalmer/after.js)
+
+> Next.js-like framework for server-rendered React apps built with React Router 4
 
 ## [Big](https://github.com/tmcw/big)
 
@@ -1084,6 +1192,10 @@
 
 > Some basic javascript coding challenges and interview questions
 
+## [Face Api Js](https://github.com/justadudewhohacks/face-api.js)
+
+> JavaScript API for face detection and face recognition in the browser and nodejs with tensorflow.js
+
 ## [Greenlet](https://github.com/developit/greenlet)
 
 > 🦎 Move an async function into its own thread.
@@ -1097,6 +1209,10 @@
 > MPEG1 Video Decoder in JavaScript
 
 ## [Kepler Gl](https://github.com/uber/kepler.gl)
+
+## [Rendertron](https://github.com/GoogleChrome/rendertron)
+
+> A Headless Chrome rendering solution
 
 ## [Redbird](https://github.com/OptimalBits/redbird)
 
@@ -1113,6 +1229,10 @@
 ## [React Draft Wysiwyg](https://github.com/jpuri/react-draft-wysiwyg)
 
 > A Wysiwyg editor build on top of ReactJS and DraftJS. https://jpuri.github.io/react-draft-wysiwyg
+
+## [Fuse Box](https://github.com/fuse-box/fuse-box)
+
+> A blazing fast js bundler/loader with a comprehensive API :fire:
 
 ## [Collect Js](https://github.com/ecrmnn/collect.js)
 
@@ -1346,6 +1466,14 @@
 
 > Beautiful and accessible drag and drop for lists with React
 
+## [Formik](https://github.com/jaredpalmer/formik)
+
+> Build forms in React, without the tears 😭
+
+## [Flatpickr](https://github.com/flatpickr/flatpickr)
+
+> lightweight, powerful javascript datetimepicker with no dependencies
+
 ## [Blessed Contrib](https://github.com/yaronn/blessed-contrib)
 
 > Build terminal dashboards using ascii/ansi art and javascript
@@ -1407,19 +1535,11 @@
 > The HTML Presentation Framework
 
 ---
-# 110 Other libraries and resources
+# 78 Other libraries and resources
 
 ## [Font Awesome Assets](https://github.com/ladjs/font-awesome-assets)
 
 > :lipstick: Convert any of @FortAwesome's Font-Awesome icons to an asset, such as an <svg> tag or a Base64-encoded PNG/SVG <img> tag!  It supports Retina devices and custom tag attributes too!
-
-## [Shallow Equal Explain](https://github.com/OliverJAsh/shallow-equal-explain)
-
-> `shallowEqualExplain` function that returns an object explaining the difference (instead of the usual boolean). Useful for debugging React `PureComponent`s.
-
-## [Tslint Misc Rules](https://github.com/jwbay/tslint-misc-rules)
-
-> Collection of miscellaneous TSLint rules
 
 ## [Devtools Extension Tab Colours](https://github.com/JamieMason/devtools-extension-tab-colours)
 
@@ -1443,14 +1563,6 @@
 
 ## [Node Gcstats](https://github.com/dainis/node-gcstats)
 
-## [Sh Exec](https://github.com/rwu823/sh-exec)
-
-> 💻 Use `Template literals` write shell script made happy ❤️.
-
-## [Vscode Gitflow](https://github.com/vector-of-bool/vscode-gitflow)
-
-> Gitflow integration for Visual Studio Code
-
 ## [Gyazo](https://github.com/gyazo/Gyazo)
 
 > Gyazo:  the simplest and fastest screenshot uploading tool
@@ -1459,17 +1571,9 @@
 
 > :book: Huge curated collection of links of Tech, Science, Conferences, Videos and much more resources from everyday surfing. :star: Since October 21, 2017.
 
-## [Chrome Promise](https://github.com/tfoxy/chrome-promise)
-
-> Promises for chrome JavaScript APIs used in extensions and apps.
-
 ## [Meme](https://github.com/nomad-software/meme)
 
 > A command line utility for creating memes
-
-## [Expo And Typescript](https://github.com/janaagaard75/expo-and-typescript)
-
-> Demo app using Expo and TypeScript & Type definitions for the Expo SDK.
 
 ## [Node Gc Profiler](https://github.com/bretcope/node-gc-profiler)
 
@@ -1479,37 +1583,13 @@
 
 > A day to day plan for this challenge (100 Days of Machine Learning) . Covers both theoretical and practical aspects
 
-## [Tslint Consistent Codestyle](https://github.com/ajafff/tslint-consistent-codestyle)
-
-> Collection of awesome rules to extend TSLint
-
-## [Tslint Clean Code](https://github.com/Glavin001/tslint-clean-code)
-
-> TSLint rules for enforcing Clean Code
-
-## [Ts Runtime](https://github.com/fabiandev/ts-runtime)
-
-> Runtime Type Checks for TypeScript
-
 ## [Awesome Cross Platform Nodejs](https://github.com/bcoe/awesome-cross-platform-nodejs)
 
 > :two_men_holding_hands: A curated list of awesome developer tools and libraries for writing and testing code that runs on Windows and Linux.
 
-## [Dtslint](https://github.com/Microsoft/dtslint)
-
-> A utility built on TSLint for linting TypeScript declaration (.d.ts) files.
-
-## [Inspectpack](https://github.com/FormidableLabs/inspectpack)
-
-> An inspection tool for Webpack frontend JavaScript bundles.
-
 ## [Web Security Basics](https://github.com/vasanthk/web-security-basics)
 
 > Web security concepts
-
-## [Tslint Immutable](https://github.com/jonaskello/tslint-immutable)
-
-> TSLint rules to disable mutation in TypeScript.
 
 ## [Node Report](https://github.com/nodejs/node-report)
 
@@ -1539,10 +1619,6 @@
 
 > Generate GIF animations from asciicasts (asciinema recordings)
 
-## [React Sortable Pane](https://github.com/bokuweb/react-sortable-pane)
-
-> :sparkles: A sortable and resizable pane component for React.
-
 ## [Frontend Dev Resources](https://github.com/dmytroyarmak/frontend-dev-resources)
 
 > List of useful resources for front end developers
@@ -1555,18 +1631,6 @@
 
 > :wink: Lightweight pure CSS tooltip for the greater good
 
-## [Tslint Config Prettier](https://github.com/prettier/tslint-config-prettier)
-
-> Use tslint with prettier without any conflict
-
-## [Mlhelper](https://github.com/laoqiren/mlhelper)
-
-> Algorithms and utils for Machine Learning in JavaScript.
-
-## [Flipping](https://github.com/davidkpiano/flipping)
-
-> Flipping awesome animations.
-
 ## [Wharfee](https://github.com/j-bennet/wharfee)
 
 > A CLI with autocompletion and syntax highlighting for Docker commands.
@@ -1574,14 +1638,6 @@
 ## [Txt Wav](https://github.com/still-life-studio/txt.wav)
 
 > some weird text animations the internet deserves
-
-## [Tslint Eslint Rules](https://github.com/buzinas/tslint-eslint-rules)
-
-> Improve your TSLint with the missing ESLint rules
-
-## [Octohint](https://github.com/pd4d10/octohint)
-
-> The missing IntelliSense hint for GitHub and GitLab
 
 ## [Nodecache](https://github.com/mpneuried/nodecache)
 
@@ -1594,10 +1650,6 @@
 ## [Node Goat](https://github.com/OWASP/NodeGoat)
 
 > The OWASP NodeGoat project provides an environment to learn how OWASP Top 10 security risks apply to web applications developed using Node.js and how to effectively address them.
-
-## [Tslint Microsoft Contrib](https://github.com/Microsoft/tslint-microsoft-contrib)
-
-> A set of TSLint rules used on some Microsoft projects.
 
 ## [Repaintless](https://github.com/szynszyliszys/repaintless)
 
@@ -1631,10 +1683,6 @@
 
 > load images only when they are in (and remain in) the viewport
 
-## [Typescript Library Starter](https://github.com/alexjoverm/typescript-library-starter)
-
-> Starter kit with zero-config for building a library in TypeScript, featuring RollupJS, Jest, Prettier, TSLint, Semantic Release, and more!
-
 ## [Css Refresher Notes](https://github.com/vasanthk/css-refresher-notes)
 
 > CSS Refresher!
@@ -1651,41 +1699,17 @@
 
 > Elegant, responsive, flexible and lightweight notification plugin with no dependencies.
 
-## [Design Patterns In Typescript](https://github.com/torokmark/design_patterns_in_typescript)
-
-> :triangular_ruler: Design pattern implementations in TypeScript
-
 ## [Node Unfluff](https://github.com/ageitgey/node-unfluff)
 
 > Automatically extract body content (and other cool stuff) from an html document
-
-## [Ghost Text](https://github.com/GhostText/GhostText)
-
-> 👻 Use your text editor to write in your browser. Everything you type in the editor will be instantly updated in the browser (and vice versa).
 
 ## [Awesome Command Line Apps](https://github.com/herrbischoff/awesome-command-line-apps)
 
 > :shell: Use your terminal shell to do awesome things.
 
-## [Pretty Algorithms](https://github.com/jiayihu/pretty-algorithms)
-
-> 🌊 Pretty, common and useful algorithms with modern JS and beautiful tests
-
-## [Typestyle](https://github.com/typestyle/typestyle)
-
-> Making CSS Typesafe 🌹
-
-## [Alm](https://github.com/alm-tools/alm)
-
-> :rose: A :cloud: ready IDE just for TypeScript :heart:
-
 ## [Learn Go With Tests](https://github.com/quii/learn-go-with-tests)
 
 > Learn Go with test-driven development
-
-## [Electron Forge](https://github.com/electron-userland/electron-forge)
-
-> A complete tool for creating, publishing, and installing modern Electron applications
 
 ## [Docker Cheat Sheet](https://github.com/eon01/DockerCheatSheet)
 
@@ -1695,25 +1719,9 @@
 
 > 🚩 FastImage, performant React Native image component.
 
-## [After Js](https://github.com/jaredpalmer/after.js)
-
-> Next.js-like framework for server-rendered React apps built with React Router 4
-
-## [Face Api Js](https://github.com/justadudewhohacks/face-api.js)
-
-> JavaScript API for face detection and face recognition in the browser and nodejs with tensorflow.js
-
 ## [Stacer](https://github.com/oguzhaninan/Stacer)
 
 > Linux System Optimizer and Monitoring - https://oguzhaninan.github.io/Stacer-Web
-
-## [Rendertron](https://github.com/GoogleChrome/rendertron)
-
-> A Headless Chrome rendering solution
-
-## [Fuse Box](https://github.com/fuse-box/fuse-box)
-
-> A blazing fast js bundler/loader with a comprehensive API :fire:
 
 ## [Gitleaks](https://github.com/zricethezav/gitleaks)
 
@@ -1794,14 +1802,6 @@
 ## [Helm](https://github.com/helm/helm)
 
 > The Kubernetes Package Manager
-
-## [Formik](https://github.com/jaredpalmer/formik)
-
-> Build forms in React, without the tears 😭
-
-## [Flatpickr](https://github.com/flatpickr/flatpickr)
-
-> lightweight, powerful javascript datetimepicker with no dependencies
 
 ## [Public Ap Is](https://github.com/abhishekbanthia/Public-APIs)
 

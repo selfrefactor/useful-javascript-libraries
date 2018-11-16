@@ -12,6 +12,7 @@ import {
   flatten,
   replace, 
   s, 
+  complement,
   map,
   sortBy,
   template,
@@ -144,6 +145,12 @@ function createReadmePartial(list){
   ).join('\n')    
 }
 
+function isJS(x){
+  if(x.language === null) return false
+
+  return x.language.toLowerCase() === 'javascript' || x.language.toLowerCase() === 'typescript'
+}
+
 async function populate({createData, createReadme, score, update}){
   if(update) await updateSecondary()
   if(createData) await createDataJSON()
@@ -157,8 +164,8 @@ async function populate({createData, createReadme, score, update}){
     sorted
   )
 
-  const jsLibs = soUniq.filter(x => x.language === 'JavaScript')
-  const otherLibs = soUniq.filter(x => x.language !== 'JavaScript')
+  const jsLibs = soUniq.filter(isJS)
+  const otherLibs = soUniq.filter(complement(isJS))
   
   const jsContent = createReadmePartial(jsLibs)
   const otherContent = createReadmePartial(otherLibs)
