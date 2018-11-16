@@ -2,6 +2,7 @@ require('env')('special')
 import {readFileSync, writeFileSync} from 'fs'
 import {writeJSONSync, readJSONSync} from 'fs-extra'
 import {
+  prop,
   filter, 
   includes, 
   mapAsync, 
@@ -10,6 +11,7 @@ import {
   replace, 
   s, 
   sort,
+  sortBy,
   template,
   uniqWith,
 } from 'rambdax'
@@ -19,7 +21,9 @@ import {compare} from './_modules/compare'
 import {titleCase} from 'string-fn'
 
 const LINKS = `${__dirname}/links.json`
+const REPO_DATA = `${__dirname}/repoData.json`
 const TITLE = '# Useful Javascript libraries\n\n'
+const OTHER_TITLE = '# Other libraries\n\n'
 const TEMPLATE = [
     '## [{{title}}]({{url}})',
     '> {{description}}',
@@ -72,32 +76,23 @@ async function createDataJSON(){
 }
 
 export async function createScores(){
+  const {links, linksSecondary} = readJSONSync(LINKS)
+  const withRepoDataRaw = await mapAsync(repoData(x),links)
+  const withRepoDataSecondaryRaw = await mapAsync(repoData(x),linksSecondary)
+  const withRepoData = withRepoDataRaw.filter(Boolean)
+  const withRepoDataSecondary = withRepoDataSecondaryRaw.filter(Boolean)
+
+  const score = withRepoData.map(getScore)
+  const scoreSecondary = withRepoDataSecondary.map(x => getScore(x, true))
+
+  writeJSONSync(
+    REPO_DATA,
+    {repoData: [...score, ...scoreSecondary]}
+  )
 }
 
-async function populate({createFlag, scoreFlag}){
-  if(createFlag) await createDataJSON()
-
-  const {links, linksSecondary} = readJSONSync(LINKS)
- if(scoreFlag) await createScores()
-
-  const withRepoDataRaw = await mapAsync(
-    async x => {
-      console.log({J: counter++})
-
-      return repoData(x)
-    }, 
-    normalized
-  )
-  const withRepoData = withRepoDataRaw.filter(Boolean)
-
-  const sorted = sort(compare, withRepoData)
-  const soUniq = uniqWith(
-    (a,b) => a.name === b.name, 
-    sorted
-  )
-  console.log({sorted: sorted.length})  
-  console.log({soUniq: soUniq.length})  
-  const content = soUniq.map(
+function createReadmePartial(list){
+  return list.map(
     x => {
       const templateInput = {
         title: titleCase(x.name),
@@ -111,16 +106,33 @@ async function populate({createFlag, scoreFlag}){
         return `${templated}\n`  
     }
   ).join('\n')    
+}
 
-  writeFileSync(
-    `${process.cwd()}/README.md`,
-    `${TITLE}${content}/n---/n`
+async function populate({createFlag, scoreFlag}){
+  if(createFlag) await createDataJSON()
+
+ if(scoreFlag) await createScores()
+
+  const {repoData} = readJSONSync(REPO_DATA)
+  const sorted = sortBy(prop('score'), repoData)
+  const soUniq = uniqWith(
+    (a,b) => a.name === b.name, 
+    sorted
   )
 
+  const jsLibs = soUniq.filter(x => x.language === 'javascript')
+  const otherLibs = soUniq.filter(x => x.language !== 'javascript')
+  
+  const jsContent = createReadmePartial(jsLibs)
+  const otherContent = createReadmePartial(otherLibs)
+ 
+  writeFileSync(
+    `${process.cwd()}/README.md`,
+    `${TITLE}${jsContent}/n---/n${OTHER_TITLE}${otherContent}`
+  )
 }
 
 populate({
   createFlag: true,
   scoreFlag: true,
 }).then(console.log).catch(consoele.log)
-// populate('linksSecondary').then(console.log).catch(consoele.log)
