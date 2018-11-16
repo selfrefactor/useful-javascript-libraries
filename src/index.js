@@ -1,4 +1,5 @@
 require('env')('special')
+import {get} from 'axios'
 import {readFileSync, writeFileSync} from 'fs'
 import {writeJSONSync, readJSONSync} from 'fs-extra'
 import {
@@ -8,9 +9,9 @@ import {
   mapAsync, 
   reject, 
   remove, 
+  flatten,
   replace, 
   s, 
-  sort,
   sortBy,
   template,
   uniqWith,
@@ -20,6 +21,8 @@ import {repoData} from './_modules/repoData'
 import {compare} from './_modules/compare'
 import {titleCase} from 'string-fn'
 
+const SECONDARY_INPUT = `${__dirname}/gist.json`
+const SECONDARY_OUTPUT = `${__dirname}/linksSecondary.txt`
 const LINKS = `${__dirname}/links.json`
 const REPO_DATA = `${__dirname}/repoData.json`
 const TITLE = '# Useful Javascript libraries\n\n'
@@ -63,7 +66,7 @@ async function createDataJSON(){
   ).toString()
 
   const bookmarksContentSecondary = readFileSync(
-    `${__dirname}/linksSecondary.txt`
+    SECONDARY_OUTPUT
   ).toString()
 
   const links = await generateLinks(bookmarksContent)
@@ -83,12 +86,28 @@ export async function createScores(){
   const withRepoDataSecondary = withRepoDataSecondaryRaw.filter(Boolean)
 
   const score = withRepoData.map(getScore)
-  const scoreSecondary = withRepoDataSecondary.map(x => getScore(x, true))
+  const scoreSecondary = withRepoDataSecondary.map(
+    x => getScore(x, true)
+  )
 
   writeJSONSync(
     REPO_DATA,
     {repoData: [...score, ...scoreSecondary]}
   )
+}
+
+export async function updateSecondary(){
+  const {links} = readJSONSync(SECONDARY_INPUT)
+  const out = mapAsync(
+    async url => {
+      const {data} = await get(url)
+      return data
+    }
+  )(links)
+
+  const allLinks = flatten(links)
+  writeFileSync(
+    SECONDARY_OUTPUT, )
 }
 
 function createReadmePartial(list){
@@ -109,11 +128,11 @@ function createReadmePartial(list){
 }
 
 async function populate({createData, createReadme, score, updateSecondary}){
-  if(updateSecondary) await createDataJSON()
+  if(updateSecondary) await updateSecondary()
   if(createData) await createDataJSON()
   if(score) await createScores()
   if(!createReadme) return
-  
+
   const {repoData} = readJSONSync(REPO_DATA)
   const sorted = sortBy(prop('score'), repoData)
   const soUniq = uniqWith(

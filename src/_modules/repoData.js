@@ -18,7 +18,7 @@ async function repoData(input){
     if(status>200) return false
     
     return pick(
-      'name,description,html_url,updated_at,stargazers_count,open_issues',
+      'language,name,description,html_url,updated_at,stargazers_count,open_issues',
       data
     )
   } catch (error) {
