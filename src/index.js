@@ -18,10 +18,9 @@ import {
 } from 'rambdax'
 import {toGithubURL} from './_modules/toGithubURL'
 import {repoData} from './_modules/repoData'
-import {compare} from './_modules/compare'
 import {titleCase} from 'string-fn'
 
-const SECONDARY_INPUT = `${__dirname}/gist.json`
+const SECONDARY_INPUT = `${__dirname}/gists.json`
 const SECONDARY_OUTPUT = `${__dirname}/linksSecondary.txt`
 const LINKS = `${__dirname}/links.json`
 const REPO_DATA = `${__dirname}/repoData.json`
@@ -36,7 +35,7 @@ const TEMPLATE_NO_DESC = '## [{{title}}]({{url}})'
 
 s()
 
-function generateLinks(bookmarksContent){
+async function generateLinks(bookmarksContent){
   const allLinks = bookmarksContent.split('\n')
     .s(reject(includes('gist.')))
     .s(reject(includes('?tab')))
@@ -81,7 +80,11 @@ async function createDataJSON(){
 export async function createScores(){
   const {links, linksSecondary} = readJSONSync(LINKS)
   const withRepoDataRaw = await mapAsync(repoData(x),links)
-  const withRepoDataSecondaryRaw = await mapAsync(repoData(x),linksSecondary)
+  const withRepoDataSecondaryRaw = await mapAsync(
+    repoData(x),
+    linksSecondary
+  )
+
   const withRepoData = withRepoDataRaw.filter(Boolean)
   const withRepoDataSecondary = withRepoDataSecondaryRaw.filter(Boolean)
 
@@ -96,18 +99,21 @@ export async function createScores(){
   )
 }
 
-export async function updateSecondary(){
+async function updateSecondary(){
   const {links} = readJSONSync(SECONDARY_INPUT)
-  const out = mapAsync(
+  const out = await mapAsync(
     async url => {
       const {data} = await get(url)
-      return data
+
+      return data.split('\n')
     }
   )(links)
 
-  const allLinks = flatten(links)
+  const allLinks = flatten(out).join('\n')
   writeFileSync(
-    SECONDARY_OUTPUT, )
+    SECONDARY_OUTPUT, 
+    allLinks
+  )
 }
 
 function createReadmePartial(list){
@@ -127,8 +133,8 @@ function createReadmePartial(list){
   ).join('\n')    
 }
 
-async function populate({createData, createReadme, score, updateSecondary}){
-  if(updateSecondary) await updateSecondary()
+async function populate({createData, createReadme, score, update}){
+  if(update) await updateSecondary()
   if(createData) await createDataJSON()
   if(score) await createScores()
   if(!createReadme) return
@@ -153,8 +159,8 @@ async function populate({createData, createReadme, score, updateSecondary}){
 }
 
 populate({
-  updateSecondary: true,
+  update: false,
   createData: false,
   score: false,
   createReadme: false,
-}).then(console.log).catch(consoele.log)
+}).then(console.log).catch(console.log)
