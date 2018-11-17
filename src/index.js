@@ -40,15 +40,16 @@ const TEMPLATE_NO_DESC = '## [{{title}}]({{url}})'
 
 s()
 
-async function generateLinks(bookmarksContent){
-  const allLinks = bookmarksContent.split('\n')
+async function generateLinks(bookmarksContent) {
+  const allLinks = bookmarksContent
+    .split('\n')
     .s(reject(includes('gist.')))
     .s(reject(includes('?tab')))
     .s(reject(includes('trending')))
-    .s(filter(
-      x => x.includes('github.com') || x.includes('npmjs'))
+    .s(
+      filter(x => x.includes('github.com') || x.includes('npmjs'))
     )
-    //.s(take(11))
+  //.s(take(11))
 
   const withCorrectLinks = await mapAsync(async x => {
     if (x.includes('github.com')) return x
@@ -57,17 +58,16 @@ async function generateLinks(bookmarksContent){
     return url
   }, allLinks)
 
-  return withCorrectLinks
-    .s(filter(Boolean))
-    .s(map(x => {
+  return withCorrectLinks.s(filter(Boolean)).s(
+    map(x => {
       const replaced = replace(/(git:)|(ssh:)/, 'https:', x)
 
       return remove('git@', replaced)
     })
-    )
+  )
 }
 
-async function createDataJSON(){
+async function createDataJSON() {
   const bookmarksContent = readFileSync(
     `${ __dirname }/links.txt`
   ).toString()
@@ -81,16 +81,13 @@ async function createDataJSON(){
     bookmarksContentSecondary
   )
 
-  writeJSONSync(
-    LINKS,
-    {
-      links,
-      linksSecondary,
-    }
-  )
+  writeJSONSync(LINKS, {
+    links,
+    linksSecondary,
+  })
 }
 
-export async function createScores(){
+export async function createScores() {
   const { links, linksSecondary } = readJSONSync(LINKS)
   const withRepoDataRaw = await mapAsync(repoData, links)
   const withRepoDataSecondaryRaw = await mapAsync(
@@ -99,48 +96,37 @@ export async function createScores(){
   )
 
   const withRepoData = withRepoDataRaw.filter(Boolean)
-  const withRepoDataSecondary = withRepoDataSecondaryRaw
-    .filter(Boolean)
-
-  const score = withRepoData.map(
-    x => ({
-      ...x,
-      score : getScore(x, true),
-    })
-  )
-  const scoreSecondary = withRepoDataSecondary.map(
-    x => ({
-      ...x,
-      score : getScore(x, true),
-    })
+  const withRepoDataSecondary = withRepoDataSecondaryRaw.filter(
+    Boolean
   )
 
-  writeJSONSync(
-    REPO_DATA,
-    { repoData : [ ...score, ...scoreSecondary ] }
-  )
+  const score = withRepoData.map(x => ({
+    ...x,
+    score : getScore(x, true),
+  }))
+  const scoreSecondary = withRepoDataSecondary.map(x => ({
+    ...x,
+    score : getScore(x, true),
+  }))
+
+  writeJSONSync(REPO_DATA, { repoData : [ ...score, ...scoreSecondary ] })
 }
 
-async function updateSecondary(){
+async function updateSecondary() {
   const { links } = readJSONSync(SECONDARY_INPUT)
-  const out = await mapAsync(
-    async url => {
-      const { data } = await get(url)
+  const out = await mapAsync(async url => {
+    const { data } = await get(url)
 
-      return data.split('\n')
-    }
-  )(links)
+    return data.split('\n')
+  })(links)
 
   const allLinks = flatten(out).join('\n')
-  writeFileSync(
-    SECONDARY_OUTPUT,
-    allLinks
-  )
+  writeFileSync(SECONDARY_OUTPUT, allLinks)
 }
 
-function createReadmePartial(list){
-  return list.map(
-    x => {
+function createReadmePartial(list) {
+  return list
+    .map(x => {
       const templateInput = {
         description : x.description ? x.description.trim() : '',
         title       : titleCase(x.name),
@@ -151,11 +137,11 @@ function createReadmePartial(list){
         template(TEMPLATE_NO_DESC, templateInput)
 
       return `${ templated }\n`
-    }
-  ).join('\n')
+    })
+    .join('\n')
 }
 
-function isJS(x){
+function isJS(x) {
   if (x.language === null) return false
 
   return anyTrue(
@@ -164,7 +150,12 @@ function isJS(x){
   )
 }
 
-async function populate({ createData, createReadme, score, update }){
+async function populate({
+  createData,
+  createReadme,
+  score,
+  update,
+}) {
   if (update) await updateSecondary()
   if (createData) await createDataJSON()
   if (score) await createScores()
@@ -172,10 +163,7 @@ async function populate({ createData, createReadme, score, update }){
 
   const { repoData } = readJSONSync(REPO_DATA)
   const sorted = sortBy(prop('score'), repoData)
-  const soUniq = uniqWith(
-    (a, b) => a.name === b.name,
-    sorted
-  )
+  const soUniq = uniqWith((a, b) => a.name === b.name, sorted)
 
   const jsLibs = soUniq.filter(isJS)
   const otherLibs = soUniq.filter(complement(isJS))
@@ -197,5 +185,6 @@ populate({
   createData   : false,
   score        : false,
   createReadme : true,
-}).then(console.log)
+})
+  .then(console.log)
   .catch(console.log)

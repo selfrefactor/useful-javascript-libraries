@@ -1,6 +1,6 @@
 const dayjs = require('dayjs')
 
-function dateDiff(a, b){
+function dateDiff(a, b) {
   const date1 = dayjs(a)
   const date2 = dayjs(b)
 

@@ -9,7 +9,7 @@ const execCommand = async command => {
   return stdout
 }
 
-async function toGithubURL(url){
+async function toGithubURL(url) {
   const packageKey = last(url.split('/'))
   const command = `npm info --json ${ packageKey }`
   const packageInfoRaw = await execCommand(command)
@@ -17,10 +17,7 @@ async function toGithubURL(url){
   const repoRaw = path('repository.url', packageInfo)
   if (!repoRaw) return false
 
-  return remove([
-    'git+',
-    '.git',
-  ], repoRaw)
+  return remove([ 'git+', '.git' ], repoRaw)
 }
 
 exports.toGithubURL = toGithubURL

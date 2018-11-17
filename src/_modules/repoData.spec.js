@@ -10,7 +10,7 @@ const schema = {
   html_url: 'string',
   updated_at: 'string',
   stargazers_count: 'number',
-  open_issues: 'number'
+  open_issues: 'number',
 }
 
 test('', async () => {
@@ -18,7 +18,5 @@ test('', async () => {
 
   const data = await repoData(url)
   console.log({data})
-  expect(
-    data.is(schema)
-  ).toBe(true)
+  expect(data.is(schema)).toBe(true)
 })

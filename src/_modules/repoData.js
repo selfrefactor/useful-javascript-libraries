@@ -1,18 +1,21 @@
 const { get } = require('axios')
 const { takeLast, pick, multiline } = require('rambdax')
 
-async function repoData(input){
+async function repoData(input) {
   try {
     const splitted = input.split('/')
     if (splitted.length !== 5) return false
     const [ owner, repo ] = takeLast(2, splitted)
 
-    const url = multiline(`
+    const url = multiline(
+      `
       https://api.github.com
       repos
       ${ owner }
       ${ repo }?access_token=${ process.env.GITHUB }  
-    `, '/')
+    `,
+      '/'
+    )
 
     const { status, data } = await get(url)
     if (status > 200) return false
