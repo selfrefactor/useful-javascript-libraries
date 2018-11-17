@@ -15,8 +15,7 @@ import {
   remove,
   replace,
   s,
-  sortBy,
-  take,
+  sort,
   template,
   uniqWith,
 } from 'rambdax'
@@ -162,7 +161,9 @@ async function populate({
   if (!createReadme) return
 
   const { repoData } = readJSONSync(REPO_DATA)
-  const sorted = sortBy(prop('score'), repoData)
+  const sorted = sort((a,b) => {
+    return b.score - a.score
+  }, repoData)
   const soUniq = uniqWith((a, b) => a.name === b.name, sorted)
 
   const jsLibs = soUniq.filter(isJS)
