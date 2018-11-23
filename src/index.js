@@ -29,6 +29,7 @@ const SECONDARY_OUTPUT = `${ __dirname }/linksSecondary.txt`
 const LINKS = `${ __dirname }/links.json`
 const REPO_DATA = `${ __dirname }/repoData.json`
 const TITLE = '# {{num}} Useful Javascript libraries\n\n'
+const TITLE_PROJECTS = '# {{num}} Useful Javascript projects\n\n'
 const OTHER_TITLE = '# {{num}} Other libraries and resources\n\n'
 const TEMPLATE = [
   '## [{{title}}]({{url}})',
@@ -48,7 +49,7 @@ async function generateLinks(bookmarksContent) {
     .s(
       filter(x => x.includes('github.com') || x.includes('npmjs'))
     )
-  //.s(take(11))
+  // .s(take(11))
 
   const withCorrectLinks = await mapAsync(async x => {
     if (x.includes('github.com')) return x
@@ -88,7 +89,7 @@ async function createDataJSON() {
 
 export async function createScores() {
   const { links, linksSecondary } = readJSONSync(LINKS)
-  const withRepoDataRaw = await mapAsync(repoData, links)
+  const withRepoDataRaw = await mapAsync(repoDataModule, links)
   const withRepoDataSecondaryRaw = await mapAsync(
     repoDataModule,
     linksSecondary
@@ -166,25 +167,29 @@ async function populate({
   }, repoData)
   const soUniq = uniqWith((a, b) => a.name === b.name, sorted)
 
-  const jsLibs = soUniq.filter(isJS)
+  const jsRelated = soUniq.filter(isJS)
+  const jsLibs = jsRelated.filter(prop('isLibrary'))
+  const jsProjects = jsRelated.filter(complement(prop('isLibrary')))
   const otherLibs = soUniq.filter(complement(isJS))
 
   const jsContent = createReadmePartial(jsLibs)
+  const jsProjectsContent = createReadmePartial(jsProjects)
   const otherContent = createReadmePartial(otherLibs)
 
   const jsTitle = template(TITLE, { num : jsLibs.length })
+  const jsProjectsTitle = template(TITLE_PROJECTS, { num : jsProjects.length })
   const otherTitle = template(OTHER_TITLE, { num : otherLibs.length })
 
   writeFileSync(
     `${ process.cwd() }/README.md`,
-    `${ jsTitle }${ jsContent }\n---\n${ otherTitle }${ otherContent }`
+    `${ jsTitle }${ jsContent }\n---\n${ jsProjectsTitle }${ jsProjectsContent }---\n${ otherTitle }${ otherContent }`
   )
 }
 
 populate({
   update       : false,
   createData   : false,
-  score        : false,
+  score        : true,
   createReadme : true,
 })
   .then(console.log)
