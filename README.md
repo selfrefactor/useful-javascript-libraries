@@ -1,4 +1,4 @@
-# 370 Useful Javascript libraries
+# 416 Useful Javascript libraries
 
 ## [Reveal Js](https://github.com/hakimel/reveal.js)
 
@@ -11,6 +11,10 @@
 ## [Anime](https://github.com/juliangarnier/anime)
 
 > JavaScript Animation Engine
+
+## [Awesome React Native](https://github.com/jondot/awesome-react-native)
+
+> Awesome React Native components, news, tools, and learning material!
 
 ## [Styled Components](https://github.com/styled-components/styled-components)
 
@@ -44,6 +48,14 @@
 
 > Routing and navigation for your React Native apps
 
+## [Tips](https://github.com/git-tips/tips)
+
+> Most commonly used git tips and tricks.
+
+## [Wtfjs](https://github.com/denysdovhan/wtfjs)
+
+> A list of funny and tricky JavaScript examples
+
 ## [Blessed Contrib](https://github.com/yaronn/blessed-contrib)
 
 > Build terminal dashboards using ascii/ansi art and javascript
@@ -52,13 +64,13 @@
 
 > Build forms in React, without the tears 😭
 
-## [Flatpickr](https://github.com/flatpickr/flatpickr)
-
-> lightweight, powerful javascript datetimepicker with no dependencies
-
 ## [React Beautiful Dnd](https://github.com/atlassian/react-beautiful-dnd)
 
 > Beautiful and accessible drag and drop for lists with React
+
+## [Flatpickr](https://github.com/flatpickr/flatpickr)
+
+> lightweight, powerful javascript datetimepicker with no dependencies
 
 ## [Js Cookie](https://github.com/js-cookie/js-cookie)
 
@@ -100,13 +112,13 @@
 
 > :shell: Portable Unix shell commands for Node.js
 
-## [Ungit](https://github.com/FredrikNoren/ungit)
-
-> The easiest way to use git. On any platform. Anywhere.
-
 ## [Blessed](https://github.com/chjj/blessed)
 
 > A high-level terminal interface library for node.js.
+
+## [Ungit](https://github.com/FredrikNoren/ungit)
+
+> The easiest way to use git. On any platform. Anywhere.
 
 ## [Ndb](https://github.com/GoogleChromeLabs/ndb)
 
@@ -144,6 +156,10 @@
 
 > ⏱ A library for working with dates and times in JS
 
+## [Carlo](https://github.com/GoogleChromeLabs/carlo)
+
+> Web rendering surface for Node applications
+
 ## [Victory](https://github.com/FormidableLabs/victory)
 
 > A collection of composable React components for building interactive data visualizations
@@ -151,6 +167,10 @@
 ## [You Dont Need Momentjs](https://github.com/you-dont-need/You-Dont-Need-Momentjs)
 
 > List of date-fns or native functions which you can use to replace moment.js + ESLint Plugin
+
+## [Fingerprintjs](https://github.com/Valve/fingerprintjs2)
+
+> Modern & flexible browser fingerprinting library
 
 ## [Ink](https://github.com/vadimdemedes/ink)
 
@@ -160,13 +180,13 @@
 
 > 🤖 Neural networks in JavaScript
 
-## [Wired Elements](https://github.com/wiredjs/wired-elements)
-
-> Collection of elements that appear hand drawn. Great for wireframes.
-
 ## [Terminalizer](https://github.com/faressoft/terminalizer)
 
 > 🦄 Record your terminal and generate animated gif images or share a web player
+
+## [Wired Elements](https://github.com/wiredjs/wired-elements)
+
+> Collection of elements that appear hand drawn. Great for wireframes.
 
 ## [Nanoid](https://github.com/ai/nanoid)
 
@@ -196,6 +216,10 @@
 
 > JavaScript Performance Monitor
 
+## [Peerflix](https://github.com/mafintosh/peerflix)
+
+> Streaming torrent client for node.js
+
 ## [Agenda](https://github.com/agenda/agenda)
 
 > Lightweight job scheduling for Node.js
@@ -212,21 +236,17 @@
 
 > :boom: Puts your console on blast when React is making unnecessary updates.
 
-## [Ramjet](https://github.com/Rich-Harris/ramjet)
-
-> Morph DOM elements from one state to another with smooth animations and transitions
-
 ## [Rax](https://github.com/alibaba/rax)
 
 > :tophat: A hyperscript render engine.
 
+## [Ramjet](https://github.com/Rich-Harris/ramjet)
+
+> Morph DOM elements from one state to another with smooth animations and transitions
+
 ## [Animateplus](https://github.com/bendc/animateplus)
 
 > A+ animation module for the modern web
-
-## [Wappalyzer](https://github.com/AliasIO/Wappalyzer)
-
-> Cross-platform utility that uncovers the technologies used on websites.
 
 ## [Mdx](https://github.com/mdx-js/mdx)
 
@@ -235,6 +255,10 @@
 ## [Lozad Js](https://github.com/ApoorvSaxena/lozad.js)
 
 > 🔥  Highly performant, light ~0.9kb and configurable lazy loader in pure JS with no dependencies for responsive images, iframes and more
+
+## [Wappalyzer](https://github.com/AliasIO/Wappalyzer)
+
+> Cross-platform utility that uncovers the technologies used on websites.
 
 ## [Up Up](https://github.com/TalAter/UpUp)
 
@@ -272,6 +296,10 @@
 
 > The MQTT client for Node.js and the browser
 
+## [Polished](https://github.com/styled-components/polished)
+
+> A lightweight toolset for writing styles in JavaScript ✨
+
 ## [Lost](https://github.com/peterramsing/lost)
 
 > LostGrid is a powerful grid system built in PostCSS that works with any preprocessor and even vanilla CSS.
@@ -308,11 +336,19 @@
 
 > A Headless Chrome rendering solution
 
+## [Inversify Js](https://github.com/inversify/InversifyJS)
+
+> A powerful and lightweight inversion of control container  for JavaScript & Node.js apps powered by TypeScript.
+
 ## [Kepler Gl](https://github.com/uber/kepler.gl)
 
 ## [Greenlet](https://github.com/developit/greenlet)
 
 > 🦎 Move an async function into its own thread.
+
+## [Headless Chrome Crawler](https://github.com/yujiosaka/headless-chrome-crawler)
+
+> Distributed crawler powered by Headless Chrome
 
 ## [Exercises](https://github.com/kolodny/exercises)
 
@@ -326,6 +362,10 @@
 
 > A list of engineering manager resource links.
 
+## [Vtop](https://github.com/MrRio/vtop)
+
+> Wow such top. So stats. More better than regular top.
+
 ## [Teachable Machine](https://github.com/googlecreativelab/teachable-machine)
 
 > Explore how machine learning works, live in the browser. No coding required.
@@ -333,10 +373,6 @@
 ## [Css Element Queries](https://github.com/marcj/css-element-queries)
 
 > CSS Element-Queries aka Container Queries. High-speed element dimension/media queries in valid css.
-
-## [Vtop](https://github.com/MrRio/vtop)
-
-> Wow such top. So stats. More better than regular top.
 
 ## [React Responsive](https://github.com/contra/react-responsive)
 
@@ -354,6 +390,10 @@
 
 > Hacker News clone rewritten with universal JavaScript, using React and GraphQL.
 
+## [React Blessed](https://github.com/Yomguithereal/react-blessed)
+
+> A react renderer for blessed.
+
 ## [Workerize](https://github.com/developit/workerize)
 
 > 🏗️ Run a module in a Web Worker.
@@ -361,6 +401,10 @@
 ## [Web Animations Js](https://github.com/web-animations/web-animations-js)
 
 > JavaScript implementation of the Web Animations API
+
+## [Hotkeys](https://github.com/jaywcjlove/hotkeys)
+
+> ➷ A robust Javascript library for capturing keyboard input. It has no dependencies.
 
 ## [Gestalt](https://github.com/pinterest/gestalt)
 
@@ -394,13 +438,13 @@
 
 > Effortless animation between DOM changes (eg. list reordering) using the FLIP technique.
 
-## [Toxy](https://github.com/h2non/toxy)
-
-> Hackable HTTP proxy for resiliency testing and simulated network conditions
-
 ## [Pwa](https://github.com/lukeed/pwa)
 
 > (WIP) Universal PWA Builder
+
+## [Toxy](https://github.com/h2non/toxy)
+
+> Hackable HTTP proxy for resiliency testing and simulated network conditions
 
 ## [Rewire](https://github.com/jhnns/rewire)
 
@@ -412,13 +456,13 @@
 
 ## [Node Lru Cache](https://github.com/isaacs/node-lru-cache)
 
-## [Binaryjs](https://github.com/binaryjs/binaryjs)
-
-> Node binary websocket streaming made easy
-
 ## [Electron Forge](https://github.com/electron-userland/electron-forge)
 
 > A complete tool for creating, publishing, and installing modern Electron applications
+
+## [Binaryjs](https://github.com/binaryjs/binaryjs)
+
+> Node binary websocket streaming made easy
 
 ## [Daydream](https://github.com/segmentio/daydream)
 
@@ -444,13 +488,17 @@
 
 > React component for scrolling, zooming and highlighting code samples <🏄/>
 
-## [Platform Js](https://github.com/bestiejs/platform.js)
+## [Cms Js](https://github.com/chrisdiana/cms.js)
 
-> A platform detection library.
+> Client-Side JavaScript Site Generator
 
 ## [Madge](https://github.com/pahen/madge)
 
 > Create graphs from your CommonJS, AMD or ES6 module dependencies
+
+## [Platform Js](https://github.com/bestiejs/platform.js)
+
+> A platform detection library.
 
 ## [Alm](https://github.com/alm-tools/alm)
 
@@ -476,13 +524,13 @@
 
 > A browser developer tool extension to inspect performance of React components.
 
-## [Pretty Algorithms](https://github.com/jiayihu/pretty-algorithms)
-
-> 🌊 Pretty, common and useful algorithms with modern JS and beautiful tests
-
 ## [Connected React Router](https://github.com/supasate/connected-react-router)
 
 > A Redux binding for React Router v4
+
+## [Pretty Algorithms](https://github.com/jiayihu/pretty-algorithms)
+
+> 🌊 Pretty, common and useful algorithms with modern JS and beautiful tests
 
 ## [React Imgpro](https://github.com/nitin42/react-imgpro)
 
@@ -500,29 +548,33 @@
 
 > Convert any image to pure CSS.
 
-## [Reactopt](https://github.com/reactopt/reactopt)
+## [React Animations](https://github.com/FormidableLabs/react-animations)
 
-> A CLI React performance optimization tool that identifies potential unnecessary re-rendering
+> 🎊 A collection of animations for inline style libraries
 
 ## [Diff](https://github.com/flitbit/diff)
 
 > Javascript utility for calculating deep difference, capturing changes, and applying changes across objects; for nodejs and the browser.
 
-## [React Animations](https://github.com/FormidableLabs/react-animations)
+## [Reactopt](https://github.com/reactopt/reactopt)
 
-> 🎊 A collection of animations for inline style libraries
+> A CLI React performance optimization tool that identifies potential unnecessary re-rendering
+
+## [Checklist Checklist](https://github.com/huyingjie/Checklist-Checklist)
+
+> 🌈  A Curated List of Checklists ✔︎✔︎
 
 ## [Ghost Text](https://github.com/GhostText/GhostText)
 
 > 👻 Use your text editor to write in your browser. Everything you type in the editor will be instantly updated in the browser (and vice versa).
 
-## [React Fix It](https://github.com/MicheleBertoli/react-fix-it)
-
-> Automagically generate tests from errors
-
 ## [React Sight](https://github.com/React-Sight/React-Sight)
 
 > Visualization tool for React, with support for Fiber, Router (v4), and Redux
+
+## [React Fix It](https://github.com/MicheleBertoli/react-fix-it)
+
+> Automagically generate tests from errors
 
 ## [Fast Memoize Js](https://github.com/caiogondim/fast-memoize.js)
 
@@ -536,13 +588,13 @@
 
 > Collect performance metrics for your library/application.
 
-## [Preload Webpack Plugin](https://github.com/GoogleChromeLabs/preload-webpack-plugin)
-
-> A webpack plugin for injecting <link rel='preload|prefecth'> into HtmlWebpackPlugin pages, with async chunk support
-
 ## [Emergence Js](https://github.com/xtianmiller/emergence.js)
 
 > Detect element visibility in the browser
+
+## [Preload Webpack Plugin](https://github.com/GoogleChromeLabs/preload-webpack-plugin)
+
+> A webpack plugin for injecting <link rel='preload|prefecth'> into HtmlWebpackPlugin pages, with async chunk support
 
 ## [Tui Image Editor](https://github.com/nhnent/tui.image-editor)
 
@@ -563,6 +615,14 @@
 ## [Juice Shop](https://github.com/bkimminich/juice-shop)
 
 > OWASP Juice Shop is an intentionally insecure webapp for security trainings written entirely in Javascript which encompasses the entire OWASP Top Ten and other severe security flaws.
+
+## [Workly](https://github.com/pshihn/workly)
+
+> A really simple way to move a function or class to a web worker. 🏋️‍♀️→ 😄
+
+## [React Use](https://github.com/streamich/react-use)
+
+> React Hooks — 👍
 
 ## [Lusca](https://github.com/krakenjs/lusca)
 
@@ -600,6 +660,10 @@
 
 > Rheostat is a www, mobile, and accessible slider component built with React
 
+## [Webpagetest Api](https://github.com/marcelduran/webpagetest-api)
+
+> WebPageTest API wrapper for NodeJS
+
 ## [Timing Js](https://github.com/addyosmani/timing.js)
 
 > Navigation Timing API measurement helpers
@@ -624,6 +688,10 @@
 
 > A small (< 1kb) library for measuring things in your web app and reporting the results to Google Analytics.
 
+## [Leakage](https://github.com/andywer/leakage)
+
+> 🐛 Memory leak testing for node.
+
 ## [Typescript Library Starter](https://github.com/alexjoverm/typescript-library-starter)
 
 > Starter kit with zero-config for building a library in TypeScript, featuring RollupJS, Jest, Prettier, TSLint, Semantic Release, and more!
@@ -636,25 +704,25 @@
 
 > Flat, simple, responsive and hackable Color-Picker. No dependencies, no jQuery. Compatible with all CSS Frameworks e.g. Bootstrap, Materialize.
 
-## [Coach](https://github.com/sitespeedio/coach)
-
-> Clear Eyes. Full Hearts. Can’t Lose.
-
 ## [Microstates Js](https://github.com/microstates/microstates.js)
 
 > Composable State Primitives for JavaScript
 
-## [Ml](https://github.com/mljs/ml)
+## [Swup](https://github.com/gmrchk/swup)
 
-> Machine learning tools in JavaScript
+> Complete, flexible, easy to use page transition library.
+
+## [Coach](https://github.com/sitespeedio/coach)
+
+> Clear Eyes. Full Hearts. Can’t Lose.
 
 ## [X](https://github.com/davidmarkclements/0x)
 
 > 🔥 single-command flamegraph profiling 🔥
 
-## [Swup](https://github.com/gmrchk/swup)
+## [Ml](https://github.com/mljs/ml)
 
-> Complete, flexible, easy to use page transition library.
+> Machine learning tools in JavaScript
 
 ## [Page Accelerator](https://github.com/Easyfood/pageAccelerator)
 
@@ -680,13 +748,13 @@
 
 > Highly customizable React component for inputing tags.
 
-## [Snarkdown](https://github.com/developit/snarkdown)
-
-> :smirk_cat: A snarky 1kb Markdown parser written in JavaScript
-
 ## [Node Cache](https://github.com/ptarjan/node-cache)
 
 > A simple in-memory cache for nodejs
+
+## [Snarkdown](https://github.com/developit/snarkdown)
+
+> :smirk_cat: A snarky 1kb Markdown parser written in JavaScript
 
 ## [Ervy](https://github.com/chunqiuyiyu/ervy)
 
@@ -708,13 +776,17 @@
 
 > A library for textually searching arrays and hashes of objects by property (or multiple properties). Designed specifically for autocomplete.
 
+## [Clooney](https://github.com/GoogleChromeLabs/clooney)
+
+> Clooney is an actor library for the web. Use workers without thinking about workers.
+
 ## [Relay Starter Kit](https://github.com/facebookarchive/relay-starter-kit)
 
 > Barebones starting point for a Relay application.
 
-## [Clooney](https://github.com/GoogleChromeLabs/clooney)
+## [Wad](https://github.com/rserota/wad)
 
-> Clooney is an actor library for the web. Use workers without thinking about workers.
+> Web Audio DAW.  Use the HTML5 Web Audio API for dynamic sound synthesis.  It's like jQuery for your ears.
 
 ## [Smooth Ui](https://github.com/smooth-code/smooth-ui)
 
@@ -728,6 +800,10 @@
 
 > Machine-learning for Node.js
 
+## [Drift](https://github.com/imgix/drift)
+
+> Easily add "zoom on hover" functionality to your site's images. Lightweight, no-dependency JavaScript.
+
 ## [Node Rate Limiter](https://github.com/jhurliman/node-rate-limiter)
 
 > A generic rate limiter for node.js. Useful for API clients, web crawling, or other tasks that need to be throttled
@@ -739,10 +815,6 @@
 ## [React Hammerjs](https://github.com/JedWatson/react-hammerjs)
 
 > ReactJS / HammerJS integration. Support touch events in your React app.
-
-## [Drift](https://github.com/imgix/drift)
-
-> Easily add "zoom on hover" functionality to your site's images. Lightweight, no-dependency JavaScript.
 
 ## [Browser Perf](https://github.com/axemclion/browser-perf)
 
@@ -760,45 +832,57 @@
 
 > oEmbed proxy. Supports over 1800 domains via custom parsers, oEmbed, Twitter Cards and Open Graph
 
-## [Animate Components](https://github.com/nitin42/animate-components)
-
-> ✨ Elemental components for doing animations in React
-
 ## [Memoizee](https://github.com/medikoo/memoizee)
 
 > Complete memoize/cache solution for JavaScript
+
+## [Animate Components](https://github.com/nitin42/animate-components)
+
+> ✨ Elemental components for doing animations in React
 
 ## [Marky](https://github.com/nolanlawson/marky)
 
 > High-resolution JavaScript timer based on performance.mark/measure (461 bytes min+gz)
 
-## [Postcss Font Magician](https://github.com/jonathantneal/postcss-font-magician)
+## [Fuzzyset Js](https://github.com/Glench/fuzzyset.js)
 
-> Magically generate all the @font-face rules
+> fuzzyset.js - A fuzzy string set for javascript
 
 ## [Tslint Microsoft Contrib](https://github.com/Microsoft/tslint-microsoft-contrib)
 
 > A set of TSLint rules used on some Microsoft projects.
 
-## [Fuzzyset Js](https://github.com/Glench/fuzzyset.js)
+## [Postcss Font Magician](https://github.com/jonathantneal/postcss-font-magician)
 
-> fuzzyset.js - A fuzzy string set for javascript
+> Magically generate all the @font-face rules
 
 ## [Enzyme To Json](https://github.com/adriantoine/enzyme-to-json)
 
 > Snapshot test your Enzyme wrappers
 
+## [Puppeteer Examples](https://github.com/checkly/puppeteer-examples)
+
+> Puppeteer example scripts for running Headless Chrome from Node. Run them at https://puppeteersandbox.com
+
 ## [Download](https://github.com/kevva/download)
 
 > Download and extract files
 
-## [Gulp Plumber](https://github.com/floatdrop/gulp-plumber)
+## [React Youtube](https://github.com/troybetz/react-youtube)
 
-> Fixing Node pipes
+> react.js powered YouTube player component
 
 ## [Markdown Toc](https://github.com/jonschlinkert/markdown-toc)
 
 > Generate a markdown TOC (table of contents) for a README or any markdown files, using remarkable. Used by assemble, verb, and lots of other projects on GitHub. API and CLI.
+
+## [Vscode Extension Samples](https://github.com/Microsoft/vscode-extension-samples)
+
+> Sample code illustrating the VS Code extension API.
+
+## [Gulp Plumber](https://github.com/floatdrop/gulp-plumber)
+
+> Fixing Node pipes
 
 ## [Interfake](https://github.com/basicallydan/interfake)
 
@@ -812,21 +896,29 @@
 
 > invariant
 
+## [Merge Images](https://github.com/lukechilds/merge-images)
+
+> Easily compose images together without messing around with canvas
+
 ## [React Worker Dom](https://github.com/web-perf/react-worker-dom)
 
 > Experiments to see the advantages of using Web Workers to Render React Virtual DOM
 
-## [Merge Images](https://github.com/lukechilds/merge-images)
+## [Octohint](https://github.com/pd4d10/octohint)
 
-> Easily compose images together without messing around with canvas
+> The missing IntelliSense hint for GitHub and GitLab
+
+## [Jest Styled Components](https://github.com/styled-components/jest-styled-components)
+
+> Jest utilities for Styled Components
 
 ## [Publish Please](https://github.com/inikulin/publish-please)
 
 > Safe and highly functional replacement for `npm publish`.
 
-## [Octohint](https://github.com/pd4d10/octohint)
+## [Favicons](https://github.com/itgalaxy/favicons)
 
-> The missing IntelliSense hint for GitHub and GitLab
+> Favicons generator for Node.js
 
 ## [Systeminformation](https://github.com/sebhildebrandt/systeminformation)
 
@@ -835,6 +927,10 @@
 ## [Tslint Eslint Rules](https://github.com/buzinas/tslint-eslint-rules)
 
 > Improve your TSLint with the missing ESLint rules
+
+## [React Hanger](https://github.com/kitze/react-hanger)
+
+> A small collection of useful hooks for React 16.7
 
 ## [Fair Analytics](https://github.com/vesparny/fair-analytics)
 
@@ -856,13 +952,17 @@
 
 > A minimal React JS application starter kit
 
+## [Histore](https://github.com/developit/histore)
+
+> 🏬 200b key-value store backed by navigation state
+
 ## [Turbo Ws](https://github.com/hugmanrique/turbo-ws)
 
 > :dash: Blazing fast low-level WebSocket server
 
-## [Histore](https://github.com/developit/histore)
+## [Tslint Config Prettier](https://github.com/prettier/tslint-config-prettier)
 
-> 🏬 200b key-value store backed by navigation state
+> Use tslint with prettier without any conflict
 
 ## [React Notification](https://github.com/pburtchaell/react-notification)
 
@@ -871,10 +971,6 @@
 ## [Mlhelper](https://github.com/laoqiren/mlhelper)
 
 > Algorithms and utils for Machine Learning in JavaScript.
-
-## [Tslint Config Prettier](https://github.com/prettier/tslint-config-prettier)
-
-> Use tslint with prettier without any conflict
 
 ## [Throng](https://github.com/hunterloftis/throng)
 
@@ -912,21 +1008,25 @@
 
 > A huge library of test matchers for Jasmine and Jest.
 
-## [React Log](https://github.com/diegomura/react-log)
+## [Wotan](https://github.com/fimbullinter/wotan)
 
-> React for the Console
+> Pluggable TypeScript and JavaScript linter
 
 ## [React Sortable Pane](https://github.com/bokuweb/react-sortable-pane)
 
 > :sparkles: A sortable and resizable pane component for React.
 
-## [Type Profile](https://github.com/fhinkel/type-profile)
+## [React Log](https://github.com/diegomura/react-log)
 
-> Collect runtime type information 😻 of your JavaScript code.
+> React for the Console
 
 ## [Node Deep Equal](https://github.com/substack/node-deep-equal)
 
 > node's assert.deepEqual algorithm
+
+## [Type Profile](https://github.com/fhinkel/type-profile)
+
+> Collect runtime type information 😻 of your JavaScript code.
 
 ## [Electron Devtools Installer](https://github.com/MarshallOfSound/electron-devtools-installer)
 
@@ -944,17 +1044,21 @@
 
 > increase your number with flipping animation
 
-## [Posterus](https://github.com/mitranim/posterus)
-
-> Composable async primitives (futures) with cancelation, control over scheduling, and coroutines
-
 ## [Express Limiter](https://github.com/ded/express-limiter)
 
 > Rate limiting middleware for Express
 
+## [Posterus](https://github.com/mitranim/posterus)
+
+> Composable async primitives (futures) with cancelation, control over scheduling, and coroutines
+
 ## [React Aria Modal](https://github.com/davidtheclark/react-aria-modal)
 
 > A fully accessible React modal built according WAI-ARIA Authoring Practices
+
+## [React Fa](https://github.com/andreypopp/react-fa)
+
+> Font Awesome icons as React components
 
 ## [React Fastclick](https://github.com/JakeSidSmith/react-fastclick)
 
@@ -964,9 +1068,21 @@
 
 > Letterpad is an open-source and a high performant publishing engine for blogs built with react & graphql and runs ridiculously fast 🚀
 
+## [Css To React Native](https://github.com/styled-components/css-to-react-native)
+
+> Convert CSS text to a React Native stylesheet object
+
 ## [Imagemin Cli](https://github.com/imagemin/imagemin-cli)
 
 > Minify images
+
+## [I N Webpack Plugin](https://github.com/webpack-contrib/i18n-webpack-plugin)
+
+> Embed localization into your bundle
+
+## [Jest Fetch Mock](https://github.com/jefflau/jest-fetch-mock)
+
+> Jest mock for the fetch polyfill
 
 ## [Headless Devtools](https://github.com/cowchimp/headless-devtools)
 
@@ -976,13 +1092,9 @@
 
 > Animatelo is a bunch of cool, fun, and cross-browser animations for you to use in your projects. This is a porting to Web Animation API of the fabulous animate.css project.
 
-## [Jest Fetch Mock](https://github.com/jefflau/jest-fetch-mock)
+## [Styled Map](https://github.com/scf4/styled-map)
 
-> Jest mock for the fetch polyfill
-
-## [I N Webpack Plugin](https://github.com/webpack-contrib/i18n-webpack-plugin)
-
-> Embed localization into your bundle
+> A super simple way to map props to styles with Styled Components ✨
 
 ## [Moize](https://github.com/planttheidea/moize)
 
@@ -996,17 +1108,17 @@
 
 > Log all assignments and the return value of a function with a simple comment
 
-## [Locally](https://github.com/ozantunca/locally)
+## [Readline Sync](https://github.com/anseki/readline-sync)
 
-> Locally is a localStorage manager that supports expirable items with timeout values and saves space by compressing them using LZW algorithm.
+> Synchronous Readline for interactively running to have a conversation with the user via a console(TTY).
 
 ## [Columnify](https://github.com/timoxley/columnify)
 
 > Create text-based columns suitable for console output. Supports cell wrapping.
 
-## [Readline Sync](https://github.com/anseki/readline-sync)
+## [Locally](https://github.com/ozantunca/locally)
 
-> Synchronous Readline for interactively running to have a conversation with the user via a console(TTY).
+> Locally is a localStorage manager that supports expirable items with timeout values and saves space by compressing them using LZW algorithm.
 
 ## [Pretty Ms](https://github.com/sindresorhus/pretty-ms)
 
@@ -1020,33 +1132,49 @@
 
 > Fast handcraft svg badge generator.
 
-## [Webpack Shell Plugin](https://github.com/1337programming/webpack-shell-plugin)
-
-> Run shell commands either before or after webpack builds
-
 ## [Dtslint](https://github.com/Microsoft/dtslint)
 
 > A utility built on TSLint for linting TypeScript declaration (.d.ts) files.
+
+## [Webpack Shell Plugin](https://github.com/1337programming/webpack-shell-plugin)
+
+> Run shell commands either before or after webpack builds
 
 ## [React Event Listener](https://github.com/oliviertassinari/react-event-listener)
 
 > A React component for binding events on the global scope. :dizzy:
 
-## [Inspectpack](https://github.com/FormidableLabs/inspectpack)
+## [Storybook Chrome Screenshot](https://github.com/tsuyoshiwada/storybook-chrome-screenshot)
 
-> An inspection tool for Webpack frontend JavaScript bundles.
+> A Storybook Addon, Save the screenshot image of your stories :camera: via puppeteer.
 
 ## [Git Tutor](https://github.com/lesnitsky/git-tutor)
 
 > :octocat:+md=:heart: Awesome tutorials from your git log
 
+## [Siteaudit](https://github.com/thecreazy/siteaudit)
+
+> Site audit for your site from terminal
+
+## [Inspectpack](https://github.com/FormidableLabs/inspectpack)
+
+> An inspection tool for Webpack frontend JavaScript bundles.
+
 ## [Lru Memoize](https://github.com/erikras/lru-memoize)
 
 > A utility to provide LRU memoization for any js function
 
+## [Stylelint Order](https://github.com/hudochenkov/stylelint-order)
+
+> A plugin pack of order related linting rules for stylelint.
+
 ## [Object Model](https://github.com/sylvainpolletvillard/ObjectModel)
 
 > Strong Dynamically Typed Object Modeling for JavaScript
+
+## [Storybook Readme](https://github.com/tuchk4/storybook-readme)
+
+> React Storybook addon to render README files in github style
 
 ## [Node Suppose](https://github.com/jprichardson/node-suppose)
 
@@ -1064,6 +1192,10 @@
 
 > Formats JavaScript dates to relative time strings (e.g., "3 hours ago").
 
+## [React Lazyload Fadein](https://github.com/Swizec/react-lazyload-fadein)
+
+> React component to lazyload children with a nice fadein effect.
+
 ## [Teachable Machine Boilerplate](https://github.com/googlecreativelab/teachable-machine-boilerplate)
 
 > Boilerplate code for Teachable Machine
@@ -1076,53 +1208,61 @@
 
 > Declarative State and Logic Management
 
-## [React Lazyload Fadein](https://github.com/Swizec/react-lazyload-fadein)
+## [Swivel](https://github.com/bevacqua/swivel)
 
-> React component to lazyload children with a nice fadein effect.
+> Message passing between ServiceWorker and pages made simple
+
+## [React Native Hooks](https://github.com/react-native-community/react-native-hooks)
+
+> React Native APIs turned into React Hooks for use in stateless React components
 
 ## [React Simple Img](https://github.com/bluebill1049/react-simple-img)
 
 > 🌅 React lazy load images with IntersectionObserver API
 
-## [Moment Locales Webpack Plugin](https://github.com/iamakulov/moment-locales-webpack-plugin)
-
-> Easily remove unused Moment.js locales with webpack
-
 ## [Stopwords Json](https://github.com/6/stopwords-json)
 
 > Stopwords for 50 languages in JSON format
-
-## [Fast Average Color](https://github.com/fast-average-color/fast-average-color)
-
-> Fast Average Color
-
-## [Swivel](https://github.com/bevacqua/swivel)
-
-> Message passing between ServiceWorker and pages made simple
-
-## [Scalable](https://github.com/ScriptArtist/Scalable)
-
-> Makes the UI elements scalable to fit inside the container area.
-
-## [Ts Runtime](https://github.com/fabiandev/ts-runtime)
-
-> Runtime Type Checks for TypeScript
-
-## [Redux Saga Tester](https://github.com/wix/redux-saga-tester)
-
-> Full redux environment testing helper for redux-saga
 
 ## [Shrink Ray](https://github.com/aickin/shrink-ray)
 
 > Node.js compression middleware
 
-## [Tslint Clean Code](https://github.com/Glavin001/tslint-clean-code)
+## [Moment Locales Webpack Plugin](https://github.com/iamakulov/moment-locales-webpack-plugin)
 
-> TSLint rules for enforcing Clean Code
+> Easily remove unused Moment.js locales with webpack
+
+## [Fast Average Color](https://github.com/fast-average-color/fast-average-color)
+
+> Fast Average Color
+
+## [Scalable](https://github.com/ScriptArtist/Scalable)
+
+> Makes the UI elements scalable to fit inside the container area.
+
+## [Webpack Chrome Extension Reloader](https://github.com/rubenspgcavalcante/webpack-chrome-extension-reloader)
+
+> 🔥 Hot reloading while developing Chrome extensions with webpack 🔥
+
+## [Ts Runtime](https://github.com/fabiandev/ts-runtime)
+
+> Runtime Type Checks for TypeScript
 
 ## [Tslint Consistent Codestyle](https://github.com/ajafff/tslint-consistent-codestyle)
 
 > Collection of awesome rules to extend TSLint
+
+## [Redux Saga Tester](https://github.com/wix/redux-saga-tester)
+
+> Full redux environment testing helper for redux-saga
+
+## [Preload It](https://github.com/andreupifarre/preload-it)
+
+> A tiny 1kb JavaScript library for preloading assets on the browser via XHR2. It provides the ability to load assets of different file types and composite progress events.
+
+## [Tslint Clean Code](https://github.com/Glavin001/tslint-clean-code)
+
+> TSLint rules for enforcing Clean Code
 
 ## [Esformatter Jsx](https://github.com/royriojas/esformatter-jsx)
 
@@ -1132,9 +1272,17 @@
 
 > Easy way to use PouchDB inside a Web Worker or Service Worker
 
+## [Fs Remote](https://github.com/suchipi/fs-remote)
+
+> 📡 Drop-in replacement for fs that lets you write to the filesystem from the browser
+
 ## [Timm](https://github.com/guigrpa/timm)
 
 > Immutability helpers with fast reads and acceptable writes
+
+## [Web Worker Proxy](https://github.com/satya164/web-worker-proxy)
+
+> A better way of working with web workers
 
 ## [Mockingoose](https://github.com/alonronin/mockingoose)
 
@@ -1152,6 +1300,10 @@
 
 > A Webpack plugin for Lighthouse
 
+## [Scroll Into View](https://github.com/KoryNunn/scroll-into-view)
+
+> Scrolls an element into view if possible
+
 ## [Cryptiles](https://github.com/hapijs/cryptiles)
 
 > General purpose crypto utilities
@@ -1160,21 +1312,17 @@
 
 > Screamer.js is a Vanilla Javascript plugin to provide simple yet fully customisable web notifications using Web Notifications API.
 
-## [Postcss Ant](https://github.com/corysimmons/postcss-ant)
-
-> Size-getting function masquerading as a grid system.
-
 ## [Sono](https://github.com/Stinkstudios/sono)
 
 > A simple yet powerful JavaScript library for working with Web Audio
 
+## [Postcss Ant](https://github.com/corysimmons/postcss-ant)
+
+> Size-getting function masquerading as a grid system.
+
 ## [Expo And Typescript](https://github.com/janaagaard75/expo-and-typescript)
 
 > Demo app using Expo and TypeScript & Type definitions for the Expo SDK.
-
-## [Scroll Into View](https://github.com/KoryNunn/scroll-into-view)
-
-> Scrolls an element into view if possible
 
 ## [Timeago React](https://github.com/hustcc/timeago-react)
 
@@ -1184,9 +1332,17 @@
 
 > Snapshots a web page to get it as a static, self-contained HTML document.
 
+## [Json Stringify Pretty Compact](https://github.com/lydell/json-stringify-pretty-compact)
+
+> The best of both `JSON.stringify(obj)` and `JSON.stringify(obj, null, indent)`.
+
 ## [Get Screen Media](https://github.com/otalk/getScreenMedia)
 
 > A browser module for attempting to get access to a MediaStream of a user's screen. With a nice node-like API.
+
+## [Nightly Js](https://github.com/Fcmam5/nightly.js)
+
+> A zero dependency javascript library that enables the night mode in your website easily
 
 ## [Sandpit](https://github.com/sandpit/sandpit)
 
@@ -1210,14 +1366,6 @@
 
 ## [React Pinterest](https://github.com/pinterest/react-pinterest)
 
-## [Json Stringify Pretty Compact](https://github.com/lydell/json-stringify-pretty-compact)
-
-> The best of both `JSON.stringify(obj)` and `JSON.stringify(obj, null, indent)`.
-
-## [Siege Js](https://github.com/kissjs/siege.js)
-
-> http benchmark
-
 ## [Record Desktop](https://github.com/ewnd9/record-desktop)
 
 > :movie_camera: Effortless GIFs and screenshots on Linux, built with Electron.
@@ -1226,17 +1374,21 @@
 
 > Touring and on-boarding for javascript applications
 
-## [Nightly Js](https://github.com/Fcmam5/nightly.js)
+## [Siege Js](https://github.com/kissjs/siege.js)
 
-> A zero dependency javascript library that enables the night mode in your website easily
+> http benchmark
 
-## [Ukkonen](https://github.com/sunesimonsen/ukkonen)
+## [Parcel Plugin Bundle Visualiser](https://github.com/gregtillbrook/parcel-plugin-bundle-visualiser)
 
-> Ukkonen's Approximate String Matching algorithm
+> A plugin for the parcel bundler to visualise bundle contents
 
 ## [Http Wrapper](https://github.com/szmarczak/http2-wrapper)
 
 > Use HTTP2 the same way like HTTP1
+
+## [Ukkonen](https://github.com/sunesimonsen/ukkonen)
+
+> Ukkonen's Approximate String Matching algorithm
 
 ## [React Awesome Modal](https://github.com/shibe97/react-awesome-modal)
 
@@ -1246,9 +1398,9 @@
 
 > 🚦Generate gh-badges (shields.io) based on Lighthouse performance.
 
-## [Web Worker Proxy](https://github.com/satya164/web-worker-proxy)
+## [Webapp Webpack Plugin](https://github.com/brunocodutra/webapp-webpack-plugin)
 
-> A better way of working with web workers
+> Let webpack generate your progressive web app icons for you
 
 ## [Vscode Gitflow](https://github.com/vector-of-bool/vscode-gitflow)
 
@@ -1258,13 +1410,17 @@
 
 > React component for google autocomplete.
 
+## [Webpack Deadcode Plugin](https://github.com/MQuy/webpack-deadcode-plugin)
+
+> Webpack plugin to detect unused files and unused exports in used files
+
 ## [Sh Exec](https://github.com/rwu823/sh-exec)
 
 > 💻 Use `Template literals` write shell script made happy ❤️.
 
-## [Webpack Deadcode Plugin](https://github.com/MQuy/webpack-deadcode-plugin)
+## [React Storybook Addon Chapters](https://github.com/Checkfront/react-storybook-addon-chapters)
 
-> Webpack plugin to detect unused files and unused exports in used files
+> 📒 Showcase multiple React components within a story
 
 ## [Postcss Font Family System Ui](https://github.com/JLHwung/postcss-font-family-system-ui)
 
@@ -1290,21 +1446,25 @@
 
 > Generate text meme
 
+## [Jest Expo](https://github.com/expo/jest-expo)
+
+> A Jest preset to test your Expo projects
+
 ## [Fastify React](https://github.com/fastify/fastify-react)
 
 > React server side rendering support for Fastify with Next
 
-## [Nm Prune](https://github.com/pingyhq/nm-prune)
+## [React Ssr Boilerplate](https://github.com/luangjokaj/react-ssr-boilerplate)
 
-> Prune unneeded files (.md, .td, etc..) from node_modules folder. Super handy for Electron and AWS Lambda.
+> ⚛ A minimal React boilerplate with support for code splitting, hot module reload and server side rendering.
 
 ## [Customerbase](https://github.com/bradtraversy/customerbase)
 
 > GraphQL server using Express and JSON-Server
 
-## [Jest Expo](https://github.com/expo/jest-expo)
+## [Nm Prune](https://github.com/pingyhq/nm-prune)
 
-> A Jest preset to test your Expo projects
+> Prune unneeded files (.md, .td, etc..) from node_modules folder. Super handy for Electron and AWS Lambda.
 
 ## [Faltu](https://github.com/moinism/faltu)
 
@@ -1314,19 +1474,23 @@
 
 > A Jest plugin for creating screenshots of React components with a little help of Puppeteer
 
+## [Thebugger](https://github.com/fabiomcosta/thebugger)
+
+> 🐞debug a nodejs process without inspect flags.
+
 ## [Memorystore](https://github.com/roccomuso/memorystore)
 
 > express-session full featured MemoryStore layer without leaks!
-
-## [Disparity](https://github.com/millermedeiros/disparity)
-
-> colorized string diff (char or unified) ideal for text/code that spans through multiple lines
 
 ## [React Render In Browser](https://github.com/flexdinesh/react-render-in-browser)
 
 > A React component to render browser specific content
 
 ## [Icon Builder Example](https://github.com/necolas/icon-builder-example)
+
+## [Disparity](https://github.com/millermedeiros/disparity)
+
+> colorized string diff (char or unified) ideal for text/code that spans through multiple lines
 
 ## [Receptacle](https://github.com/DylanPiercey/receptacle)
 
@@ -1348,6 +1512,10 @@
 
 > Like requestIdleCallback, but for detecting network idle
 
+## [React Native Typescript D Game](https://github.com/shirakaba/react-native-typescript-2d-game)
+
+> A simple 2D game (called The Box) implemented in React Native, as an Expo app, using TypeScript.
+
 ## [Javascript Data Structures And Algorithms](https://github.com/albinotonnina/javascript-data-structures-and-algorithms)
 
 > Exercises, algorithms
@@ -1355,6 +1523,10 @@
 ## [Shallow Equal Explain](https://github.com/OliverJAsh/shallow-equal-explain)
 
 > `shallowEqualExplain` function that returns an object explaining the difference (instead of the usual boolean). Useful for debugging React `PureComponent`s.
+
+## [Typescript Expo Apollo Boilerplate](https://github.com/dai-shi/typescript-expo-apollo-boilerplate)
+
+> Clean boilerplate for TypeScript + Expo (React Native) + React Apollo (GraphQL)
 
 ## [Jest Html](https://github.com/guigrpa/jest-html)
 
@@ -1380,13 +1552,13 @@
 
 > Cli for the node BundlePhobia Service
 
-## [Consolemock](https://github.com/ttmarek/consolemock)
-
-> A tool for testing console logs
-
 ## [Node Fileset](https://github.com/mklabs/node-fileset)
 
 > Wrapper around miniglob / minimatch combo to allow multiple patterns matching and include-exclude ability
+
+## [Consolemock](https://github.com/ttmarek/consolemock)
+
+> A tool for testing console logs
 
 ## [Async Chainable](https://github.com/hash-bang/async-chainable)
 
@@ -1400,9 +1572,21 @@
 
 > Lana! NPM scripts with better UX 🏓
 
+## [React Gif Player](https://github.com/benwiley4000/react-gif-player)
+
+> 📽 A GIF component that moves when YOU want it to!
+
+## [Stylelint Config Property Sort Order Smacss](https://github.com/cahamilton/stylelint-config-property-sort-order-smacss)
+
+> Stylelint config for Property Sort Ordering based on the SMACSS methodology
+
 ## [React Router](https://github.com/router5/react-router5)
 
 > Helpers for using router5 with React [MOVED]
+
+## [Jssynth](https://github.com/jstrait/jssynth)
+
+> Make music in your browser with this synthesizer and sequencer
 
 ## [Object Diff](https://github.com/srcagency/object-diff)
 
@@ -1473,7 +1657,7 @@
 > esformatter alignment plugin
 
 ---
-# 20 Useful Javascript projects
+# 22 Useful Javascript projects
 
 ## [Awesome Selfhosted](https://github.com/Kickball/awesome-selfhosted)
 
@@ -1523,6 +1707,10 @@
 
 > A functional frontend framework.
 
+## [Chrome Music Lab](https://github.com/googlecreativelab/chrome-music-lab)
+
+> A collection of experiments for exploring how music works, all built with the Web Audio API.
+
 ## [Chrome Extensions](https://github.com/muaz-khan/Chrome-Extensions)
 
 > WebRTC chrome extensions for screen sharing, screen recording, file sharing, youtube+audio sharing, etc.
@@ -1549,11 +1737,15 @@
 
 ## [Js Proxy](https://github.com/gergob/jsProxy)
 
+## [Object Set Prototypes Of](https://github.com/jfet97/Object.setPrototypesOf)
+
+> multiple inheritance using ES6 Proxy
+
 ## [Mystery Animal](https://github.com/googlecreativelab/mystery-animal)
 
 > A new spin on the classic 20-questions game.
 ---
-# 80 Other libraries and resources
+# 87 Other libraries and resources
 
 ## [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh)
 
@@ -1562,6 +1754,10 @@
 ## [Public Apis](https://github.com/toddmotto/public-apis)
 
 > A collective list of public JSON APIs for use in web development.
+
+## [Front End Developer Interview Questions](https://github.com/h5bp/Front-end-Developer-Interview-Questions)
+
+> A list of helpful front-end related questions you can use to interview potential candidates, test yourself or completely ignore.
 
 ## [Every Programmer Should Know](https://github.com/mtdvio/every-programmer-should-know)
 
@@ -1583,6 +1779,14 @@
 
 > Tool for visualizing GitHub profiles
 
+## [Modern Js Cheatsheet](https://github.com/mbeaudru/modern-js-cheatsheet)
+
+> Cheatsheet for the JavaScript knowledge you will frequently encounter in modern projects.
+
+## [React Redux Links](https://github.com/markerikson/react-redux-links)
+
+> Curated tutorial and resource links I've collected on React, Redux, ES6, and more
+
 ## [Cheat Sh](https://github.com/chubin/cheat.sh)
 
 > the only cheat sheet you need
@@ -1590,6 +1794,10 @@
 ## [Fonts](https://github.com/powerline/fonts)
 
 > Patched fonts for Powerline users.
+
+## [Tools Of The Trade](https://github.com/cjbarber/ToolsOfTheTrade)
+
+> Tools of The Trade, from Hacker News.
 
 ## [Awesome Remote Job](https://github.com/lukasz-madon/awesome-remote-job)
 
@@ -1679,6 +1887,10 @@
 
 > 👾 Fast, simple and clean video downloader
 
+## [Awesome Serverless](https://github.com/anaibol/awesome-serverless)
+
+> :cloud: A curated list of awesome services, solutions and resources for serverless / nobackend applications.
+
 ## [Gitleaks](https://github.com/zricethezav/gitleaks)
 
 > Audit git repos for secrets 🔑
@@ -1690,6 +1902,10 @@
 ## [React Native Fast Image](https://github.com/DylanVann/react-native-fast-image)
 
 > 🚩 FastImage, performant React Native image component.
+
+## [Awesome Micro Npm Packages](https://github.com/parro-it/awesome-micro-npm-packages)
+
+> A curated list of small, focused npm packages.
 
 ## [Docker Cheat Sheet](https://github.com/eon01/DockerCheatSheet)
 
@@ -1779,13 +1995,13 @@
 
 > List of useful resources for front end developers
 
-## [Wenk](https://github.com/tiaanduplessis/wenk)
-
-> :wink: Lightweight pure CSS tooltip for the greater good
-
 ## [Factbook Json](https://github.com/factbook/factbook.json)
 
 > World Factbook Country Profiles in JSON  - Free Open Public Domain Data - No API Key Required ;-)
+
+## [Wenk](https://github.com/tiaanduplessis/wenk)
+
+> :wink: Lightweight pure CSS tooltip for the greater good
 
 ## [Liman](https://github.com/salihciftci/liman)
 
@@ -1807,17 +2023,21 @@
 
 > Free open public domain football data in JSON incl. English Premier League, Bundesliga, Primera División, Serie A and more - No API key required ;-)
 
-## [Git Extra Commands](https://github.com/unixorn/git-extra-commands)
+## [Node Report](https://github.com/nodejs/node-report)
 
-> A collection of useful extra git scripts I've discovered or written, packaged for ease of use with shell frameworks.
+> Delivers a human-readable diagnostic summary, written to file.
+
+## [Awesome Puppeteer](https://github.com/transitive-bullshit/awesome-puppeteer)
+
+> A curated list of awesome puppeteer resources.
 
 ## [Web Security Basics](https://github.com/vasanthk/web-security-basics)
 
 > Web security concepts
 
-## [Node Report](https://github.com/nodejs/node-report)
+## [Git Extra Commands](https://github.com/unixorn/git-extra-commands)
 
-> Delivers a human-readable diagnostic summary, written to file.
+> A collection of useful extra git scripts I've discovered or written, packaged for ease of use with shell frameworks.
 
 ## [Awesome Cross Platform Nodejs](https://github.com/bcoe/awesome-cross-platform-nodejs)
 
@@ -1843,11 +2063,19 @@
 
 > :book: Huge curated collection of links of Tech, Science, Conferences, Videos and much more resources from everyday surfing. :star: Since October 21, 2017.
 
+## [Typescript Cheat Sheet](https://github.com/frontdevops/typescript-cheat-sheet)
+
+> TypeScript cheat sheet
+
 ## [Gyazo](https://github.com/gyazo/Gyazo)
 
 > Gyazo:  the simplest and fastest screenshot uploading tool
 
 ## [Node Gcstats](https://github.com/dainis/node-gcstats)
+
+## [Podcasts](https://github.com/timarney/podcasts)
+
+> Curated List of Mostly Active Dev Podcasts
 
 ## [U Ws](https://github.com/ClusterWS/uWS)
 
@@ -1856,14 +2084,6 @@
 ## [Bookmarks](https://github.com/MorganGeek/bookmarks)
 
 > :bookmark: +3.6K awesome resources for geeks and software crafters :beer:
-
-## [Podcasts](https://github.com/timarney/podcasts)
-
-> Curated List of Mostly Active Dev Podcasts
-
-## [Typescript Cheat Sheet](https://github.com/frontdevops/typescript-cheat-sheet)
-
-> TypeScript cheat sheet
 
 ## [Gomeme](https://github.com/jpoz/gomeme)
 

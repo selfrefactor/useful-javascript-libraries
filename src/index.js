@@ -113,7 +113,7 @@ export async function createScores() {
   writeJSONSync(REPO_DATA, { repoData : [ ...score, ...scoreSecondary ] })
 }
 
-async function updateSecondary() {
+async function updateSecondaryFn() {
   const { links } = readJSONSync(SECONDARY_INPUT)
   const out = await mapAsync(async url => {
     const { data } = await get(url)
@@ -168,11 +168,11 @@ async function populate({
   createData,
   createReadme,
   score,
-  update,
+  updateSecondary,
   fromSelfrefactor,
 }) {
   if (fromSelfrefactor) await updateFromSelfrefactor()
-  if (update) await updateSecondary()
+  if (updateSecondary) await updateSecondaryFn()
   if (createData) await createDataJSON()
   if (score) await createScores()
   if (!createReadme) return
@@ -203,11 +203,11 @@ async function populate({
 }
 
 populate({
-  fromSelfrefactor: true,
-  update       : false,
-  createData   : false,
-  score        : false,
-  createReadme : false,
+  fromSelfrefactor: false,
+  updateSecondary       : false,
+  createData   : true,
+  score        : true,
+  createReadme : true,
 })
   .then(console.log)
   .catch(console.log)

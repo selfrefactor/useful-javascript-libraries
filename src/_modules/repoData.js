@@ -37,7 +37,6 @@ async function repoData(input) {
     }catch(e){
       isLibrary = false
     }
-    console.log({isLibrary})
 
     const picked = pick(
       'language,name,description,html_url,updated_at,stargazers_count,open_issues',
