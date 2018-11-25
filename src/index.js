@@ -24,6 +24,7 @@ import { repoData as repoDataModule } from './_modules/repoData'
 import { getScore } from './_modules/getScore'
 import { titleCase } from 'string-fn'
 
+const BOOKMARKS = `${ __dirname }/links.txt`
 const SECONDARY_INPUT = `${ __dirname }/gists.json`
 const SECONDARY_OUTPUT = `${ __dirname }/linksSecondary.txt`
 const LINKS = `${ __dirname }/links.json`
@@ -69,7 +70,7 @@ async function generateLinks(bookmarksContent) {
 
 async function createDataJSON() {
   const bookmarksContent = readFileSync(
-    `${ __dirname }/links.txt`
+    BOOKMARKS
   ).toString()
 
   const bookmarksContentSecondary = readFileSync(
@@ -150,12 +151,27 @@ function isJS(x) {
   )
 }
 
+async function updateFromSelfrefactor(){
+  const base = 'https://api.github.com/users/selfrefactor'
+  const starsUrl = `${base}/starred`
+  const watchesUrl = `${base}/subscriptions`
+  const {data: stars} = await get(starsUrl)
+  const {data: watches} = await get(watchesUrl)
+
+  const links = [...stars, ...watches].map(prop('html_url')).join('\n')
+  const bookmarks = readFileSync(BOOKMARKS).toString()
+
+  writeFileSync(BOOKMARKS, `${bookmarks}\n${links}`)
+}
+
 async function populate({
   createData,
   createReadme,
   score,
   update,
+  fromSelfrefactor,
 }) {
+  if (fromSelfrefactor) await updateFromSelfrefactor()
   if (update) await updateSecondary()
   if (createData) await createDataJSON()
   if (score) await createScores()
@@ -187,10 +203,11 @@ async function populate({
 }
 
 populate({
+  fromSelfrefactor: true,
   update       : false,
   createData   : false,
-  score        : true,
-  createReadme : true,
+  score        : false,
+  createReadme : false,
 })
   .then(console.log)
   .catch(console.log)
