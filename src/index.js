@@ -19,7 +19,6 @@ const {
 const { get } = require('axios')
 const { readFileSync, writeFileSync } = require('fs')
 const { writeJSONSync, readJSONSync } = require('fs-extra')
-s()
 const { bookmarksToLinks } = require('./_modules/bookmarksToLinks')
 const { getScore } = require('./_modules/getScore')
 const { repoData: repoDataModule } = require('./_modules/repoData')
@@ -40,6 +39,7 @@ const TEMPLATE = [
 ].join('\n\n')
 
 const TEMPLATE_NO_DESC = '## [{{title}}]({{url}})'
+s()
 
 async function generateLinks(bookmarksContent) {
   const allLinks = bookmarksContent
@@ -50,8 +50,9 @@ async function generateLinks(bookmarksContent) {
     .s(
       filter(x => x.includes('github.com') || x.includes('npmjs'))
     )
-  //.s(take(11))
 
+  //.s(take(11))
+  console.log({allLinks: allLinks.length})    
   const withCorrectLinks = await mapAsync(async x => {
     if (x.includes('github.com')) return x
     const url = await toGithubURL(x)
@@ -82,10 +83,11 @@ async function createDataJSON() {
     bookmarksContentSecondary
   )
 
-  writeJSONSync(LINKS, {
-    links,
-    linksSecondary,
-  })
+  writeJSONSync(
+    LINKS, 
+    { links, linksSecondary},
+    {spaces:'\t'}
+  )
 }
 
 async function createScores() {
@@ -110,7 +112,11 @@ async function createScores() {
     score : getScore(x, true),
   }))
 
-  writeJSONSync(REPO_DATA, { repoData : [ ...score, ...scoreSecondary ] })
+  writeJSONSync(
+    REPO_DATA, 
+    { repoData : [ ...score, ...scoreSecondary ] },
+    { spaces: '\t'}
+  )
 }
 
 async function updateSecondaryFn() {
@@ -203,12 +209,12 @@ async function populate({
 }
 
 populate({
-  bookmarks        : true,
+  bookmarks        : false,
   fromSelfrefactor : false,
   updateSecondary  : false,
   createData       : false,
   score            : false,
-  createReadme     : false,
+  createReadme     : true,
 })
   .then(console.log)
   .catch(console.log)

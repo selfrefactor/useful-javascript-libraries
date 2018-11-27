@@ -1,5 +1,5 @@
 const { get } = require('axios')
-const { takeLast, pick, multiline } = require('rambdax')
+const { takeLast, pick, glue } = require('rambdax')
 
 async function repoData(input) {
   try {
@@ -7,7 +7,7 @@ async function repoData(input) {
     if (splitted.length !== 5) return false
     const [ owner, repo ] = takeLast(2, splitted)
 
-    const url = multiline(`
+    const url = glue(`
       https://api.github.com
       repos
       ${ owner }
@@ -21,7 +21,7 @@ async function repoData(input) {
       repo,
     })
 
-    const packageJsonUrl = multiline(`
+    const packageJsonUrl = glue(`
       https://api.github.com
       repos
       ${ owner }
