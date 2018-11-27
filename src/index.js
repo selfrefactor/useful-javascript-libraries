@@ -1,8 +1,8 @@
 require('env')('special')
-import { get } from 'axios'
-import { readFileSync, writeFileSync } from 'fs'
-import { writeJSONSync, readJSONSync } from 'fs-extra'
-import {
+const { get } = require('axios')
+const { readFileSync, writeFileSync } =  require('fs')
+const { writeJSONSync, readJSONSync } = require('fs-extra')
+const {
   anyTrue,
   complement,
   filter,
@@ -18,11 +18,13 @@ import {
   sort,
   template,
   uniqWith,
-} from 'rambdax'
-import { toGithubURL } from './_modules/toGithubURL'
-import { repoData as repoDataModule } from './_modules/repoData'
-import { getScore } from './_modules/getScore'
-import { titleCase } from 'string-fn'
+} = require('rambdax')
+s()
+const { toGithubURL } = require('./_modules/toGithubURL')
+const { repoData: repoDataModule } = require('./_modules/repoData')
+const { getScore } = require('./_modules/getScore')
+const { bookmarksToLinks } = require('./_modules/bookmarksToLinks')
+const { titleCase } = require('string-fn')
 
 const BOOKMARKS = `${ __dirname }/links.txt`
 const SECONDARY_INPUT = `${ __dirname }/gists.json`
@@ -38,8 +40,6 @@ const TEMPLATE = [
 ].join('\n\n')
 
 const TEMPLATE_NO_DESC = '## [{{title}}]({{url}})'
-
-s()
 
 async function generateLinks(bookmarksContent) {
   const allLinks = bookmarksContent
@@ -88,7 +88,7 @@ async function createDataJSON() {
   })
 }
 
-export async function createScores() {
+async function createScores() {
   const { links, linksSecondary } = readJSONSync(LINKS)
   const withRepoDataRaw = await mapAsync(repoDataModule, links)
   const withRepoDataSecondaryRaw = await mapAsync(
@@ -165,12 +165,14 @@ async function updateFromSelfrefactor(){
 }
 
 async function populate({
+  bookmarks,
   createData,
   createReadme,
   score,
   updateSecondary,
   fromSelfrefactor,
 }) {
+  if (bookmarks) bookmarksToLinks(BOOKMARKS)
   if (fromSelfrefactor) await updateFromSelfrefactor()
   if (updateSecondary) await updateSecondaryFn()
   if (createData) await createDataJSON()
@@ -203,11 +205,12 @@ async function populate({
 }
 
 populate({
+  bookmarks: true,
   fromSelfrefactor: false,
   updateSecondary       : false,
-  createData   : true,
-  score        : true,
-  createReadme : true,
+  createData   : false,
+  score        : false,
+  createReadme : false,
 })
   .then(console.log)
   .catch(console.log)

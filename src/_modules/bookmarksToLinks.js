@@ -1,11 +1,15 @@
 const dayjs = require('dayjs')
 const { match, anyTrue, remove } = require('rambdax')
 const { readFileSync, writeFileSync } = require('fs')
+const { resolve } = require('path')
 
 const today = dayjs().format('MM_DD_YY')
-const FILE = `./bookmarks_${ today }.html`
+const FILE = resolve(
+  __dirname,
+  `../../files/bookmarks_${ today }.html`
+)  
 const GITHUB_MARKER = 'https://github.com/'
-const NPM_MARKER = 'http://npmjs.com/package/'
+const NPM_MARKER = 'https://www.npmjs.com/package/'
 
 function bookmarksToLinks(output){
   const content = readFileSync(FILE).toString()

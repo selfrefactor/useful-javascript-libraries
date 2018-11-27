@@ -21,12 +21,9 @@
     "axios": "^0.18.0",
     "dayjs": "^1.7.7",
     "env": "https://github.com/selfrefactor/env#0.2.0",
-    "esm": "^3.0.84",
     "fs-extra": "^7.0.1",
-    "jsdom": "^13.0.0",
-    "loading-bar": "https://github.com/selfrefactor/loading-bar#0.4.1",
     "rambdax": "^0.24.0",
-    "string-fn": "^1.7.0"
+    "string-fn": "^1.8.0"
   },
   "devDependencies": {
     "jest": "^23.6.0"
