@@ -12,7 +12,7 @@ async function repoData(input) {
       repos
       ${ owner }
       ${ repo }?access_token=${ process.env.GITHUB }  
-    `,'/')
+    `, '/')
 
     const { status, data } = await get(url)
     if (status > 200) return false
@@ -28,13 +28,13 @@ async function repoData(input) {
       ${ repo }
       contents
       package.json?access_token=${ process.env.GITHUB }  
-    `,'/')
+    `, '/')
 
     let isLibrary
-    try{
+    try {
       await get(packageJsonUrl)
       isLibrary = true
-    }catch(e){
+    } catch (e){
       isLibrary = false
     }
 
@@ -45,7 +45,7 @@ async function repoData(input) {
 
     return {
       ...picked,
-      isLibrary
+      isLibrary,
     }
   } catch (error) {
     return false

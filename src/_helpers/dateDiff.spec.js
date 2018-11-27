@@ -1,4 +1,4 @@
-const {dateDiff} = require('./dateDiff')
+const { dateDiff } = require('./dateDiff')
 
 test('same day', () => {
   const a = '2018-11-12T13:51:57Z'

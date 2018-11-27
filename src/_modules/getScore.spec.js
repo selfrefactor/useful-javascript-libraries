@@ -1,30 +1,33 @@
 /**
  * @jest-environment node
  */
-const {getScore} = require('./getScore')
-const {repoData} = require('./repoData')
-const {sort} = require('rambdax')
+const { getScore } = require('./getScore')
+const { repoData } = require('./repoData')
+const { sort } = require('rambdax')
 
 const first = {
-  updated_at: '2018-11-12T13:51:57Z',
-  stargazers_count: 37,
-  open_issues: 0,
+  updated_at       : '2018-11-12T13:51:57Z',
+  stargazers_count : 37,
+  open_issues      : 0,
 }
 const second = {
-  updated_at: '2018-11-01T07:41:55Z',
-  stargazers_count: 183,
-  open_issues: 9,
+  updated_at       : '2018-11-01T07:41:55Z',
+  stargazers_count : 183,
+  open_issues      : 9,
 }
 const third = {
-  updated_at: '2018-09-14T07:41:55Z',
-  stargazers_count: 407,
-  open_issues: 30,
+  updated_at       : '2018-09-14T07:41:55Z',
+  stargazers_count : 407,
+  open_issues      : 30,
 }
 
 test('second is better', () => {
   const firstScore = getScore(first)
   const secondScore = getScore(second)
-  console.log({firstScore, secondScore})
+  console.log({
+    firstScore,
+    secondScore,
+  })
 
   expect(firstScore).toBeLessThan(secondScore)
 })
@@ -32,7 +35,7 @@ test('second is better', () => {
 test('third is better', () => {
   const secondScore = getScore(second)
   const thirdScore = getScore(third)
-  // console.log({thirdScore, secondScore})
+  //console.log({thirdScore, secondScore})
 
   expect(thirdScore).toBeGreaterThan(secondScore)
 })
@@ -40,7 +43,7 @@ test('third is better', () => {
 test('otherFlag has enough influence', () => {
   const firstScore = getScore(first, true)
   const thirdScore = getScore(third)
-  // console.log({thirdScore, firstScore})
+  //console.log({thirdScore, firstScore})
 
   expect(thirdScore).toBeGreaterThan(firstScore)
 })
@@ -52,6 +55,6 @@ test.skip('', async () => {
 
   const firstData = await repoData(firstURL)
   const secondData = await repoData(secondURL)
-  const sorted = sort(getScore, [firstData, secondData])
-  expect(sorted[0]).toEqual(secondData)
+  const sorted = sort(getScore, [ firstData, secondData ])
+  expect(sorted[ 0 ]).toStrictEqual(secondData)
 })

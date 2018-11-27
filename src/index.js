@@ -1,7 +1,4 @@
 require('env')('special')
-const { get } = require('axios')
-const { readFileSync, writeFileSync } =  require('fs')
-const { writeJSONSync, readJSONSync } = require('fs-extra')
 const {
   anyTrue,
   complement,
@@ -19,12 +16,15 @@ const {
   template,
   uniqWith,
 } = require('rambdax')
+const { get } = require('axios')
+const { readFileSync, writeFileSync } = require('fs')
+const { writeJSONSync, readJSONSync } = require('fs-extra')
 s()
-const { toGithubURL } = require('./_modules/toGithubURL')
-const { repoData: repoDataModule } = require('./_modules/repoData')
-const { getScore } = require('./_modules/getScore')
 const { bookmarksToLinks } = require('./_modules/bookmarksToLinks')
+const { getScore } = require('./_modules/getScore')
+const { repoData: repoDataModule } = require('./_modules/repoData')
 const { titleCase } = require('string-fn')
+const { toGithubURL } = require('./_modules/toGithubURL')
 
 const BOOKMARKS = `${ __dirname }/links.txt`
 const SECONDARY_INPUT = `${ __dirname }/gists.json`
@@ -50,7 +50,7 @@ async function generateLinks(bookmarksContent) {
     .s(
       filter(x => x.includes('github.com') || x.includes('npmjs'))
     )
-  // .s(take(11))
+  //.s(take(11))
 
   const withCorrectLinks = await mapAsync(async x => {
     if (x.includes('github.com')) return x
@@ -153,15 +153,15 @@ function isJS(x) {
 
 async function updateFromSelfrefactor(){
   const base = 'https://api.github.com/users/selfrefactor'
-  const starsUrl = `${base}/starred`
-  const watchesUrl = `${base}/subscriptions`
-  const {data: stars} = await get(starsUrl)
-  const {data: watches} = await get(watchesUrl)
+  const starsUrl = `${ base }/starred`
+  const watchesUrl = `${ base }/subscriptions`
+  const { data: stars } = await get(starsUrl)
+  const { data: watches } = await get(watchesUrl)
 
-  const links = [...stars, ...watches].map(prop('html_url')).join('\n')
+  const links = [ ...stars, ...watches ].map(prop('html_url')).join('\n')
   const bookmarks = readFileSync(BOOKMARKS).toString()
 
-  writeFileSync(BOOKMARKS, `${bookmarks}\n${links}`)
+  writeFileSync(BOOKMARKS, `${ bookmarks }\n${ links }`)
 }
 
 async function populate({
@@ -180,9 +180,7 @@ async function populate({
   if (!createReadme) return
 
   const { repoData } = readJSONSync(REPO_DATA)
-  const sorted = sort((a,b) => {
-    return b.score - a.score
-  }, repoData)
+  const sorted = sort((a, b) => b.score - a.score, repoData)
   const soUniq = uniqWith((a, b) => a.name === b.name, sorted)
 
   const jsRelated = soUniq.filter(isJS)
@@ -205,12 +203,12 @@ async function populate({
 }
 
 populate({
-  bookmarks: true,
-  fromSelfrefactor: false,
-  updateSecondary       : false,
-  createData   : false,
-  score        : false,
-  createReadme : false,
+  bookmarks        : true,
+  fromSelfrefactor : false,
+  updateSecondary  : false,
+  createData       : false,
+  score            : false,
+  createReadme     : false,
 })
   .then(console.log)
   .catch(console.log)

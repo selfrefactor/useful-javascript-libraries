@@ -1,4 +1,4 @@
-const {toGithubURL} = require('./toGithubURL')
+const { toGithubURL } = require('./toGithubURL')
 
 test('', async () => {
   const from = 'https://www.npmjs.com/package/rambda'

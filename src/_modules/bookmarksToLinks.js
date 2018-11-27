@@ -7,7 +7,7 @@ const today = dayjs().format('MM_DD_YY')
 const FILE = resolve(
   __dirname,
   `../../files/bookmarks_${ today }.html`
-)  
+)
 const GITHUB_MARKER = 'https://github.com/'
 const NPM_MARKER = 'https://www.npmjs.com/package/'
 
