@@ -1,1886 +1,3342 @@
-# 261 Useful Javascript libraries
+[![CircleCI](https://img.shields.io/circleci/project/github/selfrefactor/rambdax.svg)](https://circleci.com/gh/selfrefactor/rambdax)
+[![codecov](https://codecov.io/gh/selfrefactor/rambdax/branch/master/graph/badge.svg)](https://codecov.io/gh/selfrefactor/rambdax)
 
-## [Reveal Js](https://github.com/hakimel/reveal.js)
+# Rambdax
 
-> The HTML Presentation Framework
+Extended version of Rambda(utility library) - [Documentation](https://selfrefactor.github.io/rambdax/#/)
 
-## [Seconds Of Code](https://github.com/30-seconds/30-seconds-of-code)
+## Simple example
 
-> Curated collection of useful JavaScript snippets that you can understand in 30 seconds or less.
+```
+const R = require("rambdax")
 
-## [Anime](https://github.com/juliangarnier/anime)
+const result = R.compose(
+  R.filter(val => val>2),
+  R.flatten,
+)([ [1], [2], [3], 4])
+console.log(result) // => [3, 4]
+```
 
-> JavaScript Animation Engine
+## How to use it
 
-## [Dragula](https://github.com/bevacqua/dragula)
+Simple `yarn add rambdax` is sufficient
 
-> :ok_hand: Drag and drop so simple it hurts
+> ES5 compatible version - `yarn add rambdax#0.8.0`
 
-## [Webtorrent](https://github.com/webtorrent/webtorrent)
+## Differences between Rambda and Ramdax
 
-> ⚡️ Streaming torrent client for the web
+Rambdax passthrough all [Rambda](https://github.com/selfrefactor/rambda) methods and introduce some new functions.
 
-## [Nprogress](https://github.com/rstacruz/nprogress)
+The idea of **Rambdax** is to extend **Rambda** without worring for **Ramda** compatibility.
 
-> For slim progress bars like on YouTube, Medium, etc
+- `Rambdax` replaces `Rambda`'s `is` with very different method. Check the API below for further details.
 
-## [Date Fns](https://github.com/date-fns/date-fns)
+## Typescript
 
-> ⏳ Modern JavaScript date utility library ⌛️
+You will need at least version `3.0.0` for `Rambdax` versions after `0.12.0`.
 
-## [Tesseract Js](https://github.com/naptha/tesseract.js)
+## API
 
-> Pure Javascript OCR for 62 Languages 📖🎉🖥
-
-## [Blessed Contrib](https://github.com/yaronn/blessed-contrib)
-
-> Build terminal dashboards using ascii/ansi art and javascript
-
-## [Js Cookie](https://github.com/js-cookie/js-cookie)
-
-> A simple, lightweight JavaScript API for handling browser cookies
-
-## [Pell](https://github.com/jaredreich/pell)
-
-> 📝 the simplest and smallest WYSIWYG text editor for web, with no dependencies
-
-## [React Native Vector Icons](https://github.com/oblador/react-native-vector-icons)
-
-> Customizable Icons for React Native with support for NavBar/TabBar/ToolbarAndroid, image source and full styling.
-
-## [Ws](https://github.com/websockets/ws)
-
-> Simple to use, blazing fast and thoroughly tested WebSocket client and server for Node.js
-
-## [Lazysizes](https://github.com/aFarkas/lazysizes)
-
-> High performance and SEO friendly lazy loader for images (responsive and normal), iframes and more, that detects any visibility changes triggered through user interaction, CSS or JavaScript without configuration.
-
-## [File Saver Js](https://github.com/eligrey/FileSaver.js)
-
-> An HTML5 saveAs() FileSaver implementation
-
-## [Kue](https://github.com/Automattic/kue)
-
-> Kue is a priority job queue backed by redis, built for node.js.
-
-## [Insomnia](https://github.com/getinsomnia/insomnia)
-
-> Cross-platform HTTP and GraphQL Client
-
-## [Shelljs](https://github.com/shelljs/shelljs)
-
-> :shell: Portable Unix shell commands for Node.js
-
-## [Blessed](https://github.com/chjj/blessed)
-
-> A high-level terminal interface library for node.js.
-
-## [Ungit](https://github.com/FredrikNoren/ungit)
-
-> The easiest way to use git. On any platform. Anywhere.
-
-## [Ndb](https://github.com/GoogleChromeLabs/ndb)
-
-> ndb is an improved debugging experience for Node.js, enabled by Chrome DevTools
-
-## [Favico Js](https://github.com/ejci/favico.js)
-
-> Make use of your favicon with badges, images or videos
-
-## [Gremlins Js](https://github.com/marmelab/gremlins.js)
-
-> Monkey testing library for web apps and Node.js
-
-## [Uncss](https://github.com/uncss/uncss)
-
-> Remove unused styles from CSS
-
-## [Jimp](https://github.com/oliver-moran/jimp)
-
-> An image processing library written entirely in JavaScript for Node, with zero external or native dependencies.
-
-## [Luxon](https://github.com/moment/luxon)
-
-> ⏱ A library for working with dates and times in JS
-
-## [You Dont Need Momentjs](https://github.com/you-dont-need/You-Dont-Need-Momentjs)
-
-> List of date-fns or native functions which you can use to replace moment.js + ESLint Plugin
-
-## [Brain Js](https://github.com/BrainJS/brain.js)
-
-> 🤖 Neural networks in JavaScript
-
-## [Ink](https://github.com/vadimdemedes/ink)
-
-> 🌈 React for interactive command-line apps
-
-## [Terminalizer](https://github.com/faressoft/terminalizer)
-
-> 🦄 Record your terminal and generate animated gif images or share a web player
-
-## [Wired Elements](https://github.com/wiredjs/wired-elements)
-
-> Collection of elements that appear hand drawn. Great for wireframes.
-
-## [Nanoid](https://github.com/ai/nanoid)
-
-> A tiny (141 bytes), secure, URL-friendly, unique string ID generator for JavaScript
-
-## [Node Schedule](https://github.com/node-schedule/node-schedule)
-
-> A cron-like and not-cron-like job scheduler for Node.
-
-## [Tone Js](https://github.com/Tonejs/Tone.js)
-
-> A Web Audio framework for making interactive music in the browser.
-
-## [Uri Js](https://github.com/medialize/URI.js)
-
-> Javascript URL mutation library
-
-## [Stats Js](https://github.com/mrdoob/stats.js)
-
-> JavaScript Performance Monitor
-
-## [Agenda](https://github.com/agenda/agenda)
-
-> Lightweight job scheduling for Node.js
-
-## [Slap](https://github.com/slap-editor/slap)
-
-> Sublime-like terminal-based text editor
-
-## [Vorpal](https://github.com/dthree/vorpal)
-
-> Node's framework for interactive CLIs
-
-## [Rax](https://github.com/alibaba/rax)
-
-> :tophat: A hyperscript render engine.
-
-## [Ramjet](https://github.com/Rich-Harris/ramjet)
-
-> Morph DOM elements from one state to another with smooth animations and transitions
-
-## [Animateplus](https://github.com/bendc/animateplus)
-
-> A+ animation module for the modern web
-
-## [Mdx](https://github.com/mdx-js/mdx)
-
-> JSX in Markdown for ambitious projects
-
-## [Wappalyzer](https://github.com/AliasIO/Wappalyzer)
-
-> Cross-platform utility that uncovers the technologies used on websites.
-
-## [Lozad Js](https://github.com/ApoorvSaxena/lozad.js)
-
-> 🔥  Highly performant, light ~0.9kb and configurable lazy loader in pure JS with no dependencies for responsive images, iframes and more
-
-## [Up Up](https://github.com/TalAter/UpUp)
-
-> ✈️ Easily create sites that work offline as well as online
-
-## [R](https://github.com/mikeal/r2)
-
-> HTTP client. Spiritual successor to request.
-
-## [Hopscotch](https://github.com/linkedin/hopscotch)
-
-> A framework to make it easy for developers to add product tours to their pages.
-
-## [Remarkable](https://github.com/jonschlinkert/remarkable)
-
-> Markdown parser, done right. Commonmark support, extensions, syntax plugins, high speed - all in one. Gulp and metalsmith plugins are also available. See https://github.com/breakdance/breakdance for HTML-to-markdown conversion.
-
-## [In View](https://github.com/camwiegert/in-view)
-
-> Get notified when a DOM element enters or exits the viewport. :eyes:
-
-## [Mqtt Js](https://github.com/mqttjs/MQTT.js)
-
-> The MQTT client for Node.js and the browser
-
-## [Autotrack](https://github.com/googleanalytics/autotrack)
-
-> Automatic and enhanced Google Analytics tracking for common user interactions on the web.
-
-## [Lost](https://github.com/peterramsing/lost)
-
-> LostGrid is a powerful grid system built in PostCSS that works with any preprocessor and even vanilla CSS.
-
-## [Collect Js](https://github.com/ecrmnn/collect.js)
-
-> 💎 Convenient and dependency free wrapper for working with arrays and objects
-
-## [Minify](https://github.com/babel/minify)
-
-> :scissors: An ES6+ aware minifier based on the Babel toolchain (beta)
-
-## [Neurojs](https://github.com/janhuenermann/neurojs)
-
-> A javascript deep learning and reinforcement learning library.
-
-## [Redbird](https://github.com/OptimalBits/redbird)
-
-> A modern reverse proxy for node
-
-## [Greenlet](https://github.com/developit/greenlet)
-
-> 🦎 Move an async function into its own thread.
-
-## [Exercises](https://github.com/kolodny/exercises)
-
-> Some basic javascript coding challenges and interview questions
-
-## [Nodejs Dashboard](https://github.com/FormidableLabs/nodejs-dashboard)
-
-> Telemetry dashboard for node.js apps from the terminal!
-
-## [Engineer Manager](https://github.com/ryanburgess/engineer-manager)
-
-> A list of engineering manager resource links.
-
-## [Vtop](https://github.com/MrRio/vtop)
-
-> Wow such top. So stats. More better than regular top.
-
-## [Teachable Machine](https://github.com/googlecreativelab/teachable-machine)
-
-> Explore how machine learning works, live in the browser. No coding required.
-
-## [Css Element Queries](https://github.com/marcj/css-element-queries)
-
-> CSS Element-Queries aka Container Queries. High-speed element dimension/media queries in valid css.
-
-## [Bowser](https://github.com/lancedikson/bowser)
-
-> a browser detector
-
-## [Workerize](https://github.com/developit/workerize)
-
-> 🏗️ Run a module in a Web Worker.
-
-## [Web Animations Js](https://github.com/web-animations/web-animations-js)
-
-> JavaScript implementation of the Web Animations API
-
-## [Big](https://github.com/tmcw/big)
-
-> presentations for busy messy hackers
-
-## [Bottender](https://github.com/Yoctol/bottender)
-
-> ⚡️ Make Bots Your Way. Fast and Flexible.
-
-## [Express Status Monitor](https://github.com/RafalWilinski/express-status-monitor)
-
-> 🚀 Realtime Monitoring solution for Node.js/Express.js apps, inspired by status.github.com
-
-## [Pwa](https://github.com/lukeed/pwa)
-
-> (WIP) Universal PWA Builder
-
-## [Rewire](https://github.com/jhnns/rewire)
-
-> Easy monkey-patching for node.js unit tests
-
-## [Toxy](https://github.com/h2non/toxy)
-
-> Hackable HTTP proxy for resiliency testing and simulated network conditions
-
-## [Node Lru Cache](https://github.com/isaacs/node-lru-cache)
-
-## [Regexgen](https://github.com/devongovett/regexgen)
-
-> Generate regular expressions that match a set of strings
-
-## [Binaryjs](https://github.com/binaryjs/binaryjs)
-
-> Node binary websocket streaming made easy
-
-## [Cost Of Modules](https://github.com/siddharthkp/cost-of-modules)
-
-> Find out which of your dependencies are slowing you down 🐢
-
-## [Release](https://github.com/zeit/release)
-
-> Generate changelogs with a single command
-
-## [Code Surfer](https://github.com/pomber/code-surfer)
-
-> React component for scrolling, zooming and highlighting code samples <🏄/>
-
-## [Media Stream Recorder](https://github.com/streamproc/MediaStreamRecorder)
-
-> Cross browser audio/video/screen recording. It supports Chrome, Firefox, Opera and Microsoft Edge. It even works on Android browsers. It follows latest MediaRecorder API standards and provides similar APIs.
-
-## [Madge](https://github.com/pahen/madge)
-
-> Create graphs from your CommonJS, AMD or ES6 module dependencies
-
-## [Platform Js](https://github.com/bestiejs/platform.js)
-
-> A platform detection library.
-
-## [Loadjs](https://github.com/muicss/loadjs)
-
-> A tiny async loader / dependency manager for modern browsers (789 bytes)
-
-## [Trevor](https://github.com/vadimdemedes/trevor)
-
-> 🚦 Your own mini Travis CI to run tests locally
-
-## [Eslint Plugin Compat](https://github.com/amilajack/eslint-plugin-compat)
-
-> Lint the browser compatibility of your code
-
-## [React Perf Devtool](https://github.com/nitin42/react-perf-devtool)
-
-> A browser developer tool extension to inspect performance of React components.
-
-## [Beidou](https://github.com/alibaba/beidou)
-
-> :milky_way: Isomorphic framework for server-rendered React apps
-
-## [Diff](https://github.com/flitbit/diff)
-
-> Javascript utility for calculating deep difference, capturing changes, and applying changes across objects; for nodejs and the browser.
-
-## [React Sight](https://github.com/React-Sight/React-Sight)
-
-> Visualization tool for React, with support for Fiber, Router (v4), and Redux
-
-## [Fast Memoize Js](https://github.com/caiogondim/fast-memoize.js)
-
-> :rabbit2: Fastest possible memoization library
-
-## [Speedracer](https://github.com/speedracer/speedracer)
-
-> Collect performance metrics for your library/application.
-
-## [Tui Image Editor](https://github.com/nhnent/tui.image-editor)
-
-> 🍞🎨 Full-featured photo image editor using canvas. It is really easy, and it comes with great filters.
-
-## [Emergence Js](https://github.com/xtianmiller/emergence.js)
-
-> Detect element visibility in the browser
-
-## [Preload Webpack Plugin](https://github.com/GoogleChromeLabs/preload-webpack-plugin)
-
-> A webpack plugin for injecting <link rel='preload|prefecth'> into HtmlWebpackPlugin pages, with async chunk support
-
-## [Kss Node](https://github.com/kss-node/kss-node)
-
-> The Node.js implementation of KSS: a methodology for documenting CSS and generating style guides
-
-## [Chromatism](https://github.com/toish/chromatism)
-
-> :rainbow: A simple set of utility functions for colours.
-
-## [Juice Shop](https://github.com/bkimminich/juice-shop)
-
-> OWASP Juice Shop is an intentionally insecure webapp for security trainings written entirely in Javascript which encompasses the entire OWASP Top Ten and other severe security flaws.
-
-## [Lusca](https://github.com/krakenjs/lusca)
-
-> Application security for express apps.
-
-## [Busboy](https://github.com/mscdex/busboy)
-
-> A streaming parser for HTML form data for node.js
-
-## [React Media](https://github.com/ReactTraining/react-media)
-
-> CSS media queries for React
-
-## [Loadtest](https://github.com/alexfernandez/loadtest)
-
-> Runs a load test on the selected URL. Easy to extend minimally for your own ends.
-
-## [Timing Js](https://github.com/addyosmani/timing.js)
-
-> Navigation Timing API measurement helpers
-
-## [Dockly](https://github.com/lirantal/dockly)
-
-> Immersive terminal interface for managing docker containers and services
-
-## [Terminal In React](https://github.com/nitin42/terminal-in-react)
-
-> 👨‍💻  A component that renders a terminal
-
-## [Pwa Builder Cli](https://github.com/pwa-builder/PWABuilder-CLI)
-
-> Node.js tool for App Generation
-
-## [Serialize Javascript](https://github.com/yahoo/serialize-javascript)
-
-> Serialize JavaScript to a superset of JSON that includes regular expressions and functions.
-
-## [Appmetrics Js](https://github.com/ebidel/appmetrics.js)
-
-> A small (< 1kb) library for measuring things in your web app and reporting the results to Google Analytics.
-
-## [Swup](https://github.com/gmrchk/swup)
-
-> Complete, flexible, easy to use page transition library.
-
-## [Pickr](https://github.com/Simonwep/pickr)
-
-> Flat, simple, responsive and hackable Color-Picker. No dependencies, no jQuery. Compatible with all CSS Frameworks e.g. Bootstrap, Materialize.
-
-## [Remote Browser](https://github.com/intoli/remote-browser)
-
-> A low-level browser automation framework built on top of the Web Extensions API standard.
-
-## [Coach](https://github.com/sitespeedio/coach)
-
-> Clear Eyes. Full Hearts. Can’t Lose.
-
-## [Ml](https://github.com/mljs/ml)
-
-> Machine learning tools in JavaScript
-
-## [Microstates Js](https://github.com/microstates/microstates.js)
-
-> Composable State Primitives for JavaScript
-
-## [X](https://github.com/davidmarkclements/0x)
-
-> 🔥 single-command flamegraph profiling 🔥
-
-## [Chalk Animation](https://github.com/bokub/chalk-animation)
-
-> :clapper: Colorful animations in terminal output
-
-## [Page Accelerator](https://github.com/Easyfood/pageAccelerator)
-
-> A very light solution to load web pages faster
-
-## [Workerize Loader](https://github.com/developit/workerize-loader)
-
-> 🏗️ Automatically move a module into a Web Worker (Webpack loader)
-
-## [Eslint Config Cleanjs](https://github.com/bodil/eslint-config-cleanjs)
-
-> An eslint config which reduces JS to a pure functional language
-
-## [Ervy](https://github.com/chunqiuyiyu/ervy)
-
-> Bring charts to terminal.
-
-## [Node Cache](https://github.com/ptarjan/node-cache)
-
-> A simple in-memory cache for nodejs
-
-## [Webpackbar](https://github.com/nuxt/webpackbar)
-
-> Elegant ProgressBar and Profiler for Webpack 3 and 4
-
-## [Flamebearer](https://github.com/mapbox/flamebearer)
-
-> Blazing fast flame graph tool for V8 and Node 🔥
-
-## [Sifter Js](https://github.com/brianreavis/sifter.js)
-
-> A library for textually searching arrays and hashes of objects by property (or multiple properties). Designed specifically for autocomplete.
-
-## [Wad](https://github.com/rserota/wad)
-
-> Web Audio DAW.  Use the HTML5 Web Audio API for dynamic sound synthesis.  It's like jQuery for your ears.
-
-## [Node Rate Limiter](https://github.com/jhurliman/node-rate-limiter)
-
-> A generic rate limiter for node.js. Useful for API clients, web crawling, or other tasks that need to be throttled
-
-## [Drift](https://github.com/imgix/drift)
-
-> Easily add "zoom on hover" functionality to your site's images. Lightweight, no-dependency JavaScript.
-
-## [Lqip Loader](https://github.com/zouhir/lqip-loader)
-
-> Low Quality Image Placeholders (LQIP) for Webpack
-
-## [Browser Perf](https://github.com/axemclion/browser-perf)
-
-> Performance Metrics for Web Browsers
-
-## [Limdu](https://github.com/erelsgl/limdu)
-
-> Machine-learning for Node.js
-
-## [Marky](https://github.com/nolanlawson/marky)
-
-> High-resolution JavaScript timer based on performance.mark/measure (461 bytes min+gz)
-
-## [Redux Saga Test Plan](https://github.com/jfairbank/redux-saga-test-plan)
-
-> Test Redux Saga with an easy plan.
-
-## [Node Continuation Local Storage](https://github.com/othiym23/node-continuation-local-storage)
-
-> implementation of https://github.com/joyent/node/issues/5243
-
-## [Iframely](https://github.com/itteco/iframely)
-
-> oEmbed proxy. Supports over 1800 domains via custom parsers, oEmbed, Twitter Cards and Open Graph
-
-## [Memoizee](https://github.com/medikoo/memoizee)
-
-> Complete memoize/cache solution for JavaScript
-
-## [Fuzzyset Js](https://github.com/Glench/fuzzyset.js)
-
-> fuzzyset.js - A fuzzy string set for javascript
-
-## [Postcss Font Magician](https://github.com/jonathantneal/postcss-font-magician)
-
-> Magically generate all the @font-face rules
-
-## [Enzyme To Json](https://github.com/adriantoine/enzyme-to-json)
-
-> Snapshot test your Enzyme wrappers
-
-## [Download](https://github.com/kevva/download)
-
-> Download and extract files
-
-## [Gulp Plumber](https://github.com/floatdrop/gulp-plumber)
-
-> Fixing Node pipes
-
-## [Interfake](https://github.com/basicallydan/interfake)
-
-> :computer: Fake APIs for prototypes & automated tests.
-
-## [Delegated Events](https://github.com/dgraham/delegated-events)
-
-> A small, fast delegated event library for JavaScript.
-
-## [Invariant](https://github.com/zertosh/invariant)
-
-> invariant
-
-## [Publish Please](https://github.com/inikulin/publish-please)
-
-> Safe and highly functional replacement for `npm publish`.
-
-## [Merge Images](https://github.com/lukechilds/merge-images)
-
-> Easily compose images together without messing around with canvas
-
-## [Systeminformation](https://github.com/sebhildebrandt/systeminformation)
-
-> System Information Library for Node.JS
-
-## [Fair Analytics](https://github.com/vesparny/fair-analytics)
-
-> 📊  An analytics server that doesn't undermine user's privacy
-
-## [Mdcss](https://github.com/jonathantneal/mdcss)
-
-> Easily create and maintain style guides using CSS comments
-
-## [Turbo Ws](https://github.com/hugmanrique/turbo-ws)
-
-> :dash: Blazing fast low-level WebSocket server
-
-## [Histore](https://github.com/developit/histore)
-
-> 🏬 200b key-value store backed by navigation state
-
-## [Throng](https://github.com/hunterloftis/throng)
-
-> A simple worker-manager for clustered Node.js apps
-
-## [Kuker](https://github.com/krasimir/kuker)
-
-> Kick-ass browser extension to debug your apps
-
-## [Code Flask](https://github.com/kazzkiq/CodeFlask)
-
-> A micro code-editor for awesome web pages.
-
-## [Inspect Process](https://github.com/jaridmargolin/inspect-process)
-
-> 🔍 Dead simple debugging for node.js using chrome-devtools.
-
-## [Kleur](https://github.com/lukeed/kleur)
-
-> The fastest Node.js library for formatting terminal text with ANSI colors~!
-
-## [Screenlog Js](https://github.com/chinchang/screenlog.js)
-
-> Bring console.log on the screen
-
-## [Konsul](https://github.com/mohebifar/konsul)
-
-> The power you never had with console.log + a react renderer that renders to the browser console
-
-## [Posterus](https://github.com/mitranim/posterus)
-
-> Composable async primitives (futures) with cancelation, control over scheduling, and coroutines
-
-## [Jasmine Matchers](https://github.com/JamieMason/Jasmine-Matchers)
-
-> A huge library of test matchers for Jasmine and Jest.
-
-## [Node Deep Equal](https://github.com/substack/node-deep-equal)
-
-> node's assert.deepEqual algorithm
-
-## [Type Profile](https://github.com/fhinkel/type-profile)
-
-> Collect runtime type information 😻 of your JavaScript code.
-
-## [Electron Devtools Installer](https://github.com/MarshallOfSound/electron-devtools-installer)
-
-> An easy way to ensure Chrome DevTools extensions into Electron
-
-## [Number Flip](https://github.com/gaoryrt/number-flip)
-
-> increase your number with flipping animation
-
-## [Express Limiter](https://github.com/ded/express-limiter)
-
-> Rate limiting middleware for Express
-
-## [Headless Devtools](https://github.com/cowchimp/headless-devtools)
-
-> Lets you perform Chrome DevTools actions from code by leveraging Headless Chrome+Puppeteer
-
-## [Imagemin Cli](https://github.com/imagemin/imagemin-cli)
-
-> Minify images
-
-## [Jest Fetch Mock](https://github.com/jefflau/jest-fetch-mock)
-
-> Jest mock for the fetch polyfill
-
-## [I N Webpack Plugin](https://github.com/webpack-contrib/i18n-webpack-plugin)
-
-> Embed localization into your bundle
-
-## [Columnify](https://github.com/timoxley/columnify)
-
-> Create text-based columns suitable for console output. Supports cell wrapping.
-
-## [Animatelo](https://github.com/gibbok/animatelo)
-
-> Animatelo is a bunch of cool, fun, and cross-browser animations for you to use in your projects. This is a porting to Web Animation API of the fabulous animate.css project.
-
-## [Cfonts](https://github.com/dominikwilkowski/cfonts)
-
-> Sexy fonts for the console
-
-## [Readline Sync](https://github.com/anseki/readline-sync)
-
-> Synchronous Readline for interactively running to have a conversation with the user via a console(TTY).
-
-## [Pretty Ms](https://github.com/sindresorhus/pretty-ms)
-
-> Convert milliseconds to a human readable string: `1337000000` → `15d 11h 23m 20s`
-
-## [Babel Plugin Sitrep](https://github.com/tkh44/babel-plugin-sitrep)
-
-> Log all assignments and the return value of a function with a simple comment
-
-## [Tslint Immutable](https://github.com/jonaskello/tslint-immutable)
-
-> TSLint rules to disable mutation in TypeScript.
-
-## [Locally](https://github.com/ozantunca/locally)
-
-> Locally is a localStorage manager that supports expirable items with timeout values and saves space by compressing them using LZW algorithm.
-
-## [Badgen](https://github.com/amio/badgen)
-
-> Fast handcraft svg badge generator.
-
-## [Webpack Shell Plugin](https://github.com/1337programming/webpack-shell-plugin)
-
-> Run shell commands either before or after webpack builds
-
-## [Git Tutor](https://github.com/lesnitsky/git-tutor)
-
-> :octocat:+md=:heart: Awesome tutorials from your git log
-
-## [Lru Memoize](https://github.com/erikras/lru-memoize)
-
-> A utility to provide LRU memoization for any js function
-
-## [Reclare](https://github.com/oguzgelal/reclare)
-
-> Declarative State and Logic Management
-
-## [Webpack Pwa Manifest](https://github.com/arthurbergmz/webpack-pwa-manifest)
-
-> Progressive Web App Manifest Generator for Webpack, with auto icon resizing and fingerprinting support.
-
-## [Teachable Machine Boilerplate](https://github.com/googlecreativelab/teachable-machine-boilerplate)
-
-> Boilerplate code for Teachable Machine
-
-## [Object Model](https://github.com/sylvainpolletvillard/ObjectModel)
-
-> Strong Dynamically Typed Object Modeling for JavaScript
-
-## [Download Counts](https://github.com/npm/download-counts)
-
-> Background jobs and a minimal service for collecting and delivering download counts
-
-## [Node Suppose](https://github.com/jprichardson/node-suppose)
-
-> Like UNIX Expect, but for Node.js.
-
-## [Node Byline](https://github.com/jahewson/node-byline)
-
-> Line-by-line Stream reader for node.js
-
-## [Intl Relativeformat](https://github.com/yahoo/intl-relativeformat)
-
-> Formats JavaScript dates to relative time strings (e.g., "3 hours ago").
-
-## [Swivel](https://github.com/bevacqua/swivel)
-
-> Message passing between ServiceWorker and pages made simple
-
-## [Stopwords Json](https://github.com/6/stopwords-json)
-
-> Stopwords for 50 languages in JSON format
-
-## [Shrink Ray](https://github.com/aickin/shrink-ray)
-
-> Node.js compression middleware
-
-## [Moment Locales Webpack Plugin](https://github.com/iamakulov/moment-locales-webpack-plugin)
-
-> Easily remove unused Moment.js locales with webpack
-
-## [Scalable](https://github.com/ScriptArtist/Scalable)
-
-> Makes the UI elements scalable to fit inside the container area.
-
-## [Redux Saga Tester](https://github.com/wix/redux-saga-tester)
-
-> Full redux environment testing helper for redux-saga
-
-## [Timm](https://github.com/guigrpa/timm)
-
-> Immutability helpers with fast reads and acceptable writes
-
-## [Mockingoose](https://github.com/alonronin/mockingoose)
-
-> A Jest package for mocking mongoose models
-
-## [Worker Pouch](https://github.com/pouchdb-community/worker-pouch)
-
-> Easy way to use PouchDB inside a Web Worker or Service Worker
-
-## [Esformatter Jsx](https://github.com/royriojas/esformatter-jsx)
-
-> esformatter plugin: format jsx files (or js files with Facebook React JSX Syntax)
-
-## [Create Proton App](https://github.com/albe-rosado/create-proton-app)
-
-> No Configuration Starter Template for Proton Native Apps
-
-## [Web Worker Proxy](https://github.com/satya164/web-worker-proxy)
-
-> A better way of working with web workers
-
-## [Cryptiles](https://github.com/hapijs/cryptiles)
-
-> General purpose crypto utilities
-
-## [Sentry Webpack Plugin](https://github.com/getsentry/sentry-webpack-plugin)
-
-> Official webpack plugin for Sentry https://sentry.io
-
-## [Webpack Lighthouse Plugin](https://github.com/addyosmani/webpack-lighthouse-plugin)
-
-> A Webpack plugin for Lighthouse
-
-## [Scroll Into View](https://github.com/KoryNunn/scroll-into-view)
-
-> Scrolls an element into view if possible
-
-## [Screamer Js](https://github.com/willianjusten/screamer-js)
-
-> Screamer.js is a Vanilla Javascript plugin to provide simple yet fully customisable web notifications using Web Notifications API.
-
-## [Get Screen Media](https://github.com/otalk/getScreenMedia)
-
-> A browser module for attempting to get access to a MediaStream of a user's screen. With a nice node-like API.
-
-## [Postcss Ant](https://github.com/corysimmons/postcss-ant)
-
-> Size-getting function masquerading as a grid system.
-
-## [Sono](https://github.com/Stinkstudios/sono)
-
-> A simple yet powerful JavaScript library for working with Web Audio
-
-## [Http Wrapper](https://github.com/szmarczak/http2-wrapper)
-
-> Use HTTP2 the same way like HTTP1
-
-## [Json Stringify Pretty Compact](https://github.com/lydell/json-stringify-pretty-compact)
-
-> The best of both `JSON.stringify(obj)` and `JSON.stringify(obj, null, indent)`.
-
-## [Freeze Dry](https://github.com/WebMemex/freeze-dry)
-
-> Snapshots a web page to get it as a static, self-contained HTML document.
-
-## [Tour](https://github.com/tourjs/tour)
-
-> Touring and on-boarding for javascript applications
-
-## [Rollup Starter Code Splitting](https://github.com/rollup/rollup-starter-code-splitting)
-
-> Starter project with code-splitting and dynamic imports, for modern and legacy browsers
-
-## [Sandpit](https://github.com/sandpit/sandpit)
-
-> ⛱  A playground for creative coding using JavaScript and the canvas element
-
-## [Lighthouse Badges](https://github.com/emazzotta/lighthouse-badges)
-
-> 🚦Generate gh-badges (shields.io) based on Lighthouse performance.
-
-## [Nightly Js](https://github.com/Fcmam5/nightly.js)
-
-> A zero dependency javascript library that enables the night mode in your website easily
-
-## [Yarnhook](https://github.com/frontsideair/yarnhook)
-
-> Run `yarn install`, `npm install` or `pnpm install` on git hooks automatically
-
-## [Siege Js](https://github.com/kissjs/siege.js)
-
-> http benchmark
-
-## [Ukkonen](https://github.com/sunesimonsen/ukkonen)
-
-> Ukkonen's Approximate String Matching algorithm
-
-## [Text Meme Cli](https://github.com/beatfreaker/text-meme-cli)
-
-> Generate text meme
-
-## [Terminate](https://github.com/dwyl/terminate)
-
-> :recycle: Terminate a Node.js Process (and all Child Processes) based on the Process ID
-
-## [Sh Exec](https://github.com/rwu823/sh-exec)
-
-> 💻 Use `Template literals` write shell script made happy ❤️.
-
-## [Webpack Deadcode Plugin](https://github.com/MQuy/webpack-deadcode-plugin)
-
-> Webpack plugin to detect unused files and unused exports in used files
-
-## [Postcss Font Family System Ui](https://github.com/JLHwung/postcss-font-family-system-ui)
-
-> PostCSS plugin to transform W3C CSS font-family: system-ui to a practical font-family list
-
-## [Now Storage](https://github.com/sergiodxa/now-storage)
-
-> Use Now static deployments to upload and store files.
-
-## [Promise Poller](https://github.com/joeattardi/promise-poller)
-
-> A basic poller built on top of promises
-
-## [Html Security Camera](https://github.com/wesbos/HTML5-Security-Camera)
-
-> HTML5 / Nodejs based security camera / motion detection
-
-## [Nm Prune](https://github.com/pingyhq/nm-prune)
-
-> Prune unneeded files (.md, .td, etc..) from node_modules folder. Super handy for Electron and AWS Lambda.
-
-## [Customerbase](https://github.com/bradtraversy/customerbase)
-
-> GraphQL server using Express and JSON-Server
-
-## [Faltu](https://github.com/moinism/faltu)
-
-> Search sort, filter, limit an array of objects in Mongo-style.
-
-## [Jest Puppe Shots](https://github.com/macku/jest-puppe-shots)
-
-> A Jest plugin for creating screenshots of React components with a little help of Puppeteer
-
-## [Memorystore](https://github.com/roccomuso/memorystore)
-
-> express-session full featured MemoryStore layer without leaks!
-
-## [Disparity](https://github.com/millermedeiros/disparity)
-
-> colorized string diff (char or unified) ideal for text/code that spans through multiple lines
-
-## [Icon Builder Example](https://github.com/necolas/icon-builder-example)
-
-## [Receptacle](https://github.com/DylanPiercey/receptacle)
-
-> 🏪 Multi purpose in memory lru cache with ttl support.
-
-## [Bundle Phobia Cli](https://github.com/AdrieanKhisbe/bundle-phobia-cli)
-
-> Cli for the node BundlePhobia Service
-
-## [Nodestream](https://github.com/nodestream/nodestream)
-
-> Storage-agnostic streaming library for binary data transfers
-
-## [Console Png](https://github.com/aantthony/console-png)
-
-> Print PNG images to terminal output
-
-## [Keyframes Tool](https://github.com/gibbok/keyframes-tool)
-
-> Keyframes-tool is a NodeJs command line tool which convert CSS Animations to a keyframes object suitable for Web Animations API. Use this tool to move your animations from stylesheets to JavaScript.
-
-## [Network Idle Callback](https://github.com/pastelsky/network-idle-callback)
-
-> Like requestIdleCallback, but for detecting network idle
-
-## [Javascript Data Structures And Algorithms](https://github.com/albinotonnina/javascript-data-structures-and-algorithms)
-
-> Exercises, algorithms
-
-## [Route Cache](https://github.com/bradoyler/route-cache)
-
-> ⚡ Caching middleware for Express (w/ expiration)
-
-## [Meme Viewer](https://github.com/AhsanSN/Meme-Viewer)
-
-> A meme viewing software created using Electron that shows you memes on you desktop after every 3 seconds. It also downloads new memes from the internet in the background.
-
-## [Consolemock](https://github.com/ttmarek/consolemock)
-
-> A tool for testing console logs
-
-## [Node Fileset](https://github.com/mklabs/node-fileset)
-
-> Wrapper around miniglob / minimatch combo to allow multiple patterns matching and include-exclude ability
-
-## [Async Chainable](https://github.com/hash-bang/async-chainable)
-
-> An extension to Async adding better handling of mixed Series / Parallel tasks via object chaining
-
-## [Clusterhub](https://github.com/fent/clusterhub)
-
-> Sync data in your cluster applications.
-
-## [Lana Cli](https://github.com/paprikka/lana-cli)
-
-> Lana! NPM scripts with better UX 🏓
-
-## [Object Diff](https://github.com/srcagency/object-diff)
-
-> Find the minimal patch from an original object to one or more updated version
-
-## [Audio Contour](https://github.com/danigb/audio-contour)
-
-> A 5 stage audio envelope generator
-
-## [Socialight](https://github.com/pinceladasdaweb/Socialight)
-
-> Get Social Network Share Counts with Vanilla JS
-
-## [Txr](https://github.com/whatl3y/txr)
-
-> Stream files or directories to other clients using WebSockets.
-
-## [Meddelare Node Counters](https://github.com/meddelare/meddelare-node-counters)
-
-> Node.js promise-based, asynchronous, parallel, per-URL social network share count fetcher -- the base of Meddelare.
-
-## [Postcss Image Set Polyfill](https://github.com/SuperOl3g/postcss-image-set-polyfill)
-
-> PostCSS plugin for polyfilling image-set CSS function
-
-## [Werd](https://github.com/sdgluck/werd)
-
-> :orange_book: Words API for JavaScript w/ CLI (www.wordsapi.com)
-
-## [Evee Js](https://github.com/SplittyDev/evee.js)
-
-> The lightweight es6 event library.
-
-## [Deprecated Chnl](https://github.com/scriptify/-DEPRECATED--Chnl)
-
-> Chnl - one channel, all effects.
-
-## [Whack](https://github.com/trevorlinton/whack)
-
-> A modern TLS/HTTP benchmark and speed analysis tool
-
-## [Puppeteer Network Stats](https://github.com/csabapalfi/puppeteer-network-stats)
-
-> Collect network stats with Puppeteer
-
-## [Babel Plugin Console Perf](https://github.com/kgrz/babel-plugin-console-perf)
-
-> Babel plugin that wraps a function body with console.profile/profileEnd functions that can be used to profile JS functions
-
-## [Memecanvas](https://github.com/Moosylvania/memecanvas)
-
-> Node.js Meme Generator that uses Node-Canvas to render the final image.
-
-## [Esformatter Align](https://github.com/manuelstofer/esformatter-align)
-
-> esformatter alignment plugin
+Methods between `allFalse` and `when` belong to **Rambdax**, while methods between `add` and `without` are inherited from **Rambda**.
 
 ---
+#### allFalse
 
-# 79 Useful React libraries
+> allFalse(...inputs: any[]): boolean
 
-## [Carbon](https://github.com/dawnlabs/carbon)
+It returns `true` if all passed elements return `false` when passed to `Boolean`.
 
-> 🎨 Create and share beautiful images of your source code
+```
+R.allFalse(null, undefined, '')
+//=> true
+```
 
-## [React Navigation](https://github.com/react-navigation/react-navigation)
+[Source](https://github.com/selfrefactor/rambdax/tree/master/src/allFalse.js)
 
-> Routing and navigation for your React Native apps
+[Test](https://github.com/selfrefactor/rambdax/blob/master/src/allFalse.spec.js)
 
-## [Formik](https://github.com/jaredpalmer/formik)
+<a href="https://rambda.now.sh?const%20result%20%3D%20R.allFalse(null%2C%20undefined%2C%20'')%0A%2F%2F%3D%3E%20true">Try in REPL</a>
 
-> Build forms in React, without the tears 😭
-
-## [React Beautiful Dnd](https://github.com/atlassian/react-beautiful-dnd)
-
-> Beautiful and accessible drag and drop for lists with React
-
-## [React Helmet](https://github.com/nfl/react-helmet)
-
-> A document head manager for React
-
-## [Relax](https://github.com/relax/relax)
-
-> New generation CMS on top of React, Redux and GraphQL
-
-## [Spectacle](https://github.com/FormidableLabs/spectacle)
-
-> ReactJS based Presentation Library
-
-## [Victory](https://github.com/FormidableLabs/victory)
-
-> A collection of composable React components for building interactive data visualizations
-
-## [React Native Animatable](https://github.com/oblador/react-native-animatable)
-
-> Standard set of easy to use animations and declarative transitions for React Native
-
-## [React Content Loader](https://github.com/danilowoz/react-content-loader)
-
-> :white_circle: SVG component to create placeholder loading, like Facebook cards loading.
-
-## [Why Did You Update](https://github.com/garbles/why-did-you-update)
-
-> :boom: Puts your console on blast when React is making unnecessary updates.
-
-## [React Draft Wysiwyg](https://github.com/jpuri/react-draft-wysiwyg)
-
-> A Wysiwyg editor build on top of ReactJS and DraftJS. https://jpuri.github.io/react-draft-wysiwyg
-
-## [Fuse Box](https://github.com/fuse-box/fuse-box)
-
-> A blazing fast js bundler/loader with a comprehensive API :fire:
-
-## [Kepler Gl](https://github.com/uber/kepler.gl)
-
-## [React Responsive](https://github.com/contra/react-responsive)
-
-> Media queries in react for responsive design
-
-## [React Lazyload](https://github.com/jasonslyvia/react-lazyload)
-
-> Lazy load your component, image or anything matters the performance.
-
-## [Hackernews React Graphql](https://github.com/clintonwoo/hackernews-react-graphql)
-
-> Hacker News clone rewritten with universal JavaScript, using React and GraphQL.
-
-## [Gestalt](https://github.com/pinterest/gestalt)
-
-> A set of React UI components that supports Pinterest’s design language
-
-## [After Js](https://github.com/jaredpalmer/after.js)
-
-> Next.js-like framework for server-rendered React apps built with React Router 4
-
-## [React Swipeable Views](https://github.com/oliviertassinari/react-swipeable-views)
-
-> A React component for swipeable views. :snowflake:
-
-## [Electron Webpack Dashboard](https://github.com/FormidableLabs/electron-webpack-dashboard)
-
-> Electron Desktop GUI for Webpack Dashboard
-
-## [React Flip Move](https://github.com/joshwcomeau/react-flip-move)
-
-> Effortless animation between DOM changes (eg. list reordering) using the FLIP technique.
-
-## [React Rte](https://github.com/sstur/react-rte)
-
-> Pure React rich text "WYSISYG" editor based on draft-js.
-
-## [Pennywise](https://github.com/kamranahmedse/pennywise)
-
-> Cross-platform application to open any website or media in a floating window
-
-## [Daydream](https://github.com/segmentio/daydream)
-
-> A chrome extension to record your actions into a nightmare or puppeteer script
-
-## [Alm](https://github.com/alm-tools/alm)
-
-> :rose: A :cloud: ready IDE just for TypeScript :heart:
-
-## [Connected React Router](https://github.com/supasate/connected-react-router)
-
-> A Redux binding for React Router v4
-
-## [React Imgpro](https://github.com/nitin42/react-imgpro)
-
-> 📷  Image Processing Component for React
-
-## [Img Css](https://github.com/javierbyte/img2css)
-
-> Convert any image to pure CSS.
-
-## [React Animations](https://github.com/FormidableLabs/react-animations)
-
-> 🎊 A collection of animations for inline style libraries
-
-## [Reactopt](https://github.com/reactopt/reactopt)
-
-> A CLI React performance optimization tool that identifies potential unnecessary re-rendering
-
-## [React Fix It](https://github.com/MicheleBertoli/react-fix-it)
-
-> Automagically generate tests from errors
-
-## [React Player](https://github.com/CookPete/react-player)
-
-> A React component for playing a variety of URLs, including file paths, YouTube, Facebook, Twitch, SoundCloud, Streamable, Vimeo, Wistia and DailyMotion
-
-## [React Tabs](https://github.com/reactjs/react-tabs)
-
-> An accessible and easy tab component for ReactJS.
-
-## [React D Components](https://github.com/codesuki/react-d3-components)
-
-> D3 Components for React
-
-## [React Document Title](https://github.com/gaearon/react-document-title)
-
-> Declarative, nested, stateful, isomorphic document.title for React
-
-## [Rheostat](https://github.com/airbnb/rheostat)
-
-> Rheostat is a www, mobile, and accessible slider component built with React
-
-## [Loadable Components](https://github.com/smooth-code/loadable-components)
-
-> React code splitting made easy ✂️✨
-
-## [React Hotkeys](https://github.com/greena13/react-hotkeys)
-
-> Declarative hotkey and focus area management for React
-
-## [React Tagsinput](https://github.com/olahol/react-tagsinput)
-
-> Highly customizable React component for inputing tags.
-
-## [React Particle Effect Button](https://github.com/transitive-bullshit/react-particle-effect-button)
-
-> Bursting particle effect buttons for React 🎉
-
-## [Relay Starter Kit](https://github.com/facebookarchive/relay-starter-kit)
-
-> Barebones starting point for a Relay application.
-
-## [Smooth Ui](https://github.com/smooth-code/smooth-ui)
-
-> Modern React UI library 💅👩‍🎤🍭
-
-## [Jsx Control Statements](https://github.com/AlexGilleran/jsx-control-statements)
-
-> Neater If and For for React JSX
-
-## [React Hammerjs](https://github.com/JedWatson/react-hammerjs)
-
-> ReactJS / HammerJS integration. Support touch events in your React app.
-
-## [Animate Components](https://github.com/nitin42/animate-components)
-
-> ✨ Elemental components for doing animations in React
-
-## [React Worker Dom](https://github.com/web-perf/react-worker-dom)
-
-> Experiments to see the advantages of using Web Workers to Render React Virtual DOM
-
-## [Mauerwerk](https://github.com/drcmda/mauerwerk)
-
-> ⚒  A react-spring driven masonry-like grid with enter/exit and shared element transitions
-
-## [React Starterify](https://github.com/Granze/react-starterify)
-
-> A minimal React JS application starter kit
-
-## [React Notification](https://github.com/pburtchaell/react-notification)
-
-> Provides snackbar notifications for React
-
-## [Refract](https://github.com/fanduel-oss/refract)
-
-> Harness the power of reactive programming to supercharge your components
-
-## [React Extras](https://github.com/sindresorhus/react-extras)
-
-> Useful components and utilities for working with React
-
-## [React Sortable Pane](https://github.com/bokuweb/react-sortable-pane)
-
-> :sparkles: A sortable and resizable pane component for React.
-
-## [React Log](https://github.com/diegomura/react-log)
-
-> React for the Console
-
-## [React Progressive Image](https://github.com/FormidableLabs/react-progressive-image)
-
-> React component for progressive image loading
-
-## [React Aria Modal](https://github.com/davidtheclark/react-aria-modal)
-
-> A fully accessible React modal built according WAI-ARIA Authoring Practices
-
-## [Letterpad](https://github.com/letterpad/letterpad)
-
-> Letterpad is an open-source and a high performant publishing engine for blogs built with react & graphql and runs ridiculously fast 🚀
-
-## [React Fastclick](https://github.com/JakeSidSmith/react-fastclick)
-
-> Fast Touch Events for React
-
-## [Moize](https://github.com/planttheidea/moize)
-
-> The consistently-fast, complete memoization solution for JS
-
-## [React Event Listener](https://github.com/oliviertassinari/react-event-listener)
-
-> A React component for binding events on the global scope. :dizzy:
-
-## [React Lazyload Fadein](https://github.com/Swizec/react-lazyload-fadein)
-
-> React component to lazyload children with a nice fadein effect.
-
-## [React Simple Img](https://github.com/bluebill1049/react-simple-img)
-
-> 🌅 React lazy load images with IntersectionObserver API
-
-## [React Performance](https://github.com/amsul/react-performance)
-
-> Helpers to debug and record component render performance 🚀
-
-## [Expo And Typescript](https://github.com/janaagaard75/expo-and-typescript)
-
-> Demo app using Expo and TypeScript & Type definitions for the Expo SDK.
-
-## [Timeago React](https://github.com/hustcc/timeago-react)
-
-> :clock8: Simple and efficient react component to format date with `*** time ago` statement. eg: '3 hours ago'.
-
-## [React Render In Browser](https://github.com/flexdinesh/react-render-in-browser)
-
-> A React component to render browser specific content
-
-## [Wcode](https://github.com/fmsouza/wcode)
-
-> Monaco-based code editor which runs inside a browser.
-
-## [React Awesome Modal](https://github.com/shibe97/react-awesome-modal)
-
-> Customizable Modal
-
-## [React Pinterest](https://github.com/pinterest/react-pinterest)
-
-## [Record Desktop](https://github.com/ewnd9/record-desktop)
-
-> :movie_camera: Effortless GIFs and screenshots on Linux, built with Electron.
-
-## [React Google Autocomplete](https://github.com/ErrorPro/react-google-autocomplete)
-
-> React component for google autocomplete.
-
-## [Fastify React](https://github.com/fastify/fastify-react)
-
-> React server side rendering support for Fastify with Next
-
-## [Jest Expo](https://github.com/expo/jest-expo)
-
-> A Jest preset to test your Expo projects
-
-## [Should Enzyme](https://github.com/rkotze/should-enzyme)
-
-> Useful functions for testing React Components with Enzyme.
-
-## [Jest Html](https://github.com/guigrpa/jest-html)
-
-> Preview your Jest snapshots visually in the browser
-
-## [React Dump](https://github.com/mrose/react-dump)
-
-> A visual debugging component for React
-
-## [React Router](https://github.com/router5/react-router5)
-
-> Helpers for using router5 with React [MOVED]
-
-## [Seedux](https://github.com/reduxify/seedux)
-
-> Redux developer tool for data flow visualization and debugging.
-
-## [Syntux](https://github.com/DylanPiercey/Syntux)
-
-> Highlight.js optimized for browserify and react.
 ---
+#### allTrue
 
-# 31 Useful Typescript libraries
+> allTrue(...inputs: any[]): boolean
 
-## [Flatpickr](https://github.com/flatpickr/flatpickr)
+It returns `true` if all passed elements return `true` when passed to `Boolean`.
 
-> lightweight, powerful javascript datetimepicker with no dependencies
+```
+const x = 2
 
-## [Rxdb](https://github.com/pubkey/rxdb)
+const result = R.allTrue([1,2], x > 1, {})
+//=> true
+```
 
-> :computer: :iphone: A realtime Database for the Web
+[Source](https://github.com/selfrefactor/rambdax/tree/master/src/allTrue.js)
 
-## [Nerv](https://github.com/NervJS/nerv)
+[Test](https://github.com/selfrefactor/rambdax/blob/master/src/allTrue.spec.js)
 
-> A blazing fast React alternative, compatible with IE8 and React 16.
+<a href="https://rambda.now.sh?const%20x%20%3D%202%0A%0Aconst%20result%20%3D%20R.allTrue(%5B1%2C2%5D%2C%20x%20%3E%201%2C%20%7B%7D)%0A%2F%2F%3D%3E%20true">Try in REPL</a>
 
-## [Dexie Js](https://github.com/dfahlander/Dexie.js)
-
-> A Minimalistic Wrapper for IndexedDB
-
-## [Face Api Js](https://github.com/justadudewhohacks/face-api.js)
-
-> JavaScript API for face detection and face recognition in the browser and nodejs with tensorflow.js
-
-## [Rendertron](https://github.com/GoogleChrome/rendertron)
-
-> A Headless Chrome rendering solution
-
-## [Electron Forge](https://github.com/electron-userland/electron-forge)
-
-> A complete tool for creating, publishing, and installing modern Electron applications
-
-## [Typestyle](https://github.com/typestyle/typestyle)
-
-> Making CSS Typesafe 🌹
-
-## [Pretty Algorithms](https://github.com/jiayihu/pretty-algorithms)
-
-> 🌊 Pretty, common and useful algorithms with modern JS and beautiful tests
-
-## [Pg Promise](https://github.com/vitaly-t/pg-promise)
-
-> Promises/A+ interface for PostgreSQL
-
-## [Ghost Text](https://github.com/GhostText/GhostText)
-
-> 👻 Use your text editor to write in your browser. Everything you type in the editor will be instantly updated in the browser (and vice versa).
-
-## [Rogue Js](https://github.com/alidcastano/rogue.js)
-
-> Rogue.js -  the "nearly invisible" server-rendering framework for React applications
-
-## [Snyk](https://github.com/snyk/snyk)
-
-> CLI and build-time tool to find & fix known vulnerabilities in open-source dependencies
-
-## [Typescript Library Starter](https://github.com/alexjoverm/typescript-library-starter)
-
-> Starter kit with zero-config for building a library in TypeScript, featuring RollupJS, Jest, Prettier, TSLint, Semantic Release, and more!
-
-## [Clooney](https://github.com/GoogleChromeLabs/clooney)
-
-> Clooney is an actor library for the web. Use workers without thinking about workers.
-
-## [Tslint Microsoft Contrib](https://github.com/Microsoft/tslint-microsoft-contrib)
-
-> A set of TSLint rules used on some Microsoft projects.
-
-## [Octohint](https://github.com/pd4d10/octohint)
-
-> The missing IntelliSense hint for GitHub and GitLab
-
-## [Tslint Eslint Rules](https://github.com/buzinas/tslint-eslint-rules)
-
-> Improve your TSLint with the missing ESLint rules
-
-## [Flipping](https://github.com/davidkpiano/flipping)
-
-> Flipping awesome animations.
-
-## [Mlhelper](https://github.com/laoqiren/mlhelper)
-
-> Algorithms and utils for Machine Learning in JavaScript.
-
-## [Dtslint](https://github.com/Microsoft/dtslint)
-
-> A utility built on TSLint for linting TypeScript declaration (.d.ts) files.
-
-## [Inspectpack](https://github.com/FormidableLabs/inspectpack)
-
-> An inspection tool for Webpack frontend JavaScript bundles.
-
-## [Fast Average Color](https://github.com/fast-average-color/fast-average-color)
-
-> Fast Average Color
-
-## [Tslint Consistent Codestyle](https://github.com/ajafff/tslint-consistent-codestyle)
-
-> Collection of awesome rules to extend TSLint
-
-## [Ts Runtime](https://github.com/fabiandev/ts-runtime)
-
-> Runtime Type Checks for TypeScript
-
-## [Tslint Clean Code](https://github.com/Glavin001/tslint-clean-code)
-
-> TSLint rules for enforcing Clean Code
-
-## [Chrome Promise](https://github.com/tfoxy/chrome-promise)
-
-> Promises for chrome JavaScript APIs used in extensions and apps.
-
-## [Vscode Gitflow](https://github.com/vector-of-bool/vscode-gitflow)
-
-> Gitflow integration for Visual Studio Code
-
-## [Shallow Equal Explain](https://github.com/OliverJAsh/shallow-equal-explain)
-
-> `shallowEqualExplain` function that returns an object explaining the difference (instead of the usual boolean). Useful for debugging React `PureComponent`s.
-
-## [Tslint Misc Rules](https://github.com/jwbay/tslint-misc-rules)
-
-> Collection of miscellaneous TSLint rules
-
-## [Typewiz Webpack Demo](https://github.com/urish/typewiz-webpack-demo)
-
-> Demo of using TypeWiz with WebPack
 ---
+#### allType
 
-# 18 Useful Javascript projects
+> allType(targetType: string): (...inputs: any[]) => boolean
 
-## [Awesome Selfhosted](https://github.com/Kickball/awesome-selfhosted)
+It returns a function, which will return `true` if all passed elements has the same type as the `targetType`. The example below explains it better:
 
-> This is a list of Free Software network services and web applications which can be hosted locally. Selfhosting is the process of locally hosting and managing applications instead of renting from SaaS providers.
+```
+const result = R.allType('String')('foo','bar','baz')
+//=> true
+```
 
-## [Project Guidelines](https://github.com/elsewhencode/project-guidelines)
+[Test](https://github.com/selfrefactor/rambdax/blob/master/src/allType.spec.js)
 
-> A set of best practices for JavaScript projects
-
-## [Functional Light Js](https://github.com/getify/Functional-Light-JS)
-
-> Pragmatic, balanced FP in JavaScript. @FLJSBook on twitter.
-
-## [Web Rtc Experiment](https://github.com/muaz-khan/WebRTC-Experiment)
-
-> WebRTC, WebRTC and WebRTC. Everything here is all about WebRTC!!
-
-## [Awesome Cheatsheets](https://github.com/LeCoupa/awesome-cheatsheets)
-
-> 👩‍💻👨‍💻 Awesome cheatsheets for popular programming languages, frameworks and development tools. They include everything you should know in one single file.
-
-## [Jsmpeg](https://github.com/phoboslab/jsmpeg)
-
-> MPEG1 Video Decoder in JavaScript
-
-## [Css In Js](https://github.com/MicheleBertoli/css-in-js)
-
-> React: CSS in JS techniques comparison
-
-## [Electron Sample Apps](https://github.com/hokein/electron-sample-apps)
-
-> Sample apps for Electron
-
-## [Themer](https://github.com/mjswensen/themer)
-
-> 🎨 themer takes a set of colors and generates themes for your apps (editors, terminals, wallpapers, and more).
-
-## [Functional Frontend Architecture](https://github.com/paldepind/functional-frontend-architecture)
-
-> A functional frontend framework.
-
-## [Chrome Extensions](https://github.com/muaz-khan/Chrome-Extensions)
-
-> WebRTC chrome extensions for screen sharing, screen recording, file sharing, youtube+audio sharing, etc.
-
-## [Jeeliz Weboji](https://github.com/jeeliz/jeelizWeboji)
-
-> JavaScript/WebGL real-time face tracking and expression detection library. Build your own Apple Animoji feature! SVG and THREE.js integration demos are provided.
-
-## [Img To Ascii](https://github.com/victorqribeiro/imgToAscii)
-
-> A JavaScript implementation of a image to Ascii code
-
-## [V Perf](https://github.com/davidmarkclements/v8-perf)
-
-> Exploring v8 performance characteristics in Node across v8 versions 5.1, 5.8, 5.9, 6.0 and 6.1
-
-## [Async Render Toolbox](https://github.com/sw-yx/async-render-toolbox)
-
-> BECAUSE PERFORMANCE SHOULD BE SEXY
-
-## [React Native Display](https://github.com/sundayhd/react-native-display)
-
-> This module brings "Display: none" (css style) to turn on/off components from render. Using this module will improve your app performance and appearance with the enter/exit animations.
-
-## [Js Proxy](https://github.com/gergob/jsProxy)
-
-## [Mystery Animal](https://github.com/googlecreativelab/mystery-animal)
-
-> A new spin on the classic 20-questions game.
 ---
+#### anyFalse
+
+> anyFalse(...inputs: any[]): boolean
 
-# 82 Other libraries and resources
+It returns `true` if any of the passed elements returns `false` when passed to `Boolean`.
 
-## [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh)
+```
+R.anyFalse(1, {}, '')
+//=> true
+```
 
-> A delightful community-driven (with 1,200+ contributors) framework for managing your zsh configuration. Includes 200+ optional plugins (rails, git, OSX, hub, capistrano, brew, ant, php, python, etc), over 140 themes to spice up your morning, and an auto-update tool so that makes it easy to keep up with the latest updates from the community.
+[Test](https://github.com/selfrefactor/rambdax/blob/master/src/anyFalse.spec.js)
 
-## [Public Apis](https://github.com/toddmotto/public-apis)
+---
+#### anyTrue
+
+> anyTrue(...inputs: any[]): boolean
+
+It returns `true` if any of the passed elements returns `true` when passed to `Boolean`.
+
+```
+R.anyTrue(1, {}, '')
+//=> true
+```
+
+[Test](https://github.com/selfrefactor/rambdax/blob/master/src/anyTrue.spec.js)
+
+---
+#### anyType
+
+> anyType(targetType: string): (...inputs: any[]) => boolean
+
+It returns a function, which will return `true` if at least one of the passed elements has the same type as the `targetType`. The example below explains it better:
+
+```
+R.anyType('String')(1, {},'baz')
+//=> true
+```
 
-> A collective list of public JSON APIs for use in web development.
+[Test](https://github.com/selfrefactor/rambdax/blob/master/src/anyType.spec.js)
 
-## [Every Programmer Should Know](https://github.com/mtdvio/every-programmer-should-know)
+---
+#### change
 
-> A collection of (mostly) technical things every software developer should know
+> change(origin: object, path: string, changeData: any): object
 
-## [Papers We Love](https://github.com/papers-we-love/papers-we-love)
+It helps changing object's properties if there are below 3 levels deep.
 
-> Papers from the computer science community to read and discuss.
+Explanation:
 
-## [Caddy](https://github.com/mholt/caddy)
+`path` provide way to specify which object's sub-branch you want to manipulate. Pass empty string if you target the whole `origin` object.
 
-> Fast, cross-platform HTTP/2 web server with automatic HTTPS
+`changeData` can be a direct value. If it is a object, then this object is used to edit or add new properties to the selected sub-branch. 
 
-## [Nodebestpractices](https://github.com/i0natan/nodebestpractices)
+```
+const simpleResult = change(
+  { a: 1, b: { c: 2 } },
+  'b.c',
+  3
+)
+const expectedSimpleResult = {
+  a: 1,
+  b: { c: 3 }
+}
+// simpleResult === expectedSimpleResult
 
-> The largest Node.JS best practices list (November 2018)
+const origin = {
+  a   : 0,
+  foo : {
+    bar : 1,
+    bax : { nested : 2 },
+  },
+}
+const changeData = {
+  bar: 2,
+  bay: 3,
+  bax: { baq: 9 }
+}
+const result = change(
+  origin,
+  'foo',
+  changeData
+)
 
-## [Profile Summary For Github](https://github.com/tipsy/profile-summary-for-github)
+const expectedResult = {
+  a   : 0,
+  foo : {
+    bar : 2,
+    bay : 3,
+    bax : {
+      nested : 2,
+      baq: 9
+    },
+  },
+}
+// result === expectedResult
+```
 
-> Tool for visualizing GitHub profiles
+[Test](https://github.com/selfrefactor/rambdax/blob/master/src/change.spec.js)
 
-## [Cheat Sh](https://github.com/chubin/cheat.sh)
+---
+#### compact
 
-> the only cheat sheet you need
+> compact(arr: any[]): any[]
 
-## [Fonts](https://github.com/powerline/fonts)
+It removes the empty values from an array.
 
-> Patched fonts for Powerline users.
+```
+const arr = [
+  1,
+  null,
+  undefined,
+  false,
+  "",
+  " ",
+  "foo",
+  {},
+  [],
+  [1],
+  /\s/g
+]
 
-## [Awesome Remote Job](https://github.com/lukasz-madon/awesome-remote-job)
+const result = R.compact(arr)
+const expectedResult = [1, false, " ", "foo", [1]]
+// result === expectedResult
+```
 
-> A curated list of awesome remote jobs and resources. Inspired by https://github.com/vinta/awesome-python
+[Source](https://github.com/selfrefactor/rambdax/tree/master/src/compact.js)
 
-## [Games](https://github.com/leereilly/games)
+[Test](https://github.com/selfrefactor/rambdax/blob/master/src/compact.spec.js)
 
-> :video_game: A list of popular/awesome videos games, add-ons, maps, etc. hosted on GitHub. Any genre. Any platform. Any engine.
+<a href="https://rambda.now.sh?const%20arr%20%3D%20%5B%0A%20%201%2C%0A%20%20null%2C%0A%20%20undefined%2C%0A%20%20false%2C%0A%20%20%22%22%2C%0A%20%20%22%20%22%2C%0A%20%20%22foo%22%2C%0A%20%20%7B%7D%2C%0A%20%20%5B%5D%2C%0A%20%20%5B1%5D%2C%0A%20%20%2F%5Cs%2Fg%0A%5D%0A%0Aconst%20result%20%3D%20R.compact(arr)%0Aconst%20expectedResult%20%3D%20%5B1%2C%20false%2C%20%22%20%22%2C%20%22foo%22%2C%20%5B1%5D%5D%0A%2F%2F%20result%20%3D%3D%3D%20expectedResult">Try in REPL</a>
 
-## [Public Ap Is](https://github.com/abhishekbanthia/Public-APIs)
+---
+#### composeAsync
 
-> 📚 A public list of APIs from round the web.
+> composeAsync(...fns: Array<Function|Async>)(startValue: any): Promise
 
-## [Helm](https://github.com/helm/helm)
+Asyncronous version of `R.compose`.
 
-> The Kubernetes Package Manager
+Note that you should wrap the block with this function with `try/catch` in order to handle possible errors.
 
-## [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts)
+Also functions that returns `Promise` will be handled as regular function not asynchronous. Such example is `const foo = input => new Promise(...)`.
 
-> :abcd: Iconic font aggregator, collection, and patcher. 40+ patched fonts, over 3,600 glyph/icons, includes popular collections such as Font Awesome & fonts such as Hack
+```
+const fn = async x => {
+  await R.delay(500)
+  return x+1
+}
+const fnSecond = async x => fn(x)
 
-## [Lottie React Native](https://github.com/react-community/lottie-react-native)
+const result = R.composeAsync(
+  fn,
+  fnSecond
+)(0)
+// `result` resolves to `2`
+```
 
-> Lottie wrapper for React Native.
+[Source](https://github.com/selfrefactor/rambdax/tree/master/src/composeAsync.js)
 
-## [Awesome Design](https://github.com/gztchan/awesome-design)
+[Test](https://github.com/selfrefactor/rambdax/blob/master/src/composeAsync.spec.js)
 
-> :flags: Creative Resources for Developer and Designer :)
+<a href="https://rambda.now.sh?const%20fn%20%3D%20async%20x%20%3D%3E%20%7B%0A%20%20await%20R.delay(500)%0A%20%20return%20x%2B1%0A%7D%0Aconst%20fnSecond%20%3D%20async%20x%20%3D%3E%20fn(x)%0A%0Aconst%20result%20%3D%20R.composeAsync(%0A%20%20fn%2C%0A%20%20fnSecond%0A)(0)%0A%2F%2F%20%60result%60%20resolves%20to%20%602%60">Try in REPL</a>
 
-## [U Web Sockets](https://github.com/uNetworking/uWebSockets)
+---
+#### composed
 
-> Tiny WebSockets
+> composed(...fnList: any[]): any
 
-## [Awesome Linux Software](https://github.com/luongvo209/Awesome-Linux-Software)
+It is basically `R.compose` but instead of passing the input argument as `(input)`, you pass it as the last argument. It is easier to understand with the following example:
 
-> A list of awesome applications, software, tools and other materials for Linux distros.
+```
+const result = composed(
+  R.map(x => x*10),
+  R.filter(x => x > 1),
+  [1,2,3]
+)
+// => [20, 30]
+```
 
-## [Loaders Css](https://github.com/ConnorAtherton/loaders.css)
+[Test](https://github.com/selfrefactor/rambdax/blob/master/src/composed.spec.js)
 
-> Delightful, performance-focused pure css loading animations.
+---
+#### debounce
 
-## [Offline](https://github.com/HubSpot/offline)
+> debounce(fn: Function, ms: number): any
 
-> Automatically display online/offline indication to your users
+Creates a debounced function that delays invoking `fn` until after wait milliseconds `ms` have elapsed since the last time the debounced function was invoked. (description is taken from `Lodash` docs)
 
-## [Napajs](https://github.com/Microsoft/napajs)
+```
+let counter = 0
+const inc = () => {
+  counter++
+}
+const debouncedInc = R.debounce(inc, 900)
 
-> Napa.js: a multi-threaded JavaScript runtime
+const result = async function(){
+  debouncedInc()
+  await R.delay(500)
+  debouncedInc()
+  await R.delay(800)
+  console.log(counter) //=> 0
 
-## [Awesome Design Patterns](https://github.com/DovAmir/awesome-design-patterns)
+  await R.delay(1000)
+  console.log(counter) //=> 1
 
-> A curated list of software and architecture related design patterns.
+  return counter
+}
+// `result` resolves to `1`
+```
 
-## [Robotjs](https://github.com/octalmage/robotjs)
+[Source](https://github.com/selfrefactor/rambdax/tree/master/src/debounce.js)
 
-> Node.js Desktop Automation.
+[Test](https://github.com/selfrefactor/rambdax/blob/master/src/debounce.spec.js)
 
-## [Ladda](https://github.com/hakimel/Ladda)
+<a href="https://rambda.now.sh?let%20counter%20%3D%200%0Aconst%20inc%20%3D%20()%20%3D%3E%20%7B%0A%20%20counter%2B%2B%0A%7D%0Aconst%20debouncedInc%20%3D%20R.debounce(inc%2C%20900)%0A%0Aconst%20result%20%3D%20async%20function()%7B%0A%20%20debouncedInc()%0A%20%20await%20R.delay(500)%0A%20%20debouncedInc()%0A%20%20await%20R.delay(800)%0A%20%20console.log(counter)%20%2F%2F%3D%3E%200%0A%0A%20%20await%20R.delay(1000)%0A%20%20console.log(counter)%20%2F%2F%3D%3E%201%0A%0A%20%20return%20counter%0A%7D%0A%2F%2F%20%60result%60%20resolves%20to%20%601%60">Try in REPL</a>
 
-> Buttons with built-in loading indicators.
+---
+#### defaultWhen
 
-## [Termtosvg](https://github.com/nbedos/termtosvg)
+> defaultWhen(fn: Function, fallback: T, input: any): T
 
-> Record terminal sessions as SVG animations
+It returns `fallback`, if `input` returns `false` when applied to `fn`.
 
-## [Awesome Microservices](https://github.com/mfornos/awesome-microservices)
+It returns `input` in the other case.
 
-> A curated list of Microservice Architecture related principles and technologies.
+```
+const fn = x => x > 2
+const fallback = 10
+const result = R.defaultWhen(fn, fallback, 1)
+// `result` is `10`
+```
 
-## [Awesome Wpo](https://github.com/davidsonfellipe/awesome-wpo)
+[Source](https://github.com/selfrefactor/rambdax/tree/master/src/defaultWhen.js)
 
-> :pencil: A curated list of Web Performance Optimization. Everyone can contribute here!
+[Test](https://github.com/selfrefactor/rambdax/blob/master/src/defaultWhen.spec.js)
 
-## [Babel Handbook](https://github.com/jamiebuilds/babel-handbook)
+<a href="https://rambda.now.sh?const%20fn%20%3D%20x%20%3D%3E%20x%20%3E%202%0Aconst%20fallback%20%3D%2010%0Aconst%20result%20%3D%20R.defaultWhen(fn%2C%20fallback%2C%201)%0A%2F%2F%20%60result%60%20is%20%6010%60">Try in REPL</a>
 
-> :blue_book: A guided handbook on how to use Babel and how to create plugins for Babel.
+---
+#### delay
 
-## [Node Os](https://github.com/NodeOS/NodeOS)
+> delay(ms: number): Promise
 
-> Lightweight operating system using Node.js as userspace
+`setTimeout` as a promise that resolves to `R.DELAY` variable.
 
-## [Frontend](https://github.com/guardian/frontend)
+The value of `R.DELAY` is `'RAMBDAX_DELAY'`.
 
-> frontend
+```
+const result = R.delay(1000)
+// `result` resolves to `'RAMBDAX_DELAY'`
+```
 
-## [K](https://github.com/loadimpact/k6)
+[Source](https://github.com/selfrefactor/rambdax/tree/master/src/delay.js)
 
-> A modern load testing tool, using Go and JavaScript - https://k6.io
+[Test](https://github.com/selfrefactor/rambdax/blob/master/src/delay.spec.js)
 
-## [Annie](https://github.com/iawia002/annie)
+<a href="https://rambda.now.sh?const%20result%20%3D%20R.delay(1000)%0A%2F%2F%20%60result%60%20resolves%20to%20%60'RAMBDAX_DELAY'%60">Try in REPL</a>
 
-> 👾 Fast, simple and clean video downloader
+---
+#### evolve
 
-## [Gitleaks](https://github.com/zricethezav/gitleaks)
+> evolve (rules: Object, input: Object): Object
 
-> Audit git repos for secrets 🔑
+Properties of `input` object are transformed according to `rules` object that contains functions as values.
 
-## [Stacer](https://github.com/oguzhaninan/Stacer)
+If property `prop` of `rules` is a function and also a property of `input`, then `input[prop]` will be equal to the result of `rules[prop](input[prop])`.
 
-> Linux System Optimizer and Monitoring - https://oguzhaninan.github.io/Stacer-Web
+`rules[prop]` can be also a object that contains functions, as you can see in the example below:
 
-## [React Native Fast Image](https://github.com/DylanVann/react-native-fast-image)
+```
+const input = {
+  firstName : '  Tomato ',
+  data      : {
+    elapsed   : 100,
+    remaining : 1400,
+  },
+  id : 123,
+}
+const rules = {
+  firstName : R.trim,
+  lastName  : R.trim, //Will not get invoked.
+  data      : {
+    elapsed   : R.add(1),
+    remaining : R.add(-1),
+  },
+}
 
-> 🚩 FastImage, performant React Native image component.
+const result = R.evolve(rules, input)
 
-## [Awesome Micro Npm Packages](https://github.com/parro-it/awesome-micro-npm-packages)
+const expectedResult = {
+  firstName: 'Tomato',
+  data: {
+    elapsed: 101,
+    remaining: 1399,
+  },
+  id: 123,
+}
+console.log(result === expectedResult)
+// true
+```
 
-> A curated list of small, focused npm packages.
+[Source](https://github.com/selfrefactor/rambdax/tree/master/src/evolve.js)
 
-## [Docker Cheat Sheet](https://github.com/eon01/DockerCheatSheet)
+[Test](https://github.com/selfrefactor/rambdax/blob/master/src/evolve.spec.js)
 
-> 🐋 Docker Cheat Sheet 🐋
+<a href="https://rambda.now.sh?const%20input%20%3D%20%7B%0A%20%20firstName%20%3A%20'%20%20Tomato%20'%2C%0A%20%20data%20%20%20%20%20%20%3A%20%7B%0A%20%20%20%20elapsed%20%20%20%3A%20100%2C%0A%20%20%20%20remaining%20%3A%201400%2C%0A%20%20%7D%2C%0A%20%20id%20%3A%20123%2C%0A%7D%0Aconst%20rules%20%3D%20%7B%0A%20%20firstName%20%3A%20R.trim%2C%0A%20%20lastName%20%20%3A%20R.trim%2C%20%2F%2FWill%20not%20get%20invoked.%0A%20%20data%20%20%20%20%20%20%3A%20%7B%0A%20%20%20%20elapsed%20%20%20%3A%20R.add(1)%2C%0A%20%20%20%20remaining%20%3A%20R.add(-1)%2C%0A%20%20%7D%2C%0A%7D%0A%0Aconst%20result%20%3D%20R.evolve(rules%2C%20input)%0A%0Aconst%20expectedResult%20%3D%20%7B%0A%20%20firstName%3A%20'Tomato'%2C%0A%20%20data%3A%20%7B%0A%20%20%20%20elapsed%3A%20101%2C%0A%20%20%20%20remaining%3A%201399%2C%0A%20%20%7D%2C%0A%20%20id%3A%20123%2C%0A%7D%0Aconsole.log(result%20%3D%3D%3D%20expectedResult)%0A%2F%2F%20true">Try in REPL</a>
 
-## [Learn Go With Tests](https://github.com/quii/learn-go-with-tests)
+---
+#### findInObject
 
-> Learn Go with test-driven development
+> findInObject(fn: Function, obj: object): object
 
-## [Awesome Command Line Apps](https://github.com/herrbischoff/awesome-command-line-apps)
+It will return object with properties `prop` and `value` if predicate function returns `true` for a pair of property and value within `obj`.
 
-> :shell: Use your terminal shell to do awesome things.
+If predicate cannot be satisfied, it returns `{fallback: true}`.
 
-## [Node Unfluff](https://github.com/ageitgey/node-unfluff)
+```
+const fn = (x, key) => x > 1 && key.length > 1
+const obj = {
+  a   : 1,
+  b   : 2,
+  foo : 3,
+}
 
-> Automatically extract body content (and other cool stuff) from an html document
+const result = R.findInObject(fn, obj)
+// => { prop  : 'foo',value : 3}
+```
 
-## [Izi Toast](https://github.com/dolce/iziToast)
+[Source](https://github.com/selfrefactor/rambdax/tree/master/src/findInObject.js)
 
-> Elegant, responsive, flexible and lightweight notification plugin with no dependencies.
+    setter(key: string|object, value?: any): void
+    reset(): void
 
-## [React Native Facebook Login](https://github.com/magus/react-native-facebook-login)
+[Test](https://github.com/selfrefactor/rambdax/blob/master/src/findInObject.spec.js)
 
-> React Native component wrapping the native Facebook SDK login button and manager
+<a href="https://rambda.now.sh?const%20fn%20%3D%20(x%2C%20key)%20%3D%3E%20x%20%3E%201%20%26%26%20key.length%20%3E%201%0Aconst%20obj%20%3D%20%7B%0A%20%20a%20%20%20%3A%201%2C%0A%20%20b%20%20%20%3A%202%2C%0A%20%20foo%20%3A%203%2C%0A%7D%0A%0Aconst%20result%20%3D%20R.findInObject(fn%2C%20obj)%0A%2F%2F%20%3D%3E%20%7B%20prop%20%20%3A%20'foo'%2Cvalue%20%3A%203%7D">Try in REPL</a>
 
-## [Awesome Casestudy](https://github.com/luruke/awesome-casestudy)
+---
+#### setter
 
-> 📕  Curated list of technical case studies around WebGL and frontend development
+> setter(key: string|object, value?: any): void
 
-## [Css Refresher Notes](https://github.com/vasanthk/css-refresher-notes)
+It provides access to the cache object.
 
-> CSS Refresher!
+You either set individual key-value pairs with `R.setter(key, value)` or you pass directly object, which will be merged with the cache object
 
-## [Lazyestload Js](https://github.com/Paul-Browne/lazyestload.js)
+```
+R.setter({a: 1,b: 'bar'})
+R.getter('b')
+// => 'bar'
+```
 
-> load images only when they are in (and remain in) the viewport
+[Test](https://github.com/selfrefactor/rambdax/blob/master/src/setter.spec.js)
 
-## [Scdl](https://github.com/flyingrub/scdl)
+---
+#### getter
 
-> Soundcloud Music Downloader
+> getter(key: undefined|string|string[]): any
 
-## [Scalable Css Reading List](https://github.com/davidtheclark/scalable-css-reading-list)
+It provides access to the cache object.
 
-> Collected dispatches from The Quest for Scalable CSS
+If `undefined` is used as a key, this method will return the whole cache object.
 
-## [Bombardier](https://github.com/codesenberg/bombardier)
+If `string` is passed, then it will return cache value for this key.
 
-> Fast cross-platform HTTP benchmarking tool written in Go
+If array of `string` is passed, then it assume that this is array of keys and it will return the corresponding cache values for these keys.
 
-## [React Native Google Analytics Bridge](https://github.com/idehub/react-native-google-analytics-bridge)
+```
+R.setter('foo','bar')
+R.setter('a', 1)
+R.getter(['foo','a'])
+// => {foo:'baz', a:1}
+```
 
-> React Native bridge to the Google Analytics libraries on both iOS and Android.
+[Test](https://github.com/selfrefactor/rambdax/blob/master/src/getter.spec.js)
 
-## [V Profiler](https://github.com/node-inspector/v8-profiler)
+---
+#### reset
 
-> node bindings for the v8 profiler
+> reset(): void
 
-## [Gridbugs](https://github.com/rachelandrew/gridbugs)
+It resets the cache object.
 
-> A curated list of Grid interop issues
+```
+R.setter({a: 1,b: 'bar'})
+R.getter('b') // => 'bar'
+R.reset()
+R.getter('b') // => undefined
+```
 
-## [Repaintless](https://github.com/szynszyliszys/repaintless)
+[Test](https://github.com/selfrefactor/rambdax/blob/master/src/reset.spec.js)
 
-> Library for fast CSS Animations
+---
+#### greater
 
-## [Node Goat](https://github.com/OWASP/NodeGoat)
+> greater(x: number, y: number): boolean
 
-> The OWASP NodeGoat project provides an environment to learn how OWASP Top 10 security risks apply to web applications developed using Node.js and how to effectively address them.
+It return true if the second argument is greater than the first argument.
 
-## [Nodecache](https://github.com/mpneuried/nodecache)
+Note that this is opposite direction compared to Rambda's `gt` method, because it makes more sense in `R.compose` context.
 
-> a node internal caching module
+```
+R.greater(1,2) // => true
+```
 
-## [Font Awesome Animation](https://github.com/l-lin/font-awesome-animation)
+[Source](https://github.com/selfrefactor/rambdax/tree/master/src/greater.js)
 
-> Simple animations using FontAwesome and some CSS3.
+[Test](https://github.com/selfrefactor/rambdax/blob/master/src/greater.spec.js)
 
-## [Wharfee](https://github.com/j-bennet/wharfee)
+<a href="https://rambda.now.sh?const%20result%20%3D%20R.greater(1%2C2)%20%2F%2F%20%3D%3E%20true">Try in REPL</a>
 
-> A CLI with autocompletion and syntax highlighting for Docker commands.
+---
+#### includesType
 
-## [Txt Wav](https://github.com/still-life-studio/txt.wav)
+> includesType(targetType: string, list: any[]): boolean
 
-> some weird text animations the internet deserves
+It returns `true` if any member of `list` array has the same type as the `targetType`.
 
-## [Wenk](https://github.com/tiaanduplessis/wenk)
+```
+const result = R.includesType(
+  'String',
+  [1,2,'foo']
+)
+// => true
+```
 
-> :wink: Lightweight pure CSS tooltip for the greater good
+[Test](https://github.com/selfrefactor/rambdax/blob/master/src/includesType.spec.js)
 
-## [Frontend Dev Resources](https://github.com/dmytroyarmak/frontend-dev-resources)
+---
+#### inject
 
-> List of useful resources for front end developers
+> inject(injection: string, marker: string, str: string): string
 
-## [Factbook Json](https://github.com/factbook/factbook.json)
+```
+const result = R.inject(
+  ' INJECTION',
+  'MARKER',
+  'foo bar MARKER baz'
+)
 
-> World Factbook Country Profiles in JSON  - Free Open Public Domain Data - No API Key Required ;-)
+const expectedResult = 'foo bar MARKER INJECTION baz'
+```
 
-## [Liman](https://github.com/salihciftci/liman)
+[Source](https://github.com/selfrefactor/rambdax/tree/master/src/inject.js)
 
-> Self-hosted web application for monitoring docker.
+[Test](https://github.com/selfrefactor/rambdax/blob/master/src/inject.spec.js)
 
-## [Asciicast Gif](https://github.com/asciinema/asciicast2gif)
+<a href="https://rambda.now.sh?const%20result%20%3D%20R.inject(%0A%20%20'%20INJECTION'%2C%0A%20%20'MARKER'%2C%0A%20%20'foo%20bar%20MARKER%20baz'%0A)%0A%0Aconst%20expectedResult%20%3D%20'foo%20bar%20MARKER%20INJECTION%20baz'">Try in REPL</a>
 
-> Generate GIF animations from asciicasts (asciinema recordings)
+---
+#### isAttach
 
-## [Awesome React Native Education](https://github.com/hsavit1/Awesome-React-Native-Education)
+> isAttach(): boolean
 
-> Use this to learn React Native
+It attaches `is` method to object-like variables. This `is` method acts like `R.pass`.
 
-## [Goto](https://github.com/iridakos/goto)
+It returns `true` when it is called initially and it returns `false` for sequential calls.
 
-> A shell utility to quickly navigate to aliased directories supporting auto-completion :penguin:
+```
+R.isAttach()
+const foo = [1,2,3]
 
-## [Football Json](https://github.com/openfootball/football.json)
+const result = foo.is(['number'])
+// => true
+```
 
-> Free open public domain football data in JSON incl. English Premier League, Bundesliga, Primera División, Serie A and more - No API key required ;-)
+[Test](https://github.com/selfrefactor/rambdax/blob/master/src/isAttach.spec.js)
 
-## [Git Extra Commands](https://github.com/unixorn/git-extra-commands)
+---
+#### isFunction
 
-> A collection of useful extra git scripts I've discovered or written, packaged for ease of use with shell frameworks.
+> isFunction(x: any): boolean
 
-## [Node Report](https://github.com/nodejs/node-report)
+It returns `true` if type of `x` is one among `Promise`, `Async` or `Function`.
 
-> Delivers a human-readable diagnostic summary, written to file.
+```
+const result = R.isFunction(
+  x => x
+)
+// => true
+```
 
-## [Web Security Basics](https://github.com/vasanthk/web-security-basics)
+[Test](https://github.com/selfrefactor/rambdax/blob/master/src/isFunction.spec.js)
 
-> Web security concepts
+---
+#### isNil
 
-## [Awesome Cross Platform Nodejs](https://github.com/bcoe/awesome-cross-platform-nodejs)
+> isNil(x: any): boolean
 
-> :two_men_holding_hands: A curated list of awesome developer tools and libraries for writing and testing code that runs on Windows and Linux.
+It returns `true` is `x` is either `null` or `undefined`.
 
-## [Days Of Ml](https://github.com/prakhar21/100-Days-of-ML)
+```
+R.isNil(null)  // => true
+R.isNil(1)  // => false
+```
 
-> A day to day plan for this challenge (100 Days of Machine Learning) . Covers both theoretical and practical aspects
+[Source](https://github.com/selfrefactor/rambda/tree/master/src/isNil.js)
 
-## [Font Awesome Assets](https://github.com/ladjs/font-awesome-assets)
+[Test](https://github.com/selfrefactor/rambdax/blob/master/src/isNil.spec.js)
 
-> :lipstick: Convert any of @FortAwesome's Font-Awesome icons to an asset, such as an <svg> tag or a Base64-encoded PNG/SVG <img> tag!  It supports Retina devices and custom tag attributes too!
+<a href="https://rambda.now.sh?const%20result%20%3D%20R.isNil(null)%20%20%2F%2F%20%3D%3E%20true%0AR.isNil(1)%20%20%2F%2F%20%3D%3E%20false">Try in REPL</a>
 
-## [Node Gc Profiler](https://github.com/bretcope/node-gc-profiler)
+---
+#### isPromise
 
-> Allows you to profile when the garbage collector runs, and how long it takes.
+> isPromise(x: any): boolean
 
-## [Resources](https://github.com/tunnckoCore/resources)
+It returns true if `x` is either async function or unresolved promise.
 
-> :book: Huge curated collection of links of Tech, Science, Conferences, Videos and much more resources from everyday surfing. :star: Since October 21, 2017.
+```
+R.isPromise(R.delay)
+// => true
+```
 
-## [Meme](https://github.com/nomad-software/meme)
+[Source](https://github.com/selfrefactor/rambdax/tree/master/src/isPromise.js)
 
-> A command line utility for creating memes
+[Test](https://github.com/selfrefactor/rambdax/blob/master/src/isPromise.spec.js)
 
-## [Typescript Cheat Sheet](https://github.com/frontdevops/typescript-cheat-sheet)
+<a href="https://rambda.now.sh?const%20result%20%3D%20R.isPromise(R.delay)%0A%2F%2F%20%3D%3E%20true">Try in REPL</a>
 
-> TypeScript cheat sheet
+---
+#### isType
 
-## [Node Gcstats](https://github.com/dainis/node-gcstats)
+> isType(xType: string, x: any): boolean
 
-## [Podcasts](https://github.com/timarney/podcasts)
+It returns true if `x` matches the type returned from `R.type`.
 
-> Curated List of Mostly Active Dev Podcasts
+```
+R.isType('Async',async () => {})
+// => true
+```
 
-## [Gyazo](https://github.com/gyazo/Gyazo)
+[Source](https://github.com/selfrefactor/rambdax/tree/master/src/isType.js)
 
-> Gyazo:  the simplest and fastest screenshot uploading tool
+[Test](https://github.com/selfrefactor/rambdax/blob/master/src/isType.spec.js)
 
-## [C Ws](https://github.com/ClusterWS/cWS)
+<a href="https://rambda.now.sh?const%20result%20%3D%20R.isType('Async'%2Casync%20()%20%3D%3E%20%7B%7D)%0A%2F%2F%20%3D%3E%20true">Try in REPL</a>
 
-> cWS is modified version of the uWebsockets with some minor tweaks in C++ code and complete rewrite of JS code.
+---
+#### isValid
 
-## [Bookmarks](https://github.com/MorganGeek/bookmarks)
+> isValid({ input: object: schema: object }): boolean
 
-> :bookmark: +3.6K awesome resources for geeks and software crafters :beer:
+It checks if `input` is following `schema` specifications.
 
-## [Gomeme](https://github.com/jpoz/gomeme)
+If validation fails, it returns `false`.
 
-> Command line double caption meme generator. Written in Go (Golang)
+Please [check the detailed explanation](https://github.com/selfrefactor/rambdax/blob/master/files/isValid.md) as it is hard to write a short description of this method.
 
-## [Devtools Extension Tab Colours](https://github.com/JamieMason/devtools-extension-tab-colours)
+```
+const result = R.isValid({
+  input:{ a: ['foo','bar'] },
+  schema: {a: ['string'] }
+})  
+// => true
+```
 
-> Adds colours to the tabs in Chrome DevTools.
+[Source](https://github.com/selfrefactor/rambdax/tree/master/src/isValid.js)
+
+[Test](https://github.com/selfrefactor/rambdax/blob/master/src/isValid.spec.js)
+
+<a href="https://rambda.now.sh?const%20result%20%3D%20R.isValid(%7B%0A%20%20input%3A%7B%20a%3A%20%5B'foo'%2C'bar'%5D%20%7D%2C%0A%20%20schema%3A%20%7Ba%3A%20%5B'string'%5D%20%7D%0A%7D)%20%20%0A%2F%2F%20%3D%3E%20true">Try in REPL</a>
+
+---
+#### less
+
+> less(x: number, y: number): boolean
+
+It return true if the second argument is less than the first argument.
+
+Note that this is opposite direction compared to Rambda's `lt` method, because it makes more sense in `R.compose` context.
+
+```
+R.less(2,1) // => true
+```
+
+[Source](https://github.com/selfrefactor/rambdax/tree/master/src/less.js)
+
+[Test](https://github.com/selfrefactor/rambdax/blob/master/src/less.spec.js)
+
+<a href="https://rambda.now.sh?const%20result%20%3D%20R.less(2%2C1)%20%2F%2F%20%3D%3E%20true">Try in REPL</a>
+
+---
+#### mapAsync
+
+> mapAsync(fn: Async|Promise, arr: Array): Promise
+
+Sequential asynchronous mapping with `fn` over members of `arr`.
+
+```
+async function fn(x){
+  await R.delay(1000)
+
+  return x+1
+}
+
+const result = R.composeAsync(
+  R.mapAsync(fn),
+  R.map(x => x*2)
+)( [1, 2, 3] )
+
+// `result` resolves after 3 seconds to `[3, 5, 7]`
+```
+
+[Source](https://github.com/selfrefactor/rambdax/tree/master/src/mapAsync.js)
+
+[Test](https://github.com/selfrefactor/rambdax/blob/master/src/mapAsync.spec.js)
+
+<a href="https://rambda.now.sh?async%20function%20fn(x)%7B%0A%20%20await%20R.delay(1000)%0A%0A%20%20return%20x%2B1%0A%7D%0A%0Aconst%20result%20%3D%20R.composeAsync(%0A%20%20R.mapAsync(fn)%2C%0A%20%20R.map(x%20%3D%3E%20x*2)%0A)(%20%5B1%2C%202%2C%203%5D%20)%0A%0A%2F%2F%20%60result%60%20resolves%20after%203%20seconds%20to%20%60%5B3%2C%205%2C%207%5D%60">Try in REPL</a>
+
+---
+#### mapFastAsync
+
+> mapFastAsync(fn: Async|Promise, arr: Array): Promise
+
+Parrallel asynchronous mapping with `fn` over members of `arr`.
+
+```
+async function fn(x){
+  await R.delay(1000)
+
+  return x+1
+}
+
+const result = R.composeAsync(
+  R.mapAsync(fn),
+  R.map(x => x*2)
+)( [1, 2, 3] )
+
+// `result` resolves after 1 second to `[3, 5, 7]`
+```
+
+[Source](https://github.com/selfrefactor/rambdax/tree/master/src/mapFastAsync.js)
+
+[Test](https://github.com/selfrefactor/rambdax/blob/master/src/mapFastAsync.spec.js)
+
+<a href="https://rambda.now.sh?async%20function%20fn(x)%7B%0A%20%20await%20R.delay(1000)%0A%0A%20%20return%20x%2B1%0A%7D%0A%0Aconst%20result%20%3D%20R.composeAsync(%0A%20%20R.mapAsync(fn)%2C%0A%20%20R.map(x%20%3D%3E%20x*2)%0A)(%20%5B1%2C%202%2C%203%5D%20)%0A%0A%2F%2F%20%60result%60%20resolves%20after%201%20second%20to%20%60%5B3%2C%205%2C%207%5D%60">Try in REPL</a>
+
+---
+#### memoize
+
+> memoize(fn: Function|Promise): any
+
+When `fn` is called for a second time with the same input, then the cache result is returned instead of calling `fn`.
+
+```
+let counter = 0
+const fn = (a,b) =>{
+  counter++
+  
+  return a+b
+}
+const memoized = R.memoize(fn)
+memoized(1,2)
+memoized(1,2)
+console.log(counter) //=> 1
+```
+
+[Test](https://github.com/selfrefactor/rambdax/blob/master/src/memoize.spec.js)
+
+---
+#### mergeAll
+
+> mergeAll(input: Object[]): Object
+
+It merges all objects of `input` array sequentially and returns the result.
+
+```
+const arr = [
+  {a:1},
+  {b:2},
+  {c:3}
+]
+const expectedResult = {
+  a:1,
+  b:2,
+  c:3
+}
+const result = R.mergeAll(arr)
+// result === expectedResult
+```
+
+[Source](https://github.com/selfrefactor/rambdax/tree/master/src/mergeAll.js)
+
+[Test](https://github.com/selfrefactor/rambdax/blob/master/src/mergeAll.spec.js)
+
+<a href="https://rambda.now.sh?const%20arr%20%3D%20%5B%0A%20%20%7Ba%3A1%7D%2C%0A%20%20%7Bb%3A2%7D%2C%0A%20%20%7Bc%3A3%7D%0A%5D%0Aconst%20expectedResult%20%3D%20%7B%0A%20%20a%3A1%2C%0A%20%20b%3A2%2C%0A%20%20c%3A3%0A%7D%0Aconst%20result%20%3D%20R.mergeAll(arr)%0A%2F%2F%20result%20%3D%3D%3D%20expectedResult">Try in REPL</a>
+
+---
+#### multiline
+
+> multiline(input: string, glue?: string): string
+
+It transforms multiline strings to single line.
+
+```
+const result = R.multiline(`
+  foo
+  bar
+  baz
+`)
+
+const expectedResult = 'foo bar baz'
+// result === expectedResult
+```
+
+[Source](https://github.com/selfrefactor/rambdax/tree/master/src/multiline.js)
+
+[Test](https://github.com/selfrefactor/rambdax/blob/master/src/multiline.spec.js)
+
+<a href="https://rambda.now.sh?const%20result%20%3D%20R.multiline(%60%0A%20%20foo%0A%20%20bar%0A%20%20baz%0A%60)%0A%0Aconst%20expectedResult%20%3D%20'foo%20bar%20baz'%0A%2F%2F%20result%20%3D%3D%3D%20expectedResult">Try in REPL</a>
+
+---
+#### ok
+
+> ok(...inputs: any[]): (schemas: any[]) => true | Error
+
+It checks if `inputs` are following `schemas` specifications.
+
+It uses underneath [R.isValid](#isvalid).
+
+If validation fails, it throws. If you don't want that, then you can use `R.is`.  It is the same as `R.ok` method, but it returns `false` upon failed validation.
+
+```
+const result = R.ok(
+  1, [ 'foo', 'bar' ]
+)('number', [ 'string' ])
+// => true
+```
+
+[Source](https://github.com/selfrefactor/rambdax/tree/master/src/ok.js)
+
+[Test](https://github.com/selfrefactor/rambdax/blob/master/src/ok.spec.js)
+
+<a href="https://rambda.now.sh?const%20result%20%3D%20R.ok(%0A%20%201%2C%20%5B%20'foo'%2C%20'bar'%20%5D%0A)('number'%2C%20%5B%20'string'%20%5D)%0A%2F%2F%20%3D%3E%20true">Try in REPL</a>
+
+---
+#### omitBy
+
+> omitBy(fn: function, input: Object): Object
+
+It returns only those properties of `input` that return `false` when passed to `fn`.
+
+```
+const input = {
+  a: 1,
+  b: 2,
+  c: 3,
+  d: 4,
+}
+const fn = (prop, val) => val < 3
+const expectedResult = {
+  c: 3,
+  d: 4,
+}
+const result = R.omitBy(fn, input)
+// result === expectedResult
+```
+
+[Source](https://github.com/selfrefactor/rambdax/tree/master/src/omitBy.js)
+
+[Test](https://github.com/selfrefactor/rambdax/blob/master/src/omitBy.spec.js)
+
+<a href="https://rambda.now.sh?const%20input%20%3D%20%7B%0A%20%20a%3A%201%2C%0A%20%20b%3A%202%2C%0A%20%20c%3A%203%2C%0A%20%20d%3A%204%2C%0A%7D%0Aconst%20fn%20%3D%20(prop%2C%20val)%20%3D%3E%20val%20%3C%203%0Aconst%20expectedResult%20%3D%20%7B%0A%20%20c%3A%203%2C%0A%20%20d%3A%204%2C%0A%7D%0Aconst%20result%20%3D%20R.omitBy(fn%2C%20input)%0A%2F%2F%20result%20%3D%3D%3D%20expectedResult">Try in REPL</a>
+
+---
+#### once
+
+> once(fn: Function): Function
+
+It returns a function, which invokes only once`fn`.
+
+```
+const addOneOnce = R.once((a, b, c) => a + b + c)
+
+console.log(addOneOnce(10, 20, 30)) //=> 60
+console.log(addOneOnce(1, 2, 3)) //=> 60
+```
+
+[Test](https://github.com/selfrefactor/rambdax/blob/master/src/once.spec.js)
+
+---
+#### pathEq
+
+> pathEq(path:string|string[], target: any, obj: object): boolean
+
+```
+const result = R.pathEq(
+  'a.b',
+  1,
+  {a: {b:1} }
+)
+// => true
+```
+
+[Test](https://github.com/selfrefactor/rambdax/blob/master/src/pathEq.spec.js)
+
+---
+#### pass
+
+> pass(...inputs: any[]): (schemas: any[]) => boolean
+
+It checks if `inputs` are following `schemas` specifications.
+
+It uses underneath [R.isValid](#isvalid)
+
+If validation fails, it returns `false`.
+
+```
+const result = R.pass(1,['foo','bar'])('number',['string'])
+// => true
+```
+
+[Test](https://github.com/selfrefactor/rambdax/blob/master/src/pass.spec.js)
+
+---
+#### pickBy
+
+> pickBy(fn: Function, input: Object): Object
+
+It returns only those properties of `input` that return `true` when passed to `fn`.
+
+```
+const input = {
+  a: 1,
+  b: 2,
+  c: 3,
+  d: 4,
+}
+const fn = (prop,val) => val > 3 || prop === 'a'
+const expectedResult = {
+  a: 1,
+  d: 4,
+}
+const result = R.pickBy(fn, input)
+// result === expectedResult
+```
+
+[Source](https://github.com/selfrefactor/rambdax/tree/master/src/pickBy.js)
+
+[Test](https://github.com/selfrefactor/rambdax/blob/master/src/pickBy.spec.js)
+
+<a href="https://rambda.now.sh?const%20input%20%3D%20%7B%0A%20%20a%3A%201%2C%0A%20%20b%3A%202%2C%0A%20%20c%3A%203%2C%0A%20%20d%3A%204%2C%0A%7D%0Aconst%20fn%20%3D%20(prop%2Cval)%20%3D%3E%20val%20%3E%203%20%7C%7C%20prop%20%3D%3D%3D%20'a'%0Aconst%20expectedResult%20%3D%20%7B%0A%20%20a%3A%201%2C%0A%20%20d%3A%204%2C%0A%7D%0Aconst%20result%20%3D%20R.pickBy(fn%2C%20input)%0A%2F%2F%20result%20%3D%3D%3D%20expectedResult">Try in REPL</a>
+
+---
+#### piped
+
+> piped(...fnList: any[]): any
+
+It is basically `R.pipe` but instead of passing the input argument as `(input)`, you pass it as the first argument. It is easier to understand with the following example:
+
+```
+const result = piped(
+  [1,2,3],
+  R.filter(x => x > 1),
+  R.map(x => x*10),
+)
+// => [20, 30]
+```
+
+[Test](https://github.com/selfrefactor/rambdax/blob/master/src/piped.spec.js)
+
+---
+#### produce
+
+> produce(conditions: Object, input: any): Promise|Object
+
+```
+const conditions = {
+  foo: a => a > 10,
+  bar: a => ({baz:a})
+}
+
+const result = R.produce(conditions, 7)
+
+const expectedResult = {
+  foo: false,
+  bar: {baz: 7}
+}
+// result === expectedResult
+```
+
+`conditions` is an object with sync or async functions as values.
+
+The values of the returned object `returnValue` are the results of those functions when `input` is passed.
+The properties of the returned object are equal to `input`.
+
+If any of the `conditions` is a `Promise`, then the returned value is a `Promise` that resolves to `returnValue`.
+
+[Source](https://github.com/selfrefactor/rambdax/tree/master/src/produce.js)
+
+[Test](https://github.com/selfrefactor/rambdax/blob/master/src/produce.spec.js)
+
+<a href="https://rambda.now.sh?const%20conditions%20%3D%20%7B%0A%20%20foo%3A%20a%20%3D%3E%20a%20%3E%2010%2C%0A%20%20bar%3A%20a%20%3D%3E%20(%7Bbaz%3Aa%7D)%0A%7D%0A%0Aconst%20result%20%3D%20R.produce(conditions%2C%207)%0A%0Aconst%20expectedResult%20%3D%20%7B%0A%20%20foo%3A%20false%2C%0A%20%20bar%3A%20%7Bbaz%3A%207%7D%0A%7D%0A%2F%2F%20result%20%3D%3D%3D%20expectedResult">Try in REPL</a>
+
+---
+#### promiseAllObject
+
+> promiseAllObject(promises: Object): Promise
+
+It acts as `Promise.all` for object with Promises.
+It returns a promise that resolve to object.
+
+```
+const fn = ms => new Promise(resolve => {
+  setTimeout(() => {
+    resolve(ms)
+  }, ms)
+})
+const promises = {
+  a : fn(1),
+  b : fn(2),
+}
+
+const result = R.promiseAllObject(promises)
+const expectedResult = { a:1, b:2 }
+// `result` resolves to `expectedResult`
+```
+
+[Source](https://github.com/selfrefactor/rambdax/tree/master/src/promiseAllObject.js)
+
+[Test](https://github.com/selfrefactor/rambdax/blob/master/src/promiseAllObject.spec.js)
+
+<a href="https://rambda.now.sh?const%20fn%20%3D%20ms%20%3D%3E%20new%20Promise(resolve%20%3D%3E%20%7B%0A%20%20setTimeout(()%20%3D%3E%20%7B%0A%20%20%20%20resolve(ms)%0A%20%20%7D%2C%20ms)%0A%7D)%0Aconst%20promises%20%3D%20%7B%0A%20%20a%20%3A%20fn(1)%2C%0A%20%20b%20%3A%20fn(2)%2C%0A%7D%0A%0Aconst%20result%20%3D%20R.promiseAllObject(promises)%0Aconst%20expectedResult%20%3D%20%7B%20a%3A1%2C%20b%3A2%20%7D%0A%2F%2F%20%60result%60%20resolves%20to%20%60expectedResult%60">Try in REPL</a>
+
+---
+#### promiseAllSecure
+
+> promiseAllSecure(promises: Array): Array<{type: 'RESULT'|'ERROR', payload:any}>
+
+It acts as `Promise.all` with fault tollerance.
+
+Occurence of error `err` in any of the `promises` adds `{type: 'ERROR', payload: err}` to the final result.
+Result `result` in any of the `promises` adds `{type: 'RESULT', payload: result}` to the final result.
+
+```
+const fn = async () => {
+  try {
+    JSON.parse("{:a")
+  }
+  catch (err) {
+    throw new Error(err)
+  }
+}
+
+const result = R.promiseAllSecure([
+  R.delay(2000),
+  fn(1000)
+])
+
+const expectedResult = [
+  {
+    "payload": 'RAMBDAX_DELAY',
+    "type": "RESULT"
+  },
+  {
+    payload:"Unexpected token : in JSON at position 1",
+    type: "ERROR"
+  }
+]
+// `result` resolves to `expectedResult`
+```
+
+[Test](https://github.com/selfrefactor/rambdax/blob/master/src/promiseAllSecure.spec.js)
+
+---
+#### random
+
+> random(min: number, max: number): number
+
+It returns a random number between `min` inclusive and `max` inclusive.
+
+[Test](https://github.com/selfrefactor/rambdax/blob/master/src/random.spec.js)
+
+---
+#### rangeBy
+
+> rangeBy(start: number, end: number, step: number): number[]
+
+It returns array of all numbers between `start` and `end`, when the step of increase is `step`.
+
+```
+const result = R.rangeBy(0, 10, 2)
+// => [0, 2, 4, 6, 8, 10])
+
+console.log(R.rangeBy(0, 2, 0.3))
+// =>[0, 0.3, 0.6, 0.9, 1.2, 1.5, 1.8]
+```
+
+[Source](https://github.com/selfrefactor/rambdax/tree/master/src/rangeBy.js)
+
+[Test](https://github.com/selfrefactor/rambdax/blob/master/src/rangeBy.spec.js)
+
+<a href="https://rambda.now.sh?const%20result%20%3D%20R.rangeBy(0%2C%2010%2C%202)%0A%2F%2F%20%3D%3E%20%5B0%2C%202%2C%204%2C%206%2C%208%2C%2010%5D)%0A%0Aconsole.log(R.rangeBy(0%2C%202%2C%200.3))%0A%2F%2F%20%3D%3E%5B0%2C%200.3%2C%200.6%2C%200.9%2C%201.2%2C%201.5%2C%201.8%5D">Try in REPL</a>
+
+---
+#### remove
+
+> remove(inputs: string|RegExp[], text: string): string
+
+It will remove all inputs from `text` sequentially.
+
+```
+const result = remove(
+  ['foo','bar'],
+  'foo bar baz foo'
+)
+// => 'baz foo'
+```
+
+[Source](https://github.com/selfrefactor/rambdax/tree/master/src/remove.js)
+
+[Test](https://github.com/selfrefactor/rambdax/blob/master/src/remove.spec.js)
+
+<a href="https://rambda.now.sh?const%20result%20%3D%20remove(%0A%20%20%5B'foo'%2C'bar'%5D%2C%0A%20%20'foo%20bar%20baz%20foo'%0A)%0A%2F%2F%20%3D%3E%20'baz%20foo'">Try in REPL</a>
+
+---
+#### renameProps
+
+> renameProps(rules: Object, input: Object): Object
+
+If property `prop` of `rules` is also a property in `input`, then rename `input` property to `rules[prop]`.
+
+```
+const rules = {
+  f: "foo",
+  b: "bar"
+}
+const input = {
+  f:1,
+  b:2
+}
+const result = R.renameProps(rules, input)
+const expectedResult = {
+  foo:1,
+  bar:2
+}
+// result === expectedResult
+```
+
+[Source](https://github.com/selfrefactor/rambdax/tree/master/src/renameProps.js)
+
+[Test](https://github.com/selfrefactor/rambdax/blob/master/src/renameProps.spec.js)
+
+<a href="https://rambda.now.sh?const%20rules%20%3D%20%7B%0A%20%20f%3A%20%22foo%22%2C%0A%20%20b%3A%20%22bar%22%0A%7D%0Aconst%20input%20%3D%20%7B%0A%20%20f%3A1%2C%0A%20%20b%3A2%0A%7D%0Aconst%20result%20%3D%20R.renameProps(rules%2C%20input)%0Aconst%20expectedResult%20%3D%20%7B%0A%20%20foo%3A1%2C%0A%20%20bar%3A2%0A%7D%0A%2F%2F%20result%20%3D%3D%3D%20expectedResult">Try in REPL</a>
+
+---
+#### s
+
+> s(): undefined
+
+Taken from `https://github.com/staltz/zii`
+Chain function calls using a prototype function `s`
+
+```
+// To turn it on
+R.s()
+
+// Then
+const result = 'foo'
+  .s(R.toUpper)
+  .s(R.take(2))
+  .s(R.add('bar'))
+
+const expectedResult = 'barFO'
+// result === expectedResult
+```
+
+[Source](https://github.com/selfrefactor/rambdax/tree/master/src/promiseAllSecure.js)
+
+[Test](https://github.com/selfrefactor/rambdax/blob/master/src/s.spec.js)
+
+<a href="https://rambda.now.sh?%2F%2F%20To%20turn%20it%20on%0AR.s()%0A%0A%2F%2F%20Then%0Aconst%20result%20%3D%20'foo'%0A%20%20.s(R.toUpper)%0A%20%20.s(R.take(2))%0A%20%20.s(R.add('bar'))%0A%0Aconst%20expectedResult%20%3D%20'barFO'%0A%2F%2F%20result%20%3D%3D%3D%20expectedResult">Try in REPL</a>
+
+---
+#### shuffle
+
+> shuffle(arr: T[]): T[]
+
+It returns randomized copy of array.
+
+[Test](https://github.com/selfrefactor/rambdax/blob/master/src/shuffle.spec.js)
+
+---
+#### switcher
+
+Edited fork of [Switchem](https://github.com/planttheidea/switchem) library.
+
+It is best explained with the following example:
+
+```
+const valueToMatch = {foo: 1}
+
+const result = R.switcher(valueToMatch)
+  .is('baz', 'is baz')
+  .is( x => typeof x === 'boolean', 'is boolean')
+  .is({foo: 1}, 'Property foo is 1')
+  .default('is bar')
+
+console.log(result) // => 'Property foo is 1'
+```
+
+As you can see `valueToMatch` is matched sequentially against various `is` conditions.
+If none of them is appliable, then `default` value is returned as result.
+
+Note that `default` must be the last condition and it is mandatory.
+
+Rambda's `equals` is used as part of the comparison process.
+
+[Source](https://github.com/selfrefactor/rambdax/tree/master/src/switcher.js)
+
+[Test](https://github.com/selfrefactor/rambdax/blob/master/src/switcher.spec.js)
+
+<a href="https://rambda.now.sh?const%20valueToMatch%20%3D%20%7Bfoo%3A%201%7D%0A%0Aconst%20result%20%3D%20R.switcher(valueToMatch)%0A%20%20.is('baz'%2C%20'is%20baz')%0A%20%20.is(%20x%20%3D%3E%20typeof%20x%20%3D%3D%3D%20'boolean'%2C%20'is%20boolean')%0A%20%20.is(%7Bfoo%3A%201%7D%2C%20'Property%20foo%20is%201')%0A%20%20.default('is%20bar')%0A%0Aconsole.log(result)%20%2F%2F%20%3D%3E%20'Property%20foo%20is%201'">Try in REPL</a>
+
+---
+#### tapAsync
+
+> tapAsync(fn: Function|Async|Promise, inputArgument: T): T
+
+It is `R.tap` that accept promise-like `fn` argument.
+
+```
+let counter = 0
+const inc = () => {
+  counter++
+}
+
+const throttledInc = R.throttle(inc, 800)
+
+const replWrap = async x => {
+  throttledInc()
+  await R.delay(500)
+  throttledInc()
+
+  const a = await R.delay(1000)
+  console.log(counter)
+}
+
+const result = R.tapAsync(replWrap, "foo")
+// the console logs `foo`
+// `result` is equal to 'foo'
+```
+
+[Source](https://github.com/selfrefactor/rambdax/tree/master/src/tapAsync.js)
+
+[Test](https://github.com/selfrefactor/rambdax/blob/master/src/tapAsync.spec.js)
+
+<a href="https://rambda.now.sh?let%20counter%20%3D%200%0Aconst%20inc%20%3D%20()%20%3D%3E%20%7B%0A%20%20counter%2B%2B%0A%7D%0A%0Aconst%20throttledInc%20%3D%20R.throttle(inc%2C%20800)%0A%0Aconst%20replWrap%20%3D%20async%20x%20%3D%3E%20%7B%0A%20%20throttledInc()%0A%20%20await%20R.delay(500)%0A%20%20throttledInc()%0A%0A%20%20const%20a%20%3D%20await%20R.delay(1000)%0A%20%20console.log(counter)%0A%7D%0A%0Aconst%20result%20%3D%20R.tapAsync(replWrap%2C%20%22foo%22)%0A%2F%2F%20the%20console%20logs%20%60foo%60%0A%2F%2F%20%60result%60%20is%20equal%20to%20'foo'">Try in REPL</a>
+
+---
+#### template
+
+> template(input: string, templateInput: object): string
+
+It generages a new string from `input` by replacing all `{{foo}}` occurances with values provided by `templateInput.
+
+```
+const input = 'foo is {{bar}} even {{a}} more'
+const templateInput = {"bar":"BAR", a: 1}
+
+const result = R.template(input,templateInput)
+const expectedResult = 'foo is BAR even 1 more'
+// result === expectedResult
+```
+
+[Source](https://github.com/selfrefactor/rambdax/tree/master/src/template.js)
+
+[Test](https://github.com/selfrefactor/rambdax/blob/master/src/template.spec.js)
+
+<a href="https://rambda.now.sh?const%20input%20%3D%20'foo%20is%20%7B%7Bbar%7D%7D%20even%20%7B%7Ba%7D%7D%20more'%0Aconst%20templateInput%20%3D%20%7B%22bar%22%3A%22BAR%22%2C%20a%3A%201%7D%0A%0Aconst%20result%20%3D%20R.template(input%2CtemplateInput)%0Aconst%20expectedResult%20%3D%20'foo%20is%20BAR%20even%201%20more'%0A%2F%2F%20result%20%3D%3D%3D%20expectedResult">Try in REPL</a>
+
+---
+#### throttle
+
+> throttle(fn: Function, period: number): Function
+
+It creates a throttled function that invokes `fn` maximum once for a `period` of milliseconds.
+
+```
+let counter = 0
+const inc = () => {
+  counter++
+}
+
+const throttledInc = R.throttle(inc, 800)
+
+const result = async () => {
+  throttledInc()
+  await R.delay(500)
+  throttledInc()
+
+  return counter
+}
+// `result` resolves to `1`
+```
+
+[Source](https://github.com/selfrefactor/rambdax/tree/master/src/throttle.js)
+
+[Test](https://github.com/selfrefactor/rambdax/blob/master/src/throttle.spec.js)
+
+<a href="https://rambda.now.sh?let%20counter%20%3D%200%0Aconst%20inc%20%3D%20()%20%3D%3E%20%7B%0A%20%20counter%2B%2B%0A%7D%0A%0Aconst%20throttledInc%20%3D%20R.throttle(inc%2C%20800)%0A%0Aconst%20result%20%3D%20async%20()%20%3D%3E%20%7B%0A%20%20throttledInc()%0A%20%20await%20R.delay(500)%0A%20%20throttledInc()%0A%0A%20%20return%20counter%0A%7D%0A%2F%2F%20%60result%60%20resolves%20to%20%601%60">Try in REPL</a>
+
+---
+#### tryCatch
+
+> tryCatch(fn: Async|Function, fallback: any): Function
+
+It returns function that runs `fn` in `try/catch` block. If there was an error, then `fallback` is used to return the result. Note that `fn` can be value, function or promise-like.
+
+Please check the tests below in order to fully understand this method, as it doesn't match the behaviour of the same method in `Ramda`.
+
+```
+import { delay } from './delay'
+import { prop } from './rambda/prop'
+import { tryCatch } from './tryCatch'
+
+test('throws when fn is not function', () => {
+  const fn = 'foo'
+
+  expect(
+    () => tryCatch(fn, false)(null)
+  ).toThrow(`R.tryCatch | fn 'foo'`)
+})
+
+test('when fallback is used', () => {
+  const fn = prop('x')
+
+  expect(tryCatch(fn, false)(null)).toBe(false)
+})
+
+test('when fallback is function', () => {
+  const fn = prop('x')
+
+  expect(tryCatch(fn, x => x)(null)).toBe(null)
+})
+
+test('when fn is used', () => {
+  const fn = prop('x')
+
+  expect(tryCatch(fn, false)({})).toBe(undefined)
+
+  expect(tryCatch(fn, false)({ x: 1 })).toBe(1)
+})
+
+test('when async + fallback', async () => {
+  let called = false
+
+  const fn = async input => {
+    await delay(input)
+    called = true
+
+    return JSON.parse('{a:')
+  }
+
+  expect(await tryCatch(fn, 'fallback')(100)).toBe('fallback')
+  expect(called).toBe(true)
+})
+
+test('when async + fallback is function', async () => {
+  let called = false
+
+  const fn = async input => {
+    await delay(input)
+    called = true
+
+    return JSON.parse('{a:')
+  }
+
+  expect(await tryCatch(fn, x => x + 1)(100)).toBe(101)
+  expect(called).toBe(true)
+})
+
+test('when async + fallback is async', async () => {
+  let called = false
+  const fn = async input => {
+    await delay(input)
+    called = true
+
+    return JSON.parse('{a:')
+  }
+  const fallback = async input => {
+    return input + 1
+  }
+
+  expect(await tryCatch(fn, fallback)(100)).toBe(101)
+  expect(called).toBe(true)
+})
+
+test('when async + fn', async () => {
+  let called = false
+
+  const fn = async input => {
+    await delay(input)
+    called = true
+
+    return input + 1
+  }
+
+  expect(await tryCatch(fn, 'fallback')(100)).toBe(101)
+  expect(called).toBe(true)
+})
+```
+
+[Test](https://github.com/selfrefactor/rambdax/blob/master/src/tryCatch.spec.js)
+
+---
+#### wait
+
+> wait(fn: Async): Promise<[any, Error]>
+
+It provides `Golang`-like interface for handling promises.
+
+```
+void async function wait(){
+  const [err, ok] = await R.wait(R.delay(1000))
+  // => err is undefined
+  // => ok is `RAMBDAX_DELAY`
+}()
+```
+
+[Test](https://github.com/selfrefactor/rambdax/blob/master/src/wait.spec.js)
+
+---
+#### waitFor
+
+> waitFor(condition: any, ms: number): Promise
+
+It returns `true`, if `condition` returns `true` within `ms` milisececonds time period.
+
+Best description of this method are the actual tests:
+
+```
+import { waitFor } from './waitFor'
+
+const howLong = 1000
+
+test('true', async () => {
+  let counter = 0
+  const condition = x => {
+    counter++
+    return counter > x
+  }
+
+  const result = await waitFor(condition, howLong)(6)
+  expect(result).toEqual(true)
+})
+
+test('false', async () => {
+  let counter = 0
+  const condition = x => {
+    counter++
+    return counter > x
+  }
+
+  const result = await waitFor(condition, howLong)(12)
+  expect(result).toEqual(false)
+})
+
+test('async condition | true', async () => {
+  let counter = 0
+  const condition = async x => {
+    counter++
+    return counter > x
+  }
+
+  const result = await waitFor(condition, howLong)(6)
+  expect(result).toEqual(true)
+})
+
+test('async condition | false', async () => {
+  let counter = 0
+  const condition = async x => {
+    counter++
+    return counter > x
+  }
+
+  const result = await waitFor(condition, howLong)(12)
+  expect(result).toEqual(false)
+})
+
+test('throws when fn is not function', () => {
+  const fn = 'foo'
+
+  expect(() => waitFor(fn, howLong)()).toThrow('R.waitFor')
+})
+```
+
+[Test](https://github.com/selfrefactor/rambdax/blob/master/src/waitFor.spec.js)
+
+---
+#### where
+
+> where(conditions: object, input: object): boolean
+
+Each property `prop` in `conditions` is a function.
+
+This function is called with `input(prop)`. If all such function calls return `true`, then the final result is also `true`.
+
+```
+const condition = R.where({
+  a : aProp => typeof aProp === "string",
+  b : bProp => bProp === 4
+})
+
+const result = condition({
+  a : "foo",
+  b : 4,
+  c : 11,
+}) //=> true
+```
+
+[Source](https://github.com/selfrefactor/rambdax/tree/master/src/where.js)
+
+[Test](https://github.com/selfrefactor/rambdax/blob/master/src/where.spec.js)
+
+<a href="https://rambda.now.sh?const%20condition%20%3D%20R.where(%7B%0A%20%20a%20%3A%20aProp%20%3D%3E%20typeof%20aProp%20%3D%3D%3D%20%22string%22%2C%0A%20%20b%20%3A%20bProp%20%3D%3E%20bProp%20%3D%3D%3D%204%0A%7D)%0A%0Aconst%20result%20%3D%20condition(%7B%0A%20%20a%20%3A%20%22foo%22%2C%0A%20%20b%20%3A%204%2C%0A%20%20c%20%3A%2011%2C%0A%7D)%20%2F%2F%3D%3E%20true">Try in REPL</a>
+
+---
+#### when
+
+> when(rule: Function|boolean, fn: Function): Function
+
+```
+const truncate = R.when(
+  x => x.length > 5,
+  R.compose(x => `${x}...`, R.take(5))
+)
+
+const result = truncate('12345678')
+// => '12345...'
+```
+
+[Source](https://github.com/selfrefactor/rambdax/tree/master/src/when.js)
+
+[Test](https://github.com/selfrefactor/rambdax/blob/master/src/when.spec.js)
+
+<a href="https://rambda.now.sh?const%20truncate%20%3D%20R.when(%0A%20%20x%20%3D%3E%20x.length%20%3E%205%2C%0A%20%20R.compose(x%20%3D%3E%20%60%24%7Bx%7D...%60%2C%20R.take(5))%0A)%0A%0Aconst%20result%20%3D%20truncate('12345678')%0A%2F%2F%20%3D%3E%20'12345...'">Try in REPL</a>
+
+---
+#### whenAsync
+
+> whenAsync<T>(rule: condition: Async | Function | boolean, whenFn: Async | Function): Promise<T>
+
+```
+const replWrap = async input => {
+
+  const wrapResult = await R.whenAsync(
+    async x => {
+      await R.delay(x*100)
+      return x > 2
+    },
+    async x => {
+      await R.delay(x*100)
+      return x * 5
+    }
+  )(input)
+  
+  return wrapResult
+}
+
+const result = replWrap(5)
+// => 25
+```
+
+[Source](https://github.com/selfrefactor/rambdax/tree/master/src/whenAsync.js)
+
+[Test](https://github.com/selfrefactor/rambdax/blob/master/src/whenAsync.spec.js)
+
+<a href="https://rambda.now.sh?const%20replWrap%20%3D%20async%20input%20%3D%3E%20%7B%0A%0A%20%20const%20wrapResult%20%3D%20await%20R.whenAsync(%0A%20%20%20%20async%20x%20%3D%3E%20%7B%0A%20%20%20%20%20%20await%20R.delay(x*100)%0A%20%20%20%20%20%20return%20x%20%3E%202%0A%20%20%20%20%7D%2C%0A%20%20%20%20async%20x%20%3D%3E%20%7B%0A%20%20%20%20%20%20await%20R.delay(x*100)%0A%20%20%20%20%20%20return%20x%20*%205%0A%20%20%20%20%7D%0A%20%20)(input)%0A%20%20%0A%20%20return%20wrapResult%0A%7D%0A%0Aconst%20result%20%3D%20replWrap(5)%0A%2F%2F%20%3D%3E%2025">Try in REPL</a>
+
+---
+#### add
+
+> add(a: number, b: number): number
+
+```
+R.add(2, 3) // =>  5
+```
+
+[Source](https://github.com/selfrefactor/rambda/tree/master/src/add.js)
+
+[Test](https://github.com/selfrefactor/rambda/blob/master/src/add.spec.js)
+
+<a href="https://rambda.now.sh?const%20result%20%3D%20R.add(2%2C%203)%20%2F%2F%20%3D%3E%20%205">Try in REPL</a>
+
+---
+#### addIndex
+
+> addIndex(fn: Function): Function
+
+```
+const mapWithIndex = R.addIndex(R.map)
+const result = mapWithIndex(
+  (val, index) => `${val} - ${index}`,
+  ['A', 'B', 'C']
+) // => ['A - 0', 'B - 1', 'C - 2']
+```
+
+[Test](https://github.com/selfrefactor/rambda/blob/master/src/addIndex.spec.js)
+
+---
+#### adjust
+
+> adjust(replaceFn: Function, i: number, arr: T[]): T[]
+
+It replaces `i` index in `arr` with the result of `replaceFn(arr[i])`.
+
+```
+R.adjust(
+  a => a + 1,
+  0,
+  [0, 100]
+) // => [1, 100]
+```
+
+[Source](https://github.com/selfrefactor/rambda/tree/master/src/adjust.js)
+
+[Test](https://github.com/selfrefactor/rambda/blob/master/src/adjust.spec.js)
+
+<a href="https://rambda.now.sh?const%20result%20%3D%20R.adjust(%0A%20%20a%20%3D%3E%20a%20%2B%201%2C%0A%20%200%2C%0A%20%20%5B0%2C%20100%5D%0A)%20%2F%2F%20%3D%3E%20%5B1%2C%20100%5D">Try in REPL</a>
+
+---
+#### all
+
+> all(fn: Function, arr: T[]): boolean
+
+It returns `true`, if all members of array `arr` returns `true`, when applied as argument to function `fn`.
+
+```
+const arr = [ 0, 1, 2, 3, 4 ]
+const fn = x => x > -1
+
+const result = R.all(fn, arr)
+// => true
+```
+
+[Source](https://github.com/selfrefactor/rambda/tree/master/src/all.js)
+
+[Test](https://github.com/selfrefactor/rambda/blob/master/src/all.spec.js)
+
+<a href="https://rambda.now.sh?const%20arr%20%3D%20%5B%200%2C%201%2C%202%2C%203%2C%204%20%5D%0Aconst%20fn%20%3D%20x%20%3D%3E%20x%20%3E%20-1%0A%0Aconst%20result%20%3D%20R.all(fn%2C%20arr)%0A%2F%2F%20%3D%3E%20true">Try in REPL</a>
+
+---
+#### allPass
+
+> allPass(rules: Function[], input: any): boolean
+
+It returns `true`, if all functions of `rules` return `true`, when `input` is their argument.
+
+```
+const input = {
+  a : 1,
+  b : 2,
+}
+const rules = [
+  x => x.a === 1,
+  x => x.b === 2,
+]
+const result = R.allPass(rules, input) // => true
+```
+
+[Source](https://github.com/selfrefactor/rambda/tree/master/src/allPass.js)
+
+[Test](https://github.com/selfrefactor/rambda/blob/master/src/allPass.spec.js)
+
+<a href="https://rambda.now.sh?const%20input%20%3D%20%7B%0A%20%20a%20%3A%201%2C%0A%20%20b%20%3A%202%2C%0A%7D%0Aconst%20rules%20%3D%20%5B%0A%20%20x%20%3D%3E%20x.a%20%3D%3D%3D%201%2C%0A%20%20x%20%3D%3E%20x.b%20%3D%3D%3D%202%2C%0A%5D%0Aconst%20result%20%3D%20R.allPass(rules%2C%20input)%20%2F%2F%20%3D%3E%20true">Try in REPL</a>
+
+---
+#### always
+
+> always(x: any): Function
+
+It returns function that always returns `x`.
+```
+const fn = R.always(7)
+
+console.log(fn())// => 7
+```
+
+[Test](https://github.com/selfrefactor/rambda/blob/master/src/always.spec.js)
+
+---
+#### any
+
+> any(condition: Function, arr: T[]): boolean
+
+It returns `true`, if at least one member of `arr` returns true, when passed to the `condition` function.
+
+```
+R.any(a => a * a > 8)([1, 2, 3])
+// => true
+```
+
+[Source](https://github.com/selfrefactor/rambda/tree/master/src/any.js)
+
+[Test](https://github.com/selfrefactor/rambda/blob/master/src/any.spec.js)
+
+<a href="https://rambda.now.sh?const%20result%20%3D%20R.any(a%20%3D%3E%20a%20*%20a%20%3E%208)(%5B1%2C%202%2C%203%5D)%0A%2F%2F%20%3D%3E%20true">Try in REPL</a>
+
+---
+#### anyPass
+
+> anyPass(conditions: Function[]): Function
+
+```
+const isBig = a => a > 20
+const isOdd = a => a % 2 === 1
+
+const result = R.anyPass(
+  [isBig, isOdd]
+)(11)
+// => true
+```
+
+[Source](https://github.com/selfrefactor/rambda/tree/master/src/anyPass.js)
+
+[Test](https://github.com/selfrefactor/rambda/blob/master/src/anyPass.spec.js)
+
+<a href="https://rambda.now.sh?const%20isBig%20%3D%20a%20%3D%3E%20a%20%3E%2020%0Aconst%20isOdd%20%3D%20a%20%3D%3E%20a%20%25%202%20%3D%3D%3D%201%0A%0Aconst%20result%20%3D%20R.anyPass(%0A%20%20%5BisBig%2C%20isOdd%5D%0A)(11)%0A%2F%2F%20%3D%3E%20true">Try in REPL</a>
+
+---
+#### append
+
+> append(valueToAppend: T, arr: T[]): T[]
+
+```
+R.append(
+  'foo',
+  ['bar', 'baz']
+) // => ['bar', 'baz', 'foo']
+```
+
+[Source](https://github.com/selfrefactor/rambda/tree/master/src/append.js)
+
+[Test](https://github.com/selfrefactor/rambda/blob/master/src/append.spec.js)
+
+<a href="https://rambda.now.sh?const%20result%20%3D%20R.append(%0A%20%20'foo'%2C%0A%20%20%5B'bar'%2C%20'baz'%5D%0A)%20%2F%2F%20%3D%3E%20%5B'bar'%2C%20'baz'%2C%20'foo'%5D">Try in REPL</a>
+
+---
+#### assoc
+
+> assoc(prop: any, value: any, obj: object): object
+
+Makes a shallow clone of `obj`, setting or overriding the property `prop` with
+the value `value`. Note that this copies and flattens prototype properties
+onto the new object as well. All non-primitive properties are copied by
+reference.
+
+```
+R.assoc('c', 3, {a: 1, b: 2})
+//=> {a: 1, b: 2, c: 3}
+```
+
+[Test](https://github.com/selfrefactor/rambda/blob/master/src/assoc.spec.js)
+
+---
+#### both
+
+> both(firstCondition: Function, secondCondition: Function, input: any): boolean
+
+It returns `true`, if both function `firstCondition` and function `secondCondition` return `true`, when `input` is their argument.
+
+```
+const fn = R.both(
+  a => a > 10,
+  a => a < 20
+)
+console.log(fn(15)) //=> true
+console.log(fn(30)) //=> false
+```
+
+[Test](https://github.com/selfrefactor/rambda/blob/master/src/both.spec.js)
+
+---
+#### compose
+
+> compose(fn1: Function, ... , fnN: Function): any
+
+It performs right-to-left function composition.
+
+```
+const result = R.compose(
+  R.map(x => x * 2),
+  R.filter(x => x > 2)
+)([1, 2, 3, 4])
+
+// => [6, 8]
+```
+
+[Source](https://github.com/selfrefactor/rambda/tree/master/src/compose.js)
+
+[Test](https://github.com/selfrefactor/rambda/blob/master/src/compose.spec.js)
+
+<a href="https://rambda.now.sh?const%20result%20%3D%20R.compose(%0A%20%20R.map(x%20%3D%3E%20x%20*%202)%2C%0A%20%20R.filter(x%20%3D%3E%20x%20%3E%202)%0A)(%5B1%2C%202%2C%203%2C%204%5D)%0A%0A%2F%2F%20%3D%3E%20%5B6%2C%208%5D">Try in REPL</a>
+
+---
+#### complement
+
+> complement(fn: Function): Function
+
+It returns `complemented` function that accept `input` as argument.
+
+The return value of `complemented` is the negative boolean value of `fn(input)`.
+
+```
+const fn = R.complement(x => !x)
+
+const result = fn(false) // => false
+```
+
+[Source](https://github.com/selfrefactor/rambda/tree/master/src/complement.js)
+
+[Test](https://github.com/selfrefactor/rambda/blob/master/src/complement.spec.js)
+
+<a href="https://rambda.now.sh?const%20fn%20%3D%20R.complement(x%20%3D%3E%20!x)%0A%0Aconst%20result%20%3D%20fn(false)%20%2F%2F%20%3D%3E%20false">Try in REPL</a>
+
+---
+#### concat
+
+> concat(x: T[]|string, y: T[]|string): T[]|string
+
+It returns a new string or array, which is the result of merging `x` and `y`.
+
+```
+R.concat([1, 2])([3, 4]) // => [1, 2, 3, 4]
+R.concat('foo')('bar') // => 'foobar'
+```
+
+[Test](https://github.com/selfrefactor/rambda/blob/master/src/concat.spec.js)
+
+---
+#### contains
+
+> contains(valueToFind: T, arr: T[]): boolean
+
+It returns `true`, if `valueToFind` is part of `arr`.
+
+```
+R.contains(2, [1, 2]) // => true
+R.contains(3, [1, 2]) // => false
+```
+
+[Source](https://github.com/selfrefactor/rambda/tree/master/src/contains.js)
+
+[Test](https://github.com/selfrefactor/rambda/blob/master/src/contains.spec.js)
+
+<a href="https://rambda.now.sh?const%20result%20%3D%20R.contains(2%2C%20%5B1%2C%202%5D)%20%2F%2F%20%3D%3E%20true%0AR.contains(3%2C%20%5B1%2C%202%5D)%20%2F%2F%20%3D%3E%20false">Try in REPL</a>
+
+---
+#### curry
+
+> curry(fn: Function): Function
+
+It returns curried version of `fn`.
+
+```
+const addFourNumbers = (a, b, c, d) => a + b + c + d
+const curriedAddFourNumbers = R.curry(addFourNumbers)
+const f = curriedAddFourNumbers(1, 2)
+const g = f(3)
+const result = g(4) // => 10
+```
+
+[Source](https://github.com/selfrefactor/rambda/tree/master/src/curry.js)
+
+[Test](https://github.com/selfrefactor/rambda/blob/master/src/curry.spec.js)
+
+<a href="https://rambda.now.sh?const%20addFourNumbers%20%3D%20(a%2C%20b%2C%20c%2C%20d)%20%3D%3E%20a%20%2B%20b%20%2B%20c%20%2B%20d%0Aconst%20curriedAddFourNumbers%20%3D%20R.curry(addFourNumbers)%0Aconst%20f%20%3D%20curriedAddFourNumbers(1%2C%202)%0Aconst%20g%20%3D%20f(3)%0Aconst%20result%20%3D%20g(4)%20%2F%2F%20%3D%3E%2010">Try in REPL</a>
+
+---
+#### dec
+
+> dec(x: number): number
+
+It decrements a number.
+```
+R.dec(2) // => 1
+```
+
+[Test](https://github.com/selfrefactor/rambda/blob/master/src/dec.spec.js)
+
+---
+#### defaultTo
+
+> defaultTo(defaultValue: T, inputArgument: any): T
+
+It returns `defaultValue`, if `inputArgument` is `undefined`, `null` or `NaN`.
+
+It returns `inputArgument` in any other case.
+
+```
+R.defaultTo('foo', undefined) // => 'foo'
+R.defaultTo('foo', 'bar') // => 'bar'
+```
+
+[Source](https://github.com/selfrefactor/rambda/tree/master/src/defaultTo.js)
+
+[Test](https://github.com/selfrefactor/rambda/blob/master/src/defaultTo.spec.js)
+
+<a href="https://rambda.now.sh?const%20result%20%3D%20R.defaultTo('foo'%2C%20undefined)%20%2F%2F%20%3D%3E%20'foo'%0AR.defaultTo('foo'%2C%20'bar')%20%2F%2F%20%3D%3E%20'bar'">Try in REPL</a>
+
+---
+#### dissoc
+
+> dissoc(prop: any, obj: object): object
+
+It returns a new object that does not contain a `prop` property.
+
+```
+R.dissoc('b', {a: 1, b: 2, c: 3})
+//=> {a: 1, c: 3}
+```
+
+[Source](https://github.com/selfrefactor/rambda/tree/master/src/dissoc.js)
+
+[Test](https://github.com/selfrefactor/rambda/blob/master/src/dissoc.spec.js)
+
+<a href="https://rambda.now.sh?const%20result%20%3D%20R.dissoc('b'%2C%20%7Ba%3A%201%2C%20b%3A%202%2C%20c%3A%203%7D)%0A%2F%2F%3D%3E%20%7Ba%3A%201%2C%20c%3A%203%7D">Try in REPL</a>
+
+---
+#### divide
+
+```
+R.divide(71, 100) // => 0.71
+```
+
+[Test](https://github.com/selfrefactor/rambda/blob/master/src/divide.spec.js)
+
+---
+#### drop
+
+> drop(howManyToDrop: number, arrOrStr: T[]|string): T[]|String
+
+It returns `arrOrStr` with `howManyToDrop` items dropped from the left.
+
+```
+R.drop(1, ['foo', 'bar', 'baz']) // => ['bar', 'baz']
+R.drop(1, 'foo')  // => 'oo'
+```
+
+[Source](https://github.com/selfrefactor/rambda/tree/master/src/drop.js)
+
+[Test](https://github.com/selfrefactor/rambda/blob/master/src/drop.spec.js)
+
+<a href="https://rambda.now.sh?const%20result%20%3D%20R.drop(1%2C%20%5B'foo'%2C%20'bar'%2C%20'baz'%5D)%20%2F%2F%20%3D%3E%20%5B'bar'%2C%20'baz'%5D%0AR.drop(1%2C%20'foo')%20%20%2F%2F%20%3D%3E%20'oo'">Try in REPL</a>
+
+---
+#### dropLast
+
+> dropLast(howManyToDrop: number, arrOrStr: T[]|String): T[]|String
+
+It returns `arrOrStr` with `howManyToDrop` items dropped from the right.
+
+```
+R.dropLast(1, ['foo', 'bar', 'baz']) // => ['foo', 'bar']
+R.dropLast(1, 'foo')  // => 'fo'
+```
+
+[Source](https://github.com/selfrefactor/rambda/tree/master/src/dropLast.js)
+
+[Test](https://github.com/selfrefactor/rambda/blob/master/src/dropLast.spec.js)
+
+<a href="https://rambda.now.sh?const%20result%20%3D%20R.dropLast(1%2C%20%5B'foo'%2C%20'bar'%2C%20'baz'%5D)%20%2F%2F%20%3D%3E%20%5B'foo'%2C%20'bar'%5D%0AR.dropLast(1%2C%20'foo')%20%20%2F%2F%20%3D%3E%20'fo'">Try in REPL</a>
+
+---
+#### endsWith
+
+> endsWith(x: string, str: string): boolean
+
+```
+R.endsWith(
+  'bar',
+  'foo-bar'
+) // => true
+
+R.endsWith(
+  'foo',
+  'foo-bar'
+) // => false
+```
+
+[Source](https://github.com/selfrefactor/rambda/tree/master/src/endsWith.js)
+
+[Test](https://github.com/selfrefactor/rambda/blob/master/src/endsWith.spec.js)
+
+<a href="https://rambda.now.sh?const%20result%20%3D%20R.endsWith(%0A%20%20'bar'%2C%0A%20%20'foo-bar'%0A)%20%2F%2F%20%3D%3E%20true%0A%0AR.endsWith(%0A%20%20'foo'%2C%0A%20%20'foo-bar'%0A)%20%2F%2F%20%3D%3E%20false">Try in REPL</a>
+
+---
+#### either
+
+> either(firstCondition: Function, secondCondition: Function): Function
+
+```
+R.either(
+  a => a > 10,
+  a => a % 2 === 0
+)(15) //=> true
+```
+
+[Source](https://github.com/selfrefactor/rambda/tree/master/src/either.js)
+
+[Test](https://github.com/selfrefactor/rambda/blob/master/src/either.spec.js)
+
+<a href="https://rambda.now.sh?const%20result%20%3D%20R.either(%0A%20%20a%20%3D%3E%20a%20%3E%2010%2C%0A%20%20a%20%3D%3E%20a%20%25%202%20%3D%3D%3D%200%0A)(15)%20%2F%2F%3D%3E%20true">Try in REPL</a>
+
+---
+#### equals
+
+> equals(a: any, b: any): boolean
+
+It returns equality match between `a` and `b`.
+
+It doesn't handle cyclical data structures.
+
+```
+R.equals(
+  [1, {a:2}, [{b:3}]],
+  [1, {a:2}, [{b:3}]]
+) // => true
+```
+
+[Source](https://github.com/selfrefactor/rambda/tree/master/src/equals.js)
+
+[Test](https://github.com/selfrefactor/rambda/blob/master/src/equals.spec.js)
+
+<a href="https://rambda.now.sh?const%20result%20%3D%20R.equals(%0A%20%20%5B1%2C%20%7Ba%3A2%7D%2C%20%5B%7Bb%3A3%7D%5D%5D%2C%0A%20%20%5B1%2C%20%7Ba%3A2%7D%2C%20%5B%7Bb%3A3%7D%5D%5D%0A)%20%2F%2F%20%3D%3E%20true">Try in REPL</a>
+
+---
+#### F
+
+`R.F() // => false`
+
+[Test](https://github.com/selfrefactor/rambda/blob/master/src/F.spec.js)
+
+---
+#### filter
+
+> filter(filterFn: Function, x: Array|Object): Array|Object
+
+It filters `x` iterable over boolean returning `filterFn`.
+
+```
+const filterFn = a => a % 2 === 0
+
+const result = R.filter(filterFn, [1, 2, 3, 4])
+// => [2, 4]
+```
+
+The method works with objects as well.
+
+Note that unlike Ramda's `filter`, here object keys are passed as second argument to `filterFn`.
+
+```
+const result = R.filter((val, prop)=>{
+  return prop === 'a' || val === 2
+}, {a: 1, b: 2, c: 3})
+
+// => {a: 1, b: 2}
+```
+
+[Source](https://github.com/selfrefactor/rambda/tree/master/src/filter.js)
+
+[Test](https://github.com/selfrefactor/rambda/blob/master/src/filter.spec.js)
+
+<a href="https://rambda.now.sh?const%20filterFn%20%3D%20a%20%3D%3E%20a%20%25%202%20%3D%3D%3D%200%0A%0Aconst%20result%20%3D%20R.filter(filterFn%2C%20%5B1%2C%202%2C%203%2C%204%5D)%0A%2F%2F%20%3D%3E%20%5B2%2C%204%5D">Try in REPL</a>
+
+---
+#### find
+
+> find(findFn: Function, arr: T[]): T|undefined
+
+It returns `undefined` or the first element of `arr` satisfying `findFn`.
+
+```
+const findFn = a => R.type(a.foo) === 'Number'
+const arr = [{foo: 'bar'}, {foo: 1}]
+
+const result = R.find(findFn, arr) 
+// => {foo: 1}
+```
+
+[Source](https://github.com/selfrefactor/rambda/tree/master/src/find.js)
+
+[Test](https://github.com/selfrefactor/rambda/blob/master/src/find.spec.js)
+
+<a href="https://rambda.now.sh?const%20findFn%20%3D%20a%20%3D%3E%20R.type(a.foo)%20%3D%3D%3D%20'Number'%0Aconst%20arr%20%3D%20%5B%7Bfoo%3A%20'bar'%7D%2C%20%7Bfoo%3A%201%7D%5D%0A%0Aconst%20result%20%3D%20R.find(findFn%2C%20arr)%20%0A%2F%2F%20%3D%3E%20%7Bfoo%3A%201%7D">Try in REPL</a>
+
+---
+#### findIndex
+
+> findIndex(findFn: Function, arr: T[]): number
+
+It returns `-1` or the index of the first element of `arr` satisfying `findFn`.
+
+```
+const findFn = a => R.type(a.foo) === 'Number'
+const arr = [{foo: 'bar'}, {foo: 1}]
+
+const result = R.findIndex(findFn, arr)
+// => 1
+```
+
+[Source](https://github.com/selfrefactor/rambda/tree/master/src/findIndex.js)
+
+[Test](https://github.com/selfrefactor/rambda/blob/master/src/findIndex.spec.js)
+
+<a href="https://rambda.now.sh?const%20findFn%20%3D%20a%20%3D%3E%20R.type(a.foo)%20%3D%3D%3D%20'Number'%0Aconst%20arr%20%3D%20%5B%7Bfoo%3A%20'bar'%7D%2C%20%7Bfoo%3A%201%7D%5D%0A%0Aconst%20result%20%3D%20R.findIndex(findFn%2C%20arr)%0A%2F%2F%20%3D%3E%201">Try in REPL</a>
+
+---
+#### flatten
+
+> flatten(arr: any[]): any[]
+
+```
+R.flatten([ 1, [ 2, [ 3 ] ] ])
+// => [ 1, 2, 3 ]
+```
+
+[Source](https://github.com/selfrefactor/rambda/tree/master/src/flatten.js)
+
+[Test](https://github.com/selfrefactor/rambda/blob/master/src/flatten.spec.js)
+
+<a href="https://rambda.now.sh?const%20result%20%3D%20R.flatten(%5B%201%2C%20%5B%202%2C%20%5B%203%20%5D%20%5D%20%5D)%0A%2F%2F%20%3D%3E%20%5B%201%2C%202%2C%203%20%5D">Try in REPL</a>
+
+---
+#### flip
+
+> flip(fn: Function): Function
+
+It returns function which calls `fn` with exchanged first and second argument.
+
+```
+const subtractFlip = R.flip(R.subtract)
+
+const result = subtractFlip(1,7)
+// => 6
+```
+
+[Source](https://github.com/selfrefactor/rambda/tree/master/src/flip.js)
+
+[Test](https://github.com/selfrefactor/rambda/blob/master/src/flip.spec.js)
+
+<a href="https://rambda.now.sh?const%20subtractFlip%20%3D%20R.flip(R.subtract)%0A%0Aconst%20result%20%3D%20subtractFlip(1%2C7)%0A%2F%2F%20%3D%3E%206">Try in REPL</a>
+
+---
+#### forEach
+
+> forEach(fn: Function, arr: Array): Array
+
+It applies function `fn` over all members of array `arr` and returns `arr`.
+
+```
+const sideEffect = {}
+const result = R.forEach(
+  x => sideEffect[`foo${x}`] = x
+)([1, 2])
+
+console.log(sideEffect) //=> {foo1 : 1, foo2 : 2}
+console.log(result) //=> [1, 2]
+```
+
+Note, that unlike `Ramda`'s **forEach**, Rambda's one doesn't dispatch to `forEach` method of `arr` if `arr` has such method.
+
+[Source](https://github.com/selfrefactor/rambda/tree/master/src/forEach.js)
+
+[Test](https://github.com/selfrefactor/rambda/blob/master/src/forEach.spec.js)
+
+<a href="https://rambda.now.sh?const%20sideEffect%20%3D%20%7B%7D%0Aconst%20result%20%3D%20R.forEach(%0A%20%20x%20%3D%3E%20sideEffect%5B%60foo%24%7Bx%7D%60%5D%20%3D%20x%0A)(%5B1%2C%202%5D)%0A%0Aconsole.log(sideEffect)%20%2F%2F%3D%3E%20%7Bfoo1%20%3A%201%2C%20foo2%20%3A%202%7D%0Aconsole.log(result)%20%2F%2F%3D%3E%20%5B1%2C%202%5D">Try in REPL</a>
+
+---
+#### groupBy
+
+> groupBy(fn: Function, arr: Array): Object
+
+It groups array `arr` by provided selector function `fn`.
+
+```
+R.groupBy(
+  x => x.length,
+  [ 'a', 'b', 'aa', 'bb' ]
+)
+// => { '1': ['a', 'b'], '2': ['aa', 'bb'] }
+```
+
+[Source](https://github.com/selfrefactor/rambda/tree/master/src/groupBy.js)
+
+[Test](https://github.com/selfrefactor/rambda/blob/master/src/groupBy.spec.js)
+
+<a href="https://rambda.now.sh?const%20result%20%3D%20R.groupBy(%0A%20%20x%20%3D%3E%20x.length%2C%0A%20%20%5B%20'a'%2C%20'b'%2C%20'aa'%2C%20'bb'%20%5D%0A)%0A%2F%2F%20%3D%3E%20%7B%20'1'%3A%20%5B'a'%2C%20'b'%5D%2C%20'2'%3A%20%5B'aa'%2C%20'bb'%5D%20%7D">Try in REPL</a>
+
+---
+#### has
+
+> has(prop: string, obj: Object): boolean
+
+- It returns `true` if `obj` has property `prop`.
+
+```
+R.has('a', {a: 1}) // => true
+R.has('b', {a: 1}) // => false
+```
+
+[Source](https://github.com/selfrefactor/rambda/tree/master/src/has.js)
+
+[Test](https://github.com/selfrefactor/rambda/blob/master/src/has.spec.js)
+
+<a href="https://rambda.now.sh?const%20result%20%3D%20R.has('a'%2C%20%7Ba%3A%201%7D)%20%2F%2F%20%3D%3E%20true%0AR.has('b'%2C%20%7Ba%3A%201%7D)%20%2F%2F%20%3D%3E%20false">Try in REPL</a>
+
+---
+#### head
+
+> head(arrOrStr: T[]|string): T|string
+
+It returns the first element of `arrOrStr`.
+
+```
+R.head([1, 2, 3]) // => 1
+R.head('foo') // => 'f'
+```
+
+[Source](https://github.com/selfrefactor/rambda/tree/master/src/head.js)
+
+[Test](https://github.com/selfrefactor/rambda/blob/master/src/head.spec.js)
+
+<a href="https://rambda.now.sh?const%20result%20%3D%20R.head(%5B1%2C%202%2C%203%5D)%20%2F%2F%20%3D%3E%201%0AR.head('foo')%20%2F%2F%20%3D%3E%20'f'">Try in REPL</a>
+
+---
+#### identity
+
+> identity(x: T): T
+
+It just passes back the supplied arguments.
+
+```
+R.identity(7) // => 7
+```
+
+[Test](https://github.com/selfrefactor/rambda/blob/master/src/identity.spec.js)
+
+---
+#### ifElse
+
+> ifElse(condition: Function|boolean, ifFn: Function, elseFn: Function): Function
+
+It returns function, which expect `input` as argument and returns `finalResult`.
+
+When this function is called, a value `answer` is generated as a result of `condition(input)`.
+
+If `answer` is `true`, then `finalResult` is equal to `ifFn(input)`.
+If `answer` is `false`, then `finalResult` is equal to `elseFn(input)`.
+
+```
+const fn = R.ifElse(
+ x => x > 10,
+ x => x*2,
+ x => x*10
+)
+
+const result = fn(8)
+// => 80
+```
+
+[Source](https://github.com/selfrefactor/rambda/tree/master/src/ifElse.js)
+
+[Test](https://github.com/selfrefactor/rambda/blob/master/src/ifElse.spec.js)
+
+<a href="https://rambda.now.sh?const%20fn%20%3D%20R.ifElse(%0A%20x%20%3D%3E%20x%20%3E%2010%2C%0A%20x%20%3D%3E%20x*2%2C%0A%20x%20%3D%3E%20x*10%0A)%0A%0Aconst%20result%20%3D%20fn(8)%0A%2F%2F%20%3D%3E%2080">Try in REPL</a>
+
+---
+#### inc
+
+> inc(x: number): number
+
+It increments a number.
+
+```
+R.inc(1) // => 2
+```
+
+[Test](https://github.com/selfrefactor/rambda/blob/master/src/inc.spec.js)
+
+---
+#### includes
+
+> includes(x: any, arrOrStr: T[]|string): boolean
+
+```
+R.includes(1, [1, 2]) // => true
+R.includes('oo', 'foo') // => true
+R.includes('z', 'foo') // => false
+```
+
+!! Note that this method is not part of `Ramda` API.
+
+[Source](https://github.com/selfrefactor/rambda/tree/master/src/includes.js)
+
+[Test](https://github.com/selfrefactor/rambda/blob/master/src/includes.spec.js)
+
+<a href="https://rambda.now.sh?const%20result%20%3D%20R.includes(1%2C%20%5B1%2C%202%5D)%20%2F%2F%20%3D%3E%20true%0AR.includes('oo'%2C%20'foo')%20%2F%2F%20%3D%3E%20true%0AR.includes('z'%2C%20'foo')%20%2F%2F%20%3D%3E%20false">Try in REPL</a>
+
+---
+#### indexBy
+
+> indexBy(fn: Function, arr: T[]): Object
+
+It indexes array `arr` as an object with provided selector function `fn`.
+
+```
+R.indexBy(
+  x => x.id,
+  [ {id: 1}, {id: 2} ]
+)
+// => { 1: {id: 1}, 2: {id: 2} }
+```
+
+[Source](https://github.com/selfrefactor/rambda/tree/master/src/indexBy.js)
+
+[Test](https://github.com/selfrefactor/rambda/blob/master/src/indexBy.spec.js)
+
+<a href="https://rambda.now.sh?const%20result%20%3D%20R.indexBy(%0A%20%20x%20%3D%3E%20x.id%2C%0A%20%20%5B%20%7Bid%3A%201%7D%2C%20%7Bid%3A%202%7D%20%5D%0A)%0A%2F%2F%20%3D%3E%20%7B%201%3A%20%7Bid%3A%201%7D%2C%202%3A%20%7Bid%3A%202%7D%20%7D">Try in REPL</a>
+
+---
+#### indexOf
+
+> indexOf(valueToFind: any, arr: T[]): number
+
+It returns `-1` or the index of the first element of `arr` equal of `valueToFind`.
+
+```
+R.indexOf(1, [1, 2]) // => 0
+R.indexOf(0, [1, 2]) // => -1
+```
+
+[Source](https://github.com/selfrefactor/rambda/tree/master/src/indexOf.js)
+
+[Test](https://github.com/selfrefactor/rambda/blob/master/src/indexOf.spec.js)
+
+<a href="https://rambda.now.sh?const%20result%20%3D%20R.indexOf(1%2C%20%5B1%2C%202%5D)%20%2F%2F%20%3D%3E%200%0AR.indexOf(0%2C%20%5B1%2C%202%5D)%20%2F%2F%20%3D%3E%20-1">Try in REPL</a>
+
+---
+#### init
+
+> init(arrOrStr: T[]|string): T[]|string
+
+- It returns all but the last element of `arrOrStr`.
+
+```
+R.init([1, 2, 3])  // => [1, 2]
+R.init('foo')  // => 'fo'
+```
+
+[Source](https://github.com/selfrefactor/rambda/tree/master/src/init.js)
+
+[Test](https://github.com/selfrefactor/rambda/blob/master/src/init.spec.js)
+
+<a href="https://rambda.now.sh?const%20result%20%3D%20R.init(%5B1%2C%202%2C%203%5D)%20%20%2F%2F%20%3D%3E%20%5B1%2C%202%5D%0AR.init('foo')%20%20%2F%2F%20%3D%3E%20'fo'">Try in REPL</a>
+
+---
+#### join
+
+> join(separator: string, arr: T[]): string
+
+```
+R.join('-', [1, 2, 3])  // => '1-2-3'
+```
+
+[Source](https://github.com/selfrefactor/rambda/tree/master/src/join.js)
+
+[Test](https://github.com/selfrefactor/rambda/blob/master/src/join.spec.js)
+
+<a href="https://rambda.now.sh?const%20result%20%3D%20R.join('-'%2C%20%5B1%2C%202%2C%203%5D)%20%20%2F%2F%20%3D%3E%20'1-2-3'">Try in REPL</a>
+
+---
+#### keys
+
+> keys(x: Object): string[]
+
+```
+R.keys({a:1, b:2})  // => ['a', 'b']
+```
+
+[Test](https://github.com/selfrefactor/rambda/blob/master/src/keys.spec.js)
+
+---
+#### isNil
+
+> isNil(x: any): boolean
+
+It returns `true` is `x` is either `null` or `undefined`.
+
+```
+R.isNil(null)  // => true
+R.isNil(1)  // => false
+```
+
+[Source](https://github.com/selfrefactor/rambda/tree/master/src/isNil.js)
+
+[Test](https://github.com/selfrefactor/rambda/blob/master/src/isNil.spec.js)
+
+<a href="https://rambda.now.sh?const%20result%20%3D%20R.isNil(null)%20%20%2F%2F%20%3D%3E%20true%0AR.isNil(1)%20%20%2F%2F%20%3D%3E%20false">Try in REPL</a>
+
+---
+#### last
+
+> last(arrOrStr: T[]|string): T|string
+
+- It returns the last element of `arrOrStr`.
+
+```
+R.last(['foo', 'bar', 'baz']) // => 'baz'
+R.last('foo') // => 'o'
+```
+
+[Source](https://github.com/selfrefactor/rambda/tree/master/src/last.js)
+
+[Test](https://github.com/selfrefactor/rambda/blob/master/src/last.spec.js)
+
+<a href="https://rambda.now.sh?const%20result%20%3D%20R.last(%5B'foo'%2C%20'bar'%2C%20'baz'%5D)%20%2F%2F%20%3D%3E%20'baz'%0AR.last('foo')%20%2F%2F%20%3D%3E%20'o'">Try in REPL</a>
+
+---
+#### lastIndexOf
+
+> lastIndexOf(x: any, arr: T[]): number
+
+It returns the last index of `x` in array `arr`.
+
+`R.equals` is used to determine equality between `x` and members of `arr`.
+
+Value `-1` is returned if no `x` is found in `arr`.
+
+```
+R.lastIndexOf(1, [1, 2, 3, 1, 2]) // => 3
+R.lastIndexOf(10, [1, 2, 3, 1, 2]) // => -1
+```
+
+[Source](https://github.com/selfrefactor/rambda/tree/master/src/lastIndexOf.js)
+
+[Test](https://github.com/selfrefactor/rambda/blob/master/src/lastIndexOf.spec.js)
+
+<a href="https://rambda.now.sh?const%20result%20%3D%20R.lastIndexOf(1%2C%20%5B1%2C%202%2C%203%2C%201%2C%202%5D)%20%2F%2F%20%3D%3E%203%0AR.lastIndexOf(10%2C%20%5B1%2C%202%2C%203%2C%201%2C%202%5D)%20%2F%2F%20%3D%3E%20-1">Try in REPL</a>
+
+---
+#### length
+
+> length(arrOrStr: Array|String): Number
+
+```
+R.length([1, 2, 3]) // => 3
+```
+
+[Test](https://github.com/selfrefactor/rambda/blob/master/src/length.spec.js)
+
+---
+#### map
+
+> map(mapFn: Function, x: Array|Object): Array|Object
+
+It returns the result of looping through iterable `x` with `mapFn`.
+
+The method works with objects as well.
+
+Note that unlike Ramda's `map`, here object keys are passed as second argument to `mapFn`.
+
+```
+const mapFn = x => x * 2
+const resultWithArray = R.map(mapFn, [1, 2, 3])
+// => [2, 4, 6]
+
+const result = R.map((val, prop)=>{
+  return `${prop}-${val}`
+}, {a: 1, b: 2})
+// => {a: 'a-1', b: 'b-2'}
+```
+
+[Source](https://github.com/selfrefactor/rambda/tree/master/src/map.js)
+
+[Test](https://github.com/selfrefactor/rambda/blob/master/src/map.spec.js)
+
+<a href="https://rambda.now.sh?const%20mapFn%20%3D%20x%20%3D%3E%20x%20*%202%0Aconst%20resultWithArray%20%3D%20R.map(mapFn%2C%20%5B1%2C%202%2C%203%5D)%0A%2F%2F%20%3D%3E%20%5B2%2C%204%2C%206%5D%0A%0Aconst%20result%20%3D%20R.map((val%2C%20prop)%3D%3E%7B%0A%20%20return%20%60%24%7Bprop%7D-%24%7Bval%7D%60%0A%7D%2C%20%7Ba%3A%201%2C%20b%3A%202%7D)%0A%2F%2F%20%3D%3E%20%7Ba%3A%20'a-1'%2C%20b%3A%20'b-2'%7D">Try in REPL</a>
+
+---
+#### match
+
+> match(regExpression: Regex, str: string): string[]
+
+```
+R.match(/([a-z]a)/g, 'bananas') // => ['ba', 'na', 'na']
+```
+
+[Source](https://github.com/selfrefactor/rambda/tree/master/src/match.js)
+
+[Test](https://github.com/selfrefactor/rambda/blob/master/src/match.spec.js)
+
+<a href="https://rambda.now.sh?const%20result%20%3D%20R.match(%2F(%5Ba-z%5Da)%2Fg%2C%20'bananas')%20%2F%2F%20%3D%3E%20%5B'ba'%2C%20'na'%2C%20'na'%5D">Try in REPL</a>
+
+---
+#### max
+
+> max(x: Number|String, y: Number|String): Number|String
+
+```
+R.max(5,7) // => 7
+```
+
+[Test](https://github.com/selfrefactor/rambda/blob/master/src/max.spec.js)
+
+---
+#### maxBy
+
+> maxBy(fn: Function, x: Number|String, y: Number|String): Number|String
+
+```
+R.maxBy(Math.abs, 5, -7) // => -7
+```
+
+[Test](https://github.com/selfrefactor/rambda/blob/master/src/maxBy.spec.js)
+
+---
+#### merge
+
+> merge(a: Object, b: Object)
+
+It returns result of `Object.assign({}, a, b)`.
+
+```
+R.merge({ 'foo': 0, 'bar': 1 }, { 'foo': 7 })
+// => { 'foo': 7, 'bar': 1 }
+```
+
+[Source](https://github.com/selfrefactor/rambda/tree/master/src/merge.js)
+
+[Test](https://github.com/selfrefactor/rambda/blob/master/src/merge.spec.js)
+
+<a href="https://rambda.now.sh?const%20result%20%3D%20R.merge(%7B%20'foo'%3A%200%2C%20'bar'%3A%201%20%7D%2C%20%7B%20'foo'%3A%207%20%7D)%0A%2F%2F%20%3D%3E%20%7B%20'foo'%3A%207%2C%20'bar'%3A%201%20%7D">Try in REPL</a>
+
+---
+#### min
+
+> min(x: Number|String, y: Number|String): Number|String
+
+```
+R.max(5,7) // => 5
+```
+
+[Test](https://github.com/selfrefactor/rambda/blob/master/src/min.spec.js)
+
+---
+#### minBy
+
+> minBy(fn: Function, x: Number|String, y: Number|String): Number|String
+
+```
+R.minBy(Math.abs, -5, -7) // => -5
+```
+
+[Test](https://github.com/selfrefactor/rambda/blob/master/src/minBy.spec.js)
+
+---
+#### modulo
+
+> modulo(a: number, b: number):numberNumber
+
+It returns the remainder of operation `a/b`.
+
+```
+R.module(14, 3) // => 2
+```
+
+[Test](https://github.com/selfrefactor/rambda/blob/master/src/modulo.spec.js)
+
+---
+#### multiply
+
+> multiply(a: number, b: number): number
+
+It returns the result of operation `a*b`.
+
+```
+R.multiply(4, 3) // => 12
+```
+
+[Test](https://github.com/selfrefactor/rambda/blob/master/src/multiply.spec.js)
+
+---
+#### not
+
+> not(x: any): boolean
+
+It returns inverted boolean version of input `x`.
+
+```
+R.not(true) //=> false
+R.not(false) //=> true
+R.not(0) //=> true
+R.not(1) //=> false
+```
+
+[Test](https://github.com/selfrefactor/rambda/blob/master/src/not.spec.js)
+
+---
+#### omit
+
+> omit(propsToOmit: string[]|string, obj: Object): Object
+
+It returns a partial copy of an `obj` with omitting `propsToOmit`
+
+```
+R.omit('a,c,d', {a: 1, b: 2, c: 3}) // => {b: 2}
+```
+
+[Source](https://github.com/selfrefactor/rambda/tree/master/src/omit.js)
+
+[Test](https://github.com/selfrefactor/rambda/blob/master/src/omit.spec.js)
+
+<a href="https://rambda.now.sh?const%20result%20%3D%20R.omit('a%2Cc%2Cd'%2C%20%7Ba%3A%201%2C%20b%3A%202%2C%20c%3A%203%7D)%20%2F%2F%20%3D%3E%20%7Bb%3A%202%7D">Try in REPL</a>
+
+---
+#### path
+
+> path(pathToSearch: string[]|string, obj: Object): any
+
+If `pathToSearch` is `'a.b'` then it will return `1` if `obj` is `{a:{b:1}}`.
+
+It will return `undefined`, if such path is not found.
+
+```
+R.path('a.b', {a: {b: 1}}) // => 1
+```
+
+[Source](https://github.com/selfrefactor/rambda/tree/master/src/path.js)
+
+[Test](https://github.com/selfrefactor/rambda/blob/master/src/path.spec.js)
+
+<a href="https://rambda.now.sh?const%20result%20%3D%20R.path('a.b'%2C%20%7Ba%3A%20%7Bb%3A%201%7D%7D)%20%2F%2F%20%3D%3E%201">Try in REPL</a>
+
+---
+#### pathOr
+
+> pathOr(defaultValue: any, pathToSearch: string[]|string, obj: Object): any
+
+`pathFound` is the result of calling `R.path(pathToSearch, obj)`.
+
+If `pathFound` is `undefined`, `null` or `NaN`, then `defaultValue` will be returned.
+
+`pathFound` is returned in any other case.
+
+```
+R.pathOr(1, 'a.b', {a: {b: 2}}) // => 2
+R.pathOr(1, ['a', 'b'], {a: {b: 2}}) // => 2
+R.pathOr(1, ['a', 'c'], {a: {b: 2}}) // => 1
+```
+
+[Source](https://github.com/selfrefactor/rambda/tree/master/src/pathOr.js)
+
+[Test](https://github.com/selfrefactor/rambda/blob/master/src/pathOr.spec.js)
+
+<a href="https://rambda.now.sh?const%20result%20%3D%20R.pathOr(1%2C%20'a.b'%2C%20%7Ba%3A%20%7Bb%3A%202%7D%7D)%20%2F%2F%20%3D%3E%202%0AR.pathOr(1%2C%20%5B'a'%2C%20'b'%5D%2C%20%7Ba%3A%20%7Bb%3A%202%7D%7D)%20%2F%2F%20%3D%3E%202%0AR.pathOr(1%2C%20%5B'a'%2C%20'c'%5D%2C%20%7Ba%3A%20%7Bb%3A%202%7D%7D)%20%2F%2F%20%3D%3E%201">Try in REPL</a>
+
+---
+#### partialCurry
+
+> partialCurry(fn: Function|Async, a: Object, b: Object): Function|Promise
+
+When called with function `fn` and first set of input `a`, it will return a function.
+
+This function will wait to be called with second set of input `b` and it will invoke `fn` with the merged object of `a` over `b`.
+
+`fn` can be asynchronous function. In that case a `Promise` holding the result of `fn` is returned.
+
+See the example below:
+
+```
+const fn = ({a, b, c}) => {
+  return (a * b) + c
+}
+const curried = R.partialCurry(fn, {a: 2})
+const result = curried({b: 3, c: 10})
+// => 16
+```
+
+- Note that `partialCurry` is method specific for **Rambda** and the method is not part of **Ramda**'s API
+
+- You can read my argumentation for creating *partialCurry* [here](https://selfrefactor.gitbooks.io/blog/content/argumenting-rambdas-curry.html)
+
+[Source](https://github.com/selfrefactor/rambda/tree/master/src/partialCurry.js)
+
+[Test](https://github.com/selfrefactor/rambda/blob/master/src/partialCurry.spec.js)
+
+<a href="https://rambda.now.sh?const%20fn%20%3D%20(%7Ba%2C%20b%2C%20c%7D)%20%3D%3E%20%7B%0A%20%20return%20(a%20*%20b)%20%2B%20c%0A%7D%0Aconst%20curried%20%3D%20R.partialCurry(fn%2C%20%7Ba%3A%202%7D)%0Aconst%20result%20%3D%20curried(%7Bb%3A%203%2C%20c%3A%2010%7D)%0A%2F%2F%20%3D%3E%2016">Try in REPL</a>
+
+---
+#### pick
+
+> pick(propsToPick: string[], obj: Object): Object
+
+It returns a partial copy of an `obj` containing only `propsToPick` properties.
+
+```
+R.pick(['a', 'c'], {a: 1, b: 2}) // => {a: 1}
+```
+
+[Source](https://github.com/selfrefactor/rambda/tree/master/src/pick.js)
+
+[Test](https://github.com/selfrefactor/rambda/blob/master/src/pick.spec.js)
+
+<a href="https://rambda.now.sh?const%20result%20%3D%20R.pick(%5B'a'%2C%20'c'%5D%2C%20%7Ba%3A%201%2C%20b%3A%202%7D)%20%2F%2F%20%3D%3E%20%7Ba%3A%201%7D">Try in REPL</a>
+
+---
+#### pipe
+
+> pipe(fn1: Function, ... , fnN: Function): any
+
+It performs left-to-right function composition.
+
+```
+const result = R.pipe(
+  R.filter(val => val > 2),
+  R.map(a => a * 2)
+)([1, 2, 3, 4])
+
+// => [6, 8]
+```
+
+[Source](https://github.com/selfrefactor/rambda/tree/master/src/pipe.js)
+
+[Test](https://github.com/selfrefactor/rambda/blob/master/src/pipe.spec.js)
+
+<a href="https://rambda.now.sh?const%20result%20%3D%20R.pipe(%0A%20%20R.filter(val%20%3D%3E%20val%20%3E%202)%2C%0A%20%20R.map(a%20%3D%3E%20a%20*%202)%0A)(%5B1%2C%202%2C%203%2C%204%5D)%0A%0A%2F%2F%20%3D%3E%20%5B6%2C%208%5D">Try in REPL</a>
+
+---
+#### pluck
+
+> pluck(property: string, arr: Object[]): any[]
+
+It returns list of the values of `property` taken from the objects in array of objects `arr`.
+
+```
+R.pluck('a')([{a: 1}, {a: 2}, {b: 3}]) // => [1, 2]
+```
+
+[Source](https://github.com/selfrefactor/rambda/tree/master/src/pluck.js)
+
+[Test](https://github.com/selfrefactor/rambda/blob/master/src/pluck.spec.js)
+
+<a href="https://rambda.now.sh?const%20result%20%3D%20R.pluck('a')(%5B%7Ba%3A%201%7D%2C%20%7Ba%3A%202%7D%2C%20%7Bb%3A%203%7D%5D)%20%2F%2F%20%3D%3E%20%5B1%2C%202%5D">Try in REPL</a>
+
+---
+#### prepend
+
+> prepend(x: T, arr: T[]): T[]
+
+It adds `x` to the start of the array `arr`.
+
+```
+R.prepend('foo', ['bar', 'baz']) // => ['foo', 'bar', 'baz']
+```
+
+[Source](https://github.com/selfrefactor/rambda/tree/master/src/prepend.js)
+
+[Test](https://github.com/selfrefactor/rambda/blob/master/src/prepend.spec.js)
+
+<a href="https://rambda.now.sh?const%20result%20%3D%20R.prepend('foo'%2C%20%5B'bar'%2C%20'baz'%5D)%20%2F%2F%20%3D%3E%20%5B'foo'%2C%20'bar'%2C%20'baz'%5D">Try in REPL</a>
+
+---
+#### prop
+
+> prop(propToFind: string, obj: Object): any
+
+It returns `undefined` or the value of property `propToFind` in `obj`
+
+```
+R.prop('x', {x: 100}) // => 100
+R.prop('x', {a: 1}) // => undefined
+```
+
+[Source](https://github.com/selfrefactor/rambda/tree/master/src/prop.js)
+
+[Test](https://github.com/selfrefactor/rambda/blob/master/src/prop.spec.js)
+
+<a href="https://rambda.now.sh?const%20result%20%3D%20R.prop('x'%2C%20%7Bx%3A%20100%7D)%20%2F%2F%20%3D%3E%20100%0AR.prop('x'%2C%20%7Ba%3A%201%7D)%20%2F%2F%20%3D%3E%20undefined">Try in REPL</a>
+
+---
+#### propEq
+
+> propEq(propToFind: string, valueToMatch: any, obj: Object): boolean
+
+It returns true if `obj` has property `propToFind` and its value is equal to `valueToMatch`.
+
+```
+const propToFind = 'foo'
+const valueToMatch = 0
+
+const result = R.propEq(propToFind, valueToMatch)({foo: 0})
+// => true
+```
+
+[Source](https://github.com/selfrefactor/rambda/tree/master/src/propEq.js)
+
+[Test](https://github.com/selfrefactor/rambda/blob/master/src/propEq.spec.js)
+
+<a href="https://rambda.now.sh?const%20propToFind%20%3D%20'foo'%0Aconst%20valueToMatch%20%3D%200%0A%0Aconst%20result%20%3D%20R.propEq(propToFind%2C%20valueToMatch)(%7Bfoo%3A%200%7D)%0A%2F%2F%20%3D%3E%20true">Try in REPL</a>
+
+---
+#### range
+
+> range(start: number, end: number): number[]
+
+It returns a array of numbers from `start`(inclusive) to `end`(exclusive).
+
+```
+R.range(0, 3)   // => [0, 1, 2]
+```
+
+[Source](https://github.com/selfrefactor/rambda/tree/master/src/range.js)
+
+[Test](https://github.com/selfrefactor/rambda/blob/master/src/range.spec.js)
+
+<a href="https://rambda.now.sh?const%20result%20%3D%20R.range(0%2C%203)%20%20%20%2F%2F%20%3D%3E%20%5B0%2C%201%2C%202%5D">Try in REPL</a>
+
+---
+#### reduce
+
+> reduce(iteratorFn: Function, accumulator: any, array: T[]): any
+
+```
+const iteratorFn = (acc, val) => acc + val
+const result = R.reduce(iteratorFn, 1, [1, 2, 3])
+// => 7
+```
+
+[Source](https://github.com/selfrefactor/rambda/tree/master/src/reduce.js)
+
+[Test](https://github.com/selfrefactor/rambda/blob/master/src/reduce.spec.js)
+
+<a href="https://rambda.now.sh?const%20iteratorFn%20%3D%20(acc%2C%20val)%20%3D%3E%20acc%20%2B%20val%0Aconst%20result%20%3D%20R.reduce(iteratorFn%2C%201%2C%20%5B1%2C%202%2C%203%5D)%0A%2F%2F%20%3D%3E%207">Try in REPL</a>
+
+---
+#### reject
+
+> reject(fn: Function, arr: T[]): T[]
+
+It has the opposite effect of `R.filter`.
+
+It will return those members of `arr` that return `false` when applied to function `fn`.
+
+```
+const fn = x => x % 2 === 1
+
+const result = R.reject(fn, [1, 2, 3, 4]) 
+// => [2, 4]
+```
+
+[Source](https://github.com/selfrefactor/rambda/tree/master/src/reject.js)
+
+[Test](https://github.com/selfrefactor/rambda/blob/master/src/reject.spec.js)
+
+<a href="https://rambda.now.sh?const%20fn%20%3D%20x%20%3D%3E%20x%20%25%202%20%3D%3D%3D%201%0A%0Aconst%20result%20%3D%20R.reject(fn%2C%20%5B1%2C%202%2C%203%2C%204%5D)%20%0A%2F%2F%20%3D%3E%20%5B2%2C%204%5D">Try in REPL</a>
+
+---
+#### repeat
+
+> repeat(valueToRepeat: T, num: number): T[]
+
+```
+R.repeat('foo', 2) // => ['foo', 'foo']
+```
+
+[Source](https://github.com/selfrefactor/rambda/tree/master/src/repeat.js)
+
+[Test](https://github.com/selfrefactor/rambda/blob/master/src/repeat.spec.js)
+
+<a href="https://rambda.now.sh?const%20result%20%3D%20R.repeat('foo'%2C%202)%20%2F%2F%20%3D%3E%20%5B'foo'%2C%20'foo'%5D">Try in REPL</a>
+
+---
+#### replace
+
+> replace(strOrRegex: string|Regex, replacer: string, str: string): string
+
+It replaces `strOrRegex` found in `str` with `replacer`.
+
+```
+R.replace('foo', 'bar', 'foo foo') // => 'bar foo'
+R.replace(/foo/, 'bar', 'foo foo') // => 'bar foo'
+R.replace(/foo/g, 'bar', 'foo foo') // => 'bar bar'
+```
+
+[Source](https://github.com/selfrefactor/rambda/tree/master/src/replace.js)
+
+[Test](https://github.com/selfrefactor/rambda/blob/master/src/replace.spec.js)
+
+<a href="https://rambda.now.sh?const%20result%20%3D%20R.replace('foo'%2C%20'bar'%2C%20'foo%20foo')%20%2F%2F%20%3D%3E%20'bar%20foo'%0AR.replace(%2Ffoo%2F%2C%20'bar'%2C%20'foo%20foo')%20%2F%2F%20%3D%3E%20'bar%20foo'%0AR.replace(%2Ffoo%2Fg%2C%20'bar'%2C%20'foo%20foo')%20%2F%2F%20%3D%3E%20'bar%20bar'">Try in REPL</a>
+
+---
+#### reverse
+
+reverse(str: T[]): T[]
+
+```
+const arr = [1, 2]
+
+const result = R.reverse(arr)
+// => [2, 1]
+```
+
+[Source](https://github.com/selfrefactor/rambda/tree/master/src/reverse.js)
+
+[Test](https://github.com/selfrefactor/rambda/blob/master/src/reverse.spec.js)
+
+<a href="https://rambda.now.sh?const%20arr%20%3D%20%5B1%2C%202%5D%0A%0Aconst%20result%20%3D%20R.reverse(arr)%0A%2F%2F%20%3D%3E%20%5B2%2C%201%5D">Try in REPL</a>
+
+---
+#### sort
+
+takeLast(num: number, arrOrStr: T[]|string): T[]|String
+
+It returns copy of `arr` sorted by `sortFn`.
+
+Note that `sortFn` must return a number type.
+
+```
+const sortFn = (a, b) => a - b
+
+const result = R.sort(sortFn, [3, 1, 2]) 
+// => [1, 2, 3]
+```
+
+[Source](https://github.com/selfrefactor/rambda/tree/master/src/sort.js)
+
+[Test](https://github.com/selfrefactor/rambda/blob/master/src/sort.spec.js)
+
+<a href="https://rambda.now.sh?const%20sortFn%20%3D%20(a%2C%20b)%20%3D%3E%20a%20-%20b%0A%0Aconst%20result%20%3D%20R.sort(sortFn%2C%20%5B3%2C%201%2C%202%5D)%20%0A%2F%2F%20%3D%3E%20%5B1%2C%202%2C%203%5D">Try in REPL</a>
+
+---
+#### sortBy
+
+> sortBy(sortFn: Function, arr: T[]): T[]
+
+It returns copy of `arr` sorted by `sortFn`.
+
+`sortFn` must return value for comparison
+
+```
+const sortFn = obj => obj.foo
+
+const result = R.sortBy(sortFn, [
+  {foo: 1},
+  {foo: 0}
+])
+
+const expectedResult = [ {foo: 0}, {foo: 1} ]
+console.log(result === expectedResult) // => true
+```
+
+[Source](https://github.com/selfrefactor/rambda/tree/master/src/sortBy.js)
+
+[Test](https://github.com/selfrefactor/rambda/blob/master/src/sortBy.spec.js)
+
+<a href="https://rambda.now.sh?const%20sortFn%20%3D%20obj%20%3D%3E%20obj.foo%0A%0Aconst%20result%20%3D%20R.sortBy(sortFn%2C%20%5B%0A%20%20%7Bfoo%3A%201%7D%2C%0A%20%20%7Bfoo%3A%200%7D%0A%5D)%0A%0Aconst%20expectedResult%20%3D%20%5B%20%7Bfoo%3A%200%7D%2C%20%7Bfoo%3A%201%7D%20%5D%0Aconsole.log(result%20%3D%3D%3D%20expectedResult)%20%2F%2F%20%3D%3E%20true">Try in REPL</a>
+
+---
+#### split
+
+> split(separator: string, str: string): string[]
+
+```
+R.split('-', 'a-b-c') // => ['a', 'b', 'c']
+```
+
+[Source](https://github.com/selfrefactor/rambda/tree/master/src/split.js)
+
+[Test](https://github.com/selfrefactor/rambda/blob/master/src/split.spec.js)
+
+<a href="https://rambda.now.sh?const%20result%20%3D%20R.split('-'%2C%20'a-b-c')%20%2F%2F%20%3D%3E%20%5B'a'%2C%20'b'%2C%20'c'%5D">Try in REPL</a>
+
+---
+#### splitEvery
+
+> splitEvery(sliceLength: number, arrOrString: T[]|string): T[T[]]|string[]
+
+- It splits `arrOrStr` into slices of `sliceLength`.
+
+```
+R.splitEvery(2, [1, 2, 3]) // => [[1, 2], [3]]
+R.splitEvery(3, 'foobar') // => ['foo', 'bar']
+```
+
+[Source](https://github.com/selfrefactor/rambda/tree/master/src/splitEvery.js)
+
+[Test](https://github.com/selfrefactor/rambda/blob/master/src/splitEvery.spec.js)
+
+<a href="https://rambda.now.sh?const%20result%20%3D%20R.splitEvery(2%2C%20%5B1%2C%202%2C%203%5D)%20%2F%2F%20%3D%3E%20%5B%5B1%2C%202%5D%2C%20%5B3%5D%5D%0AR.splitEvery(3%2C%20'foobar')%20%2F%2F%20%3D%3E%20%5B'foo'%2C%20'bar'%5D">Try in REPL</a>
+
+---
+#### startsWith
+
+> startsWith(x: string, str: string): boolean
+
+```
+R.startsWith(
+  'foo',
+  'foo-bar'
+) // => true
+
+R.startsWith(
+  'bar',
+  'foo-bar'
+) // => false
+```
+
+[Source](https://github.com/selfrefactor/rambda/tree/master/src/startsWith.js)
+
+[Test](https://github.com/selfrefactor/rambda/blob/master/src/startsWith.spec.js)
+
+<a href="https://rambda.now.sh?const%20result%20%3D%20R.startsWith(%0A%20%20'foo'%2C%0A%20%20'foo-bar'%0A)%20%2F%2F%20%3D%3E%20true%0A%0AR.startsWith(%0A%20%20'bar'%2C%0A%20%20'foo-bar'%0A)%20%2F%2F%20%3D%3E%20false">Try in REPL</a>
+
+---
+#### subtract
+
+> subtract(a: number, b: number): number
+
+```
+R.subtract(3, 1) // => 2
+```
+
+[Test](https://github.com/selfrefactor/rambda/blob/master/src/subtract.spec.js)
+
+---
+#### T
+
+`R.T() // => true`
+
+[Test](https://github.com/selfrefactor/rambda/blob/master/src/T.spec.js)
+
+---
+#### tail
+
+> tail(arrOrStr: T[]|string): T[]|string
+
+- It returns all but the first element of `arrOrStr`
+
+```
+R.tail([1, 2, 3])  // => [2, 3]
+R.tail('foo')  // => 'oo'
+```
+
+[Source](https://github.com/selfrefactor/rambda/tree/master/src/tail.js)
+
+[Test](https://github.com/selfrefactor/rambda/blob/master/src/tail.spec.js)
+
+<a href="https://rambda.now.sh?const%20result%20%3D%20R.tail(%5B1%2C%202%2C%203%5D)%20%20%2F%2F%20%3D%3E%20%5B2%2C%203%5D%0AR.tail('foo')%20%20%2F%2F%20%3D%3E%20'oo'">Try in REPL</a>
+
+---
+#### take
+
+> take(num: number, arrOrStr: T[]|string): T[]|string
+
+- It returns the first `num` elements of `arrOrStr`.
+
+```
+R.take(1, ['foo', 'bar']) // => ['foo']
+R.take(2, ['foo']) // => 'fo'
+```
+
+[Source](https://github.com/selfrefactor/rambda/tree/master/src/take.js)
+
+[Test](https://github.com/selfrefactor/rambda/blob/master/src/take.spec.js)
+
+<a href="https://rambda.now.sh?const%20result%20%3D%20R.take(1%2C%20%5B'foo'%2C%20'bar'%5D)%20%2F%2F%20%3D%3E%20%5B'foo'%5D%0AR.take(2%2C%20%5B'foo'%5D)%20%2F%2F%20%3D%3E%20'fo'">Try in REPL</a>
+
+---
+#### takeLast
+
+> takeLast(num: number, arrOrStr: T[]|string): T[]|string
+
+- It returns the last `num` elements of `arrOrStr`.
+
+```
+R.takeLast(1, ['foo', 'bar']) // => ['bar']
+R.takeLast(2, ['foo']) // => 'oo'
+```
+
+[Source](https://github.com/selfrefactor/rambda/tree/master/src/takeLast.js)
+
+[Test](https://github.com/selfrefactor/rambda/blob/master/src/takeLast.spec.js)
+
+<a href="https://rambda.now.sh?const%20result%20%3D%20R.takeLast(1%2C%20%5B'foo'%2C%20'bar'%5D)%20%2F%2F%20%3D%3E%20%5B'bar'%5D%0AR.takeLast(2%2C%20%5B'foo'%5D)%20%2F%2F%20%3D%3E%20'oo'">Try in REPL</a>
+
+---
+#### test
+
+> test(regExpression: Regex, str: string): boolean
+
+- Determines whether `str` matches `regExpression`
+
+```
+R.test(/^f/, 'foo') 
+// => true
+```
+
+[Source](https://github.com/selfrefactor/rambda/tree/master/src/test.js)
+
+[Test](https://github.com/selfrefactor/rambda/blob/master/src/test.spec.js)
+
+<a href="https://rambda.now.sh?const%20result%20%3D%20R.test(%2F%5Ef%2F%2C%20'foo')%20%0A%2F%2F%20%3D%3E%20true">Try in REPL</a>
+
+---
+#### times
+
+> times(fn: Function, n: number): T[]
+
+It returns the result of applying function `fn` over members of range array.
+The range array includes numbers between `0` and `n`(exclusive).
+
+```
+R.times(R.identity, 5)
+//=> [0, 1, 2, 3, 4]
+```
+
+[Source](https://github.com/selfrefactor/rambda/tree/master/src/times.js)
+
+[Test](https://github.com/selfrefactor/rambda/blob/master/src/times.spec.js)
+
+<a href="https://rambda.now.sh?const%20result%20%3D%20R.times(R.identity%2C%205)%0A%2F%2F%3D%3E%20%5B0%2C%201%2C%202%2C%203%2C%204%5D">Try in REPL</a>
+
+---
+#### toLower
+
+> toLower(str: string): string
+
+```
+R.toLower('FOO') // => 'foo'
+```
+
+[Test](https://github.com/selfrefactor/rambda/blob/master/src/toLower.spec.js)
+
+---
+#### toString
+
+> toString(x: any): string
+
+```
+R.toString([1, 2]) // => '1,2'
+```
+
+[Test](https://github.com/selfrefactor/rambda/blob/master/src/toString.spec.js)
+
+---
+#### toUpper
+
+> toUpper(str: string): string
+
+```
+R.toUpper('foo') // => 'FOO'
+```
+
+[Test](https://github.com/selfrefactor/rambda/blob/master/src/toUpper.spec.js)
+
+---
+#### trim
+
+> trim(str: string): string
+
+```
+R.trim('  foo  ') // => 'foo'
+```
+
+[Test](https://github.com/selfrefactor/rambda/blob/master/src/trim.spec.js)
+
+---
+#### type
+
+> type(a: any): string
+
+```
+R.type(() => {}) // => 'Function'
+R.type(async () => {}) // => 'Async'
+R.type([]) // => 'Array'
+R.type({}) // => 'Object'
+R.type('foo') // => 'String'
+R.type(1) // => 'Number'
+R.type(true) // => 'Boolean'
+R.type(null) // => 'Null'
+R.type(/[A-z]/) // => 'RegExp'
+
+const delay = ms => new Promise(resolve => {
+  setTimeout(function () {
+    resolve()
+  }, ms)
+})
+R.type(delay) // => 'Promise'
+```
+
+[Source](https://github.com/selfrefactor/rambda/tree/master/src/type.js)
+
+[Test](https://github.com/selfrefactor/rambda/blob/master/src/type.spec.js)
+
+<a href="https://rambda.now.sh?const%20result%20%3D%20R.type(()%20%3D%3E%20%7B%7D)%20%2F%2F%20%3D%3E%20'Function'%0AR.type(async%20()%20%3D%3E%20%7B%7D)%20%2F%2F%20%3D%3E%20'Async'%0AR.type(%5B%5D)%20%2F%2F%20%3D%3E%20'Array'%0AR.type(%7B%7D)%20%2F%2F%20%3D%3E%20'Object'%0AR.type('foo')%20%2F%2F%20%3D%3E%20'String'%0AR.type(1)%20%2F%2F%20%3D%3E%20'Number'%0AR.type(true)%20%2F%2F%20%3D%3E%20'Boolean'%0AR.type(null)%20%2F%2F%20%3D%3E%20'Null'%0AR.type(%2F%5BA-z%5D%2F)%20%2F%2F%20%3D%3E%20'RegExp'%0A%0Aconst%20delay%20%3D%20ms%20%3D%3E%20new%20Promise(resolve%20%3D%3E%20%7B%0A%20%20setTimeout(function%20()%20%7B%0A%20%20%20%20resolve()%0A%20%20%7D%2C%20ms)%0A%7D)%0AR.type(delay)%20%2F%2F%20%3D%3E%20'Promise'">Try in REPL</a>
+
+---
+#### uniq
+
+> uniq(arr: T[]): T[]
+
+It returns a new array containing only one copy of each element in `arr`.
+
+```
+R.uniq([1, 1, 2, 1])
+// => [1, 2]
+```
+
+[Source](https://github.com/selfrefactor/rambda/tree/master/src/uniq.js)
+
+[Test](https://github.com/selfrefactor/rambda/blob/master/src/uniq.spec.js)
+
+<a href="https://rambda.now.sh?const%20result%20%3D%20R.uniq(%5B1%2C%201%2C%202%2C%201%5D)%0A%2F%2F%20%3D%3E%20%5B1%2C%202%5D">Try in REPL</a>
+
+---
+#### uniqWith
+
+> uniqWith(fn: Function, arr: T[]): T[]
+
+It returns a new array containing only one copy of each element in `arr` according to boolean returning function `fn`.
+
+```
+const arr = [
+  {id: 0, title:'foo'},
+  {id: 1, title:'bar'},
+  {id: 2, title:'baz'},
+  {id: 3, title:'foo'},
+  {id: 4, title:'bar'},
+]
+
+const expectedResult = [
+  {id: 0, title:'foo'},
+  {id: 1, title:'bar'},
+  {id: 2, title:'baz'},
+]
+
+const fn = (x,y) => x.title === y.title
+
+const result = R.uniqWith(fn, arr)
+
+console.log(result === expectedResult) // => true
+```
+
+[Source](https://github.com/selfrefactor/rambda/tree/master/src/uniqWith.js)
+
+[Test](https://github.com/selfrefactor/rambda/blob/master/src/uniqWith.spec.js)
+
+<a href="https://rambda.now.sh?const%20arr%20%3D%20%5B%0A%20%20%7Bid%3A%200%2C%20title%3A'foo'%7D%2C%0A%20%20%7Bid%3A%201%2C%20title%3A'bar'%7D%2C%0A%20%20%7Bid%3A%202%2C%20title%3A'baz'%7D%2C%0A%20%20%7Bid%3A%203%2C%20title%3A'foo'%7D%2C%0A%20%20%7Bid%3A%204%2C%20title%3A'bar'%7D%2C%0A%5D%0A%0Aconst%20expectedResult%20%3D%20%5B%0A%20%20%7Bid%3A%200%2C%20title%3A'foo'%7D%2C%0A%20%20%7Bid%3A%201%2C%20title%3A'bar'%7D%2C%0A%20%20%7Bid%3A%202%2C%20title%3A'baz'%7D%2C%0A%5D%0A%0Aconst%20fn%20%3D%20(x%2Cy)%20%3D%3E%20x.title%20%3D%3D%3D%20y.title%0A%0Aconst%20result%20%3D%20R.uniqWith(fn%2C%20arr)%0A%0Aconsole.log(result%20%3D%3D%3D%20expectedResult)%20%2F%2F%20%3D%3E%20true">Try in REPL</a>
+
+---
+#### update
+
+> update(i: number, replaceValue: T, arr: T[]): T[]
+
+It returns a new copy of the `arr` with the element at `i` index
+replaced with `replaceValue`.
+
+```
+R.update(0, 'foo', ['bar', 'baz'])
+// => ['foo', baz]
+```
+
+[Source](https://github.com/selfrefactor/rambda/tree/master/src/update.js)
+
+[Test](https://github.com/selfrefactor/rambda/blob/master/src/update.spec.js)
+
+<a href="https://rambda.now.sh?const%20result%20%3D%20R.update(0%2C%20'foo'%2C%20%5B'bar'%2C%20'baz'%5D)%0A%2F%2F%20%3D%3E%20%5B'foo'%2C%20baz%5D">Try in REPL</a>
+
+---
+#### values
+
+> values(obj: Object): Array
+
+It returns array with of all values in `obj`.
+
+```
+R.values({a: 1, b: 2})
+// => [1, 2]
+```
+
+[Source](https://github.com/selfrefactor/rambda/tree/master/src/values.js)
+
+[Test](https://github.com/selfrefactor/rambda/blob/master/src/values.spec.js)
+
+<a href="https://rambda.now.sh?const%20result%20%3D%20R.values(%7Ba%3A%201%2C%20b%3A%202%7D)%0A%2F%2F%20%3D%3E%20%5B1%2C%202%5D">Try in REPL</a>
+
+---
+#### without
+
+> without(a: T[], b: T[]): T[]
+
+It will return a new array based on `b` array.
+
+This array contains all members of `b` array, that doesn't exist in `a` array.
+
+Method `R.equals` is used to determine the existance of `b` members in `a` array.
+
+```
+R.without([1, 2], [1, 2, 3, 4])
+// => [3, 4]
+```
+
+[Source](https://github.com/selfrefactor/rambda/tree/master/src/without.js)
+
+[Test](https://github.com/selfrefactor/rambda/blob/master/src/without.spec.js)
+
+<a href="https://rambda.now.sh?const%20result%20%3D%20R.without(%5B1%2C%202%5D%2C%20%5B1%2C%202%2C%203%2C%204%5D)%0A%2F%2F%20%3D%3E%20%5B3%2C%204%5D">Try in REPL</a>
+
+---
+#### zip
+
+> zip(a: K[], b: V[]): Array<KeyValuePair<K, V>>
+
+It will return a new array containing tuples of equally positions items from both lists. The returned list will be truncated to match the length of the shortest supplied list.
+
+```
+R.zip([1, 2], ['A', 'B'])
+// => [[1, 'A'], [2, 'B']]
+
+// truncates to shortest list
+R.zip([1, 2, 3, 4], ['A', 'B'])
+// => [[1, 'A'], [2, 'B']]
+```
+
+[Test](https://github.com/selfrefactor/rambda/blob/master/src/zip.spec.js)
+
+---
+#### zipObj
+
+> zipObj(a: K[], b: V[]): Object
+
+It will return a new object with keys of `a` array and values of `b` array.
+
+```
+R.zipObj(['a', 'b', 'c'], [1, 2, 3])
+//=> {a: 1, b: 2, c: 3}
+
+// truncates to shortest list
+R.zipObj(['a', 'b', 'c'], [1, 2])
+//=> {a: 1, b: 2}
+```
+
+[Test](https://github.com/selfrefactor/rambda/blob/master/src/zipObj.spec.js)
+
