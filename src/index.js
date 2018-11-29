@@ -209,12 +209,12 @@ async function populate({
 }
 
 populate({
-  bookmarks        : false,
-  fromSelfrefactor : false,
-  updateSecondary  : false,
-  createData       : false,
-  score            : false,
-  createReadme     : true,
+  bookmarks        : 0,
+  fromSelfrefactor : 0,
+  updateSecondary  : 0,
+  createData       : 0,
+  score            : 1,
+  createReadme     : 0,
 })
   .then(console.log)
   .catch(console.log)
