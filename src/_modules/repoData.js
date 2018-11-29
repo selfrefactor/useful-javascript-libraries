@@ -13,7 +13,7 @@ async function repoData(input) {
     const splitted = input.split('/')
     if (splitted.length !== 5) return false
     const [ owner, repo ] = takeLast(2, splitted)
-
+    console.log(repo)
     const url = glue(
       `
       https://api.github.com

@@ -30,7 +30,7 @@ const SECONDARY_INPUT = `${ __dirname }/gists.json`
 const SECONDARY_OUTPUT = `${ __dirname }/linksSecondary.txt`
 const LINKS = `${ __dirname }/links.json`
 const REPO_DATA = `${ __dirname }/repoData.json`
-const TITLE = '# {{num}} Useful Javascript libraries\n\n'
+const TITLE = '# {{num}} Useful {{tag}} libraries\n\n'
 const TITLE_PROJECTS = '# {{num}} Useful Javascript projects\n\n'
 const OTHER_TITLE = '# {{num}} Other libraries and resources\n\n'
 const TEMPLATE = [
@@ -170,6 +170,14 @@ async function updateFromSelfrefactor(){
   writeFileSync(BOOKMARKS, `${ bookmarks }\n${ links }`)
 }
 
+function isLibrary(library){
+  return allTrue(
+    prop('isLibrary', library),
+    prop('isReact', library) === false,
+    prop('isTypescript', library) === false,
+  )
+}
+
 async function populate({
   bookmarks,
   createData,
@@ -190,21 +198,34 @@ async function populate({
   const soUniq = uniqWith((a, b) => a.name === b.name, sorted)
 
   const jsRelated = soUniq.filter(isJS)
-  const jsLibs = jsRelated.filter(prop('isLibrary'))
+  const jsLibs = jsRelated.filter(isLibrary)
+  const reactLibs = jsRelated.filter(prop('isReact'))
+  const tsLibs = jsRelated.filter(prop('isTypescript'))
   const jsProjects = jsRelated.filter(complement(prop('isLibrary')))
   const otherLibs = soUniq.filter(complement(isJS))
 
   const jsContent = createReadmePartial(jsLibs)
+  const reactContent = createReadmePartial(reactLibs)
+  const tsContent = createReadmePartial(tsLibs)
   const jsProjectsContent = createReadmePartial(jsProjects)
   const otherContent = createReadmePartial(otherLibs)
 
-  const jsTitle = template(TITLE, { num : jsLibs.length })
+  const jsTitle = template(TITLE, { num : jsLibs.length, tag: 'Javascript' })
+  const reactTitle = template(TITLE, { num : reactLibs.length, tag: 'React' })
+  const tsTitle = template(TITLE, { num : tsLibs.length, tag: 'Typescript' })
   const jsProjectsTitle = template(TITLE_PROJECTS, { num : jsProjects.length })
   const otherTitle = template(OTHER_TITLE, { num : otherLibs.length })
 
+  const sep = '---\n'
+  const js = `${ jsTitle }${ jsContent }`
+  const react = `${sep}${ reactTitle }${ reactContent }`
+  const ts = `${sep}${ tsTitle }${ tsContent }`
+  const projects = `${sep}${ jsProjectsTitle }${ jsProjectsContent }`
+  const other = `${sep}${ otherTitle }${ otherContent }`
+
   writeFileSync(
     `${ process.cwd() }/README.md`,
-    `${ jsTitle }${ jsContent }\n---\n${ jsProjectsTitle }${ jsProjectsContent }---\n${ otherTitle }${ otherContent }`
+    `${ js }\n${react}${ts}${projects}${ other }`
   )
 }
 
