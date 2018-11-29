@@ -1,5 +1,6 @@
 require('env')('special')
 const {
+  allTrue,
   anyTrue,
   complement,
   filter,
@@ -216,7 +217,7 @@ async function populate({
   const jsProjectsTitle = template(TITLE_PROJECTS, { num : jsProjects.length })
   const otherTitle = template(OTHER_TITLE, { num : otherLibs.length })
 
-  const sep = '---\n'
+  const sep = '---\n\n'
   const js = `${ jsTitle }${ jsContent }`
   const react = `${sep}${ reactTitle }${ reactContent }`
   const ts = `${sep}${ tsTitle }${ tsContent }`
@@ -234,8 +235,8 @@ populate({
   fromSelfrefactor : 0,
   updateSecondary  : 0,
   createData       : 0,
-  score            : 1,
-  createReadme     : 0,
+  score            : 0,
+  createReadme     : 1,
 })
   .then(console.log)
   .catch(console.log)
