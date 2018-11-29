@@ -4,8 +4,8 @@
   "description": "Collection of Javascript libraries",
   "main": "index.js",
   "scripts": {
+    "docs": "docsify init ./docs",
     "start": "node src/index.js",
-    "test:watch": "jest src --watch",
     "test": "jest src"
   },
   "repository": {
