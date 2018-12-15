@@ -22,7 +22,7 @@ const { readFileSync, writeFileSync } = require('fs')
 const { writeJSONSync, readJSONSync } = require('fs-extra')
 const { bookmarksToLinks } = require('./_modules/bookmarksToLinks')
 const { getScore } = require('./_modules/getScore')
-const { repoData: repoDataModule } = require('./_modules/repoData')
+const { repoData: repoDataModule, repoDataSecondary } = require('./_modules/repoData')
 const { titleCase } = require('string-fn')
 const { toGithubURL } = require('./_modules/toGithubURL')
 
@@ -51,9 +51,7 @@ async function generateLinks(bookmarksContent) {
     .s(
       filter(x => x.includes('github.com') || x.includes('npmjs'))
     )
-
-  //.s(take(11))
-  console.log({allLinks: allLinks.length})    
+  
   const withCorrectLinks = await mapAsync(async x => {
     if (x.includes('github.com')) return x
     const url = await toGithubURL(x)
@@ -93,11 +91,11 @@ async function createDataJSON() {
 
 async function createScores() {
   const { links, linksSecondary } = readJSONSync(LINKS)
-  const withRepoDataRaw = await mapAsync(repoDataModule, links)
   const withRepoDataSecondaryRaw = await mapAsync(
-    repoDataModule,
+    repoDataSecondary,
     linksSecondary
   )
+  const withRepoDataRaw = await mapAsync(repoDataModule, links)
 
   const withRepoData = withRepoDataRaw.filter(Boolean)
   const withRepoDataSecondary = withRepoDataSecondaryRaw.filter(
@@ -235,8 +233,8 @@ populate({
   fromSelfrefactor : 0,
   updateSecondary  : 0,
   createData       : 0,
-  score            : 0,
-  createReadme     : 1,
+  score            : 1,
+  createReadme     : 0,
 })
   .then(console.log)
   .catch(console.log)

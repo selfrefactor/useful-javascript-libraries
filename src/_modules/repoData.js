@@ -1,6 +1,9 @@
 const { get } = require('axios')
 const { takeLast, pick, glue, path } = require('rambdax')
 const { getDependencies } = require('../_helpers/getDependencies')
+const { dateDiff } = require('../_helpers/dateDiff')
+
+const ALLOWED_UPDATED_DAYS = 180
 
 function safeIncludes(list, target) {
   if (!Array.isArray(list)) return false
@@ -8,7 +11,7 @@ function safeIncludes(list, target) {
   return list.includes(target)
 }
 
-async function repoData(input) {
+async function repoData(input, secondaryFlag) {
   try {
     const splitted = input.split('/')
     if (splitted.length !== 5) return false
@@ -61,7 +64,17 @@ async function repoData(input) {
       'language,name,description,html_url,updated_at,stargazers_count,open_issues',
       data
     )
-
+    if(secondaryFlag){
+      const updatedSince = dateDiff(
+        data.updated_at,
+        Date.now()
+      )
+      console.log({
+        okUpdated: updatedSince < ALLOWED_UPDATED_DAYS
+      })
+      
+      if(updatedSince > ALLOWED_UPDATED_DAYS) return false
+    }
     console.log({
       owner,
       repo,
@@ -82,3 +95,4 @@ async function repoData(input) {
 }
 
 exports.repoData = repoData
+exports.repoDataSecondary = x => repoData(x, true)
