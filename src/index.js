@@ -91,11 +91,11 @@ async function createDataJSON() {
 
 async function createScores() {
   const { links, linksSecondary } = readJSONSync(LINKS)
+  const withRepoDataRaw = await mapAsync(repoDataModule, links)
   const withRepoDataSecondaryRaw = await mapAsync(
     repoDataSecondary,
     linksSecondary
   )
-  const withRepoDataRaw = await mapAsync(repoDataModule, links)
 
   const withRepoData = withRepoDataRaw.filter(Boolean)
   const withRepoDataSecondary = withRepoDataSecondaryRaw.filter(
@@ -234,7 +234,7 @@ populate({
   updateSecondary  : 0,
   createData       : 0,
   score            : 1,
-  createReadme     : 0,
+  createReadme     : 1,
 })
   .then(console.log)
   .catch(console.log)

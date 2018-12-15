@@ -2,7 +2,7 @@
   "name": "useful-javascript-libraries",
   "version": "1.0.0",
   "description": "Collection of Javascript libraries",
-  "main": "index.js",
+  "main": "./src/index.js",
   "scripts": {
     "docs": "docsify init ./docs",
     "start": "node src/index.js",
