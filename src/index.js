@@ -229,10 +229,10 @@ async function populate({
 }
 
 populate({
-  bookmarks        : 0,
-  fromSelfrefactor : 0,
-  updateSecondary  : 0,
-  createData       : 0,
+  bookmarks        : 1,
+  fromSelfrefactor : 1,
+  updateSecondary  : 1,
+  createData       : 1,
   score            : 1,
   createReadme     : 1,
 })
