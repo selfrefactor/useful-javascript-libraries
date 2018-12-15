@@ -11,20 +11,20 @@
 			"isLibrary": true,
 			"isReact": false,
 			"isTypescript": false,
-			"score": -10127
+			"score": -10132
 		},
 		{
 			"language": "JavaScript",
 			"name": "Functional-Light-JS",
 			"description": "Pragmatic, balanced FP in JavaScript. @FLJSBook on twitter.",
 			"html_url": "https://github.com/getify/Functional-Light-JS",
-			"updated_at": "2018-12-15T14:22:38Z",
-			"stargazers_count": 9808,
+			"updated_at": "2018-12-15T18:28:17Z",
+			"stargazers_count": 9810,
 			"open_issues": 17,
 			"isLibrary": false,
 			"isReact": false,
 			"isTypescript": false,
-			"score": 9769
+			"score": 9773
 		},
 		{
 			"language": "JavaScript",
@@ -41,32 +41,6 @@
 		},
 		{
 			"language": "JavaScript",
-			"name": "remarkable",
-			"description": "Markdown parser, done right. Commonmark support, extensions, syntax plugins, high speed - all in one. Gulp and metalsmith plugins are also available. Used by Facebook, Docusaurus and many others! See https://github.com/breakdance/breakdance for HTML-to-markdown conversion.",
-			"html_url": "https://github.com/jonschlinkert/remarkable",
-			"updated_at": "2018-12-15T08:27:13Z",
-			"stargazers_count": 4097,
-			"open_issues": 90,
-			"isLibrary": true,
-			"isReact": false,
-			"isTypescript": false,
-			"score": -996
-		},
-		{
-			"language": "JavaScript",
-			"name": "loadable-components",
-			"description": "React code splitting made easy ✂️✨",
-			"html_url": "https://github.com/smooth-code/loadable-components",
-			"updated_at": "2018-12-15T01:51:35Z",
-			"stargazers_count": 1355,
-			"open_issues": 8,
-			"isLibrary": true,
-			"isReact": true,
-			"isTypescript": false,
-			"score": -7218
-		},
-		{
-			"language": "JavaScript",
 			"name": "sentry-webpack-plugin",
 			"description": "Official webpack plugin for Sentry https://sentry.io",
 			"html_url": "https://github.com/getsentry/sentry-webpack-plugin",
@@ -77,6 +51,32 @@
 			"isReact": false,
 			"isTypescript": false,
 			"score": -9671
+		},
+		{
+			"language": "JavaScript",
+			"name": "prop-types",
+			"description": "Runtime type checking for React props and similar objects",
+			"html_url": "https://github.com/facebook/prop-types",
+			"updated_at": "2018-12-15T17:59:06Z",
+			"stargazers_count": 2560,
+			"open_issues": 126,
+			"isLibrary": true,
+			"isReact": true,
+			"isTypescript": false,
+			"score": -3746
+		},
+		{
+			"language": "JavaScript",
+			"name": "project-guidelines",
+			"description": "A set of best practices for JavaScript projects",
+			"html_url": "https://github.com/elsewhencode/project-guidelines",
+			"updated_at": "2018-12-15T14:47:06Z",
+			"stargazers_count": 18930,
+			"open_issues": 11,
+			"isLibrary": true,
+			"isReact": false,
+			"isTypescript": false,
+			"score": 27959
 		},
 		{
 			"language": "JavaScript",
@@ -122,13 +122,13 @@
 			"name": "formik",
 			"description": "Build forms in React, without the tears 😭 ",
 			"html_url": "https://github.com/jaredpalmer/formik",
-			"updated_at": "2018-12-15T15:39:36Z",
-			"stargazers_count": 11647,
-			"open_issues": 130,
+			"updated_at": "2018-12-15T18:58:39Z",
+			"stargazers_count": 11653,
+			"open_issues": 129,
 			"isLibrary": true,
 			"isReact": true,
 			"isTypescript": false,
-			"score": 14464
+			"score": 14467
 		},
 		{
 			"language": "Objective-C",
@@ -150,11 +150,11 @@
 			"html_url": "https://github.com/react-navigation/react-navigation",
 			"updated_at": "2018-12-15T14:01:40Z",
 			"stargazers_count": 14179,
-			"open_issues": 81,
+			"open_issues": 78,
 			"isLibrary": true,
 			"isReact": true,
 			"isTypescript": false,
-			"score": 19087
+			"score": 19060
 		},
 		{
 			"language": null,
@@ -167,7 +167,7 @@
 			"isLibrary": false,
 			"isReact": false,
 			"isTypescript": false,
-			"score": -9057
+			"score": -9062
 		},
 		{
 			"language": "TypeScript",
@@ -183,19 +183,6 @@
 			"score": -8622
 		},
 		{
-			"language": "JavaScript",
-			"name": "cfonts",
-			"description": "Sexy fonts for the console",
-			"html_url": "https://github.com/dominikwilkowski/cfonts",
-			"updated_at": "2018-12-05T08:29:05Z",
-			"stargazers_count": 381,
-			"open_issues": 0,
-			"isLibrary": true,
-			"isReact": false,
-			"isTypescript": false,
-			"score": -9288
-		},
-		{
 			"language": "TypeScript",
 			"name": "tslint-misc-rules",
 			"description": "Collection of miscellaneous TSLint rules",
@@ -207,19 +194,6 @@
 			"isReact": false,
 			"isTypescript": true,
 			"score": -10013
-		},
-		{
-			"language": "JavaScript",
-			"name": "react-native-vector-icons",
-			"description": "Customizable Icons for React Native with support for NavBar/TabBar/ToolbarAndroid, image source and full styling.",
-			"html_url": "https://github.com/oblador/react-native-vector-icons",
-			"updated_at": "2018-12-15T15:45:48Z",
-			"stargazers_count": 9934,
-			"open_issues": 151,
-			"isLibrary": true,
-			"isReact": false,
-			"isTypescript": false,
-			"score": 11227
 		},
 		{
 			"language": "JavaScript",
@@ -252,91 +226,78 @@
 			"name": "mdx",
 			"description": "JSX in Markdown for ambitious projects",
 			"html_url": "https://github.com/mdx-js/mdx",
-			"updated_at": "2018-12-15T11:18:52Z",
-			"stargazers_count": 4857,
+			"updated_at": "2018-12-15T20:09:11Z",
+			"stargazers_count": 4858,
 			"open_issues": 37,
 			"isLibrary": true,
 			"isReact": false,
 			"isTypescript": false,
-			"score": 47
+			"score": 49
 		},
 		{
 			"language": "JavaScript",
 			"name": "30-seconds-of-code",
 			"description": "Curated collection of useful JavaScript snippets that you can understand in 30 seconds or less.",
 			"html_url": "https://github.com/30-seconds/30-seconds-of-code",
-			"updated_at": "2018-12-15T15:43:16Z",
-			"stargazers_count": 34419,
-			"open_issues": 8,
+			"updated_at": "2018-12-15T19:55:58Z",
+			"stargazers_count": 34434,
+			"open_issues": 9,
 			"isLibrary": true,
 			"isReact": false,
 			"isTypescript": false,
-			"score": 58910
+			"score": 58949
 		},
 		{
 			"language": "JavaScript",
-			"name": "jest-fetch-mock",
-			"description": "Jest mock for the fetch polyfill",
-			"html_url": "https://github.com/jefflau/jest-fetch-mock",
-			"updated_at": "2018-12-11T08:38:05Z",
-			"stargazers_count": 337,
-			"open_issues": 22,
-			"isLibrary": true,
-			"isReact": false,
-			"isTypescript": false,
-			"score": -9148
-		},
-		{
-			"language": "JavaScript",
-			"name": "i18n-webpack-plugin",
-			"description": "Embed localization into your bundle",
-			"html_url": "https://github.com/webpack-contrib/i18n-webpack-plugin",
-			"updated_at": "2018-12-13T23:33:41Z",
-			"stargazers_count": 297,
-			"open_issues": 27,
-			"isLibrary": true,
-			"isReact": false,
-			"isTypescript": false,
-			"score": -9168
-		},
-		{
-			"language": "JavaScript",
-			"name": "freeze-dry",
-			"description": "Snapshots a web page to get it as a static, self-contained HTML document.",
-			"html_url": "https://github.com/WebMemex/freeze-dry",
-			"updated_at": "2018-12-10T19:29:15Z",
-			"stargazers_count": 34,
-			"open_issues": 21,
-			"isLibrary": true,
-			"isReact": false,
-			"isTypescript": false,
-			"score": -9763
-		},
-		{
-			"language": "JavaScript",
-			"name": "jest-html",
-			"description": "Preview your Jest snapshots visually in the browser",
-			"html_url": "https://github.com/guigrpa/jest-html",
-			"updated_at": "2018-10-08T07:43:15Z",
-			"stargazers_count": 102,
+			"name": "screen-info",
+			"description": "Multiplatform screen & monitors info",
+			"html_url": "https://github.com/parro-it/screen-info",
+			"updated_at": "2018-12-14T09:13:16Z",
+			"stargazers_count": 24,
 			"open_issues": 3,
 			"isLibrary": true,
-			"isReact": true,
+			"isReact": false,
 			"isTypescript": false,
-			"score": -10109
+			"score": -9930
 		},
 		{
 			"language": "JavaScript",
-			"name": "jest-puppe-shots",
-			"description": "A Jest plugin for creating screenshots of React components with a little help of Puppeteer",
-			"html_url": "https://github.com/macku/jest-puppe-shots",
-			"updated_at": "2018-12-05T17:45:33Z",
-			"stargazers_count": 69,
-			"open_issues": 2,
+			"name": "cfonts",
+			"description": "Sexy fonts for the console",
+			"html_url": "https://github.com/dominikwilkowski/cfonts",
+			"updated_at": "2018-12-05T08:29:05Z",
+			"stargazers_count": 381,
+			"open_issues": 0,
 			"isLibrary": true,
 			"isReact": false,
 			"isTypescript": false,
-			"score": -9889
+			"score": -9288
+		},
+		{
+			"language": "JavaScript",
+			"name": "release",
+			"description": "Generate changelogs with a single command",
+			"html_url": "https://github.com/zeit/release",
+			"updated_at": "2018-12-15T09:51:22Z",
+			"stargazers_count": 2211,
+			"open_issues": 29,
+			"isLibrary": true,
+			"isReact": false,
+			"isTypescript": false,
+			"score": -5317
+		},
+		{
+			"language": null,
+			"name": "Best-websites-a-programmer-should-visit",
+			"description": ":link: Some useful websites for programmers.",
+			"html_url": "https://github.com/sdmg15/Best-websites-a-programmer-should-visit",
+			"updated_at": "2018-12-15T17:09:01Z",
+			"stargazers_count": 23532,
+			"open_issues": 58,
+			"isLibrary": true,
+			"isReact": false,
+			"isTypescript": false,
+			"score": 37586
 		},
 		{
 			"language": "Go",
@@ -365,30 +326,17 @@
 			"score": -5984
 		},
 		{
-			"language": "Go",
-			"name": "annie",
-			"description": "👾 Fast, simple and clean video downloader",
-			"html_url": "https://github.com/iawia002/annie",
-			"updated_at": "2018-12-15T11:04:52Z",
-			"stargazers_count": 4596,
-			"open_issues": 35,
-			"isLibrary": false,
-			"isReact": false,
-			"isTypescript": false,
-			"score": -493
-		},
-		{
 			"language": "JavaScript",
 			"name": "pennywise",
 			"description": "Cross-platform application to open any website or media in a floating window",
 			"html_url": "https://github.com/kamranahmedse/pennywise",
 			"updated_at": "2018-12-15T12:28:23Z",
 			"stargazers_count": 2439,
-			"open_issues": 10,
+			"open_issues": 11,
 			"isLibrary": true,
 			"isReact": true,
 			"isTypescript": false,
-			"score": -5032
+			"score": -5023
 		},
 		{
 			"language": "JavaScript",
@@ -427,20 +375,7 @@
 			"isLibrary": false,
 			"isReact": false,
 			"isTypescript": false,
-			"score": -7390
-		},
-		{
-			"language": "C++",
-			"name": "node-gcstats",
-			"description": null,
-			"html_url": "https://github.com/dainis/node-gcstats",
-			"updated_at": "2018-12-11T11:17:27Z",
-			"stargazers_count": 80,
-			"open_issues": 1,
-			"isLibrary": true,
-			"isReact": false,
-			"isTypescript": false,
-			"score": -9851
+			"score": -7395
 		},
 		{
 			"language": "JavaScript",
@@ -453,7 +388,7 @@
 			"isLibrary": true,
 			"isReact": false,
 			"isTypescript": false,
-			"score": -9237
+			"score": -9242
 		},
 		{
 			"language": "Shell",
@@ -467,19 +402,6 @@
 			"isReact": false,
 			"isTypescript": false,
 			"score": -9085
-		},
-		{
-			"language": "JavaScript",
-			"name": "inspect-process",
-			"description": "🔍 Dead simple debugging for node.js using chrome-devtools.",
-			"html_url": "https://github.com/jaridmargolin/inspect-process",
-			"updated_at": "2018-11-25T17:34:41Z",
-			"stargazers_count": 399,
-			"open_issues": 36,
-			"isLibrary": true,
-			"isReact": false,
-			"isTypescript": false,
-			"score": -8973
 		},
 		{
 			"language": "JavaScript",
@@ -518,7 +440,7 @@
 			"isLibrary": true,
 			"isReact": false,
 			"isTypescript": false,
-			"score": -770
+			"score": -775
 		},
 		{
 			"language": "JavaScript",
@@ -538,52 +460,39 @@
 			"name": "vtop",
 			"description": "Wow such top. So stats. More better than regular top.",
 			"html_url": "https://github.com/MrRio/vtop",
-			"updated_at": "2018-12-15T06:35:49Z",
-			"stargazers_count": 3063,
+			"updated_at": "2018-12-15T17:45:44Z",
+			"stargazers_count": 3064,
 			"open_issues": 63,
 			"isLibrary": true,
 			"isReact": false,
 			"isTypescript": false,
-			"score": -3307
+			"score": -3305
 		},
 		{
 			"language": "JavaScript",
 			"name": "react-helmet",
 			"description": "A document head manager for React",
 			"html_url": "https://github.com/nfl/react-helmet",
-			"updated_at": "2018-12-15T14:23:59Z",
-			"stargazers_count": 9130,
+			"updated_at": "2018-12-15T16:28:24Z",
+			"stargazers_count": 9131,
 			"open_issues": 90,
 			"isLibrary": true,
 			"isReact": true,
 			"isTypescript": false,
-			"score": 9070
+			"score": 9072
 		},
 		{
 			"language": "Shell",
 			"name": "fonts",
 			"description": "Patched fonts for Powerline users.",
 			"html_url": "https://github.com/powerline/fonts",
-			"updated_at": "2018-12-15T10:20:07Z",
-			"stargazers_count": 14090,
+			"updated_at": "2018-12-15T17:20:20Z",
+			"stargazers_count": 14091,
 			"open_issues": 126,
 			"isLibrary": false,
 			"isReact": false,
 			"isTypescript": false,
-			"score": 19314
-		},
-		{
-			"language": "JavaScript",
-			"name": "release",
-			"description": "Generate changelogs with a single command",
-			"html_url": "https://github.com/zeit/release",
-			"updated_at": "2018-12-15T09:51:22Z",
-			"stargazers_count": 2211,
-			"open_issues": 29,
-			"isLibrary": true,
-			"isReact": false,
-			"isTypescript": false,
-			"score": -5317
+			"score": 19316
 		},
 		{
 			"language": "JavaScript",
@@ -622,7 +531,7 @@
 			"isLibrary": true,
 			"isReact": false,
 			"isTypescript": false,
-			"score": 949
+			"score": 944
 		},
 		{
 			"language": "TypeScript",
@@ -636,32 +545,6 @@
 			"isReact": false,
 			"isTypescript": true,
 			"score": -9757
-		},
-		{
-			"language": "JavaScript",
-			"name": "json-stringify-pretty-compact",
-			"description": "The best of both `JSON.stringify(obj)` and `JSON.stringify(obj, null, indent)`.",
-			"html_url": "https://github.com/lydell/json-stringify-pretty-compact",
-			"updated_at": "2018-11-26T11:31:39Z",
-			"stargazers_count": 115,
-			"open_issues": 1,
-			"isLibrary": true,
-			"isReact": false,
-			"isTypescript": false,
-			"score": -9856
-		},
-		{
-			"language": "JavaScript",
-			"name": "kss-node",
-			"description": "The Node.js implementation of KSS: a methodology for documenting CSS and generating style guides",
-			"html_url": "https://github.com/kss-node/kss-node",
-			"updated_at": "2018-12-14T14:49:04Z",
-			"stargazers_count": 1401,
-			"open_issues": 90,
-			"isLibrary": true,
-			"isReact": false,
-			"isTypescript": false,
-			"score": -6393
 		},
 		{
 			"language": "JavaScript",
@@ -687,7 +570,7 @@
 			"isLibrary": true,
 			"isReact": false,
 			"isTypescript": true,
-			"score": 7362
+			"score": 7357
 		},
 		{
 			"language": "JavaScript",
@@ -717,19 +600,6 @@
 		},
 		{
 			"language": "JavaScript",
-			"name": "cryptiles",
-			"description": "General purpose crypto utilities",
-			"html_url": "https://github.com/hapijs/cryptiles",
-			"updated_at": "2018-12-15T00:55:56Z",
-			"stargazers_count": 161,
-			"open_issues": 0,
-			"isLibrary": true,
-			"isReact": false,
-			"isTypescript": false,
-			"score": -9678
-		},
-		{
-			"language": "JavaScript",
 			"name": "diff",
 			"description": "Javascript utility for calculating deep difference, capturing changes, and applying changes across objects; for nodejs and the browser.",
 			"html_url": "https://github.com/flitbit/diff",
@@ -755,19 +625,6 @@
 			"score": -9882
 		},
 		{
-			"language": "JavaScript",
-			"name": "wired-elements",
-			"description": "Collection of elements that appear hand drawn. Great for wireframes.",
-			"html_url": "https://github.com/wiredjs/wired-elements",
-			"updated_at": "2018-12-14T07:19:44Z",
-			"stargazers_count": 6376,
-			"open_issues": 21,
-			"isLibrary": true,
-			"isReact": false,
-			"isTypescript": false,
-			"score": 2936
-		},
-		{
 			"language": "Python",
 			"name": "scdl",
 			"description": "Soundcloud Music Downloader",
@@ -778,7 +635,7 @@
 			"isLibrary": false,
 			"isReact": false,
 			"isTypescript": false,
-			"score": -7390
+			"score": -7395
 		},
 		{
 			"language": "JavaScript",
@@ -791,7 +648,7 @@
 			"isLibrary": true,
 			"isReact": false,
 			"isTypescript": false,
-			"score": 949
+			"score": 944
 		},
 		{
 			"language": "Go",
@@ -824,13 +681,13 @@
 			"name": "vtop",
 			"description": "Wow such top. So stats. More better than regular top.",
 			"html_url": "https://github.com/MrRio/vtop",
-			"updated_at": "2018-12-15T06:35:49Z",
-			"stargazers_count": 3063,
+			"updated_at": "2018-12-15T17:45:44Z",
+			"stargazers_count": 3064,
 			"open_issues": 63,
 			"isLibrary": true,
 			"isReact": false,
 			"isTypescript": false,
-			"score": -3307
+			"score": -3305
 		},
 		{
 			"language": "JavaScript",
@@ -843,59 +700,20 @@
 			"isLibrary": true,
 			"isReact": false,
 			"isTypescript": false,
-			"score": -8973
-		},
-		{
-			"language": "C++",
-			"name": "node-gcstats",
-			"description": null,
-			"html_url": "https://github.com/dainis/node-gcstats",
-			"updated_at": "2018-12-11T11:17:27Z",
-			"stargazers_count": 80,
-			"open_issues": 1,
-			"isLibrary": true,
-			"isReact": false,
-			"isTypescript": false,
-			"score": -9851
-		},
-		{
-			"language": "JavaScript",
-			"name": "kss-node",
-			"description": "The Node.js implementation of KSS: a methodology for documenting CSS and generating style guides",
-			"html_url": "https://github.com/kss-node/kss-node",
-			"updated_at": "2018-12-14T14:49:04Z",
-			"stargazers_count": 1401,
-			"open_issues": 90,
-			"isLibrary": true,
-			"isReact": false,
-			"isTypescript": false,
-			"score": -6393
-		},
-		{
-			"language": "JavaScript",
-			"name": "release",
-			"description": "Generate changelogs with a single command",
-			"html_url": "https://github.com/zeit/release",
-			"updated_at": "2018-12-15T09:51:22Z",
-			"stargazers_count": 2211,
-			"open_issues": 29,
-			"isLibrary": true,
-			"isReact": false,
-			"isTypescript": false,
-			"score": -5317
+			"score": -8978
 		},
 		{
 			"language": "JavaScript",
 			"name": "react-helmet",
 			"description": "A document head manager for React",
 			"html_url": "https://github.com/nfl/react-helmet",
-			"updated_at": "2018-12-15T14:23:59Z",
-			"stargazers_count": 9130,
+			"updated_at": "2018-12-15T16:28:24Z",
+			"stargazers_count": 9131,
 			"open_issues": 90,
 			"isLibrary": true,
 			"isReact": true,
 			"isTypescript": false,
-			"score": 9070
+			"score": 9072
 		},
 		{
 			"language": "JavaScript",
@@ -921,7 +739,7 @@
 			"isLibrary": true,
 			"isReact": false,
 			"isTypescript": false,
-			"score": -770
+			"score": -775
 		},
 		{
 			"language": "JavaScript",
@@ -947,7 +765,7 @@
 			"isLibrary": true,
 			"isReact": false,
 			"isTypescript": false,
-			"score": -9237
+			"score": -9242
 		},
 		{
 			"language": "C++",
@@ -960,7 +778,7 @@
 			"isLibrary": true,
 			"isReact": false,
 			"isTypescript": true,
-			"score": 7362
+			"score": 7357
 		},
 		{
 			"language": "Go",
@@ -980,39 +798,39 @@
 			"name": "fonts",
 			"description": "Patched fonts for Powerline users.",
 			"html_url": "https://github.com/powerline/fonts",
-			"updated_at": "2018-12-15T10:20:07Z",
-			"stargazers_count": 14090,
+			"updated_at": "2018-12-15T17:20:20Z",
+			"stargazers_count": 14091,
 			"open_issues": 126,
 			"isLibrary": false,
 			"isReact": false,
 			"isTypescript": false,
-			"score": 19314
+			"score": 19316
 		},
 		{
 			"language": "HTML",
 			"name": "lazyestload.js",
 			"description": "load images only when they are in (and remain in) the viewport",
 			"html_url": "https://github.com/Paul-Browne/lazyestload.js",
-			"updated_at": "2018-12-15T14:58:05Z",
-			"stargazers_count": 1309,
+			"updated_at": "2018-12-15T18:22:09Z",
+			"stargazers_count": 1311,
 			"open_issues": 9,
 			"isLibrary": true,
 			"isReact": false,
 			"isTypescript": false,
-			"score": -7301
+			"score": -7297
 		},
 		{
 			"language": "JavaScript",
 			"name": "rxdb",
 			"description": ":computer: :iphone: A realtime Database for the Web",
 			"html_url": "https://github.com/pubkey/rxdb",
-			"updated_at": "2018-12-15T13:07:21Z",
-			"stargazers_count": 8445,
+			"updated_at": "2018-12-15T18:21:31Z",
+			"stargazers_count": 8446,
 			"open_issues": 8,
 			"isLibrary": true,
 			"isReact": false,
 			"isTypescript": true,
-			"score": 6962
+			"score": 6964
 		},
 		{
 			"language": "Java",
@@ -1028,6 +846,110 @@
 			"score": -4081
 		},
 		{
+			"language": "JavaScript",
+			"name": "comedy",
+			"description": "Node.js actor framework.",
+			"html_url": "https://github.com/untu/comedy",
+			"updated_at": "2018-12-15T07:51:25Z",
+			"stargazers_count": 251,
+			"open_issues": 10,
+			"isLibrary": true,
+			"isReact": false,
+			"isTypescript": true,
+			"score": -9408
+		},
+		{
+			"language": "JavaScript",
+			"name": "svgr",
+			"description": "Transform SVGs into React components 🦁",
+			"html_url": "https://github.com/smooth-code/svgr",
+			"updated_at": "2018-12-15T19:40:16Z",
+			"stargazers_count": 3958,
+			"open_issues": 14,
+			"isLibrary": true,
+			"isReact": true,
+			"isTypescript": false,
+			"score": -1958
+		},
+		{
+			"language": "JavaScript",
+			"name": "slang",
+			"description": "🎤 a simple audio programming language implemented in JS",
+			"html_url": "https://github.com/kylestetz/slang",
+			"updated_at": "2018-12-15T16:42:56Z",
+			"stargazers_count": 927,
+			"open_issues": 7,
+			"isLibrary": true,
+			"isReact": false,
+			"isTypescript": false,
+			"score": -8083
+		},
+		{
+			"language": "JavaScript",
+			"name": "web-animations-js",
+			"description": "JavaScript implementation of the Web Animations API",
+			"html_url": "https://github.com/web-animations/web-animations-js",
+			"updated_at": "2018-12-14T10:42:07Z",
+			"stargazers_count": 2849,
+			"open_issues": 62,
+			"isLibrary": true,
+			"isReact": false,
+			"isTypescript": false,
+			"score": -3749
+		},
+		{
+			"language": "JavaScript",
+			"name": "howler.js",
+			"description": "Javascript audio library for the modern web.",
+			"html_url": "https://github.com/goldfire/howler.js",
+			"updated_at": "2018-12-15T13:01:44Z",
+			"stargazers_count": 12969,
+			"open_issues": 261,
+			"isLibrary": true,
+			"isReact": false,
+			"isTypescript": false,
+			"score": 18287
+		},
+		{
+			"language": "HTML",
+			"name": "finder",
+			"description": "CSS Selector Generator 🗺",
+			"html_url": "https://github.com/antonmedv/finder",
+			"updated_at": "2018-12-13T15:53:48Z",
+			"stargazers_count": 263,
+			"open_issues": 3,
+			"isLibrary": true,
+			"isReact": false,
+			"isTypescript": true,
+			"score": -9457
+		},
+		{
+			"language": "JavaScript",
+			"name": "react-sizeme",
+			"description": "Make your React Components aware of their width and height!",
+			"html_url": "https://github.com/ctrlplusb/react-sizeme",
+			"updated_at": "2018-12-15T08:01:23Z",
+			"stargazers_count": 1047,
+			"open_issues": 13,
+			"isLibrary": true,
+			"isReact": true,
+			"isTypescript": false,
+			"score": -7789
+		},
+		{
+			"language": "JavaScript",
+			"name": "carlo",
+			"description": "Web rendering surface for Node applications",
+			"html_url": "https://github.com/GoogleChromeLabs/carlo",
+			"updated_at": "2018-12-15T20:04:45Z",
+			"stargazers_count": 7687,
+			"open_issues": 18,
+			"isLibrary": true,
+			"isReact": false,
+			"isTypescript": false,
+			"score": 5536
+		},
+		{
 			"language": "CSS",
 			"name": "asciicast2gif",
 			"description": "Generate GIF animations from asciicasts (asciinema recordings)",
@@ -1038,7 +960,7 @@
 			"isLibrary": true,
 			"isReact": false,
 			"isTypescript": false,
-			"score": -9030
+			"score": -9035
 		},
 		{
 			"language": "JavaScript",
@@ -1055,29 +977,29 @@
 		},
 		{
 			"language": "JavaScript",
-			"name": "redux-saga-tester",
-			"description": "Full redux environment testing helper for redux-saga",
-			"html_url": "https://github.com/wix/redux-saga-tester",
-			"updated_at": "2018-12-14T17:06:23Z",
-			"stargazers_count": 184,
-			"open_issues": 9,
-			"isLibrary": true,
-			"isReact": false,
-			"isTypescript": false,
-			"score": -9551
-		},
-		{
-			"language": "JavaScript",
 			"name": "connected-react-router",
 			"description": "A Redux binding for React Router v4",
 			"html_url": "https://github.com/supasate/connected-react-router",
-			"updated_at": "2018-12-15T15:25:02Z",
+			"updated_at": "2018-12-15T19:13:19Z",
 			"stargazers_count": 2002,
 			"open_issues": 50,
 			"isLibrary": true,
 			"isReact": true,
 			"isTypescript": false,
 			"score": -5546
+		},
+		{
+			"language": "JavaScript",
+			"name": "react-rte",
+			"description": "Pure React rich text \"WYSISYG\" editor based on draft-js.",
+			"html_url": "https://github.com/sstur/react-rte",
+			"updated_at": "2018-12-15T15:58:05Z",
+			"stargazers_count": 1940,
+			"open_issues": 116,
+			"isLibrary": true,
+			"isReact": true,
+			"isTypescript": false,
+			"score": -5076
 		},
 		{
 			"language": "JavaScript",
@@ -1103,7 +1025,20 @@
 			"isLibrary": true,
 			"isReact": false,
 			"isTypescript": false,
-			"score": -6164
+			"score": -6169
+		},
+		{
+			"language": "JavaScript",
+			"name": "fastify-react",
+			"description": "React server side rendering support for Fastify with Next",
+			"html_url": "https://github.com/fastify/fastify-react",
+			"updated_at": "2018-12-12T18:37:57Z",
+			"stargazers_count": 69,
+			"open_issues": 3,
+			"isLibrary": true,
+			"isReact": true,
+			"isTypescript": false,
+			"score": -9850
 		},
 		{
 			"language": "JavaScript",
@@ -1116,7 +1051,7 @@
 			"isLibrary": true,
 			"isReact": true,
 			"isTypescript": false,
-			"score": -9479
+			"score": -9484
 		},
 		{
 			"language": "Go",
@@ -1149,13 +1084,13 @@
 			"name": "You-Dont-Need-Momentjs",
 			"description": "List of date-fns or native functions which you can use to replace moment.js + ESLint Plugin ",
 			"html_url": "https://github.com/you-dont-need/You-Dont-Need-Momentjs",
-			"updated_at": "2018-12-15T15:45:58Z",
-			"stargazers_count": 6882,
+			"updated_at": "2018-12-15T18:24:37Z",
+			"stargazers_count": 6883,
 			"open_issues": 8,
 			"isLibrary": true,
 			"isReact": false,
 			"isTypescript": false,
-			"score": 3836
+			"score": 3838
 		},
 		{
 			"language": "JavaScript",
@@ -1185,19 +1120,6 @@
 		},
 		{
 			"language": "JavaScript",
-			"name": "big",
-			"description": "presentations for busy messy hackers",
-			"html_url": "https://github.com/tmcw/big",
-			"updated_at": "2018-12-13T06:28:45Z",
-			"stargazers_count": 2859,
-			"open_issues": 13,
-			"isLibrary": true,
-			"isReact": false,
-			"isTypescript": false,
-			"score": -4175
-		},
-		{
-			"language": "JavaScript",
 			"name": "create-proton-app",
 			"description": "No Configuration Starter Template for Proton Native Apps",
 			"html_url": "https://github.com/albe-rosado/create-proton-app",
@@ -1208,6 +1130,19 @@
 			"isReact": false,
 			"isTypescript": false,
 			"score": -9665
+		},
+		{
+			"language": "JavaScript",
+			"name": "redbird",
+			"description": "A modern reverse proxy for node",
+			"html_url": "https://github.com/OptimalBits/redbird",
+			"updated_at": "2018-12-15T18:21:21Z",
+			"stargazers_count": 3683,
+			"open_issues": 87,
+			"isLibrary": true,
+			"isReact": false,
+			"isTypescript": false,
+			"score": -1851
 		},
 		{
 			"language": "JavaScript",
@@ -1227,13 +1162,1716 @@
 			"name": "typescript-library-starter",
 			"description": "Starter kit with zero-config for building a library in TypeScript, featuring RollupJS, Jest, Prettier, TSLint, Semantic Release, and more!",
 			"html_url": "https://github.com/alexjoverm/typescript-library-starter",
-			"updated_at": "2018-12-15T02:35:57Z",
-			"stargazers_count": 1314,
+			"updated_at": "2018-12-15T16:26:05Z",
+			"stargazers_count": 1315,
 			"open_issues": 14,
 			"isLibrary": true,
 			"isReact": false,
 			"isTypescript": true,
-			"score": -7246
+			"score": -7244
+		},
+		{
+			"language": "JavaScript",
+			"name": "30-seconds-of-interviews",
+			"description": "A curated collection of common interview questions to help you prepare for your next interview.",
+			"html_url": "https://github.com/30-seconds/30-seconds-of-interviews",
+			"updated_at": "2018-12-15T09:11:27Z",
+			"stargazers_count": 5121,
+			"open_issues": 2,
+			"isLibrary": true,
+			"isReact": false,
+			"isTypescript": false,
+			"score": 260
+		},
+		{
+			"language": null,
+			"name": "awesome-readme",
+			"description": "A curated list of awesome READMEs",
+			"html_url": "https://github.com/matiassingers/awesome-readme",
+			"updated_at": "2018-12-15T18:40:11Z",
+			"stargazers_count": 3846,
+			"open_issues": 21,
+			"isLibrary": false,
+			"isReact": false,
+			"isTypescript": false,
+			"score": -2119
+		},
+		{
+			"language": "JavaScript",
+			"name": "write-readable-javascript-code",
+			"description": "📖 All about writing maintainable JavaScript",
+			"html_url": "https://github.com/kingzez/write-readable-javascript-code",
+			"updated_at": "2018-12-06T15:55:31Z",
+			"stargazers_count": 181,
+			"open_issues": 0,
+			"isLibrary": false,
+			"isReact": false,
+			"isTypescript": false,
+			"score": -9683
+		},
+		{
+			"language": null,
+			"name": "awesome-styleguides",
+			"description": "A curated list of UI styleguides — 😎💄",
+			"html_url": "https://github.com/streamich/awesome-styleguides",
+			"updated_at": "2018-12-15T13:32:16Z",
+			"stargazers_count": 666,
+			"open_issues": 1,
+			"isLibrary": false,
+			"isReact": false,
+			"isTypescript": false,
+			"score": -8659
+		},
+		{
+			"language": "JavaScript",
+			"name": "now-examples",
+			"description": "Examples of Now deployments you can use",
+			"html_url": "https://github.com/zeit/now-examples",
+			"updated_at": "2018-12-15T18:02:38Z",
+			"stargazers_count": 682,
+			"open_issues": 25,
+			"isLibrary": false,
+			"isReact": false,
+			"isTypescript": false,
+			"score": -8411
+		},
+		{
+			"language": "JavaScript",
+			"name": "front-end-interview-handbook",
+			"description": "🕸 Almost complete answers to \"Front-end Job Interview Questions\" which you can use to interview potential candidates, test yourself or completely ignore",
+			"html_url": "https://github.com/yangshun/front-end-interview-handbook",
+			"updated_at": "2018-12-15T19:33:38Z",
+			"stargazers_count": 16867,
+			"open_issues": 15,
+			"isLibrary": false,
+			"isReact": false,
+			"isTypescript": false,
+			"score": 23869
+		},
+		{
+			"language": null,
+			"name": "webpack-libs-optimizations",
+			"description": "Using a library in your webpack project? Here’s how to optimize it",
+			"html_url": "https://github.com/GoogleChromeLabs/webpack-libs-optimizations",
+			"updated_at": "2018-12-14T16:37:27Z",
+			"stargazers_count": 1847,
+			"open_issues": 8,
+			"isLibrary": false,
+			"isReact": false,
+			"isTypescript": false,
+			"score": -6239
+		},
+		{
+			"language": "JavaScript",
+			"name": "cms.js",
+			"description": "Client-Side JavaScript Site Generator",
+			"html_url": "https://github.com/chrisdiana/cms.js",
+			"updated_at": "2018-12-15T10:16:35Z",
+			"stargazers_count": 2814,
+			"open_issues": 13,
+			"isLibrary": true,
+			"isReact": false,
+			"isTypescript": false,
+			"score": -4255
+		},
+		{
+			"language": "JavaScript",
+			"name": "react-ssr-boilerplate",
+			"description": "⚛ A minimal React boilerplate with support for code splitting, hot module reload and server side rendering.",
+			"html_url": "https://github.com/luangjokaj/react-ssr-boilerplate",
+			"updated_at": "2018-12-14T20:59:16Z",
+			"stargazers_count": 42,
+			"open_issues": 1,
+			"isLibrary": true,
+			"isReact": true,
+			"isTypescript": false,
+			"score": -9907
+		},
+		{
+			"language": "HTML",
+			"name": "Front-end-Developer-Interview-Questions",
+			"description": "A list of helpful front-end related questions you can use to interview potential candidates, test yourself or completely ignore.",
+			"html_url": "https://github.com/h5bp/Front-end-Developer-Interview-Questions",
+			"updated_at": "2018-12-15T18:44:19Z",
+			"stargazers_count": 38399,
+			"open_issues": 42,
+			"isLibrary": true,
+			"isReact": false,
+			"isTypescript": false,
+			"score": 67176
+		},
+		{
+			"language": null,
+			"name": "awesome-puppeteer",
+			"description": "A curated list of awesome puppeteer resources.",
+			"html_url": "https://github.com/transitive-bullshit/awesome-puppeteer",
+			"updated_at": "2018-12-14T08:58:23Z",
+			"stargazers_count": 367,
+			"open_issues": 1,
+			"isLibrary": false,
+			"isReact": false,
+			"isTypescript": false,
+			"score": -9262
+		},
+		{
+			"language": null,
+			"name": "ToolsOfTheTrade",
+			"description": "Tools of The Trade, from Hacker News.",
+			"html_url": "https://github.com/cjbarber/ToolsOfTheTrade",
+			"updated_at": "2018-12-15T19:17:58Z",
+			"stargazers_count": 13872,
+			"open_issues": 11,
+			"isLibrary": false,
+			"isReact": false,
+			"isTypescript": false,
+			"score": 17843
+		},
+		{
+			"language": "JavaScript",
+			"name": "wtfjs",
+			"description": "A list of funny and tricky JavaScript examples",
+			"html_url": "https://github.com/denysdovhan/wtfjs",
+			"updated_at": "2018-12-15T18:26:02Z",
+			"stargazers_count": 12708,
+			"open_issues": 17,
+			"isLibrary": true,
+			"isReact": false,
+			"isTypescript": false,
+			"score": 15569
+		},
+		{
+			"language": "JavaScript",
+			"name": "why-did-you-update",
+			"description": ":boom: Puts your console on blast when React is making unnecessary updates.",
+			"html_url": "https://github.com/maicki/why-did-you-update",
+			"updated_at": "2018-12-15T17:52:35Z",
+			"stargazers_count": 2831,
+			"open_issues": 3,
+			"isLibrary": true,
+			"isReact": true,
+			"isTypescript": false,
+			"score": -4311
+		},
+		{
+			"language": "JavaScript",
+			"name": "node-schedule",
+			"description": "A cron-like and not-cron-like job scheduler for Node.",
+			"html_url": "https://github.com/node-schedule/node-schedule",
+			"updated_at": "2018-12-15T16:47:00Z",
+			"stargazers_count": 5789,
+			"open_issues": 74,
+			"isLibrary": true,
+			"isReact": false,
+			"isTypescript": false,
+			"score": 2244
+		},
+		{
+			"language": "JavaScript",
+			"name": "react-youtube",
+			"description": "react.js powered YouTube player component",
+			"html_url": "https://github.com/troybetz/react-youtube",
+			"updated_at": "2018-12-13T09:03:26Z",
+			"stargazers_count": 806,
+			"open_issues": 14,
+			"isLibrary": true,
+			"isReact": true,
+			"isTypescript": false,
+			"score": -8272
+		},
+		{
+			"language": null,
+			"name": "modern-js-cheatsheet",
+			"description": "Cheatsheet for the JavaScript knowledge you will frequently encounter in modern projects.",
+			"html_url": "https://github.com/mbeaudru/modern-js-cheatsheet",
+			"updated_at": "2018-12-15T16:56:30Z",
+			"stargazers_count": 17790,
+			"open_issues": 6,
+			"isLibrary": false,
+			"isReact": false,
+			"isTypescript": false,
+			"score": 25634
+		},
+		{
+			"language": "JavaScript",
+			"name": "react-native-hooks",
+			"description": "React Native APIs turned into React Hooks for use in stateless React components",
+			"html_url": "https://github.com/react-native-community/react-native-hooks",
+			"updated_at": "2018-12-14T15:25:06Z",
+			"stargazers_count": 273,
+			"open_issues": 1,
+			"isLibrary": true,
+			"isReact": true,
+			"isTypescript": false,
+			"score": -9450
+		},
+		{
+			"language": "TypeScript",
+			"name": "react-use",
+			"description": "React Hooks — 👍",
+			"html_url": "https://github.com/streamich/react-use",
+			"updated_at": "2018-12-15T18:16:39Z",
+			"stargazers_count": 1706,
+			"open_issues": 23,
+			"isLibrary": true,
+			"isReact": true,
+			"isTypescript": false,
+			"score": -6381
+		},
+		{
+			"language": "JavaScript",
+			"name": "preload-it",
+			"description": " A tiny 1kb JavaScript library for preloading assets on the browser via XHR2. It provides the ability to load assets of different file types and composite progress events.",
+			"html_url": "https://github.com/andreupifarre/preload-it",
+			"updated_at": "2018-12-12T13:20:31Z",
+			"stargazers_count": 219,
+			"open_issues": 0,
+			"isLibrary": true,
+			"isReact": false,
+			"isTypescript": false,
+			"score": -9577
+		},
+		{
+			"language": "JavaScript",
+			"name": "react-hanger",
+			"description": "A small collection of useful hooks for React 16.7",
+			"html_url": "https://github.com/kitze/react-hanger",
+			"updated_at": "2018-12-12T19:51:30Z",
+			"stargazers_count": 745,
+			"open_issues": 4,
+			"isLibrary": true,
+			"isReact": true,
+			"isTypescript": false,
+			"score": -8489
+		},
+		{
+			"language": "TypeScript",
+			"name": "webpack-chrome-extension-reloader",
+			"description": "🔥 Hot reloading while developing Chrome extensions with webpack 🔥",
+			"html_url": "https://github.com/rubenspgcavalcante/webpack-chrome-extension-reloader",
+			"updated_at": "2018-12-15T18:31:20Z",
+			"stargazers_count": 220,
+			"open_issues": 1,
+			"isLibrary": true,
+			"isReact": false,
+			"isTypescript": true,
+			"score": -9551
+		},
+		{
+			"language": "JavaScript",
+			"name": "storybook-readme",
+			"description": "React Storybook addon to render README files in github style",
+			"html_url": "https://github.com/tuchk4/storybook-readme",
+			"updated_at": "2018-12-09T12:09:24Z",
+			"stargazers_count": 264,
+			"open_issues": 9,
+			"isLibrary": true,
+			"isReact": false,
+			"isTypescript": false,
+			"score": -9421
+		},
+		{
+			"language": "JavaScript",
+			"name": "siteaudit",
+			"description": "Site audit for your site from terminal",
+			"html_url": "https://github.com/thecreazy/siteaudit",
+			"updated_at": "2018-12-15T12:13:40Z",
+			"stargazers_count": 355,
+			"open_issues": 0,
+			"isLibrary": true,
+			"isReact": false,
+			"isTypescript": false,
+			"score": -9290
+		},
+		{
+			"language": "TypeScript",
+			"name": "storybook-chrome-screenshot",
+			"description": "A Storybook Addon, Save the screenshot image of your stories :camera: via puppeteer.",
+			"html_url": "https://github.com/tsuyoshiwada/storybook-chrome-screenshot",
+			"updated_at": "2018-12-14T06:56:22Z",
+			"stargazers_count": 208,
+			"open_issues": 33,
+			"isLibrary": true,
+			"isReact": true,
+			"isTypescript": false,
+			"score": -9292
+		},
+		{
+			"language": "JavaScript",
+			"name": "react-blessed",
+			"description": "A react renderer for blessed.",
+			"html_url": "https://github.com/Yomguithereal/react-blessed",
+			"updated_at": "2018-12-15T15:00:55Z",
+			"stargazers_count": 3031,
+			"open_issues": 29,
+			"isLibrary": true,
+			"isReact": true,
+			"isTypescript": false,
+			"score": -3677
+		},
+		{
+			"language": "JavaScript",
+			"name": "styled-map",
+			"description": "A super simple way to map props to styles with Styled Components ✨",
+			"html_url": "https://github.com/scf4/styled-map",
+			"updated_at": "2018-12-15T11:11:05Z",
+			"stargazers_count": 402,
+			"open_issues": 1,
+			"isLibrary": true,
+			"isReact": false,
+			"isTypescript": false,
+			"score": -9187
+		},
+		{
+			"language": "JavaScript",
+			"name": "jssynth",
+			"description": "Make music in your browser with this synthesizer and sequencer",
+			"html_url": "https://github.com/jstrait/jssynth",
+			"updated_at": "2018-10-31T19:54:50Z",
+			"stargazers_count": 6,
+			"open_issues": 0,
+			"isLibrary": true,
+			"isReact": true,
+			"isTypescript": false,
+			"score": -10213
+		},
+		{
+			"language": "TypeScript",
+			"name": "the-platform",
+			"description": "Web. Components. 😂",
+			"html_url": "https://github.com/palmerhq/the-platform",
+			"updated_at": "2018-12-15T00:56:40Z",
+			"stargazers_count": 3319,
+			"open_issues": 6,
+			"isLibrary": true,
+			"isReact": true,
+			"isTypescript": false,
+			"score": -3308
+		},
+		{
+			"language": "JavaScript",
+			"name": "worker-plugin",
+			"description": "🐳 Adds native Web Worker bundling support to Webpack.",
+			"html_url": "https://github.com/GoogleChromeLabs/worker-plugin",
+			"updated_at": "2018-12-15T13:29:14Z",
+			"stargazers_count": 1049,
+			"open_issues": 4,
+			"isLibrary": true,
+			"isReact": false,
+			"isTypescript": false,
+			"score": -7866
+		},
+		{
+			"language": "JavaScript",
+			"name": "figlet.js",
+			"description": "A FIG Driver written in JavaScript which aims to fully implement the FIGfont spec.",
+			"html_url": "https://github.com/patorjk/figlet.js",
+			"updated_at": "2018-12-15T17:31:13Z",
+			"stargazers_count": 724,
+			"open_issues": 6,
+			"isLibrary": true,
+			"isReact": false,
+			"isTypescript": false,
+			"score": -8498
+		},
+		{
+			"language": "JavaScript",
+			"name": "webpagetest-api",
+			"description": "WebPageTest API wrapper for NodeJS",
+			"html_url": "https://github.com/marcelduran/webpagetest-api",
+			"updated_at": "2018-12-14T11:34:05Z",
+			"stargazers_count": 1303,
+			"open_issues": 48,
+			"isLibrary": true,
+			"isReact": false,
+			"isTypescript": false,
+			"score": -6967
+		},
+		{
+			"language": "JavaScript",
+			"name": "peerflix",
+			"description": "Streaming torrent client for node.js",
+			"html_url": "https://github.com/mafintosh/peerflix",
+			"updated_at": "2018-12-14T21:01:21Z",
+			"stargazers_count": 4990,
+			"open_issues": 120,
+			"isLibrary": true,
+			"isReact": false,
+			"isTypescript": false,
+			"score": 1060
+		},
+		{
+			"language": "JavaScript",
+			"name": "Tone.js",
+			"description": "A Web Audio framework for making interactive music in the browser.",
+			"html_url": "https://github.com/Tonejs/Tone.js",
+			"updated_at": "2018-12-15T18:01:40Z",
+			"stargazers_count": 5907,
+			"open_issues": 20,
+			"isLibrary": true,
+			"isReact": false,
+			"isTypescript": false,
+			"score": 1994
+		},
+		{
+			"language": "JavaScript",
+			"name": "favicons",
+			"description": "Favicons generator for Node.js",
+			"html_url": "https://github.com/itgalaxy/favicons",
+			"updated_at": "2018-12-06T10:06:03Z",
+			"stargazers_count": 636,
+			"open_issues": 26,
+			"isLibrary": true,
+			"isReact": false,
+			"isTypescript": false,
+			"score": -8539
+		},
+		{
+			"language": "JavaScript",
+			"name": "react-fa",
+			"description": "Font Awesome icons as React components",
+			"html_url": "https://github.com/andreypopp/react-fa",
+			"updated_at": "2018-12-06T01:22:17Z",
+			"stargazers_count": 487,
+			"open_issues": 13,
+			"isLibrary": true,
+			"isReact": true,
+			"isTypescript": false,
+			"score": -8954
+		},
+		{
+			"language": "JavaScript",
+			"name": "timing.js",
+			"description": "Navigation Timing API measurement helpers",
+			"html_url": "https://github.com/addyosmani/timing.js",
+			"updated_at": "2018-12-13T00:25:12Z",
+			"stargazers_count": 1424,
+			"open_issues": 13,
+			"isLibrary": true,
+			"isReact": false,
+			"isTypescript": false,
+			"score": -7045
+		},
+		{
+			"language": "JavaScript",
+			"name": "fingerprintjs2",
+			"description": "Modern & flexible browser fingerprinting library",
+			"html_url": "https://github.com/Valve/fingerprintjs2",
+			"updated_at": "2018-12-15T15:12:50Z",
+			"stargazers_count": 6715,
+			"open_issues": 45,
+			"isLibrary": true,
+			"isReact": false,
+			"isTypescript": false,
+			"score": 3835
+		},
+		{
+			"language": "JavaScript",
+			"name": "awesome-react-native",
+			"description": "Awesome React Native components, news, tools, and learning material!",
+			"html_url": "https://github.com/jondot/awesome-react-native",
+			"updated_at": "2018-12-15T15:11:14Z",
+			"stargazers_count": 22375,
+			"open_issues": 27,
+			"isLibrary": true,
+			"isReact": false,
+			"isTypescript": false,
+			"score": 34993
+		},
+		{
+			"language": "JavaScript",
+			"name": "hotkeys",
+			"description": "➷ A robust Javascript library for capturing keyboard input. It has no dependencies. ",
+			"html_url": "https://github.com/jaywcjlove/hotkeys",
+			"updated_at": "2018-12-15T07:58:28Z",
+			"stargazers_count": 2953,
+			"open_issues": 12,
+			"isLibrary": true,
+			"isReact": true,
+			"isTypescript": false,
+			"score": -3986
+		},
+		{
+			"language": "JavaScript",
+			"name": "tips",
+			"description": "Most commonly used git tips and tricks.",
+			"html_url": "https://github.com/git-tips/tips",
+			"updated_at": "2018-12-15T10:21:37Z",
+			"stargazers_count": 14244,
+			"open_issues": 15,
+			"isLibrary": true,
+			"isReact": false,
+			"isTypescript": false,
+			"score": 18623
+		},
+		{
+			"language": null,
+			"name": "react-redux-links",
+			"description": "Curated tutorial and resource links I've collected on React, Redux, ES6, and more",
+			"html_url": "https://github.com/markerikson/react-redux-links",
+			"updated_at": "2018-12-15T18:59:16Z",
+			"stargazers_count": 16403,
+			"open_issues": 20,
+			"isLibrary": false,
+			"isReact": false,
+			"isTypescript": false,
+			"score": 22986
+		},
+		{
+			"language": null,
+			"name": "awesome-serverless",
+			"description": ":cloud: A curated list of awesome services, solutions and resources for serverless / nobackend applications.",
+			"html_url": "https://github.com/anaibol/awesome-serverless",
+			"updated_at": "2018-12-15T14:10:12Z",
+			"stargazers_count": 4535,
+			"open_issues": 2,
+			"isLibrary": false,
+			"isReact": false,
+			"isTypescript": false,
+			"score": -912
+		},
+		{
+			"language": "JavaScript",
+			"name": "chrome-music-lab",
+			"description": "A collection of experiments for exploring how music works, all built with the Web Audio API.",
+			"html_url": "https://github.com/googlecreativelab/chrome-music-lab",
+			"updated_at": "2018-12-14T07:25:23Z",
+			"stargazers_count": 871,
+			"open_issues": 13,
+			"isLibrary": false,
+			"isReact": false,
+			"isTypescript": false,
+			"score": -8146
+		},
+		{
+			"language": "JavaScript",
+			"name": "anime",
+			"description": "JavaScript Animation Engine",
+			"html_url": "https://github.com/juliangarnier/anime",
+			"updated_at": "2018-12-15T19:56:35Z",
+			"stargazers_count": 24843,
+			"open_issues": 127,
+			"isLibrary": true,
+			"isReact": false,
+			"isTypescript": false,
+			"score": 40829
+		},
+		{
+			"language": "JavaScript",
+			"name": "react-gif-player",
+			"description": "📽 A GIF component that moves when YOU want it to!",
+			"html_url": "https://github.com/benwiley4000/react-gif-player",
+			"updated_at": "2018-11-30T02:06:06Z",
+			"stargazers_count": 38,
+			"open_issues": 3,
+			"isLibrary": true,
+			"isReact": true,
+			"isTypescript": false,
+			"score": -9972
+		},
+		{
+			"language": "JavaScript",
+			"name": "leakage",
+			"description": "🐛 Memory leak testing for node.",
+			"html_url": "https://github.com/andywer/leakage",
+			"updated_at": "2018-12-15T12:00:17Z",
+			"stargazers_count": 1307,
+			"open_issues": 3,
+			"isLibrary": true,
+			"isReact": false,
+			"isTypescript": false,
+			"score": -7359
+		},
+		{
+			"language": "JavaScript",
+			"name": "stylelint-config-property-sort-order-smacss",
+			"description": "Stylelint config for Property Sort Ordering based on the SMACSS methodology",
+			"html_url": "https://github.com/cahamilton/stylelint-config-property-sort-order-smacss",
+			"updated_at": "2018-12-01T12:03:25Z",
+			"stargazers_count": 19,
+			"open_issues": 0,
+			"isLibrary": true,
+			"isReact": false,
+			"isTypescript": false,
+			"score": -10032
+		},
+		{
+			"language": "CSS",
+			"name": "asciicast2gif",
+			"description": "Generate GIF animations from asciicasts (asciinema recordings)",
+			"html_url": "https://github.com/asciinema/asciicast2gif",
+			"updated_at": "2018-12-08T17:48:45Z",
+			"stargazers_count": 392,
+			"open_issues": 24,
+			"isLibrary": true,
+			"isReact": false,
+			"isTypescript": false,
+			"score": -9035
+		},
+		{
+			"language": "JavaScript",
+			"name": "puppeteer-examples",
+			"description": "Puppeteer example scripts for running Headless Chrome from Node. Run them at https://puppeteersandbox.com",
+			"html_url": "https://github.com/checkly/puppeteer-examples",
+			"updated_at": "2018-12-14T19:15:43Z",
+			"stargazers_count": 900,
+			"open_issues": 1,
+			"isLibrary": true,
+			"isReact": false,
+			"isTypescript": false,
+			"score": -8196
+		},
+		{
+			"language": "TypeScript",
+			"name": "wotan",
+			"description": "Pluggable TypeScript and JavaScript linter",
+			"html_url": "https://github.com/fimbullinter/wotan",
+			"updated_at": "2018-12-15T13:21:41Z",
+			"stargazers_count": 103,
+			"open_issues": 109,
+			"isLibrary": true,
+			"isReact": false,
+			"isTypescript": true,
+			"score": -8813
+		},
+		{
+			"language": "JavaScript",
+			"name": "30-seconds-of-code",
+			"description": "Curated collection of useful JavaScript snippets that you can understand in 30 seconds or less.",
+			"html_url": "https://github.com/30-seconds/30-seconds-of-code",
+			"updated_at": "2018-12-15T20:10:07Z",
+			"stargazers_count": 34435,
+			"open_issues": 9,
+			"isLibrary": true,
+			"isReact": false,
+			"isTypescript": false,
+			"score": 58951
+		},
+		{
+			"language": "HTML",
+			"name": "img-2",
+			"description": "Replace <img /> elements with <img-2> to automatically pre-cache images and improve page performance.",
+			"html_url": "https://github.com/RevillWeb/img-2",
+			"updated_at": "2018-12-15T15:17:32Z",
+			"stargazers_count": 1785,
+			"open_issues": 8,
+			"isLibrary": true,
+			"isReact": false,
+			"isTypescript": false,
+			"score": -6358
+		},
+		{
+			"language": "JavaScript",
+			"name": "Checklist-Checklist",
+			"description": "🌈  A Curated List of Checklists ✔︎✔︎",
+			"html_url": "https://github.com/huyingjie/Checklist-Checklist",
+			"updated_at": "2018-12-15T06:01:49Z",
+			"stargazers_count": 1992,
+			"open_issues": 0,
+			"isLibrary": true,
+			"isReact": false,
+			"isTypescript": false,
+			"score": -6016
+		},
+		{
+			"language": "JavaScript",
+			"name": "webapp-webpack-plugin",
+			"description": "Let webpack generate your progressive web app icons for you",
+			"html_url": "https://github.com/brunocodutra/webapp-webpack-plugin",
+			"updated_at": "2018-12-11T19:49:13Z",
+			"stargazers_count": 58,
+			"open_issues": 6,
+			"isLibrary": true,
+			"isReact": false,
+			"isTypescript": false,
+			"score": -9850
+		},
+		{
+			"language": "JavaScript",
+			"name": "workly",
+			"description": "A really simple way to move a function or class to a web worker. 🏋️‍♀️→ 😄",
+			"html_url": "https://github.com/pshihn/workly",
+			"updated_at": "2018-12-15T12:26:26Z",
+			"stargazers_count": 1649,
+			"open_issues": 5,
+			"isLibrary": true,
+			"isReact": false,
+			"isTypescript": false,
+			"score": -6657
+		},
+		{
+			"language": "JavaScript",
+			"name": "thebugger",
+			"description": "🐞debug a nodejs process without inspect flags.",
+			"html_url": "https://github.com/fabiomcosta/thebugger",
+			"updated_at": "2018-10-31T18:26:58Z",
+			"stargazers_count": 90,
+			"open_issues": 1,
+			"isLibrary": true,
+			"isReact": false,
+			"isTypescript": false,
+			"score": -10036
+		},
+		{
+			"language": "JavaScript",
+			"name": "parcel-plugin-bundle-visualiser",
+			"description": "A plugin for the parcel bundler to visualise bundle contents",
+			"html_url": "https://github.com/gregtillbrook/parcel-plugin-bundle-visualiser",
+			"updated_at": "2018-12-08T13:29:26Z",
+			"stargazers_count": 99,
+			"open_issues": 3,
+			"isLibrary": true,
+			"isReact": false,
+			"isTypescript": false,
+			"score": -9810
+		},
+		{
+			"language": "TypeScript",
+			"name": "react-native-typescript-2d-game",
+			"description": "A simple 2D game (called The Box) implemented in React Native, as an Expo app, using TypeScript.",
+			"html_url": "https://github.com/shirakaba/react-native-typescript-2d-game",
+			"updated_at": "2018-11-14T09:20:23Z",
+			"stargazers_count": 34,
+			"open_issues": 1,
+			"isLibrary": true,
+			"isReact": true,
+			"isTypescript": false,
+			"score": -10078
+		},
+		{
+			"language": "JavaScript",
+			"name": "matrix_vision",
+			"description": "Matrix Cam: see yourself inside the Matrix!",
+			"html_url": "https://github.com/emilyxxie/matrix_vision",
+			"updated_at": "2018-11-27T18:14:57Z",
+			"stargazers_count": 241,
+			"open_issues": 1,
+			"isLibrary": false,
+			"isReact": false,
+			"isTypescript": false,
+			"score": -9599
+		},
+		{
+			"language": "JavaScript",
+			"name": "algorithm-visualizer",
+			"description": ":fireworks:Interactive Online Platform that Visualizes Algorithms from Code",
+			"html_url": "https://github.com/algorithm-visualizer/algorithm-visualizer",
+			"updated_at": "2018-12-15T16:00:35Z",
+			"stargazers_count": 12271,
+			"open_issues": 5,
+			"isLibrary": true,
+			"isReact": true,
+			"isTypescript": false,
+			"score": 14587
+		},
+		{
+			"language": "JavaScript",
+			"name": "artillery",
+			"description": "Modern, powerful, hackable backend & API testing toolkit. Load testing & functional testing. HTTP, Socket.io, WebSockets, Kinesis, HLS etc. 👩‍💻🏰",
+			"html_url": "https://github.com/artilleryio/artillery",
+			"updated_at": "2018-12-15T18:33:13Z",
+			"stargazers_count": 2395,
+			"open_issues": 110,
+			"isLibrary": true,
+			"isReact": false,
+			"isTypescript": false,
+			"score": -4220
+		},
+		{
+			"language": "JavaScript",
+			"name": "eslint-plugin-import",
+			"description": "ESLint plugin with rules that help validate proper imports.",
+			"html_url": "https://github.com/benmosher/eslint-plugin-import",
+			"updated_at": "2018-12-15T09:47:48Z",
+			"stargazers_count": 1495,
+			"open_issues": 232,
+			"isLibrary": true,
+			"isReact": false,
+			"isTypescript": true,
+			"score": -4922
+		},
+		{
+			"language": "JavaScript",
+			"name": "react-storybook-addon-chapters",
+			"description": "📒 Showcase multiple React components within a story",
+			"html_url": "https://github.com/Checkfront/react-storybook-addon-chapters",
+			"updated_at": "2018-12-13T19:25:03Z",
+			"stargazers_count": 85,
+			"open_issues": 11,
+			"isLibrary": true,
+			"isReact": true,
+			"isTypescript": false,
+			"score": -9741
+		},
+		{
+			"language": "JavaScript",
+			"name": "scen",
+			"description": "Create sections in the terminal.",
+			"html_url": "https://github.com/chunqiuyiyu/scen",
+			"updated_at": "2018-12-13T19:32:46Z",
+			"stargazers_count": 18,
+			"open_issues": 0,
+			"isLibrary": true,
+			"isReact": false,
+			"isTypescript": false,
+			"score": -9974
+		},
+		{
+			"language": "TypeScript",
+			"name": "typescript-expo-apollo-boilerplate",
+			"description": "Clean boilerplate for TypeScript + Expo (React Native) + React Apollo (GraphQL)",
+			"html_url": "https://github.com/dai-shi/typescript-expo-apollo-boilerplate",
+			"updated_at": "2018-12-13T19:25:20Z",
+			"stargazers_count": 9,
+			"open_issues": 0,
+			"isLibrary": true,
+			"isReact": true,
+			"isTypescript": false,
+			"score": -9992
+		},
+		{
+			"language": "C++",
+			"name": "node-gcstats",
+			"description": null,
+			"html_url": "https://github.com/dainis/node-gcstats",
+			"updated_at": "2018-12-11T11:17:27Z",
+			"stargazers_count": 80,
+			"open_issues": 1,
+			"isLibrary": true,
+			"isReact": false,
+			"isTypescript": false,
+			"score": -9851
+		},
+		{
+			"language": null,
+			"name": "scalable-css-reading-list",
+			"description": "Collected dispatches from The Quest for Scalable CSS",
+			"html_url": "https://github.com/davidtheclark/scalable-css-reading-list",
+			"updated_at": "2018-12-04T11:33:14Z",
+			"stargazers_count": 1277,
+			"open_issues": 2,
+			"isLibrary": false,
+			"isReact": false,
+			"isTypescript": false,
+			"score": -7483
+		},
+		{
+			"language": "JavaScript",
+			"name": "lazy-observer-load",
+			"description": "A library to lazy load images using Intersection Observer",
+			"html_url": "https://github.com/deanhume/lazy-observer-load",
+			"updated_at": "2018-11-28T14:18:33Z",
+			"stargazers_count": 209,
+			"open_issues": 5,
+			"isLibrary": true,
+			"isReact": false,
+			"isTypescript": false,
+			"score": -9622
+		},
+		{
+			"language": "JavaScript",
+			"name": "rats-search",
+			"description": "BitTorrent P2P multi-platform search engine for Desktop and Web servers with integrated torrent client.",
+			"html_url": "https://github.com/DEgITx/rats-search",
+			"updated_at": "2018-12-15T05:02:51Z",
+			"stargazers_count": 556,
+			"open_issues": 13,
+			"isLibrary": true,
+			"isReact": true,
+			"isTypescript": false,
+			"score": -8771
+		},
+		{
+			"language": "JavaScript",
+			"name": "fastify-ws",
+			"description": null,
+			"html_url": "https://github.com/gj/fastify-ws",
+			"updated_at": "2018-12-02T07:57:43Z",
+			"stargazers_count": 31,
+			"open_issues": 3,
+			"isLibrary": true,
+			"isReact": false,
+			"isTypescript": false,
+			"score": -9976
+		},
+		{
+			"language": "C",
+			"name": "robotgo",
+			"description": "RobotGo, Go Native cross-platform GUI automation",
+			"html_url": "https://github.com/go-vgo/robotgo",
+			"updated_at": "2018-12-15T16:04:53Z",
+			"stargazers_count": 3619,
+			"open_issues": 32,
+			"isLibrary": false,
+			"isReact": false,
+			"isTypescript": false,
+			"score": -2474
+		},
+		{
+			"language": "JavaScript",
+			"name": "howto-components",
+			"description": "Literate code examples for common UI patterns.",
+			"html_url": "https://github.com/GoogleChromeLabs/howto-components",
+			"updated_at": "2018-12-13T20:46:27Z",
+			"stargazers_count": 629,
+			"open_issues": 30,
+			"isLibrary": true,
+			"isReact": false,
+			"isTypescript": false,
+			"score": -8477
+		},
+		{
+			"language": null,
+			"name": "webpack-libs-optimizations",
+			"description": "Using a library in your webpack project? Here’s how to optimize it",
+			"html_url": "https://github.com/GoogleChromeLabs/webpack-libs-optimizations",
+			"updated_at": "2018-12-14T16:37:27Z",
+			"stargazers_count": 1847,
+			"open_issues": 8,
+			"isLibrary": true,
+			"isReact": false,
+			"isTypescript": false,
+			"score": -6239
+		},
+		{
+			"language": "JavaScript",
+			"name": "cryptiles",
+			"description": "General purpose crypto utilities",
+			"html_url": "https://github.com/hapijs/cryptiles",
+			"updated_at": "2018-12-15T00:55:56Z",
+			"stargazers_count": 161,
+			"open_issues": 0,
+			"isLibrary": true,
+			"isReact": false,
+			"isTypescript": false,
+			"score": -9678
+		},
+		{
+			"language": "JavaScript",
+			"name": "stylelint-order",
+			"description": "A plugin pack of order related linting rules for stylelint.",
+			"html_url": "https://github.com/hudochenkov/stylelint-order",
+			"updated_at": "2018-12-14T14:13:28Z",
+			"stargazers_count": 290,
+			"open_issues": 7,
+			"isLibrary": true,
+			"isReact": false,
+			"isTypescript": false,
+			"score": -9362
+		},
+		{
+			"language": "CSS",
+			"name": "Hover",
+			"description": "A collection of CSS3 powered hover effects to be applied to links, buttons, logos, SVG, featured images and so on. Easily apply to your own elements, modify or just use for inspiration. Available in CSS, Sass, and LESS.",
+			"html_url": "https://github.com/IanLunn/Hover",
+			"updated_at": "2018-12-15T14:03:52Z",
+			"stargazers_count": 20480,
+			"open_issues": 25,
+			"isLibrary": true,
+			"isReact": false,
+			"isTypescript": false,
+			"score": 31185
+		},
+		{
+			"language": "TypeScript",
+			"name": "InversifyJS",
+			"description": "A powerful and lightweight inversion of control container  for JavaScript & Node.js apps powered by TypeScript.",
+			"html_url": "https://github.com/inversify/InversifyJS",
+			"updated_at": "2018-12-15T11:54:04Z",
+			"stargazers_count": 3570,
+			"open_issues": 101,
+			"isLibrary": true,
+			"isReact": false,
+			"isTypescript": true,
+			"score": -1951
+		},
+		{
+			"language": "JavaScript",
+			"name": "razzle",
+			"description": "✨ Create server-rendered universal JavaScript applications with no configuration",
+			"html_url": "https://github.com/jaredpalmer/razzle",
+			"updated_at": "2018-12-15T17:03:04Z",
+			"stargazers_count": 5796,
+			"open_issues": 49,
+			"isLibrary": true,
+			"isReact": false,
+			"isTypescript": false,
+			"score": 2033
+		},
+		{
+			"language": "JavaScript",
+			"name": "Object.setPrototypesOf",
+			"description": "multiple inheritance using ES6 Proxy",
+			"html_url": "https://github.com/jfet97/Object.setPrototypesOf",
+			"updated_at": "2018-12-13T19:12:25Z",
+			"stargazers_count": 5,
+			"open_issues": 0,
+			"isLibrary": false,
+			"isReact": false,
+			"isTypescript": false,
+			"score": -10000
+		},
+		{
+			"language": "JavaScript",
+			"name": "yup",
+			"description": "Dead simple Object schema validation",
+			"html_url": "https://github.com/jquense/yup",
+			"updated_at": "2018-12-15T17:21:35Z",
+			"stargazers_count": 3554,
+			"open_issues": 84,
+			"isLibrary": true,
+			"isReact": false,
+			"isTypescript": false,
+			"score": -2136
+		},
+		{
+			"language": "JavaScript",
+			"name": "kss-node",
+			"description": "The Node.js implementation of KSS: a methodology for documenting CSS and generating style guides",
+			"html_url": "https://github.com/kss-node/kss-node",
+			"updated_at": "2018-12-14T14:49:04Z",
+			"stargazers_count": 1401,
+			"open_issues": 90,
+			"isLibrary": true,
+			"isReact": false,
+			"isTypescript": false,
+			"score": -6393
+		},
+		{
+			"language": "JavaScript",
+			"name": "33-js-concepts",
+			"description": "📜 33 concepts every JavaScript developer should know.",
+			"html_url": "https://github.com/leonardomso/33-js-concepts",
+			"updated_at": "2018-12-15T20:15:36Z",
+			"stargazers_count": 21839,
+			"open_issues": 5,
+			"isLibrary": true,
+			"isReact": false,
+			"isTypescript": false,
+			"score": 33723
+		},
+		{
+			"language": "JavaScript",
+			"name": "Debucsser",
+			"description": " CSS debugging tool with an unpronounceable name",
+			"html_url": "https://github.com/lucagez/Debucsser",
+			"updated_at": "2018-12-15T20:01:29Z",
+			"stargazers_count": 500,
+			"open_issues": 0,
+			"isLibrary": true,
+			"isReact": false,
+			"isTypescript": false,
+			"score": -9000
+		},
+		{
+			"language": "JavaScript",
+			"name": "json-stringify-pretty-compact",
+			"description": "The best of both `JSON.stringify(obj)` and `JSON.stringify(obj, null, indent)`.",
+			"html_url": "https://github.com/lydell/json-stringify-pretty-compact",
+			"updated_at": "2018-11-26T11:31:39Z",
+			"stargazers_count": 115,
+			"open_issues": 1,
+			"isLibrary": true,
+			"isReact": false,
+			"isTypescript": false,
+			"score": -9856
+		},
+		{
+			"language": null,
+			"name": "book-notes",
+			"description": "Notes from books and other interesting things that I've read.",
+			"html_url": "https://github.com/mgp/book-notes",
+			"updated_at": "2018-12-15T03:50:06Z",
+			"stargazers_count": 1555,
+			"open_issues": 2,
+			"isLibrary": false,
+			"isReact": false,
+			"isTypescript": false,
+			"score": -6872
+		},
+		{
+			"language": "JavaScript",
+			"name": "node-clinic",
+			"description": "Clinic diagnoses your Node.js performance issues",
+			"html_url": "https://github.com/nearform/node-clinic",
+			"updated_at": "2018-12-15T18:15:03Z",
+			"stargazers_count": 2110,
+			"open_issues": 23,
+			"isLibrary": true,
+			"isReact": false,
+			"isTypescript": false,
+			"score": -5573
+		},
+		{
+			"language": "JavaScript",
+			"name": "react-native-vector-icons",
+			"description": "Customizable Icons for React Native with support for NavBar/TabBar/ToolbarAndroid, image source and full styling.",
+			"html_url": "https://github.com/oblador/react-native-vector-icons",
+			"updated_at": "2018-12-15T15:45:48Z",
+			"stargazers_count": 9934,
+			"open_issues": 151,
+			"isLibrary": true,
+			"isReact": false,
+			"isTypescript": false,
+			"score": 11227
+		},
+		{
+			"language": "JavaScript",
+			"name": "redbird",
+			"description": "A modern reverse proxy for node",
+			"html_url": "https://github.com/OptimalBits/redbird",
+			"updated_at": "2018-12-15T18:21:21Z",
+			"stargazers_count": 3683,
+			"open_issues": 87,
+			"isLibrary": true,
+			"isReact": false,
+			"isTypescript": false,
+			"score": -1851
+		},
+		{
+			"language": "TypeScript",
+			"name": "rxjs-tslint",
+			"description": "TSLint rules targeting RxJS",
+			"html_url": "https://github.com/ReactiveX/rxjs-tslint",
+			"updated_at": "2018-12-15T15:19:48Z",
+			"stargazers_count": 237,
+			"open_issues": 7,
+			"isLibrary": true,
+			"isReact": false,
+			"isTypescript": true,
+			"score": -9463
+		},
+		{
+			"language": "Python",
+			"name": "wtfpython",
+			"description": "A collection of surprising Python snippets and lesser-known features.",
+			"html_url": "https://github.com/satwikkansal/wtfpython",
+			"updated_at": "2018-12-15T20:10:16Z",
+			"stargazers_count": 11846,
+			"open_issues": 26,
+			"isLibrary": true,
+			"isReact": false,
+			"isTypescript": false,
+			"score": 13926
+		},
+		{
+			"language": "JavaScript",
+			"name": "react-loadable-visibility",
+			"description": "A wrapper around react-loadable and loadable-components to load elements once they are visible on the page.",
+			"html_url": "https://github.com/stratiformltd/react-loadable-visibility",
+			"updated_at": "2018-12-13T10:29:44Z",
+			"stargazers_count": 806,
+			"open_issues": 5,
+			"isLibrary": true,
+			"isReact": true,
+			"isTypescript": false,
+			"score": -8353
+		},
+		{
+			"language": "JavaScript",
+			"name": "fs-remote",
+			"description": "📡 Drop-in replacement for fs that lets you write to the filesystem from the browser",
+			"html_url": "https://github.com/suchipi/fs-remote",
+			"updated_at": "2018-12-13T19:24:51Z",
+			"stargazers_count": 188,
+			"open_issues": 0,
+			"isLibrary": true,
+			"isReact": false,
+			"isTypescript": false,
+			"score": -9634
+		},
+		{
+			"language": "CSS",
+			"name": "wenk",
+			"description": ":wink: Lightweight pure CSS tooltip for the greater good",
+			"html_url": "https://github.com/tiaanduplessis/wenk",
+			"updated_at": "2018-12-13T13:54:36Z",
+			"stargazers_count": 676,
+			"open_issues": 2,
+			"isLibrary": true,
+			"isReact": false,
+			"isTypescript": false,
+			"score": -8640
+		},
+		{
+			"language": "JavaScript",
+			"name": "node-readability",
+			"description": "Scrape/Crawl article from any site automatically. Make any web page readable, no matter Chinese or English.",
+			"html_url": "https://github.com/Tjatse/node-readability",
+			"updated_at": "2018-12-11T20:18:22Z",
+			"stargazers_count": 272,
+			"open_issues": 9,
+			"isLibrary": true,
+			"isReact": false,
+			"isTypescript": false,
+			"score": -9395
+		},
+		{
+			"language": "JavaScript",
+			"name": "webpack-web-app-manifest-plugin",
+			"description": "A webpack plugin that generates a PWA manifest and integrates with the assets JSON.",
+			"html_url": "https://github.com/tumblr/webpack-web-app-manifest-plugin",
+			"updated_at": "2018-12-13T16:31:16Z",
+			"stargazers_count": 57,
+			"open_issues": 0,
+			"isLibrary": true,
+			"isReact": false,
+			"isTypescript": false,
+			"score": -9896
+		},
+		{
+			"language": "TypeScript",
+			"name": "typeorm",
+			"description": "ORM for TypeScript and JavaScript (ES7, ES6, ES5). Supports MySQL, PostgreSQL, MariaDB, SQLite, MS SQL Server, Oracle, WebSQL databases. Works in NodeJS, Browser, Ionic, Cordova and Electron platforms.",
+			"html_url": "https://github.com/typeorm/typeorm",
+			"updated_at": "2018-12-15T17:20:12Z",
+			"stargazers_count": 9701,
+			"open_issues": 614,
+			"isLibrary": true,
+			"isReact": false,
+			"isTypescript": true,
+			"score": 14928
+		},
+		{
+			"language": null,
+			"name": "css-refresher-notes",
+			"description": "CSS Refresher!",
+			"html_url": "https://github.com/vasanthk/css-refresher-notes",
+			"updated_at": "2018-12-15T08:33:46Z",
+			"stargazers_count": 1339,
+			"open_issues": 1,
+			"isLibrary": true,
+			"isReact": false,
+			"isTypescript": false,
+			"score": -7313
+		},
+		{
+			"language": "JavaScript",
+			"name": "wired-elements",
+			"description": "Collection of elements that appear hand drawn. Great for wireframes.",
+			"html_url": "https://github.com/wiredjs/wired-elements",
+			"updated_at": "2018-12-14T07:19:44Z",
+			"stargazers_count": 6376,
+			"open_issues": 21,
+			"isLibrary": true,
+			"isReact": false,
+			"isTypescript": false,
+			"score": 2936
+		},
+		{
+			"language": "JavaScript",
+			"name": "redux-saga-tester",
+			"description": "Full redux environment testing helper for redux-saga",
+			"html_url": "https://github.com/wix/redux-saga-tester",
+			"updated_at": "2018-12-14T17:06:23Z",
+			"stargazers_count": 184,
+			"open_issues": 9,
+			"isLibrary": true,
+			"isReact": false,
+			"isTypescript": false,
+			"score": -9556
+		},
+		{
+			"language": "TypeScript",
+			"name": "tslint-consistent-codestyle",
+			"description": "Collection of awesome rules to extend TSLint",
+			"html_url": "https://github.com/ajafff/tslint-consistent-codestyle",
+			"updated_at": "2018-12-10T12:20:35Z",
+			"stargazers_count": 134,
+			"open_issues": 19,
+			"isLibrary": true,
+			"isReact": false,
+			"isTypescript": true,
+			"score": -9586
+		},
+		{
+			"language": "TypeScript",
+			"name": "rogue.js",
+			"description": "Rogue.js -  the \"nearly invisible\" way to server-render React applications",
+			"html_url": "https://github.com/alidcastano/rogue.js",
+			"updated_at": "2018-12-14T23:41:33Z",
+			"stargazers_count": 1914,
+			"open_issues": 1,
+			"isLibrary": true,
+			"isReact": false,
+			"isTypescript": true,
+			"score": -6163
+		},
+		{
+			"language": "JavaScript",
+			"name": "react-simple-img",
+			"description": "🌅 React lazy load images with IntersectionObserver API ",
+			"html_url": "https://github.com/bluebill1049/react-simple-img",
+			"updated_at": "2018-12-13T10:54:26Z",
+			"stargazers_count": 257,
+			"open_issues": 0,
+			"isLibrary": true,
+			"isReact": true,
+			"isTypescript": false,
+			"score": -9496
+		},
+		{
+			"language": "JavaScript",
+			"name": "jeelizWeboji",
+			"description": "JavaScript/WebGL real-time face tracking and expression detection library. Build your own Apple Animoji feature! SVG and THREE.js integration demos are provided.",
+			"html_url": "https://github.com/jeeliz/jeelizWeboji",
+			"updated_at": "2018-12-07T10:09:26Z",
+			"stargazers_count": 449,
+			"open_issues": 0,
+			"isLibrary": false,
+			"isReact": false,
+			"isTypescript": false,
+			"score": -9142
+		},
+		{
+			"language": "JavaScript",
+			"name": "ervy",
+			"description": "Bring charts to terminal.",
+			"html_url": "https://github.com/chunqiuyiyu/ervy",
+			"updated_at": "2018-12-15T07:15:59Z",
+			"stargazers_count": 1266,
+			"open_issues": 1,
+			"isLibrary": true,
+			"isReact": false,
+			"isTypescript": false,
+			"score": -7459
+		},
+		{
+			"language": "C++",
+			"name": "cWS",
+			"description": "cWS is modified version of the uWebsockets with some minor tweaks in C++ code and complete rewrite of JS code.",
+			"html_url": "https://github.com/ClusterWS/cWS",
+			"updated_at": "2018-12-14T05:00:37Z",
+			"stargazers_count": 60,
+			"open_issues": 1,
+			"isLibrary": true,
+			"isReact": false,
+			"isTypescript": false,
+			"score": -9876
+		},
+		{
+			"language": "JavaScript",
+			"name": "delegated-events",
+			"description": "A small, fast delegated event library for JavaScript.",
+			"html_url": "https://github.com/dgraham/delegated-events",
+			"updated_at": "2018-12-13T13:04:25Z",
+			"stargazers_count": 820,
+			"open_issues": 2,
+			"isLibrary": true,
+			"isReact": false,
+			"isTypescript": false,
+			"score": -8352
+		},
+		{
+			"language": "JavaScript",
+			"name": "disparity",
+			"description": "colorized string diff (char or unified) ideal for text/code that spans through multiple lines",
+			"html_url": "https://github.com/millermedeiros/disparity",
+			"updated_at": "2018-11-19T13:23:10Z",
+			"stargazers_count": 43,
+			"open_issues": 0,
+			"isLibrary": true,
+			"isReact": false,
+			"isTypescript": false,
+			"score": -10044
+		},
+		{
+			"language": "JavaScript",
+			"name": "mauerwerk",
+			"description": "⚒  A react-spring driven masonry-like grid with enter/exit and shared element transitions",
+			"html_url": "https://github.com/drcmda/mauerwerk",
+			"updated_at": "2018-12-13T16:46:56Z",
+			"stargazers_count": 695,
+			"open_issues": 2,
+			"isLibrary": true,
+			"isReact": true,
+			"isTypescript": false,
+			"score": -8602
+		},
+		{
+			"language": "TypeScript",
+			"name": "refract",
+			"description": "Harness the power of reactive programming to supercharge your components",
+			"html_url": "https://github.com/fanduel-oss/refract",
+			"updated_at": "2018-12-12T10:35:33Z",
+			"stargazers_count": 615,
+			"open_issues": 1,
+			"isLibrary": true,
+			"isReact": true,
+			"isTypescript": false,
+			"score": -8776
+		},
+		{
+			"language": "JavaScript",
+			"name": "nightly.js",
+			"description": "A zero dependency javascript library that enables the night mode in your website easily",
+			"html_url": "https://github.com/Fcmam5/nightly.js",
+			"updated_at": "2018-12-04T20:55:13Z",
+			"stargazers_count": 97,
+			"open_issues": 3,
+			"isLibrary": true,
+			"isReact": false,
+			"isTypescript": false,
+			"score": -9829
+		},
+		{
+			"language": "TypeScript",
+			"name": "GhostText",
+			"description": "👻 Use your text editor to write in your browser. Everything you type in the editor will be instantly updated in the browser (and vice versa).",
+			"html_url": "https://github.com/GhostText/GhostText",
+			"updated_at": "2018-12-07T07:53:06Z",
+			"stargazers_count": 1849,
+			"open_issues": 26,
+			"isLibrary": true,
+			"isReact": false,
+			"isTypescript": true,
+			"score": -6108
+		},
+		{
+			"language": "JavaScript",
+			"name": "fuzzyset.js",
+			"description": "fuzzyset.js - A fuzzy string set for javascript",
+			"html_url": "https://github.com/Glench/fuzzyset.js",
+			"updated_at": "2018-12-15T13:12:21Z",
+			"stargazers_count": 898,
+			"open_issues": 3,
+			"isLibrary": true,
+			"isReact": false,
+			"isTypescript": false,
+			"score": -8177
+		},
+		{
+			"language": "JavaScript",
+			"name": "fuzzyset.js",
+			"description": "fuzzyset.js - A fuzzy string set for javascript",
+			"html_url": "https://github.com/Glench/fuzzyset.js",
+			"updated_at": "2018-12-15T13:12:21Z",
+			"stargazers_count": 898,
+			"open_issues": 3,
+			"isLibrary": true,
+			"isReact": false,
+			"isTypescript": false,
+			"score": -8177
+		},
+		{
+			"language": "Go",
+			"name": "annie",
+			"description": "👾 Fast, simple and clean video downloader",
+			"html_url": "https://github.com/iawia002/annie",
+			"updated_at": "2018-12-15T11:04:52Z",
+			"stargazers_count": 4596,
+			"open_issues": 35,
+			"isLibrary": false,
+			"isReact": false,
+			"isTypescript": false,
+			"score": -493
+		},
+		{
+			"language": "JavaScript",
+			"name": "inspect-process",
+			"description": "🔍 Dead simple debugging for node.js using chrome-devtools.",
+			"html_url": "https://github.com/jaridmargolin/inspect-process",
+			"updated_at": "2018-11-25T17:34:41Z",
+			"stargazers_count": 399,
+			"open_issues": 36,
+			"isLibrary": true,
+			"isReact": false,
+			"isTypescript": false,
+			"score": -8978
+		},
+		{
+			"language": "CSS",
+			"name": "docsify-themeable",
+			"description": "A delightfully simple theme system for docsify.js. Features multiple themes with rich customization options, an improved desktop and mobile experience, and legacy browser support (IE10+).",
+			"html_url": "https://github.com/jhildenbiddle/docsify-themeable",
+			"updated_at": "2018-12-14T08:45:00Z",
+			"stargazers_count": 35,
+			"open_issues": 0,
+			"isLibrary": true,
+			"isReact": false,
+			"isTypescript": false,
+			"score": -9935
+		},
+		{
+			"language": "JavaScript",
+			"name": "awesome-selfhosted",
+			"description": "This is a list of Free Software network services and web applications which can be hosted locally. Selfhosting is the process of locally hosting and managing applications instead of renting from SaaS providers.",
+			"html_url": "https://github.com/Kickball/awesome-selfhosted",
+			"updated_at": "2018-12-15T19:54:27Z",
+			"stargazers_count": 27814,
+			"open_issues": 40,
+			"isLibrary": false,
+			"isReact": false,
+			"isTypescript": false,
+			"score": 45988
+		},
+		{
+			"language": "CSS",
+			"name": "vivify",
+			"description": "Vivify is free CSS animation library.",
+			"html_url": "https://github.com/Martz90/vivify",
+			"updated_at": "2018-12-13T04:24:08Z",
+			"stargazers_count": 1379,
+			"open_issues": 4,
+			"isLibrary": true,
+			"isReact": false,
+			"isTypescript": false,
+			"score": -7216
+		},
+		{
+			"language": "JavaScript",
+			"name": "memoizee",
+			"description": "Complete memoize/cache solution for JavaScript",
+			"html_url": "https://github.com/medikoo/memoizee",
+			"updated_at": "2018-12-13T13:32:27Z",
+			"stargazers_count": 866,
+			"open_issues": 14,
+			"isLibrary": true,
+			"isReact": false,
+			"isTypescript": false,
+			"score": -8152
+		},
+		{
+			"language": "JavaScript",
+			"name": "Chrome-Extensions",
+			"description": "WebRTC chrome extensions for screen sharing, screen recording, file sharing, youtube+audio sharing, etc.",
+			"html_url": "https://github.com/muaz-khan/Chrome-Extensions",
+			"updated_at": "2018-12-15T14:55:43Z",
+			"stargazers_count": 404,
+			"open_issues": 31,
+			"isLibrary": false,
+			"isReact": false,
+			"isTypescript": false,
+			"score": -8913
+		},
+		{
+			"language": null,
+			"name": "awesome-maintainers",
+			"description": "Talks, blog posts, and interviews about the experience of being an open source maintainer",
+			"html_url": "https://github.com/nayafia/awesome-maintainers",
+			"updated_at": "2018-12-11T10:32:49Z",
+			"stargazers_count": 746,
+			"open_issues": 0,
+			"isLibrary": false,
+			"isReact": false,
+			"isTypescript": false,
+			"score": -8528
+		},
+		{
+			"language": "Jupyter Notebook",
+			"name": "100-Days-of-ML",
+			"description": "A day to day plan for this challenge (100 Days of Machine Learning) . Covers both theoretical and practical aspects",
+			"html_url": "https://github.com/prakhar21/100-Days-of-ML",
+			"updated_at": "2018-12-14T08:24:37Z",
+			"stargazers_count": 176,
+			"open_issues": 0,
+			"isLibrary": false,
+			"isReact": false,
+			"isTypescript": false,
+			"score": -9653
+		},
+		{
+			"language": "JavaScript",
+			"name": "git-tutor",
+			"description": ":octocat:+md=:heart: Awesome tutorials from your git log",
+			"html_url": "https://github.com/lesnitsky/git-tutor",
+			"updated_at": "2018-12-15T09:46:02Z",
+			"stargazers_count": 312,
+			"open_issues": 2,
+			"isLibrary": true,
+			"isReact": false,
+			"isTypescript": false,
+			"score": -9358
+		},
+		{
+			"language": "JavaScript",
+			"name": "react-cosmos",
+			"description": "Dev tool for creating reusable React components",
+			"html_url": "https://github.com/react-cosmos/react-cosmos",
+			"updated_at": "2018-12-15T13:21:13Z",
+			"stargazers_count": 4464,
+			"open_issues": 36,
+			"isLibrary": true,
+			"isReact": false,
+			"isTypescript": false,
+			"score": -748
+		},
+		{
+			"language": null,
+			"name": "free-for-dev",
+			"description": "A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev",
+			"html_url": "https://github.com/ripienaar/free-for-dev",
+			"updated_at": "2018-12-14T22:18:12Z",
+			"stargazers_count": 22091,
+			"open_issues": 16,
+			"isLibrary": false,
+			"isReact": false,
+			"isTypescript": false,
+			"score": 34326
+		},
+		{
+			"language": "TypeScript",
+			"name": "sh-exec",
+			"description": "💻 Use `Template literals` write shell script made happy ❤️.",
+			"html_url": "https://github.com/rwu823/sh-exec",
+			"updated_at": "2018-11-14T14:30:36Z",
+			"stargazers_count": 91,
+			"open_issues": 0,
+			"isLibrary": true,
+			"isReact": false,
+			"isTypescript": false,
+			"score": -9973
+		},
+		{
+			"language": "JavaScript",
+			"name": "pickr",
+			"description": "Flat, simple, responsive and hackable Color-Picker. No dependencies, no jQuery. Compatible with all CSS Frameworks e.g. Bootstrap, Materialize.",
+			"html_url": "https://github.com/Simonwep/pickr",
+			"updated_at": "2018-12-12T10:02:35Z",
+			"stargazers_count": 1272,
+			"open_issues": 7,
+			"isLibrary": true,
+			"isReact": false,
+			"isTypescript": false,
+			"score": -7408
+		},
+		{
+			"language": "JavaScript",
+			"name": "http2-wrapper",
+			"description": "Use HTTP2 the same way like HTTP1",
+			"html_url": "https://github.com/szmarczak/http2-wrapper",
+			"updated_at": "2018-12-13T22:09:54Z",
+			"stargazers_count": 122,
+			"open_issues": 3,
+			"isLibrary": true,
+			"isReact": false,
+			"isTypescript": false,
+			"score": -9734
+		},
+		{
+			"language": "HTML",
+			"name": "awesome-creative-coding",
+			"description": "🎨 Creative Coding: Generative Art, Data visualization, Interaction Design, Resources.",
+			"html_url": "https://github.com/terkelg/awesome-creative-coding",
+			"updated_at": "2018-12-15T14:08:27Z",
+			"stargazers_count": 4266,
+			"open_issues": 3,
+			"isLibrary": true,
+			"isReact": false,
+			"isTypescript": false,
+			"score": -1441
+		},
+		{
+			"language": "JavaScript",
+			"name": "react-particle-effect-button",
+			"description": "Bursting particle effect buttons for React 🎉",
+			"html_url": "https://github.com/transitive-bullshit/react-particle-effect-button",
+			"updated_at": "2018-12-14T05:51:11Z",
+			"stargazers_count": 1122,
+			"open_issues": 1,
+			"isLibrary": true,
+			"isReact": true,
+			"isTypescript": false,
+			"score": -7752
 		},
 		{
 			"language": "TypeScript",
@@ -1260,6 +2898,19 @@
 			"isReact": false,
 			"isTypescript": false,
 			"score": -9304
+		},
+		{
+			"language": "JavaScript",
+			"name": "webpack-pwa-manifest",
+			"description": "Progressive Web App Manifest Generator for Webpack, with auto icon resizing and fingerprinting support.",
+			"html_url": "https://github.com/arthurbergmz/webpack-pwa-manifest",
+			"updated_at": "2018-12-12T09:59:16Z",
+			"stargazers_count": 231,
+			"open_issues": 15,
+			"isLibrary": true,
+			"isReact": false,
+			"isTypescript": false,
+			"score": -9418
 		},
 		{
 			"language": "JavaScript",
@@ -1392,6 +3043,19 @@
 			"score": -9077
 		},
 		{
+			"language": "JavaScript",
+			"name": "keyframes-tool",
+			"description": "Keyframes-tool is a NodeJs command line tool which convert CSS Animations to a keyframes object suitable for Web Animations API. Use this tool to move your animations from stylesheets to JavaScript.",
+			"html_url": "https://github.com/gibbok/keyframes-tool",
+			"updated_at": "2018-11-10T19:38:40Z",
+			"stargazers_count": 50,
+			"open_issues": 0,
+			"isLibrary": true,
+			"isReact": false,
+			"isTypescript": false,
+			"score": -10075
+		},
+		{
 			"language": "TypeScript",
 			"name": "tslint-clean-code",
 			"description": "TSLint rules for enforcing Clean Code",
@@ -1402,20 +3066,20 @@
 			"isLibrary": true,
 			"isReact": false,
 			"isTypescript": true,
-			"score": -9653
+			"score": -9658
 		},
 		{
 			"language": "JavaScript",
 			"name": "swup",
 			"description": "Complete, flexible, easy to use page transition library.",
 			"html_url": "https://github.com/gmrchk/swup",
-			"updated_at": "2018-12-15T13:27:11Z",
-			"stargazers_count": 1401,
+			"updated_at": "2018-12-15T19:31:51Z",
+			"stargazers_count": 1402,
 			"open_issues": 2,
 			"isLibrary": true,
 			"isReact": false,
 			"isTypescript": false,
-			"score": -7180
+			"score": -7178
 		},
 		{
 			"language": "JavaScript",
@@ -1454,7 +3118,7 @@
 			"isLibrary": true,
 			"isReact": false,
 			"isTypescript": false,
-			"score": -7399
+			"score": -7404
 		},
 		{
 			"language": "JavaScript",
@@ -1500,13 +3164,13 @@
 			"name": "awesome-cheatsheets",
 			"description": "👩‍💻👨‍💻 Awesome cheatsheets for popular programming languages, frameworks and development tools. They include everything you should know in one single file.",
 			"html_url": "https://github.com/LeCoupa/awesome-cheatsheets",
-			"updated_at": "2018-12-15T14:14:54Z",
-			"stargazers_count": 8044,
+			"updated_at": "2018-12-15T18:31:25Z",
+			"stargazers_count": 8046,
 			"open_issues": 11,
 			"isLibrary": false,
 			"isReact": false,
 			"isTypescript": false,
-			"score": 6187
+			"score": 6191
 		},
 		{
 			"language": "JavaScript",
@@ -1519,20 +3183,20 @@
 			"isLibrary": true,
 			"isReact": true,
 			"isTypescript": false,
-			"score": -9167
+			"score": -9172
 		},
 		{
 			"language": "JavaScript",
 			"name": "kleur",
 			"description": "The fastest Node.js library for formatting terminal text with ANSI colors~!",
 			"html_url": "https://github.com/lukeed/kleur",
-			"updated_at": "2018-12-14T17:29:51Z",
-			"stargazers_count": 600,
+			"updated_at": "2018-12-15T20:13:28Z",
+			"stargazers_count": 602,
 			"open_issues": 0,
 			"isLibrary": true,
 			"isReact": false,
 			"isTypescript": false,
-			"score": -8800
+			"score": -8796
 		},
 		{
 			"language": "JavaScript",
@@ -1565,13 +3229,13 @@
 			"name": "tslint-microsoft-contrib",
 			"description": "A set of TSLint rules used on some Microsoft projects.",
 			"html_url": "https://github.com/Microsoft/tslint-microsoft-contrib",
-			"updated_at": "2018-12-14T17:10:04Z",
-			"stargazers_count": 491,
+			"updated_at": "2018-12-15T17:22:55Z",
+			"stargazers_count": 490,
 			"open_issues": 112,
 			"isLibrary": true,
 			"isReact": false,
 			"isTypescript": true,
-			"score": -8010
+			"score": -8012
 		},
 		{
 			"language": "JavaScript",
@@ -1597,20 +3261,20 @@
 			"isLibrary": true,
 			"isReact": false,
 			"isTypescript": false,
-			"score": -9969
+			"score": -9974
 		},
 		{
 			"language": "Python",
 			"name": "termtosvg",
 			"description": "Record terminal sessions as SVG animations",
 			"html_url": "https://github.com/nbedos/termtosvg",
-			"updated_at": "2018-12-15T14:50:09Z",
-			"stargazers_count": 7307,
+			"updated_at": "2018-12-15T19:21:52Z",
+			"stargazers_count": 7308,
 			"open_issues": 8,
 			"isLibrary": true,
 			"isReact": false,
 			"isTypescript": false,
-			"score": 4686
+			"score": 4688
 		},
 		{
 			"language": "JavaScript",
@@ -1636,7 +3300,7 @@
 			"isLibrary": true,
 			"isReact": false,
 			"isTypescript": false,
-			"score": -5364
+			"score": -5369
 		},
 		{
 			"language": "JavaScript",
@@ -1665,6 +3329,19 @@
 			"score": -9104
 		},
 		{
+			"language": "JavaScript",
+			"name": "web-worker-proxy",
+			"description": "A better way of working with web workers",
+			"html_url": "https://github.com/satya164/web-worker-proxy",
+			"updated_at": "2018-12-11T17:41:41Z",
+			"stargazers_count": 179,
+			"open_issues": 0,
+			"isLibrary": true,
+			"isReact": false,
+			"isTypescript": false,
+			"score": -9662
+		},
+		{
 			"language": "Kotlin",
 			"name": "profile-summary-for-github",
 			"description": "Tool for visualizing GitHub profiles",
@@ -1676,6 +3353,19 @@
 			"isReact": false,
 			"isTypescript": false,
 			"score": 26821
+		},
+		{
+			"language": "TypeScript",
+			"name": "design_patterns_in_typescript",
+			"description": ":triangular_ruler: Design pattern implementations in TypeScript",
+			"html_url": "https://github.com/torokmark/design_patterns_in_typescript",
+			"updated_at": "2018-12-14T23:31:24Z",
+			"stargazers_count": 1961,
+			"open_issues": 6,
+			"isLibrary": false,
+			"isReact": false,
+			"isTypescript": false,
+			"score": -6024
 		},
 		{
 			"language": null,
@@ -1702,435 +3392,6 @@
 			"isReact": false,
 			"isTypescript": false,
 			"score": 3309
-		},
-		{
-			"language": "JavaScript",
-			"name": "redbird",
-			"description": "A modern reverse proxy for node",
-			"html_url": "https://github.com/OptimalBits/redbird",
-			"updated_at": "2018-12-14T14:17:17Z",
-			"stargazers_count": 3682,
-			"open_issues": 87,
-			"isLibrary": true,
-			"isReact": false,
-			"isTypescript": false,
-			"score": -1858
-		},
-		{
-			"language": "JavaScript",
-			"name": "web-worker-proxy",
-			"description": "A better way of working with web workers",
-			"html_url": "https://github.com/satya164/web-worker-proxy",
-			"updated_at": "2018-12-11T17:41:41Z",
-			"stargazers_count": 179,
-			"open_issues": 0,
-			"isLibrary": true,
-			"isReact": false,
-			"isTypescript": false,
-			"score": -9657
-		},
-		{
-			"language": "JavaScript",
-			"name": "fastify-react",
-			"description": "React server side rendering support for Fastify with Next",
-			"html_url": "https://github.com/fastify/fastify-react",
-			"updated_at": "2018-12-12T18:37:57Z",
-			"stargazers_count": 69,
-			"open_issues": 3,
-			"isLibrary": true,
-			"isReact": true,
-			"isTypescript": false,
-			"score": -9845
-		},
-		{
-			"language": "JavaScript",
-			"name": "react-rte",
-			"description": "Pure React rich text \"WYSISYG\" editor based on draft-js.",
-			"html_url": "https://github.com/sstur/react-rte",
-			"updated_at": "2018-12-15T15:58:05Z",
-			"stargazers_count": 1940,
-			"open_issues": 116,
-			"isLibrary": true,
-			"isReact": true,
-			"isTypescript": false,
-			"score": -5076
-		},
-		{
-			"language": "JavaScript",
-			"name": "keyframes-tool",
-			"description": "Keyframes-tool is a NodeJs command line tool which convert CSS Animations to a keyframes object suitable for Web Animations API. Use this tool to move your animations from stylesheets to JavaScript.",
-			"html_url": "https://github.com/gibbok/keyframes-tool",
-			"updated_at": "2018-11-10T19:38:40Z",
-			"stargazers_count": 50,
-			"open_issues": 0,
-			"isLibrary": true,
-			"isReact": false,
-			"isTypescript": false,
-			"score": -10070
-		},
-		{
-			"language": "JavaScript",
-			"name": "webpack-pwa-manifest",
-			"description": "Progressive Web App Manifest Generator for Webpack, with auto icon resizing and fingerprinting support.",
-			"html_url": "https://github.com/arthurbergmz/webpack-pwa-manifest",
-			"updated_at": "2018-12-12T09:59:16Z",
-			"stargazers_count": 231,
-			"open_issues": 15,
-			"isLibrary": true,
-			"isReact": false,
-			"isTypescript": false,
-			"score": -9418
-		},
-		{
-			"language": "JavaScript",
-			"name": "pickr",
-			"description": "Flat, simple, responsive and hackable Color-Picker. No dependencies, no jQuery. Compatible with all CSS Frameworks e.g. Bootstrap, Materialize.",
-			"html_url": "https://github.com/Simonwep/pickr",
-			"updated_at": "2018-12-12T10:02:35Z",
-			"stargazers_count": 1272,
-			"open_issues": 7,
-			"isLibrary": true,
-			"isReact": false,
-			"isTypescript": false,
-			"score": -7408
-		},
-		{
-			"language": "JavaScript",
-			"name": "fuzzyset.js",
-			"description": "fuzzyset.js - A fuzzy string set for javascript",
-			"html_url": "https://github.com/Glench/fuzzyset.js",
-			"updated_at": "2018-12-15T13:12:21Z",
-			"stargazers_count": 898,
-			"open_issues": 3,
-			"isLibrary": true,
-			"isReact": false,
-			"isTypescript": false,
-			"score": -8177
-		},
-		{
-			"language": "TypeScript",
-			"name": "rogue.js",
-			"description": "Rogue.js -  the \"nearly invisible\" way to server-render React applications",
-			"html_url": "https://github.com/alidcastano/rogue.js",
-			"updated_at": "2018-12-14T23:41:33Z",
-			"stargazers_count": 1914,
-			"open_issues": 1,
-			"isLibrary": true,
-			"isReact": false,
-			"isTypescript": true,
-			"score": -6163
-		},
-		{
-			"language": "JavaScript",
-			"name": "fuzzyset.js",
-			"description": "fuzzyset.js - A fuzzy string set for javascript",
-			"html_url": "https://github.com/Glench/fuzzyset.js",
-			"updated_at": "2018-12-15T13:12:21Z",
-			"stargazers_count": 898,
-			"open_issues": 3,
-			"isLibrary": true,
-			"isReact": false,
-			"isTypescript": false,
-			"score": -8177
-		},
-		{
-			"language": "JavaScript",
-			"name": "jeelizWeboji",
-			"description": "JavaScript/WebGL real-time face tracking and expression detection library. Build your own Apple Animoji feature! SVG and THREE.js integration demos are provided.",
-			"html_url": "https://github.com/jeeliz/jeelizWeboji",
-			"updated_at": "2018-12-07T10:09:26Z",
-			"stargazers_count": 449,
-			"open_issues": 0,
-			"isLibrary": false,
-			"isReact": false,
-			"isTypescript": false,
-			"score": -9142
-		},
-		{
-			"language": "JavaScript",
-			"name": "react-simple-img",
-			"description": "🌅 React lazy load images with IntersectionObserver API ",
-			"html_url": "https://github.com/bluebill1049/react-simple-img",
-			"updated_at": "2018-12-13T10:54:26Z",
-			"stargazers_count": 257,
-			"open_issues": 0,
-			"isLibrary": true,
-			"isReact": true,
-			"isTypescript": false,
-			"score": -9496
-		},
-		{
-			"language": "JavaScript",
-			"name": "react-particle-effect-button",
-			"description": "Bursting particle effect buttons for React 🎉",
-			"html_url": "https://github.com/transitive-bullshit/react-particle-effect-button",
-			"updated_at": "2018-12-14T05:51:11Z",
-			"stargazers_count": 1122,
-			"open_issues": 1,
-			"isLibrary": true,
-			"isReact": true,
-			"isTypescript": false,
-			"score": -7752
-		},
-		{
-			"language": "JavaScript",
-			"name": "http2-wrapper",
-			"description": "Use HTTP2 the same way like HTTP1",
-			"html_url": "https://github.com/szmarczak/http2-wrapper",
-			"updated_at": "2018-12-13T22:09:54Z",
-			"stargazers_count": 122,
-			"open_issues": 3,
-			"isLibrary": true,
-			"isReact": false,
-			"isTypescript": false,
-			"score": -9734
-		},
-		{
-			"language": "Jupyter Notebook",
-			"name": "100-Days-of-ML",
-			"description": "A day to day plan for this challenge (100 Days of Machine Learning) . Covers both theoretical and practical aspects",
-			"html_url": "https://github.com/prakhar21/100-Days-of-ML",
-			"updated_at": "2018-12-14T08:24:37Z",
-			"stargazers_count": 176,
-			"open_issues": 0,
-			"isLibrary": false,
-			"isReact": false,
-			"isTypescript": false,
-			"score": -9653
-		},
-		{
-			"language": "C++",
-			"name": "cWS",
-			"description": "cWS is modified version of the uWebsockets with some minor tweaks in C++ code and complete rewrite of JS code.",
-			"html_url": "https://github.com/ClusterWS/cWS",
-			"updated_at": "2018-12-14T05:00:37Z",
-			"stargazers_count": 60,
-			"open_issues": 1,
-			"isLibrary": true,
-			"isReact": false,
-			"isTypescript": false,
-			"score": -9876
-		},
-		{
-			"language": "JavaScript",
-			"name": "nightly.js",
-			"description": "A zero dependency javascript library that enables the night mode in your website easily",
-			"html_url": "https://github.com/Fcmam5/nightly.js",
-			"updated_at": "2018-12-04T20:55:13Z",
-			"stargazers_count": 97,
-			"open_issues": 3,
-			"isLibrary": true,
-			"isReact": false,
-			"isTypescript": false,
-			"score": -9829
-		},
-		{
-			"language": "JavaScript",
-			"name": "delegated-events",
-			"description": "A small, fast delegated event library for JavaScript.",
-			"html_url": "https://github.com/dgraham/delegated-events",
-			"updated_at": "2018-12-13T13:04:25Z",
-			"stargazers_count": 820,
-			"open_issues": 2,
-			"isLibrary": true,
-			"isReact": false,
-			"isTypescript": false,
-			"score": -8352
-		},
-		{
-			"language": "JavaScript",
-			"name": "git-tutor",
-			"description": ":octocat:+md=:heart: Awesome tutorials from your git log",
-			"html_url": "https://github.com/lesnitsky/git-tutor",
-			"updated_at": "2018-12-15T09:46:02Z",
-			"stargazers_count": 312,
-			"open_issues": 2,
-			"isLibrary": true,
-			"isReact": false,
-			"isTypescript": false,
-			"score": -9358
-		},
-		{
-			"language": "TypeScript",
-			"name": "GhostText",
-			"description": "👻 Use your text editor to write in your browser. Everything you type in the editor will be instantly updated in the browser (and vice versa).",
-			"html_url": "https://github.com/GhostText/GhostText",
-			"updated_at": "2018-12-07T07:53:06Z",
-			"stargazers_count": 1849,
-			"open_issues": 26,
-			"isLibrary": true,
-			"isReact": false,
-			"isTypescript": true,
-			"score": -6108
-		},
-		{
-			"language": "TypeScript",
-			"name": "vscode-gitflow",
-			"description": "Gitflow integration for Visual Studio Code",
-			"html_url": "https://github.com/vector-of-bool/vscode-gitflow",
-			"updated_at": "2018-12-11T14:35:29Z",
-			"stargazers_count": 53,
-			"open_issues": 11,
-			"isLibrary": true,
-			"isReact": false,
-			"isTypescript": true,
-			"score": -9815
-		},
-		{
-			"language": "TypeScript",
-			"name": "sh-exec",
-			"description": "💻 Use `Template literals` write shell script made happy ❤️.",
-			"html_url": "https://github.com/rwu823/sh-exec",
-			"updated_at": "2018-11-14T14:30:36Z",
-			"stargazers_count": 91,
-			"open_issues": 0,
-			"isLibrary": true,
-			"isReact": false,
-			"isTypescript": false,
-			"score": -9973
-		},
-		{
-			"language": "TypeScript",
-			"name": "tslint-consistent-codestyle",
-			"description": "Collection of awesome rules to extend TSLint",
-			"html_url": "https://github.com/ajafff/tslint-consistent-codestyle",
-			"updated_at": "2018-12-10T12:20:35Z",
-			"stargazers_count": 134,
-			"open_issues": 19,
-			"isLibrary": true,
-			"isReact": false,
-			"isTypescript": true,
-			"score": -9586
-		},
-		{
-			"language": "JavaScript",
-			"name": "disparity",
-			"description": "colorized string diff (char or unified) ideal for text/code that spans through multiple lines",
-			"html_url": "https://github.com/millermedeiros/disparity",
-			"updated_at": "2018-11-19T13:23:10Z",
-			"stargazers_count": 43,
-			"open_issues": 0,
-			"isLibrary": true,
-			"isReact": false,
-			"isTypescript": false,
-			"score": -10044
-		},
-		{
-			"language": "JavaScript",
-			"name": "Chrome-Extensions",
-			"description": "WebRTC chrome extensions for screen sharing, screen recording, file sharing, youtube+audio sharing, etc.",
-			"html_url": "https://github.com/muaz-khan/Chrome-Extensions",
-			"updated_at": "2018-12-15T14:55:43Z",
-			"stargazers_count": 404,
-			"open_issues": 31,
-			"isLibrary": false,
-			"isReact": false,
-			"isTypescript": false,
-			"score": -8913
-		},
-		{
-			"language": "JavaScript",
-			"name": "ervy",
-			"description": "Bring charts to terminal.",
-			"html_url": "https://github.com/chunqiuyiyu/ervy",
-			"updated_at": "2018-12-15T07:15:59Z",
-			"stargazers_count": 1266,
-			"open_issues": 1,
-			"isLibrary": true,
-			"isReact": false,
-			"isTypescript": false,
-			"score": -7459
-		},
-		{
-			"language": "JavaScript",
-			"name": "awesome-selfhosted",
-			"description": "This is a list of Free Software network services and web applications which can be hosted locally. Selfhosting is the process of locally hosting and managing applications instead of renting from SaaS providers.",
-			"html_url": "https://github.com/Kickball/awesome-selfhosted",
-			"updated_at": "2018-12-15T15:16:29Z",
-			"stargazers_count": 27807,
-			"open_issues": 40,
-			"isLibrary": false,
-			"isReact": false,
-			"isTypescript": false,
-			"score": 45974
-		},
-		{
-			"language": "JavaScript",
-			"name": "mauerwerk",
-			"description": "⚒  A react-spring driven masonry-like grid with enter/exit and shared element transitions",
-			"html_url": "https://github.com/drcmda/mauerwerk",
-			"updated_at": "2018-12-13T16:46:56Z",
-			"stargazers_count": 695,
-			"open_issues": 2,
-			"isLibrary": true,
-			"isReact": true,
-			"isTypescript": false,
-			"score": -8597
-		},
-		{
-			"language": "TypeScript",
-			"name": "refract",
-			"description": "Harness the power of reactive programming to supercharge your components",
-			"html_url": "https://github.com/fanduel-oss/refract",
-			"updated_at": "2018-12-12T10:35:33Z",
-			"stargazers_count": 615,
-			"open_issues": 1,
-			"isLibrary": true,
-			"isReact": true,
-			"isTypescript": false,
-			"score": -8776
-		},
-		{
-			"language": "CSS",
-			"name": "wenk",
-			"description": ":wink: Lightweight pure CSS tooltip for the greater good",
-			"html_url": "https://github.com/tiaanduplessis/wenk",
-			"updated_at": "2018-12-13T13:54:36Z",
-			"stargazers_count": 676,
-			"open_issues": 2,
-			"isLibrary": true,
-			"isReact": false,
-			"isTypescript": false,
-			"score": -8640
-		},
-		{
-			"language": "JavaScript",
-			"name": "web-animations-js",
-			"description": "JavaScript implementation of the Web Animations API",
-			"html_url": "https://github.com/web-animations/web-animations-js",
-			"updated_at": "2018-12-14T10:42:07Z",
-			"stargazers_count": 2849,
-			"open_issues": 62,
-			"isLibrary": true,
-			"isReact": false,
-			"isTypescript": false,
-			"score": -3749
-		},
-		{
-			"language": null,
-			"name": "css-refresher-notes",
-			"description": "CSS Refresher!",
-			"html_url": "https://github.com/vasanthk/css-refresher-notes",
-			"updated_at": "2018-12-15T08:33:46Z",
-			"stargazers_count": 1339,
-			"open_issues": 1,
-			"isLibrary": false,
-			"isReact": false,
-			"isTypescript": false,
-			"score": -7313
-		},
-		{
-			"language": null,
-			"name": "scalable-css-reading-list",
-			"description": "Collected dispatches from The Quest for Scalable CSS",
-			"html_url": "https://github.com/davidtheclark/scalable-css-reading-list",
-			"updated_at": "2018-12-04T11:33:14Z",
-			"stargazers_count": 1277,
-			"open_issues": 2,
-			"isLibrary": false,
-			"isReact": false,
-			"isTypescript": false,
-			"score": -7483
 		},
 		{
 			"language": "JavaScript",
@@ -2163,13 +3424,13 @@
 			"name": "awesome-selfhosted",
 			"description": "This is a list of Free Software network services and web applications which can be hosted locally. Selfhosting is the process of locally hosting and managing applications instead of renting from SaaS providers.",
 			"html_url": "https://github.com/Kickball/awesome-selfhosted",
-			"updated_at": "2018-12-15T15:16:29Z",
-			"stargazers_count": 27807,
+			"updated_at": "2018-12-15T19:54:27Z",
+			"stargazers_count": 27814,
 			"open_issues": 40,
 			"isLibrary": false,
 			"isReact": false,
 			"isTypescript": false,
-			"score": 45974
+			"score": 45988
 		},
 		{
 			"language": "JavaScript",
@@ -2208,20 +3469,20 @@
 			"isLibrary": true,
 			"isReact": false,
 			"isTypescript": false,
-			"score": 949
+			"score": 944
 		},
 		{
 			"language": "JavaScript",
 			"name": "kepler.gl",
 			"description": null,
 			"html_url": "https://github.com/uber/kepler.gl",
-			"updated_at": "2018-12-15T13:47:53Z",
-			"stargazers_count": 3492,
+			"updated_at": "2018-12-15T19:12:50Z",
+			"stargazers_count": 3493,
 			"open_issues": 105,
 			"isLibrary": true,
 			"isReact": true,
 			"isTypescript": false,
-			"score": -2071
+			"score": -2069
 		},
 		{
 			"language": "JavaScript",
@@ -2234,7 +3495,7 @@
 			"isLibrary": true,
 			"isReact": false,
 			"isTypescript": true,
-			"score": -10490
+			"score": -10495
 		},
 		{
 			"language": "JavaScript",
@@ -2273,7 +3534,7 @@
 			"isLibrary": true,
 			"isReact": false,
 			"isTypescript": false,
-			"score": -9952
+			"score": -9957
 		},
 		{
 			"language": "JavaScript",
@@ -2438,50 +3699,50 @@
 			"html_url": "https://github.com/pinterest/gestalt",
 			"updated_at": "2018-12-15T02:17:23Z",
 			"stargazers_count": 2799,
-			"open_issues": 26,
+			"open_issues": 27,
 			"isLibrary": true,
 			"isReact": true,
 			"isTypescript": false,
-			"score": -4168
+			"score": -4159
 		},
 		{
 			"language": "Go",
 			"name": "learn-go-with-tests",
 			"description": "Learn Go with test-driven development",
 			"html_url": "https://github.com/quii/learn-go-with-tests",
-			"updated_at": "2018-12-15T07:18:34Z",
-			"stargazers_count": 2357,
+			"updated_at": "2018-12-15T19:13:06Z",
+			"stargazers_count": 2356,
 			"open_issues": 10,
 			"isLibrary": false,
 			"isReact": false,
 			"isTypescript": false,
-			"score": -5196
+			"score": -5198
 		},
 		{
 			"language": "JavaScript",
 			"name": "smooth-ui",
 			"description": "Modern React UI library 💅👩‍🎤🍭",
 			"html_url": "https://github.com/smooth-code/smooth-ui",
-			"updated_at": "2018-12-13T19:19:49Z",
-			"stargazers_count": 988,
+			"updated_at": "2018-12-15T16:22:52Z",
+			"stargazers_count": 989,
 			"open_issues": 11,
 			"isLibrary": true,
 			"isReact": true,
 			"isTypescript": false,
-			"score": -7930
+			"score": -7923
 		},
 		{
 			"language": "JavaScript",
 			"name": "ws",
 			"description": "Simple to use, blazing fast and thoroughly tested WebSocket client and server for Node.js",
 			"html_url": "https://github.com/websockets/ws",
-			"updated_at": "2018-12-15T10:11:01Z",
-			"stargazers_count": 10198,
+			"updated_at": "2018-12-15T19:42:53Z",
+			"stargazers_count": 10201,
 			"open_issues": 14,
 			"isLibrary": true,
 			"isReact": false,
 			"isTypescript": false,
-			"score": 10522
+			"score": 10528
 		},
 		{
 			"language": "TypeScript",
@@ -2501,26 +3762,26 @@
 			"name": "nerd-fonts",
 			"description": ":abcd: Iconic font aggregator, collection, and patcher. 40+ patched fonts, over 3,600 glyph/icons, includes popular collections such as Font Awesome & fonts such as Hack",
 			"html_url": "https://github.com/ryanoasis/nerd-fonts",
-			"updated_at": "2018-12-15T15:31:01Z",
-			"stargazers_count": 11465,
+			"updated_at": "2018-12-15T19:22:26Z",
+			"stargazers_count": 11469,
 			"open_issues": 84,
 			"isLibrary": true,
 			"isReact": false,
 			"isTypescript": false,
-			"score": 13686
+			"score": 13694
 		},
 		{
 			"language": "JavaScript",
 			"name": "pell",
 			"description": "📝 the simplest and smallest WYSIWYG text editor for web, with no dependencies",
 			"html_url": "https://github.com/jaredreich/pell",
-			"updated_at": "2018-12-15T12:30:17Z",
-			"stargazers_count": 10520,
+			"updated_at": "2018-12-15T16:51:48Z",
+			"stargazers_count": 10521,
 			"open_issues": 54,
 			"isLibrary": true,
 			"isReact": false,
 			"isTypescript": false,
-			"score": 11526
+			"score": 11528
 		},
 		{
 			"language": null,
@@ -2553,13 +3814,13 @@
 			"name": "react-progressive-image",
 			"description": "React component for progressive image loading",
 			"html_url": "https://github.com/FormidableLabs/react-progressive-image",
-			"updated_at": "2018-12-13T12:35:15Z",
-			"stargazers_count": 485,
+			"updated_at": "2018-12-15T18:15:51Z",
+			"stargazers_count": 486,
 			"open_issues": 0,
 			"isLibrary": true,
 			"isReact": true,
 			"isTypescript": false,
-			"score": -9040
+			"score": -9028
 		},
 		{
 			"language": "C++",
@@ -2572,7 +3833,7 @@
 			"isLibrary": true,
 			"isReact": false,
 			"isTypescript": true,
-			"score": 7362
+			"score": 7357
 		},
 		{
 			"language": "JavaScript",
@@ -2605,13 +3866,13 @@
 			"name": "anime",
 			"description": "JavaScript Animation Engine",
 			"html_url": "https://github.com/juliangarnier/anime",
-			"updated_at": "2018-12-15T15:38:36Z",
-			"stargazers_count": 24838,
+			"updated_at": "2018-12-15T19:56:35Z",
+			"stargazers_count": 24843,
 			"open_issues": 127,
 			"isLibrary": true,
 			"isReact": false,
 			"isTypescript": false,
-			"score": 40819
+			"score": 40829
 		},
 		{
 			"language": "JavaScript",
@@ -2624,7 +3885,7 @@
 			"isLibrary": true,
 			"isReact": false,
 			"isTypescript": false,
-			"score": -8828
+			"score": -8833
 		},
 		{
 			"language": "JavaScript",
@@ -2644,26 +3905,26 @@
 			"name": "nerv",
 			"description": "A blazing fast React alternative, compatible with IE8 and React 16.",
 			"html_url": "https://github.com/NervJS/nerv",
-			"updated_at": "2018-12-15T02:10:16Z",
-			"stargazers_count": 4470,
+			"updated_at": "2018-12-15T16:11:42Z",
+			"stargazers_count": 4471,
 			"open_issues": 45,
 			"isLibrary": true,
 			"isReact": false,
 			"isTypescript": true,
-			"score": -655
+			"score": -653
 		},
 		{
 			"language": "TypeScript",
 			"name": "typescript-library-starter",
 			"description": "Starter kit with zero-config for building a library in TypeScript, featuring RollupJS, Jest, Prettier, TSLint, Semantic Release, and more!",
 			"html_url": "https://github.com/alexjoverm/typescript-library-starter",
-			"updated_at": "2018-12-15T02:35:57Z",
-			"stargazers_count": 1314,
+			"updated_at": "2018-12-15T16:26:05Z",
+			"stargazers_count": 1315,
 			"open_issues": 14,
 			"isLibrary": true,
 			"isReact": false,
 			"isTypescript": true,
-			"score": -7246
+			"score": -7244
 		},
 		{
 			"language": "C",
@@ -2709,13 +3970,13 @@
 			"name": "nodebestpractices",
 			"description": "The largest Node.JS best practices list (November 2018)",
 			"html_url": "https://github.com/i0natan/nodebestpractices",
-			"updated_at": "2018-12-15T15:26:02Z",
-			"stargazers_count": 19117,
+			"updated_at": "2018-12-15T18:48:31Z",
+			"stargazers_count": 19120,
 			"open_issues": 55,
 			"isLibrary": false,
 			"isReact": false,
 			"isTypescript": false,
-			"score": 28729
+			"score": 28735
 		},
 		{
 			"language": "JavaScript",
@@ -2800,13 +4061,13 @@
 			"name": "Public-APIs",
 			"description": "📚 A public list of APIs from round the web.",
 			"html_url": "https://github.com/abhishekbanthia/Public-APIs",
-			"updated_at": "2018-12-15T04:28:30Z",
-			"stargazers_count": 12103,
+			"updated_at": "2018-12-15T16:13:57Z",
+			"stargazers_count": 12104,
 			"open_issues": 5,
 			"isLibrary": false,
 			"isReact": false,
 			"isTypescript": false,
-			"score": 14251
+			"score": 14253
 		},
 		{
 			"language": "JavaScript",
@@ -2845,7 +4106,7 @@
 			"isLibrary": true,
 			"isReact": false,
 			"isTypescript": false,
-			"score": 563
+			"score": 558
 		},
 		{
 			"language": "JavaScript",
@@ -2865,13 +4126,13 @@
 			"name": "brain.js",
 			"description": "🤖 Neural networks in JavaScript",
 			"html_url": "https://github.com/BrainJS/brain.js",
-			"updated_at": "2018-12-15T11:41:18Z",
-			"stargazers_count": 6578,
+			"updated_at": "2018-12-15T16:45:59Z",
+			"stargazers_count": 6579,
 			"open_issues": 28,
 			"isLibrary": true,
 			"isReact": false,
 			"isTypescript": false,
-			"score": 3408
+			"score": 3410
 		},
 		{
 			"language": "CSS",
@@ -2988,7 +4249,7 @@
 			"isLibrary": true,
 			"isReact": true,
 			"isTypescript": false,
-			"score": -8766
+			"score": -8771
 		},
 		{
 			"language": "JavaScript",
@@ -3073,13 +4334,13 @@
 			"name": "react-swipeable-views",
 			"description": "A React component for swipeable views. :snowflake:",
 			"html_url": "https://github.com/oliviertassinari/react-swipeable-views",
-			"updated_at": "2018-12-15T05:10:24Z",
-			"stargazers_count": 2674,
+			"updated_at": "2018-12-15T17:29:51Z",
+			"stargazers_count": 2675,
 			"open_issues": 45,
 			"isLibrary": true,
 			"isReact": true,
 			"isTypescript": false,
-			"score": -4247
+			"score": -4245
 		},
 		{
 			"language": "JavaScript",
@@ -3138,13 +4399,13 @@
 			"name": "react-swipeable-views",
 			"description": "A React component for swipeable views. :snowflake:",
 			"html_url": "https://github.com/oliviertassinari/react-swipeable-views",
-			"updated_at": "2018-12-15T05:10:24Z",
-			"stargazers_count": 2674,
+			"updated_at": "2018-12-15T17:29:51Z",
+			"stargazers_count": 2675,
 			"open_issues": 45,
 			"isLibrary": true,
 			"isReact": true,
 			"isTypescript": false,
-			"score": -4247
+			"score": -4245
 		},
 		{
 			"language": "JavaScript",
@@ -3205,11 +4466,11 @@
 			"html_url": "https://github.com/FormidableLabs/victory",
 			"updated_at": "2018-12-15T13:57:47Z",
 			"stargazers_count": 6637,
-			"open_issues": 111,
+			"open_issues": 112,
 			"isLibrary": true,
 			"isReact": true,
 			"isTypescript": false,
-			"score": 4273
+			"score": 4282
 		},
 		{
 			"language": "JavaScript",
@@ -3255,39 +4516,39 @@
 			"name": "react-beautiful-dnd",
 			"description": "Beautiful and accessible drag and drop for lists with React",
 			"html_url": "https://github.com/atlassian/react-beautiful-dnd",
-			"updated_at": "2018-12-15T14:18:49Z",
-			"stargazers_count": 11838,
+			"updated_at": "2018-12-15T19:50:21Z",
+			"stargazers_count": 11840,
 			"open_issues": 70,
 			"isLibrary": true,
 			"isReact": true,
 			"isTypescript": false,
-			"score": 14306
+			"score": 14310
 		},
 		{
 			"language": "JavaScript",
 			"name": "react-lazyload",
 			"description": "Lazy load your component, image or anything matters the performance.",
 			"html_url": "https://github.com/jasonslyvia/react-lazyload",
-			"updated_at": "2018-12-14T20:55:45Z",
-			"stargazers_count": 3099,
+			"updated_at": "2018-12-15T20:10:31Z",
+			"stargazers_count": 3100,
 			"open_issues": 57,
 			"isLibrary": true,
 			"isReact": true,
 			"isTypescript": false,
-			"score": -3289
+			"score": -3287
 		},
 		{
 			"language": "JavaScript",
 			"name": "react-document-title",
 			"description": "Declarative, nested, stateful, isomorphic document.title for React",
 			"html_url": "https://github.com/gaearon/react-document-title",
-			"updated_at": "2018-12-14T23:30:09Z",
-			"stargazers_count": 1467,
+			"updated_at": "2018-12-15T18:52:01Z",
+			"stargazers_count": 1468,
 			"open_issues": 23,
 			"isLibrary": true,
 			"isReact": true,
 			"isTypescript": false,
-			"score": -6859
+			"score": -6857
 		},
 		{
 			"language": "JavaScript",
@@ -3398,13 +4659,13 @@
 			"name": "PWABuilder-CLI",
 			"description": "Node.js tool for App Generation",
 			"html_url": "https://github.com/pwa-builder/PWABuilder-CLI",
-			"updated_at": "2018-12-15T14:13:41Z",
-			"stargazers_count": 1330,
+			"updated_at": "2018-12-15T16:54:12Z",
+			"stargazers_count": 1331,
 			"open_issues": 27,
 			"isLibrary": true,
 			"isReact": false,
 			"isTypescript": false,
-			"score": -7097
+			"score": -7095
 		},
 		{
 			"language": "Python",
@@ -3463,26 +4724,26 @@
 			"name": "lazysizes",
 			"description": "High performance and SEO friendly lazy loader for images (responsive and normal), iframes and more, that detects any visibility changes triggered through user interaction, CSS or JavaScript without configuration.",
 			"html_url": "https://github.com/aFarkas/lazysizes",
-			"updated_at": "2018-12-15T07:42:13Z",
-			"stargazers_count": 9740,
+			"updated_at": "2018-12-15T17:03:20Z",
+			"stargazers_count": 9741,
 			"open_issues": 100,
 			"isLibrary": true,
 			"isReact": false,
 			"isTypescript": false,
-			"score": 10380
+			"score": 10382
 		},
 		{
 			"language": "JavaScript",
 			"name": "agenda",
 			"description": "Lightweight job scheduling for Node.js",
 			"html_url": "https://github.com/agenda/agenda",
-			"updated_at": "2018-12-15T02:31:11Z",
-			"stargazers_count": 4758,
+			"updated_at": "2018-12-15T16:46:31Z",
+			"stargazers_count": 4759,
 			"open_issues": 180,
 			"isLibrary": true,
 			"isReact": false,
 			"isTypescript": false,
-			"score": 1136
+			"score": 1138
 		},
 		{
 			"language": "JavaScript",
@@ -3502,13 +4763,13 @@
 			"name": "lottie-react-native",
 			"description": "Lottie wrapper for React Native.",
 			"html_url": "https://github.com/react-native-community/lottie-react-native",
-			"updated_at": "2018-12-15T15:57:31Z",
-			"stargazers_count": 10356,
+			"updated_at": "2018-12-15T17:10:49Z",
+			"stargazers_count": 10357,
 			"open_issues": 40,
 			"isLibrary": true,
 			"isReact": true,
 			"isTypescript": false,
-			"score": 11072
+			"score": 11074
 		},
 		{
 			"language": "JavaScript",
@@ -3528,13 +4789,13 @@
 			"name": "beidou",
 			"description": ":milky_way: Isomorphic framework for server-rendered React apps",
 			"html_url": "https://github.com/alibaba/beidou",
-			"updated_at": "2018-12-15T15:27:33Z",
-			"stargazers_count": 2043,
+			"updated_at": "2018-12-15T17:40:14Z",
+			"stargazers_count": 2044,
 			"open_issues": 15,
 			"isLibrary": true,
 			"isReact": false,
 			"isTypescript": false,
-			"score": -5779
+			"score": -5777
 		},
 		{
 			"language": "JavaScript",
@@ -3593,13 +4854,13 @@
 			"name": "public-apis",
 			"description": "A collective list of free APIs for use in software and web development.",
 			"html_url": "https://github.com/toddmotto/public-apis",
-			"updated_at": "2018-12-15T15:26:20Z",
-			"stargazers_count": 45293,
+			"updated_at": "2018-12-15T20:13:24Z",
+			"stargazers_count": 45296,
 			"open_issues": 4,
 			"isLibrary": false,
 			"isReact": false,
 			"isTypescript": false,
-			"score": 80622
+			"score": 80628
 		},
 		{
 			"language": "JavaScript",
@@ -3612,20 +4873,20 @@
 			"isLibrary": true,
 			"isReact": false,
 			"isTypescript": false,
-			"score": -431
+			"score": -436
 		},
 		{
 			"language": "JavaScript",
 			"name": "kue",
 			"description": "Kue is a priority job queue backed by redis, built for node.js.",
 			"html_url": "https://github.com/Automattic/kue",
-			"updated_at": "2018-12-14T18:30:15Z",
-			"stargazers_count": 8152,
+			"updated_at": "2018-12-15T17:17:26Z",
+			"stargazers_count": 8153,
 			"open_issues": 273,
 			"isLibrary": true,
 			"isReact": false,
 			"isTypescript": false,
-			"score": 8761
+			"score": 8763
 		},
 		{
 			"language": "JavaScript",
@@ -3677,7 +4938,7 @@
 			"isLibrary": false,
 			"isReact": false,
 			"isTypescript": false,
-			"score": -9517
+			"score": -9522
 		},
 		{
 			"language": "JavaScript",
@@ -3749,13 +5010,13 @@
 			"name": "juice-shop",
 			"description": "OWASP Juice Shop: Probably the most modern and sophisticated insecure web application",
 			"html_url": "https://github.com/bkimminich/juice-shop",
-			"updated_at": "2018-12-14T21:39:54Z",
-			"stargazers_count": 1566,
+			"updated_at": "2018-12-15T18:23:37Z",
+			"stargazers_count": 1567,
 			"open_issues": 31,
 			"isLibrary": true,
 			"isReact": false,
 			"isTypescript": false,
-			"score": -6589
+			"score": -6587
 		},
 		{
 			"language": "JavaScript",
@@ -3820,7 +5081,7 @@
 			"isLibrary": true,
 			"isReact": false,
 			"isTypescript": true,
-			"score": -8420
+			"score": -8425
 		},
 		{
 			"language": "JavaScript",
@@ -3859,20 +5120,20 @@
 			"isLibrary": true,
 			"isReact": false,
 			"isTypescript": false,
-			"score": -8876
+			"score": -8881
 		},
 		{
 			"language": "TypeScript",
 			"name": "flatpickr",
 			"description": "lightweight, powerful javascript datetimepicker with no dependencies",
 			"html_url": "https://github.com/flatpickr/flatpickr",
-			"updated_at": "2018-12-15T10:25:05Z",
-			"stargazers_count": 10966,
+			"updated_at": "2018-12-15T18:21:59Z",
+			"stargazers_count": 10967,
 			"open_issues": 211,
 			"isLibrary": true,
 			"isReact": false,
 			"isTypescript": true,
-			"score": 13831
+			"score": 13833
 		},
 		{
 			"language": "JavaScript",
@@ -3905,13 +5166,13 @@
 			"name": "loaders.css",
 			"description": "Delightful, performance-focused pure css loading animations.",
 			"html_url": "https://github.com/ConnorAtherton/loaders.css",
-			"updated_at": "2018-12-15T10:07:38Z",
-			"stargazers_count": 8995,
+			"updated_at": "2018-12-15T16:37:33Z",
+			"stargazers_count": 8996,
 			"open_issues": 9,
 			"isLibrary": true,
 			"isReact": false,
 			"isTypescript": false,
-			"score": 8071
+			"score": 8073
 		},
 		{
 			"language": "JavaScript",
@@ -3944,13 +5205,13 @@
 			"name": "headless-devtools",
 			"description": "Lets you perform Chrome DevTools actions from code by leveraging Headless Chrome+Puppeteer",
 			"html_url": "https://github.com/cowchimp/headless-devtools",
-			"updated_at": "2018-12-15T09:00:26Z",
-			"stargazers_count": 470,
+			"updated_at": "2018-12-15T16:57:33Z",
+			"stargazers_count": 472,
 			"open_issues": 3,
 			"isLibrary": true,
 			"isReact": false,
 			"isTypescript": false,
-			"score": -9033
+			"score": -9029
 		},
 		{
 			"language": "HTML",
@@ -3983,13 +5244,13 @@
 			"name": "date-fns",
 			"description": "⏳ Modern JavaScript date utility library ⌛️",
 			"html_url": "https://github.com/date-fns/date-fns",
-			"updated_at": "2018-12-15T12:41:58Z",
-			"stargazers_count": 15395,
+			"updated_at": "2018-12-15T20:14:12Z",
+			"stargazers_count": 15400,
 			"open_issues": 102,
 			"isLibrary": true,
 			"isReact": false,
 			"isTypescript": false,
-			"score": 21708
+			"score": 21718
 		},
 		{
 			"language": "JavaScript",
@@ -4002,7 +5263,7 @@
 			"isLibrary": false,
 			"isReact": false,
 			"isTypescript": false,
-			"score": -9589
+			"score": -9594
 		},
 		{
 			"language": null,
@@ -4035,26 +5296,26 @@
 			"name": "carbon",
 			"description": "🎨 Create and share beautiful images of your source code",
 			"html_url": "https://github.com/dawnlabs/carbon",
-			"updated_at": "2018-12-15T14:39:34Z",
-			"stargazers_count": 16575,
+			"updated_at": "2018-12-15T18:54:53Z",
+			"stargazers_count": 16579,
 			"open_issues": 17,
 			"isLibrary": true,
 			"isReact": true,
 			"isTypescript": false,
-			"score": 23303
+			"score": 23311
 		},
 		{
 			"language": "JavaScript",
 			"name": "bowser",
 			"description": "a browser detector",
 			"html_url": "https://github.com/lancedikson/bowser",
-			"updated_at": "2018-12-15T05:33:55Z",
-			"stargazers_count": 3128,
+			"updated_at": "2018-12-15T17:27:54Z",
+			"stargazers_count": 3129,
 			"open_issues": 25,
 			"isLibrary": true,
 			"isReact": false,
 			"isTypescript": false,
-			"score": -3519
+			"score": -3517
 		},
 		{
 			"language": "JavaScript",
@@ -4113,13 +5374,13 @@
 			"name": "Dexie.js",
 			"description": "A Minimalistic Wrapper for IndexedDB",
 			"html_url": "https://github.com/dfahlander/Dexie.js",
-			"updated_at": "2018-12-14T12:47:13Z",
-			"stargazers_count": 3596,
+			"updated_at": "2018-12-15T18:42:25Z",
+			"stargazers_count": 3597,
 			"open_issues": 194,
 			"isLibrary": true,
 			"isReact": false,
 			"isTypescript": true,
-			"score": -1067
+			"score": -1060
 		},
 		{
 			"language": null,
@@ -4139,13 +5400,13 @@
 			"name": "iziToast",
 			"description": "Elegant, responsive, flexible and lightweight notification plugin with no dependencies.",
 			"html_url": "https://github.com/dolce/iziToast",
-			"updated_at": "2018-12-15T15:42:53Z",
-			"stargazers_count": 1666,
+			"updated_at": "2018-12-15T19:13:40Z",
+			"stargazers_count": 1665,
 			"open_issues": 12,
 			"isLibrary": true,
 			"isReact": false,
 			"isTypescript": false,
-			"score": -6560
+			"score": -6562
 		},
 		{
 			"language": "JavaScript",
@@ -4171,7 +5432,7 @@
 			"isLibrary": true,
 			"isReact": false,
 			"isTypescript": false,
-			"score": -10047
+			"score": -10052
 		},
 		{
 			"language": "JavaScript",
@@ -4217,13 +5478,13 @@
 			"name": "electron-forge",
 			"description": "A complete tool for creating, publishing, and installing modern Electron applications",
 			"html_url": "https://github.com/electron-userland/electron-forge",
-			"updated_at": "2018-12-15T10:05:15Z",
-			"stargazers_count": 2400,
+			"updated_at": "2018-12-15T19:30:40Z",
+			"stargazers_count": 2401,
 			"open_issues": 21,
 			"isLibrary": true,
 			"isReact": false,
 			"isTypescript": true,
-			"score": -5011
+			"score": -5009
 		},
 		{
 			"language": "JavaScript",
@@ -4353,7 +5614,7 @@
 			"isLibrary": true,
 			"isReact": true,
 			"isTypescript": false,
-			"score": -9834
+			"score": -9839
 		},
 		{
 			"language": "JavaScript",
@@ -4373,13 +5634,13 @@
 			"name": "nodejs-dashboard",
 			"description": " Telemetry dashboard for node.js apps from the terminal!",
 			"html_url": "https://github.com/FormidableLabs/nodejs-dashboard",
-			"updated_at": "2018-12-14T15:01:22Z",
-			"stargazers_count": 3620,
+			"updated_at": "2018-12-15T19:03:49Z",
+			"stargazers_count": 3621,
 			"open_issues": 10,
 			"isLibrary": true,
 			"isReact": false,
 			"isTypescript": false,
-			"score": -2675
+			"score": -2668
 		},
 		{
 			"language": "JavaScript",
@@ -4438,20 +5699,20 @@
 			"name": "Functional-Light-JS",
 			"description": "Pragmatic, balanced FP in JavaScript. @FLJSBook on twitter.",
 			"html_url": "https://github.com/getify/Functional-Light-JS",
-			"updated_at": "2018-12-15T14:22:38Z",
-			"stargazers_count": 9808,
+			"updated_at": "2018-12-15T18:28:17Z",
+			"stargazers_count": 9810,
 			"open_issues": 17,
 			"isLibrary": false,
 			"isReact": false,
 			"isTypescript": false,
-			"score": 9769
+			"score": 9773
 		},
 		{
 			"language": "JavaScript",
 			"name": "insomnia",
 			"description": "Cross-platform HTTP and GraphQL Client",
 			"html_url": "https://github.com/getinsomnia/insomnia",
-			"updated_at": "2018-12-15T14:43:55Z",
+			"updated_at": "2018-12-15T16:51:54Z",
 			"stargazers_count": 8599,
 			"open_issues": 144,
 			"isLibrary": true,
@@ -4477,13 +5738,13 @@
 			"name": "rendertron",
 			"description": "A Headless Chrome rendering solution",
 			"html_url": "https://github.com/GoogleChrome/rendertron",
-			"updated_at": "2018-12-15T08:50:05Z",
-			"stargazers_count": 3810,
+			"updated_at": "2018-12-15T17:29:13Z",
+			"stargazers_count": 3811,
 			"open_issues": 48,
 			"isLibrary": true,
 			"isReact": false,
 			"isTypescript": true,
-			"score": -1948
+			"score": -1946
 		},
 		{
 			"language": "JavaScript",
@@ -4548,7 +5809,7 @@
 			"isLibrary": true,
 			"isReact": false,
 			"isTypescript": false,
-			"score": -4822
+			"score": -4827
 		},
 		{
 			"language": "HTML",
@@ -4568,13 +5829,13 @@
 			"name": "reveal.js",
 			"description": "The HTML Presentation Framework",
 			"html_url": "https://github.com/hakimel/reveal.js",
-			"updated_at": "2018-12-15T15:44:36Z",
-			"stargazers_count": 43765,
+			"updated_at": "2018-12-15T20:07:35Z",
+			"stargazers_count": 43771,
 			"open_issues": 397,
 			"isLibrary": true,
 			"isReact": false,
 			"isTypescript": false,
-			"score": 81103
+			"score": 81115
 		},
 		{
 			"language": "JavaScript",
@@ -4678,7 +5939,7 @@
 			"isLibrary": true,
 			"isReact": false,
 			"isTypescript": false,
-			"score": -9458
+			"score": -9463
 		},
 		{
 			"language": "JavaScript",
@@ -4782,7 +6043,7 @@
 			"isLibrary": true,
 			"isReact": false,
 			"isTypescript": false,
-			"score": -1643
+			"score": -1648
 		},
 		{
 			"language": "TypeScript",
@@ -4899,20 +6160,20 @@
 			"isLibrary": true,
 			"isReact": false,
 			"isTypescript": false,
-			"score": -9530
+			"score": -9535
 		},
 		{
 			"language": "JavaScript",
 			"name": "js-cookie",
 			"description": "A simple, lightweight JavaScript API for handling browser cookies",
 			"html_url": "https://github.com/js-cookie/js-cookie",
-			"updated_at": "2018-12-15T13:59:08Z",
-			"stargazers_count": 11428,
+			"updated_at": "2018-12-15T20:11:37Z",
+			"stargazers_count": 11430,
 			"open_issues": 16,
 			"isLibrary": true,
 			"isReact": false,
 			"isTypescript": false,
-			"score": 13000
+			"score": 13004
 		},
 		{
 			"language": "JavaScript",
@@ -4925,7 +6186,7 @@
 			"isLibrary": true,
 			"isReact": false,
 			"isTypescript": false,
-			"score": -8243
+			"score": -8248
 		},
 		{
 			"language": "JavaScript",
@@ -4951,20 +6212,20 @@
 			"isLibrary": true,
 			"isReact": false,
 			"isTypescript": false,
-			"score": -9785
+			"score": -9790
 		},
 		{
 			"language": "Go",
 			"name": "helm",
 			"description": "The Kubernetes Package Manager",
 			"html_url": "https://github.com/helm/helm",
-			"updated_at": "2018-12-15T14:42:14Z",
-			"stargazers_count": 9053,
+			"updated_at": "2018-12-15T20:16:15Z",
+			"stargazers_count": 9055,
 			"open_issues": 670,
 			"isLibrary": false,
 			"isReact": false,
 			"isTypescript": false,
-			"score": 14136
+			"score": 14140
 		},
 		{
 			"language": "CSS",
@@ -5010,13 +6271,13 @@
 			"name": "games",
 			"description": ":video_game: A list of popular/awesome videos games, add-ons, maps, etc. hosted on GitHub. Any genre. Any platform. Any engine.",
 			"html_url": "https://github.com/leereilly/games",
-			"updated_at": "2018-12-15T15:17:12Z",
-			"stargazers_count": 11926,
+			"updated_at": "2018-12-15T16:26:47Z",
+			"stargazers_count": 11927,
 			"open_issues": 212,
 			"isLibrary": false,
 			"isReact": false,
 			"isTypescript": false,
-			"score": 15760
+			"score": 15762
 		},
 		{
 			"language": "JavaScript",
@@ -5088,13 +6349,13 @@
 			"name": "awesome-casestudy",
 			"description": "📕  Curated list of technical case studies around WebGL and creative development",
 			"html_url": "https://github.com/luruke/awesome-casestudy",
-			"updated_at": "2018-12-15T08:39:36Z",
-			"stargazers_count": 1550,
+			"updated_at": "2018-12-15T20:15:24Z",
+			"stargazers_count": 1551,
 			"open_issues": 0,
 			"isLibrary": false,
 			"isReact": false,
 			"isTypescript": false,
-			"score": -6900
+			"score": -6898
 		},
 		{
 			"language": "JavaScript",
@@ -5133,7 +6394,20 @@
 			"isLibrary": true,
 			"isReact": false,
 			"isTypescript": false,
-			"score": 6348
+			"score": 6343
+		},
+		{
+			"language": "JavaScript",
+			"name": "electron-devtools-installer",
+			"description": "An easy way to ensure Chrome DevTools extensions into Electron",
+			"html_url": "https://github.com/MarshallOfSound/electron-devtools-installer",
+			"updated_at": "2018-12-12T15:23:11Z",
+			"stargazers_count": 433,
+			"open_issues": 15,
+			"isLibrary": true,
+			"isReact": false,
+			"isTypescript": false,
+			"score": -9014
 		},
 		{
 			"language": "JavaScript",
@@ -5146,7 +6420,7 @@
 			"isLibrary": true,
 			"isReact": false,
 			"isTypescript": false,
-			"score": -10458
+			"score": -10463
 		},
 		{
 			"language": "JavaScript",
@@ -5263,20 +6537,20 @@
 			"isLibrary": true,
 			"isReact": false,
 			"isTypescript": false,
-			"score": -10150
+			"score": -10155
 		},
 		{
 			"language": "JavaScript",
 			"name": "ml",
 			"description": "Machine learning tools in JavaScript",
 			"html_url": "https://github.com/mljs/ml",
-			"updated_at": "2018-12-12T21:45:10Z",
-			"stargazers_count": 1194,
+			"updated_at": "2018-12-15T17:18:49Z",
+			"stargazers_count": 1195,
 			"open_issues": 17,
 			"isLibrary": true,
 			"isReact": false,
 			"isTypescript": false,
-			"score": -7469
+			"score": -7457
 		},
 		{
 			"language": "JavaScript",
@@ -5302,7 +6576,7 @@
 			"isLibrary": true,
 			"isReact": false,
 			"isTypescript": false,
-			"score": -10030
+			"score": -10035
 		},
 		{
 			"language": "JavaScript",
@@ -5316,6 +6590,32 @@
 			"isReact": false,
 			"isTypescript": false,
 			"score": 4835
+		},
+		{
+			"language": "Shell",
+			"name": "bookmarks",
+			"description": ":bookmark: +3.6K awesome resources for geeks and software crafters :beer:",
+			"html_url": "https://github.com/MorganGeek/bookmarks",
+			"updated_at": "2018-12-14T14:42:23Z",
+			"stargazers_count": 60,
+			"open_issues": 0,
+			"isLibrary": true,
+			"isReact": false,
+			"isTypescript": false,
+			"score": -9885
+		},
+		{
+			"language": "JavaScript",
+			"name": "MQTT.js",
+			"description": "The MQTT client for Node.js and the browser",
+			"html_url": "https://github.com/mqttjs/MQTT.js",
+			"updated_at": "2018-12-15T15:37:18Z",
+			"stargazers_count": 3828,
+			"open_issues": 139,
+			"isLibrary": true,
+			"isReact": false,
+			"isTypescript": false,
+			"score": -1093
 		},
 		{
 			"language": null,
@@ -5371,16 +6671,29 @@
 		},
 		{
 			"language": "JavaScript",
+			"name": "loadjs",
+			"description": "A tiny async loader / dependency manager for modern browsers (789 bytes)",
+			"html_url": "https://github.com/muicss/loadjs",
+			"updated_at": "2018-12-13T08:43:27Z",
+			"stargazers_count": 2110,
+			"open_issues": 26,
+			"isLibrary": true,
+			"isReact": false,
+			"isTypescript": false,
+			"score": -5556
+		},
+		{
+			"language": "JavaScript",
 			"name": "tesseract.js",
 			"description": "Pure Javascript OCR for 62 Languages 📖🎉🖥",
 			"html_url": "https://github.com/naptha/tesseract.js",
-			"updated_at": "2018-12-15T10:41:33Z",
-			"stargazers_count": 14630,
+			"updated_at": "2018-12-15T19:45:06Z",
+			"stargazers_count": 14632,
 			"open_issues": 131,
 			"isLibrary": true,
 			"isReact": false,
 			"isTypescript": false,
-			"score": 20439
+			"score": 20443
 		},
 		{
 			"language": "JavaScript",
@@ -5410,16 +6723,29 @@
 		},
 		{
 			"language": "JavaScript",
+			"name": "terminal-in-react",
+			"description": "👨‍💻  A component that renders a terminal",
+			"html_url": "https://github.com/nitin42/terminal-in-react",
+			"updated_at": "2018-12-14T20:15:35Z",
+			"stargazers_count": 1405,
+			"open_issues": 12,
+			"isLibrary": true,
+			"isReact": false,
+			"isTypescript": false,
+			"score": -7087
+		},
+		{
+			"language": "JavaScript",
 			"name": "node-schedule",
 			"description": "A cron-like and not-cron-like job scheduler for Node.",
 			"html_url": "https://github.com/node-schedule/node-schedule",
-			"updated_at": "2018-12-14T13:53:52Z",
-			"stargazers_count": 5788,
+			"updated_at": "2018-12-15T16:47:00Z",
+			"stargazers_count": 5789,
 			"open_issues": 74,
 			"isLibrary": true,
 			"isReact": false,
 			"isTypescript": false,
-			"score": 2237
+			"score": 2244
 		},
 		{
 			"language": "C++",
@@ -5491,13 +6817,13 @@
 			"name": "nprogress",
 			"description": "For slim progress bars like on YouTube, Medium, etc",
 			"html_url": "https://github.com/rstacruz/nprogress",
-			"updated_at": "2018-12-15T14:58:17Z",
-			"stargazers_count": 17694,
+			"updated_at": "2018-12-15T20:19:31Z",
+			"stargazers_count": 17695,
 			"open_issues": 111,
 			"isLibrary": true,
 			"isReact": false,
 			"isTypescript": false,
-			"score": 26387
+			"score": 26389
 		},
 		{
 			"language": "JavaScript",
@@ -5519,11 +6845,11 @@
 			"html_url": "https://github.com/oguzhaninan/Stacer",
 			"updated_at": "2018-12-15T04:05:15Z",
 			"stargazers_count": 3769,
-			"open_issues": 28,
+			"open_issues": 29,
 			"isLibrary": false,
 			"isReact": false,
 			"isTypescript": false,
-			"score": -2210
+			"score": -2201
 		},
 		{
 			"language": "JavaScript",
@@ -5543,13 +6869,13 @@
 			"name": "jimp",
 			"description": "An image processing library written entirely in JavaScript for Node, with zero external or native dependencies.",
 			"html_url": "https://github.com/oliver-moran/jimp",
-			"updated_at": "2018-12-15T13:49:00Z",
-			"stargazers_count": 7286,
+			"updated_at": "2018-12-15T17:13:41Z",
+			"stargazers_count": 7287,
 			"open_issues": 49,
 			"isLibrary": true,
 			"isReact": false,
 			"isTypescript": false,
-			"score": 5013
+			"score": 5015
 		},
 		{
 			"language": null,
@@ -5744,7 +7070,7 @@
 			"isLibrary": false,
 			"isReact": false,
 			"isTypescript": false,
-			"score": -8003
+			"score": -8008
 		},
 		{
 			"language": "JavaScript",
@@ -5777,13 +7103,13 @@
 			"name": "React-Sight",
 			"description": "Visualization tool for React, with support for Fiber, Router (v4), and Redux",
 			"html_url": "https://github.com/React-Sight/React-Sight",
-			"updated_at": "2018-12-13T11:16:07Z",
-			"stargazers_count": 1926,
+			"updated_at": "2018-12-15T19:26:43Z",
+			"stargazers_count": 1927,
 			"open_issues": 9,
 			"isLibrary": true,
 			"isReact": false,
 			"isTypescript": false,
-			"score": -6077
+			"score": -6065
 		},
 		{
 			"language": "JavaScript",
@@ -5855,13 +7181,13 @@
 			"name": "oh-my-zsh",
 			"description": "A delightful community-driven (with 1,200+ contributors) framework for managing your zsh configuration. Includes 200+ optional plugins (rails, git, OSX, hub, capistrano, brew, ant, php, python, etc), over 140 themes to spice up your morning, and an auto-update tool so that makes it easy to keep up with the latest updates from the community.",
 			"html_url": "https://github.com/robbyrussell/oh-my-zsh",
-			"updated_at": "2018-12-15T15:55:00Z",
-			"stargazers_count": 80645,
+			"updated_at": "2018-12-15T19:58:14Z",
+			"stargazers_count": 80649,
 			"open_issues": 977,
 			"isLibrary": false,
 			"isReact": false,
 			"isTypescript": false,
-			"score": 160083
+			"score": 160091
 		},
 		{
 			"language": "JavaScript",
@@ -5874,7 +7200,7 @@
 			"isLibrary": true,
 			"isReact": false,
 			"isTypescript": false,
-			"score": -9923
+			"score": -9928
 		},
 		{
 			"language": "JavaScript",
@@ -5952,7 +7278,7 @@
 			"isLibrary": true,
 			"isReact": false,
 			"isTypescript": false,
-			"score": -10526
+			"score": -10531
 		},
 		{
 			"language": "JavaScript",
@@ -6011,13 +7337,13 @@
 			"name": "cost-of-modules",
 			"description": "Find out which of your dependencies are slowing you down 🐢",
 			"html_url": "https://github.com/siddharthkp/cost-of-modules",
-			"updated_at": "2018-12-14T16:36:19Z",
-			"stargazers_count": 2303,
+			"updated_at": "2018-12-15T17:41:08Z",
+			"stargazers_count": 2304,
 			"open_issues": 10,
 			"isLibrary": true,
 			"isReact": false,
 			"isTypescript": false,
-			"score": -5304
+			"score": -5302
 		},
 		{
 			"language": "JavaScript",
@@ -6037,13 +7363,13 @@
 			"name": "react-extras",
 			"description": "Useful components and utilities for working with React",
 			"html_url": "https://github.com/sindresorhus/react-extras",
-			"updated_at": "2018-12-12T10:02:28Z",
-			"stargazers_count": 550,
+			"updated_at": "2018-12-15T19:10:30Z",
+			"stargazers_count": 551,
 			"open_issues": 1,
 			"isLibrary": true,
 			"isReact": true,
 			"isTypescript": false,
-			"score": -8906
+			"score": -8889
 		},
 		{
 			"language": "JavaScript",
@@ -6095,7 +7421,7 @@
 			"isLibrary": true,
 			"isReact": false,
 			"isTypescript": false,
-			"score": -9804
+			"score": -9809
 		},
 		{
 			"language": "JavaScript",
@@ -6186,7 +7512,7 @@
 			"isLibrary": true,
 			"isReact": false,
 			"isTypescript": true,
-			"score": -8401
+			"score": -8406
 		},
 		{
 			"language": null,
@@ -6225,7 +7551,7 @@
 			"isLibrary": false,
 			"isReact": false,
 			"isTypescript": false,
-			"score": -9910
+			"score": -9915
 		},
 		{
 			"language": "JavaScript",
@@ -6251,20 +7577,20 @@
 			"isLibrary": true,
 			"isReact": false,
 			"isTypescript": false,
-			"score": -6535
+			"score": -6540
 		},
 		{
 			"language": "JavaScript",
 			"name": "Tone.js",
 			"description": "A Web Audio framework for making interactive music in the browser.",
 			"html_url": "https://github.com/Tonejs/Tone.js",
-			"updated_at": "2018-12-15T13:54:33Z",
-			"stargazers_count": 5904,
+			"updated_at": "2018-12-15T18:01:40Z",
+			"stargazers_count": 5907,
 			"open_issues": 20,
 			"isLibrary": true,
 			"isReact": false,
 			"isTypescript": false,
-			"score": 1988
+			"score": 1994
 		},
 		{
 			"language": "JavaScript",
@@ -6277,7 +7603,7 @@
 			"isLibrary": true,
 			"isReact": false,
 			"isTypescript": false,
-			"score": -9876
+			"score": -9881
 		},
 		{
 			"language": "JavaScript",
@@ -6290,7 +7616,7 @@
 			"isLibrary": true,
 			"isReact": false,
 			"isTypescript": false,
-			"score": -10009
+			"score": -10014
 		},
 		{
 			"language": "JavaScript",
@@ -6407,20 +7733,20 @@
 			"isLibrary": true,
 			"isReact": true,
 			"isTypescript": false,
-			"score": -8452
+			"score": -8457
 		},
 		{
 			"language": "JavaScript",
 			"name": "webtorrent",
 			"description": "⚡️ Streaming torrent client for the web",
 			"html_url": "https://github.com/webtorrent/webtorrent",
-			"updated_at": "2018-12-15T15:25:47Z",
-			"stargazers_count": 18255,
+			"updated_at": "2018-12-15T17:52:21Z",
+			"stargazers_count": 18256,
 			"open_issues": 91,
 			"isLibrary": true,
 			"isReact": false,
 			"isTypescript": false,
-			"score": 27329
+			"score": 27331
 		},
 		{
 			"language": "JavaScript",
@@ -6453,13 +7779,13 @@
 			"name": "emergence.js",
 			"description": "Detect element visibility in the browser",
 			"html_url": "https://github.com/xtianmiller/emergence.js",
-			"updated_at": "2018-12-12T10:01:30Z",
-			"stargazers_count": 1797,
+			"updated_at": "2018-12-15T18:42:09Z",
+			"stargazers_count": 1798,
 			"open_issues": 7,
 			"isLibrary": true,
 			"isReact": false,
 			"isTypescript": false,
-			"score": -6358
+			"score": -6341
 		},
 		{
 			"language": "JavaScript",
@@ -6472,7 +7798,7 @@
 			"isLibrary": true,
 			"isReact": false,
 			"isTypescript": false,
-			"score": -7166
+			"score": -7171
 		},
 		{
 			"language": "JavaScript",
