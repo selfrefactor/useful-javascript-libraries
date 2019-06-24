@@ -23,6 +23,7 @@
     "dayjs": "^1.7.7",
     "env": "https://github.com/selfrefactor/env#0.2.0",
     "fs-extra": "^7.0.1",
+    "docsify-cli": "4.3.0",
     "js-base64": "^2.4.9",
     "rambdax": "^0.24.0",
     "string-fn": "^1.8.0"
