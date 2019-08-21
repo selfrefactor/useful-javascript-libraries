@@ -3,7 +3,7 @@ const { match, anyTrue, remove } = require('rambdax')
 const { readFileSync, writeFileSync } = require('fs')
 const { resolve } = require('path')
 
-const today = dayjs().format('MM_DD_YY')
+const today = dayjs().format('M_DD_YY')
 const FILE = resolve(
   __dirname,
   `../bookmarks_${ today }.html`
