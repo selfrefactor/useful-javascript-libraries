@@ -4,9 +4,8 @@
   "description": "Collection of Javascript libraries",
   "main": "./src/index.js",
   "scripts": {
-    "docs": "docsify init ./docs",
-    "start": "node src/index.js",
-    "test": "jest src"
+    "out": "docsify init ./docs",
+    "on": "node src/index.js"
   },
   "repository": {
     "type": "git",
