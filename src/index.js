@@ -8,6 +8,7 @@ const {
   includes,
   map,
   mapAsync,
+  partition,
   prop,
   reject,
   remove,
@@ -32,6 +33,7 @@ const SECONDARY_OUTPUT = `${ __dirname }/linksSecondary.txt`
 const LINKS = `${ __dirname }/links.json`
 const REPO_DATA = `${ __dirname }/repoData.json`
 const TITLE = '# {{num}} Useful {{tag}} libraries\n\n'
+const AWESOME_TITLE = '# {{num}} Useful {{tag}}\n\n'
 const TITLE_PROJECTS = '# {{num}} Useful Javascript projects\n\n'
 const OTHER_TITLE = '# {{num}} Other libraries and resources\n\n'
 const TEMPLATE = [
@@ -177,6 +179,10 @@ function isLibrary(library){
   )
 }
 
+function isAwesomeRepo({name}){
+  return name.toLowerCase().startsWith('awesome-')
+}
+
 async function populate({
   bookmarks,
   createData,
@@ -194,22 +200,26 @@ async function populate({
 
   const { repoData } = readJSONSync(REPO_DATA)
   const sorted = sort((a, b) => b.score - a.score, repoData)
-  const soUniq = uniqWith((a, b) => a.name === b.name, sorted)
+  const reposRaw = uniqWith((a, b) => a.name === b.name, sorted)
+  const awesomeRepos = reposRaw.filter(isAwesomeRepo)
+  const repos = reject(isAwesomeRepo, reposRaw)
 
-  const jsRelated = soUniq.filter(isJS)
+  const jsRelated = repos.filter(isJS)
   const jsLibs = jsRelated.filter(isLibrary)
   const reactLibs = jsRelated.filter(prop('isReact'))
   const tsLibs = jsRelated.filter(prop('isTypescript'))
   const jsProjects = jsRelated.filter(complement(prop('isLibrary')))
-  const otherLibs = soUniq.filter(complement(isJS))
+  const otherLibs = repos.filter(complement(isJS))
 
   const jsContent = createReadmePartial(jsLibs)
+  const awesomeContent = createReadmePartial(awesomeRepos)
   const reactContent = createReadmePartial(reactLibs)
   const tsContent = createReadmePartial(tsLibs)
   const jsProjectsContent = createReadmePartial(jsProjects)
   const otherContent = createReadmePartial(otherLibs)
 
   const jsTitle = template(TITLE, { num : jsLibs.length, tag: 'Javascript' })
+  const awesomeTitle = template(AWESOME_TITLE, { num : awesomeRepos.length, tag: 'Awesome lists' })
   const reactTitle = template(TITLE, { num : reactLibs.length, tag: 'React' })
   const tsTitle = template(TITLE, { num : tsLibs.length, tag: 'Typescript' })
   const jsProjectsTitle = template(TITLE_PROJECTS, { num : jsProjects.length })
@@ -219,21 +229,22 @@ async function populate({
   const js = `${ jsTitle }${ jsContent }`
   const react = `${sep}${ reactTitle }${ reactContent }`
   const ts = `${sep}${ tsTitle }${ tsContent }`
+  const awesome = `${sep}${ awesomeTitle }${ awesomeContent }`
   const projects = `${sep}${ jsProjectsTitle }${ jsProjectsContent }`
   const other = `${sep}${ otherTitle }${ otherContent }`
 
   writeFileSync(
     `${ process.cwd() }/README.md`,
-    `${ js }\n${react}${ts}${projects}${ other }`
+    `${ js }\n${awesome}${react}${ts}${projects}${ other }`
   )
 }
 
 populate({
-  bookmarks        : 1,
-  fromSelfrefactor : 1,
-  updateSecondary  : 1,
-  createData       : 1,
-  score            : 1,
+  bookmarks        : 0,
+  fromSelfrefactor : 0,
+  updateSecondary  : 0,
+  createData       : 0,
+  score            : 0,
   createReadme     : 1,
 })
   .then(console.log)

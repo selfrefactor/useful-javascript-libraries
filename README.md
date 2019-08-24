@@ -1,4 +1,4 @@
-# 348 Useful Javascript libraries
+# 346 Useful Javascript libraries
 
 ## [Javascript Algorithms](https://github.com/trekhleb/javascript-algorithms)
 
@@ -47,10 +47,6 @@
 ## [Tesseract Js](https://github.com/naptha/tesseract.js)
 
 > Pure Javascript OCR for more than 100 Languages 📖🎉🖥
-
-## [Awesome Design Tools](https://github.com/LisaDziuba/Awesome-Design-Tools)
-
-> The best design tools for everything 👉
 
 ## [Howler Js](https://github.com/goldfire/howler.js)
 
@@ -994,10 +990,6 @@
 
 > Web Audio API samples by Chrome WebAudio Team
 
-## [Awesome Java Script Interviews](https://github.com/rohan-paul/Awesome-JavaScript-Interviews)
-
-> Popular JavaScript / React / Node / Mongo stack Interview questions and their answers. Many of them, I faced in actual interviews over the last few months. And ultimately got my first full-stack Engineer job :)
-
 ## [Moment Locales Webpack Plugin](https://github.com/iamakulov/moment-locales-webpack-plugin)
 
 > Easily remove unused Moment.js locales with webpack
@@ -1386,6 +1378,165 @@
 
 > Simple Graphql express example for learning purpose. in this project, i also provide the concept how to interact with mongodb and graphql with express server. developer also use this for small application development with express and graphql.
 
+---
+
+# 39 Useful Awesome lists
+
+## [Awesome Selfhosted](https://github.com/Kickball/awesome-selfhosted)
+
+> This is a list of Free Software network services and web applications which can be hosted locally. Selfhosting is the process of locally hosting and managing applications instead of renting from SaaS providers.
+
+## [Awesome Interview Questions](https://github.com/MaximAbramchuck/awesome-interview-questions)
+
+> :octocat: A curated awesome list of lists of interview questions. Feel free to contribute! :mortar_board:
+
+## [Awesome Elixir](https://github.com/h4cc/awesome-elixir)
+
+> A curated list of amazingly awesome Elixir and Erlang libraries, resources and shiny things. Updates:
+
+## [Awesome Design Tools](https://github.com/LisaDziuba/Awesome-Design-Tools)
+
+> The best design tools for everything 👉
+
+## [Awesome Remote Job](https://github.com/lukasz-madon/awesome-remote-job)
+
+> A curated list of awesome remote jobs and resources. Inspired by https://github.com/vinta/awesome-python
+
+## [Awesome Linux Software](https://github.com/luong-komorebi/Awesome-Linux-Software)
+
+> A list of awesome applications, software, tools and other materials for Linux distros.
+
+## [Awesome Design](https://github.com/gztchan/awesome-design)
+
+> 🌟Curated design resources
+
+## [Awesome Graphql](https://github.com/chentsulin/awesome-graphql)
+
+> Awesome list of GraphQL & Relay
+
+## [Awesome Cheatsheets](https://github.com/LeCoupa/awesome-cheatsheets)
+
+> 👩‍💻👨‍💻 Awesome cheatsheets for popular programming languages, frameworks and development tools. They include everything you should know in one single file.
+
+## [Awesome Design Patterns](https://github.com/DovAmir/awesome-design-patterns)
+
+> A curated list of software and architecture related design patterns.
+
+## [Awesome Microservices](https://github.com/mfornos/awesome-microservices)
+
+> A curated list of Microservice Architecture related principles and technologies.
+
+## [Awesome Wpo](https://github.com/davidsonfellipe/awesome-wpo)
+
+> :pencil: A curated list of Web Performance Optimization. Everyone can contribute here!
+
+## [Awesome Serverless](https://github.com/anaibol/awesome-serverless)
+
+> :cloud: A curated list of awesome services, solutions and resources for serverless / nobackend applications.
+
+## [Awesome Creative Coding](https://github.com/terkelg/awesome-creative-coding)
+
+> Creative Coding: Generative Art, Data visualization, Interaction Design, Resources.
+
+## [Awesome Readme](https://github.com/matiassingers/awesome-readme)
+
+> A curated list of awesome READMEs
+
+## [Awesome Actions](https://github.com/sdras/awesome-actions)
+
+> A curated list of awesome actions to use on GitHub
+
+## [Awesome React Hooks](https://github.com/rehooks/awesome-react-hooks)
+
+> Awesome React Hooks
+
+## [Awesome Command Line Apps](https://github.com/herrbischoff/awesome-command-line-apps)
+
+> :shell: Use your terminal shell to do awesome things.
+
+## [Awesome Personal Blogs](https://github.com/jkup/awesome-personal-blogs)
+
+> A delightful list of personal tech blogs
+
+## [Awesome Css](https://github.com/awesome-css-group/awesome-css)
+
+> :art: A curated contents of amazing CSS :)
+
+## [Awesome Casestudy](https://github.com/luruke/awesome-casestudy)
+
+> 📕  Curated list of technical case studies on WebGL and creative development
+
+## [Awesome Online Ide](https://github.com/styfle/awesome-online-ide)
+
+> 🌩️ A list of awesome online development environments
+
+## [Awesome Eslint](https://github.com/dustinspecker/awesome-eslint)
+
+> A list of awesome ESLint plugins, configs, etc.
+
+## [Awesome Micro](https://github.com/amio/awesome-micro)
+
+> A collection of awesome things regarding zeit's micro.
+
+## [Awesome Console Services](https://github.com/chubin/awesome-console-services)
+
+> A curated list of awesome console services (reachable via HTTP, HTTPS and other network protocols)
+
+## [Awesome Decentralized Web](https://github.com/gdamdam/awesome-decentralized-web)
+
+> an awesome list of decentralized services and technologies
+
+## [Awesome Styleguides](https://github.com/streamich/awesome-styleguides)
+
+> A curated list of UI styleguides — 😎💄
+
+## [Awesome Maintainers](https://github.com/nayafia/awesome-maintainers)
+
+> Talks, blog posts, and interviews about the experience of being an open source maintainer
+
+## [Awesome Puppeteer](https://github.com/transitive-bullshit/awesome-puppeteer)
+
+> A curated list of awesome puppeteer resources.
+
+## [Awesome Cross Platform Nodejs](https://github.com/bcoe/awesome-cross-platform-nodejs)
+
+> :two_men_holding_hands: A curated list of awesome developer tools for writing cross-platform Node.js code
+
+## [Awesome Typography](https://github.com/Jolg42/awesome-typography)
+
+> ✏︎ Curated list about digital typography 🔥
+
+## [Awesome Deno](https://github.com/denolib/awesome-deno)
+
+> 🎉A curated list of awesome things related to Deno
+
+## [Awesome Webaudio](https://github.com/notthetup/awesome-webaudio)
+
+> A curated list of awesome WebAudio packages and resources.
+
+## [Awesome Agile](https://github.com/lorabv/awesome-agile)
+
+> Awesome List of resources on Agile Software Development.
+
+## [Awesome React Native Education](https://github.com/hsavit1/Awesome-React-Native-Education)
+
+> Use this to learn React Native
+
+## [Awesome Software Craftsmanship](https://github.com/benas/awesome-software-craftsmanship)
+
+> A curated list of awesome software craftsmanship resources
+
+## [Awesome Jest](https://github.com/jest-community/awesome-jest)
+
+> 🕶Awesome Jest packages and resources
+
+## [Awesome Frontend](https://github.com/syaning/awesome-frontend)
+
+> Awesome frontend, also my collections.
+
+## [Awesome Java Script Interviews](https://github.com/rohan-paul/Awesome-JavaScript-Interviews)
+
+> Popular JavaScript / React / Node / Mongo stack Interview questions and their answers. Many of them, I faced in actual interviews over the last few months. And ultimately got my first full-stack Engineer job :)
 ---
 
 # 146 Useful React libraries
@@ -2240,11 +2391,7 @@
 > Demo of using TypeWiz with WebPack
 ---
 
-# 29 Useful Javascript projects
-
-## [Awesome Selfhosted](https://github.com/Kickball/awesome-selfhosted)
-
-> This is a list of Free Software network services and web applications which can be hosted locally. Selfhosting is the process of locally hosting and managing applications instead of renting from SaaS providers.
+# 27 Useful Javascript projects
 
 ## [Nodebestpractices](https://github.com/goldbergyoni/nodebestpractices)
 
@@ -2265,10 +2412,6 @@
 ## [Es Cheatsheet](https://github.com/DrkSephy/es6-cheatsheet)
 
 > ES2015 [ES6] cheatsheet containing tips, tricks, best practices and code snippets
-
-## [Awesome Cheatsheets](https://github.com/LeCoupa/awesome-cheatsheets)
-
-> 👩‍💻👨‍💻 Awesome cheatsheets for popular programming languages, frameworks and development tools. They include everything you should know in one single file.
 
 ## [Web Rtc Experiment](https://github.com/muaz-khan/WebRTC-Experiment)
 
@@ -2357,7 +2500,7 @@
 > multiple inheritance using ES6 Proxy
 ---
 
-# 151 Other libraries and resources
+# 116 Other libraries and resources
 
 ## [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh)
 
@@ -2374,10 +2517,6 @@
 ## [Every Programmer Should Know](https://github.com/mtdvio/every-programmer-should-know)
 
 > A collection of (mostly) technical things every software developer should know
-
-## [Awesome Interview Questions](https://github.com/MaximAbramchuck/awesome-interview-questions)
-
-> :octocat: A curated awesome list of lists of interview questions. Feel free to contribute! :mortar_board:
 
 ## [Best Websites A Programmer Should Visit](https://github.com/sdmg15/Best-websites-a-programmer-should-visit)
 
@@ -2402,10 +2541,6 @@
 ## [Hover](https://github.com/IanLunn/Hover)
 
 > A collection of CSS3 powered hover effects to be applied to links, buttons, logos, SVG, featured images and so on. Easily apply to your own elements, modify or just use for inspiration. Available in CSS, Sass, and LESS.
-
-## [Awesome Elixir](https://github.com/h4cc/awesome-elixir)
-
-> A curated list of amazingly awesome Elixir and Erlang libraries, resources and shiny things. Updates:
 
 ## [Profile Summary For Github](https://github.com/tipsy/profile-summary-for-github)
 
@@ -2443,10 +2578,6 @@
 
 > A collection of surprising Python snippets and lesser-known features.
 
-## [Awesome Remote Job](https://github.com/lukasz-madon/awesome-remote-job)
-
-> A curated list of awesome remote jobs and resources. Inspired by https://github.com/vinta/awesome-python
-
 ## [Tools Of The Trade](https://github.com/cjbarber/ToolsOfTheTrade)
 
 > Tools of The Trade, from Hacker News.
@@ -2475,14 +2606,6 @@
 
 > Lottie wrapper for React Native.
 
-## [Awesome Linux Software](https://github.com/luong-komorebi/Awesome-Linux-Software)
-
-> A list of awesome applications, software, tools and other materials for Linux distros.
-
-## [Awesome Design](https://github.com/gztchan/awesome-design)
-
-> 🌟Curated design resources
-
 ## [Arangodb](https://github.com/arangodb/arangodb)
 
 > 🥑 ArangoDB is a native multi-model database with flexible data models for documents, graphs, and key-values. Build high performance applications using a convenient SQL-like query language or JavaScript extensions.
@@ -2490,14 +2613,6 @@
 ## [Front End Performance Checklist](https://github.com/thedaviddias/Front-End-Performance-Checklist)
 
 > 🎮 The only Front-End Performance Checklist that runs faster than the others
-
-## [Awesome Graphql](https://github.com/chentsulin/awesome-graphql)
-
-> Awesome list of GraphQL & Relay
-
-## [Awesome Design Patterns](https://github.com/DovAmir/awesome-design-patterns)
-
-> A curated list of software and architecture related design patterns.
 
 ## [Gopherjs](https://github.com/gopherjs/gopherjs)
 
@@ -2543,10 +2658,6 @@
 
 > :blue_book: A guided handbook on how to use Babel and how to create plugins for Babel.
 
-## [Awesome Microservices](https://github.com/mfornos/awesome-microservices)
-
-> A curated list of Microservice Architecture related principles and technologies.
-
 ## [Hacker Laws](https://github.com/dwmkerr/hacker-laws)
 
 > 💻📖 Laws, Theories, Principles and Patterns that developers will find useful. #hackerlaws
@@ -2583,10 +2694,6 @@
 
 > Learn Go with test-driven development
 
-## [Awesome Wpo](https://github.com/davidsonfellipe/awesome-wpo)
-
-> :pencil: A curated list of Web Performance Optimization. Everyone can contribute here!
-
 ## [K](https://github.com/loadimpact/k6)
 
 > A modern load testing tool, using Go and JavaScript - https://k6.io
@@ -2603,21 +2710,9 @@
 
 > The Guardian Dot Com.
 
-## [Awesome Serverless](https://github.com/anaibol/awesome-serverless)
-
-> :cloud: A curated list of awesome services, solutions and resources for serverless / nobackend applications.
-
-## [Awesome Creative Coding](https://github.com/terkelg/awesome-creative-coding)
-
-> Creative Coding: Generative Art, Data visualization, Interaction Design, Resources.
-
 ## [Gitleaks](https://github.com/zricethezav/gitleaks)
 
 > Audit git repos for secrets 🔑
-
-## [Awesome Readme](https://github.com/matiassingers/awesome-readme)
-
-> A curated list of awesome READMEs
 
 ## [Programming Talks](https://github.com/hellerve/programming-talks)
 
@@ -2631,10 +2726,6 @@
 
 > RobotGo, Go Native cross-platform GUI automation
 
-## [Awesome Actions](https://github.com/sdras/awesome-actions)
-
-> A curated list of awesome actions to use on GitHub
-
 ## [Gameboy Live](https://github.com/HFO4/gameboy.live)
 
 > 🕹️ A basic gameboy emulator with terminal "Cloud Gaming" support
@@ -2642,10 +2733,6 @@
 ## [Javascript Testing Best Practices](https://github.com/goldbergyoni/javascript-testing-best-practices)
 
 > 📗🌐 🚢 Comprehensive and exhaustive JavaScript & Node.js testing best practices (August 2019)
-
-## [Awesome React Hooks](https://github.com/rehooks/awesome-react-hooks)
-
-> Awesome React Hooks
 
 ## [Docker Cheat Sheet](https://github.com/eon01/DockerCheatSheet)
 
@@ -2659,25 +2746,9 @@
 
 > Using a library in your webpack project? Here’s how to optimize it
 
-## [Awesome Command Line Apps](https://github.com/herrbischoff/awesome-command-line-apps)
-
-> :shell: Use your terminal shell to do awesome things.
-
-## [Awesome Personal Blogs](https://github.com/jkup/awesome-personal-blogs)
-
-> A delightful list of personal tech blogs
-
-## [Awesome Css](https://github.com/awesome-css-group/awesome-css)
-
-> :art: A curated contents of amazing CSS :)
-
 ## [Izi Toast](https://github.com/marcelodolza/iziToast)
 
 > Elegant, responsive, flexible and lightweight notification plugin with no dependencies.
-
-## [Awesome Casestudy](https://github.com/luruke/awesome-casestudy)
-
-> 📕  Curated list of technical case studies on WebGL and creative development
 
 ## [Micromodal](https://github.com/ghosh/Micromodal)
 
@@ -2699,17 +2770,9 @@
 
 > An ultra-simplified explanation of design patterns implemented in javascript
 
-## [Awesome Online Ide](https://github.com/styfle/awesome-online-ide)
-
-> 🌩️ A list of awesome online development environments
-
 ## [React Native Facebook Login](https://github.com/magus/react-native-facebook-login)
 
 > React Native component wrapping the native Facebook SDK login button and manager
-
-## [Awesome Eslint](https://github.com/dustinspecker/awesome-eslint)
-
-> A list of awesome ESLint plugins, configs, etc.
 
 ## [Scdl](https://github.com/flyingrub/scdl)
 
@@ -2767,41 +2830,13 @@
 
 > Terminal based dashboard.
 
-## [Awesome Micro](https://github.com/amio/awesome-micro)
-
-> A collection of awesome things regarding zeit's micro.
-
-## [Awesome Console Services](https://github.com/chubin/awesome-console-services)
-
-> A curated list of awesome console services (reachable via HTTP, HTTPS and other network protocols)
-
 ## [Nodecache](https://github.com/mpneuried/nodecache)
 
 > a node internal caching module
 
-## [Awesome Decentralized Web](https://github.com/gdamdam/awesome-decentralized-web)
-
-> an awesome list of decentralized services and technologies
-
-## [Awesome Styleguides](https://github.com/streamich/awesome-styleguides)
-
-> A curated list of UI styleguides — 😎💄
-
-## [Awesome Maintainers](https://github.com/nayafia/awesome-maintainers)
-
-> Talks, blog posts, and interviews about the experience of being an open source maintainer
-
-## [Awesome Puppeteer](https://github.com/transitive-bullshit/awesome-puppeteer)
-
-> A curated list of awesome puppeteer resources.
-
 ## [Font Awesome Animation](https://github.com/l-lin/font-awesome-animation)
 
 > Simple animations using FontAwesome and some CSS3.
-
-## [Awesome Cross Platform Nodejs](https://github.com/bcoe/awesome-cross-platform-nodejs)
-
-> :two_men_holding_hands: A curated list of awesome developer tools for writing cross-platform Node.js code
 
 ## [Wharfee](https://github.com/j-bennet/wharfee)
 
@@ -2811,17 +2846,9 @@
 
 > :wink: Lightweight pure CSS tooltip for the greater good
 
-## [Awesome Typography](https://github.com/Jolg42/awesome-typography)
-
-> ✏︎ Curated list about digital typography 🔥
-
 ## [Txt Wav](https://github.com/still-life-studio/txt.wav)
 
 > some weird text animations the internet deserves
-
-## [Awesome Deno](https://github.com/denolib/awesome-deno)
-
-> 🎉A curated list of awesome things related to Deno
 
 ## [Frontend Dev Resources](https://github.com/dmytroyarmak/frontend-dev-resources)
 
@@ -2835,18 +2862,6 @@
 
 > Adblock Fast is a new, faster ad blocker for Android, iOS, Chrome, and Opera.
 
-## [Awesome Webaudio](https://github.com/notthetup/awesome-webaudio)
-
-> A curated list of awesome WebAudio packages and resources.
-
-## [Awesome Agile](https://github.com/lorabv/awesome-agile)
-
-> Awesome List of resources on Agile Software Development.
-
-## [Awesome React Native Education](https://github.com/hsavit1/Awesome-React-Native-Education)
-
-> Use this to learn React Native
-
 ## [Football Json](https://github.com/openfootball/football.json)
 
 > Free open public domain football data in JSON incl. English Premier League, Bundesliga, Primera División, Serie A and more - No API key required ;-)
@@ -2854,14 +2869,6 @@
 ## [React Advanced Patterns](https://github.com/manjula91/react-advanced-patterns)
 
 > Advanced React Component Patterns
-
-## [Awesome Software Craftsmanship](https://github.com/benas/awesome-software-craftsmanship)
-
-> A curated list of awesome software craftsmanship resources
-
-## [Awesome Jest](https://github.com/jest-community/awesome-jest)
-
-> 🕶Awesome Jest packages and resources
 
 ## [Git Extra Commands](https://github.com/unixorn/git-extra-commands)
 
@@ -2874,10 +2881,6 @@
 ## [Finder](https://github.com/antonmedv/finder)
 
 > CSS Selector Generator 🗺
-
-## [Awesome Frontend](https://github.com/syaning/awesome-frontend)
-
-> Awesome frontend, also my collections.
 
 ## [Node Report](https://github.com/nodejs/node-report)
 
