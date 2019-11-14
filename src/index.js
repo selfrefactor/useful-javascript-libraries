@@ -239,7 +239,7 @@ async function populate({
 }
 
 populate({
-  bookmarks        : 0,
+  bookmarks        : 1,
   fromSelfrefactor : 1,
   updateSecondary  : 1,
   createData       : 1,
