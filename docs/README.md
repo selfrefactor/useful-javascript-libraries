@@ -92,10 +92,6 @@
 
 > Cross-platform HTTP and GraphQL Client
 
-## [Pell](https://github.com/jaredreich/pell)
-
-> 📝 the simplest and smallest WYSIWYG text editor for web, with no dependencies
-
 ## [Smartcrop Js](https://github.com/jwagner/smartcrop.js)
 
 > Content aware image cropping

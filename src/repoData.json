@@ -8100,19 +8100,6 @@
 			"score": 26386
 		},
 		{
-			"language": "JavaScript",
-			"name": "pell",
-			"description": "📝 the simplest and smallest WYSIWYG text editor for web, with no dependencies",
-			"html_url": "https://github.com/jaredreich/pell",
-			"updated_at": "2019-11-14T11:28:37Z",
-			"stargazers_count": 11052,
-			"open_issues": 64,
-			"isLibrary": true,
-			"isReact": false,
-			"isTypescript": false,
-			"score": 12680
-		},
-		{
 			"language": "TypeScript",
 			"name": "inspectpack",
 			"description": "An inspection tool for Webpack frontend JavaScript bundles.",

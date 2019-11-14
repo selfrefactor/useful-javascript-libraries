@@ -891,7 +891,6 @@ https://github.com/ryanoasis/nerd-fonts
 https://github.com/gibbok/keyframes-tool/blob/master/keyframes-tool.js
 http://evankarageorgos.github.io/hue/grid.html
 http://exploringjs.com/es2018-es2019/toc.html
-https://github.com/jaredreich/pell
 https://deeplearnjs.org/
 https://github.com/lukasz-madon/awesome-remote-job#job-boards
 https://nodejs.libhunt.com/contribute
