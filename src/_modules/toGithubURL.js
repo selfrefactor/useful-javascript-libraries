@@ -1,12 +1,9 @@
-const child_process = require('child_process')
 const { last, path, remove } = require('rambdax')
-const { promisify } = require('util')
-const exec = promisify(child_process.exec)
+const { exec } = require('helpers')
 
 const execCommand = async command => {
-  const { stdout } = await exec(command, { cwd : process.cwd() })
-
-  return stdout
+  const [execOutput] = await exec({command,  cwd : process.cwd() })
+  return execOutput
 }
 
 async function toGithubURL(url) {
@@ -14,6 +11,11 @@ async function toGithubURL(url) {
   const command = `npm info --json ${ packageKey }`
   const packageInfoRaw = await execCommand(command)
   const packageInfo = JSON.parse(packageInfoRaw)
+  
+  if(packageInfo.error){
+    console.log(packageKey, 'with error')
+    return
+  }
   const repoRaw = path('repository.url', packageInfo)
   if (!repoRaw) return false
 
