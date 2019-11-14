@@ -108,10 +108,6 @@
 
 > 🤖 Neural networks in JavaScript
 
-## [Kue](https://github.com/Automattic/kue)
-
-> Kue is a priority job queue backed by redis, built for node.js.
-
 ## [Jimp](https://github.com/oliver-moran/jimp)
 
 > An image processing library written entirely in JavaScript for Node, with zero external or native dependencies.

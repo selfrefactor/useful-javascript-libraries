@@ -9089,19 +9089,6 @@
 		},
 		{
 			"language": "JavaScript",
-			"name": "kue",
-			"description": "Kue is a priority job queue backed by redis, built for node.js.",
-			"html_url": "https://github.com/Automattic/kue",
-			"updated_at": "2019-11-13T18:47:26Z",
-			"stargazers_count": 8947,
-			"open_issues": 289,
-			"isLibrary": true,
-			"isReact": false,
-			"isTypescript": false,
-			"score": 10495
-		},
-		{
-			"language": "JavaScript",
 			"name": "browser-perf",
 			"description": "Performance Metrics for Web Browsers",
 			"html_url": "https://github.com/axemclion/browser-perf",
