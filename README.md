@@ -292,10 +292,6 @@
 
 > A framework to make it easy for developers to add product tours to their pages.
 
-## [R](https://github.com/mikeal/r2)
-
-> HTTP client. Spiritual successor to request.
-
 ## [Minify](https://github.com/babel/minify)
 
 > :scissors: An ES6+ aware minifier based on the Babel toolchain (beta)

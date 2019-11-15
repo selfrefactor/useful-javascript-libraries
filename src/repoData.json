@@ -5826,19 +5826,6 @@
 		},
 		{
 			"language": "JavaScript",
-			"name": "r2",
-			"description": "HTTP client. Spiritual successor to request.",
-			"html_url": "https://github.com/mikeal/r2",
-			"updated_at": "2019-11-12T18:22:02Z",
-			"stargazers_count": 4561,
-			"open_issues": 26,
-			"isLibrary": true,
-			"isReact": false,
-			"isTypescript": false,
-			"score": -649
-		},
-		{
-			"language": "JavaScript",
 			"name": "react-jsonschema-form",
 			"description": "A React component for building Web forms from JSON Schema.",
 			"html_url": "https://github.com/rjsf-team/react-jsonschema-form",

@@ -543,7 +543,6 @@ https://github.com/markerikson/react-redux-links
 https://instances.social/list#lang=en&allowed=nudity_nocw,nudity_all,pornography_nocw,pornography_all,illegalContentLinks,spoilers_nocw&prohibited=&users=100000
 https://mdxjs.com/syntax
 https://microbadger.com/#badges
-https://github.com/mikeal/r2
 https://mix.com/
 https://hackermovie.club/
 https://github.com/mozilla-services/react-jsonschema-form
