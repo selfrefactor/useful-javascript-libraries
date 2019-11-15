@@ -1187,7 +1187,6 @@ https://github.com/fmsouza/wcode
 http://fontfamily.io/
 https://force-js.com/
 https://github.com/FormidableLabs/electron-webpack-dashboard
-https://github.com/FormidableLabs/nodejs-dashboard
 https://github.com/FormidableLabs/spectacle
 https://frappe.github.io/charts/?utm_source=hackernewsletter&utm_medium=email&utm_term=code
 https://github.com/frontdevops/typescript-cheat-sheet

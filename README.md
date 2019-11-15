@@ -324,10 +324,6 @@
 
 > CSS Element-Queries aka Container Queries. High-speed element dimension/media queries in valid css.
 
-## [Nodejs Dashboard](https://github.com/FormidableLabs/nodejs-dashboard)
-
-> Telemetry dashboard for node.js apps from the terminal!
-
 ## [Exercises](https://github.com/kolodny/exercises)
 
 > Some basic javascript coding challenges and interview questions

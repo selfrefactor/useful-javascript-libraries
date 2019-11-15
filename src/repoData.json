@@ -9765,19 +9765,6 @@
 		},
 		{
 			"language": "JavaScript",
-			"name": "nodejs-dashboard",
-			"description": " Telemetry dashboard for node.js apps from the terminal!",
-			"html_url": "https://github.com/FormidableLabs/nodejs-dashboard",
-			"updated_at": "2019-11-11T08:57:48Z",
-			"stargazers_count": 3776,
-			"open_issues": 13,
-			"isLibrary": true,
-			"isReact": false,
-			"isTypescript": false,
-			"score": -2346
-		},
-		{
-			"language": "JavaScript",
 			"name": "spectacle",
 			"description": "ReactJS based Presentation Library",
 			"html_url": "https://github.com/FormidableLabs/spectacle",
