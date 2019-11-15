@@ -41,19 +41,6 @@
 		},
 		{
 			"language": "JavaScript",
-			"name": "angular-phonecat",
-			"description": "Tutorial on building an angular application.",
-			"html_url": "https://github.com/angular/angular-phonecat",
-			"updated_at": "2019-11-13T12:51:07Z",
-			"stargazers_count": 3100,
-			"open_issues": 10,
-			"isLibrary": true,
-			"isReact": false,
-			"isTypescript": false,
-			"score": -3710
-		},
-		{
-			"language": "JavaScript",
 			"name": "password-strength",
 			"description": "Angular UI library to illustrate and validate a password's strength with material design - Angular V8 supported",
 			"html_url": "https://github.com/angular-material-extensions/password-strength",

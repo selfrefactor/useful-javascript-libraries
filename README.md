@@ -376,10 +376,6 @@
 
 > Clinic.js diagnoses your Node.js performance issues
 
-## [Angular Phonecat](https://github.com/angular/angular-phonecat)
-
-> Tutorial on building an angular application.
-
 ## [Node Lru Cache](https://github.com/isaacs/node-lru-cache)
 
 ## [Express Status Monitor](https://github.com/RafalWilinski/express-status-monitor)
