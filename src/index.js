@@ -111,10 +111,11 @@ async function createScores() {
     ...x,
     score : getScore(x, true),
   }))
+  const toSave = uniqWith((a,b) => a.name === b.name, [ ...score, ...scoreSecondary ]) 
 
   writeJSONSync(
     REPO_DATA, 
-    { repoData : [ ...score, ...scoreSecondary ] },
+    { repoData : toSave },
     { spaces: '\t'}
   )
 }

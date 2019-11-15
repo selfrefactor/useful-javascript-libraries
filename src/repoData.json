@@ -6242,19 +6242,6 @@
 		},
 		{
 			"language": "JavaScript",
-			"name": "fingerprintjs2",
-			"description": "Modern & flexible browser fingerprinting library",
-			"html_url": "https://github.com/Valve/fingerprintjs2",
-			"updated_at": "2019-11-14T05:10:34Z",
-			"stargazers_count": 8856,
-			"open_issues": 69,
-			"isLibrary": true,
-			"isReact": false,
-			"isTypescript": false,
-			"score": 8333
-		},
-		{
-			"language": "JavaScript",
 			"name": "terser-webpack-plugin",
 			"description": "Terser Plugin",
 			"html_url": "https://github.com/webpack-contrib/terser-webpack-plugin",

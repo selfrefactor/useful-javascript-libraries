@@ -623,7 +623,6 @@ http://blog.88mph.io/2017/07/28/understanding-service-workers/
 https://elijahmanor.com/react-devtools-profiler/
 https://github.com/dominikwilkowski/cfonts
 https://swc-project.github.io/docs/usage-swc-loader
-https://github.com/Valve/fingerprintjs2
 https://www.lipsurf.com/
 https://3perf.com/talks/web-perf-101/
 https://github.com/webpack-contrib/terser-webpack-plugin
