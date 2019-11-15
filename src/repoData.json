@@ -9193,19 +9193,6 @@
 		},
 		{
 			"language": "JavaScript",
-			"name": "blessed",
-			"description": "A high-level terminal interface library for node.js.",
-			"html_url": "https://github.com/chjj/blessed",
-			"updated_at": "2019-11-14T09:55:28Z",
-			"stargazers_count": 8779,
-			"open_issues": 226,
-			"isLibrary": true,
-			"isReact": false,
-			"isTypescript": false,
-			"score": 9592
-		},
-		{
-			"language": "JavaScript",
 			"name": "eslint-config-cleanjs",
 			"description": "An eslint config which reduces JS to a pure functional language",
 			"html_url": "https://github.com/bodil/eslint-config-cleanjs",
@@ -11816,19 +11803,6 @@
 			"isReact": false,
 			"isTypescript": false,
 			"score": -6469
-		},
-		{
-			"language": "JavaScript",
-			"name": "blessed-contrib",
-			"description": "Build terminal dashboards using ascii/ansi art and javascript",
-			"html_url": "https://github.com/yaronn/blessed-contrib",
-			"updated_at": "2019-11-14T06:51:52Z",
-			"stargazers_count": 13188,
-			"open_issues": 62,
-			"isLibrary": true,
-			"isReact": false,
-			"isTypescript": false,
-			"score": 16934
 		},
 		{
 			"language": "TypeScript",

@@ -1113,7 +1113,6 @@ http://bigocheatsheet.com/
 https://github.com/binaryjs/binaryjs
 https://bixacolor.com/?utm_source=html5weekly&utm_medium=email#buy
 https://github.com/bkimminich/juice-shop
-https://www.npmjs.com/package/blessed
 https://github.com/bodil/eslint-config-cleanjs
 https://sparkbox.github.io/bouncy-ball/#css
 https://github.com/bretcope/node-gc-profiler
@@ -1444,7 +1443,6 @@ http://woofjs.com/create.html#just-fair
 https://wtfjs.com/
 https://github.com/xtianmiller/emergence.js
 https://github.com/yahoo/serialize-javascript
-https://github.com/yaronn/blessed-contrib
 https://github.com/joshbuchea/yo-mama/blob/master/jokes.json
 https://github.com/Yoctol/bottender
 https://houndci.com/repos

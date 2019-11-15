@@ -68,10 +68,6 @@
 
 > A simple, lightweight JavaScript API for handling browser cookies
 
-## [Blessed Contrib](https://github.com/yaronn/blessed-contrib)
-
-> Build terminal dashboards using ascii/ansi art and javascript
-
 ## [React Native Vector Icons](https://github.com/oblador/react-native-vector-icons)
 
 > Customizable Icons for React Native with support for NavBar/TabBar/ToolbarAndroid, image source and full styling.
@@ -115,10 +111,6 @@
 ## [Ndb](https://github.com/GoogleChromeLabs/ndb)
 
 > ndb is an improved debugging experience for Node.js, enabled by Chrome DevTools
-
-## [Blessed](https://github.com/chjj/blessed)
-
-> A high-level terminal interface library for node.js.
 
 ## [Ungit](https://github.com/FredrikNoren/ungit)
 
