@@ -11247,19 +11247,6 @@
 		},
 		{
 			"language": "JavaScript",
-			"name": "engineer-manager",
-			"description": "A list of engineering manager resource links.",
-			"html_url": "https://github.com/ryanburgess/engineer-manager",
-			"updated_at": "2019-11-14T10:11:49Z",
-			"stargazers_count": 3663,
-			"open_issues": 1,
-			"isLibrary": true,
-			"isReact": false,
-			"isTypescript": false,
-			"score": -2665
-		},
-		{
-			"language": "JavaScript",
 			"name": "sandpit",
 			"description": "⛱  A playground for creative coding using JavaScript and the canvas element",
 			"html_url": "https://github.com/sandpit/sandpit",

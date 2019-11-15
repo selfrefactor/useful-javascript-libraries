@@ -1371,7 +1371,6 @@ https://github.com/roccomuso/memorystore
 https://www.npmjs.com/package/route-cache
 https://github.com/rserota/wad#live-demo
 http://rxfiddle.net/#type=editor&code=bGV0IGEgPSBSeC5PYnNlcnZhYmxlLm9mKDEsIDIsIDMpCmxldCBiID0gUnguT2JzZXJ2YWJsZS5vZigxMSwgMTIsIDEzKQoKbGV0IGMgPSBSeC5PYnNlcnZhYmxlLm1lcmdlKGEsYikKCmMuc3Vic2NyaWJlKGNvbnNvbGUubG9nKQ==
-https://github.com/ryanburgess/engineer-manager
 https://github.com/sandpit/sandpit
 https://github.com/ScriptArtist/Scalable
 https://github.com/scriptify/Chnl

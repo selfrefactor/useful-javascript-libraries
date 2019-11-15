@@ -336,10 +336,6 @@
 
 > Wow such top. So stats. More better than regular top.
 
-## [Engineer Manager](https://github.com/ryanburgess/engineer-manager)
-
-> A list of engineering manager resource links.
-
 ## [Workerize](https://github.com/developit/workerize)
 
 > 🏗️ Run a module in a Web Worker.
