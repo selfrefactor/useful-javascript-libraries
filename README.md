@@ -1,4 +1,4 @@
-# 358 Useful Javascript libraries
+# 350 Useful Javascript libraries
 
 ## [Javascript Algorithms](https://github.com/trekhleb/javascript-algorithms)
 
