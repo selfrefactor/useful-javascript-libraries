@@ -17,14 +17,17 @@ const {
   template,
   uniqWith,
 } = require('rambdax')
-const { get } = require('axios')
-const { readFileSync, writeFileSync } = require('fs')
-const { writeJSONSync, readJSONSync } = require('fs-extra')
+const {
+  repoData: repoDataModule,
+  repoDataSecondary,
+} = require('./_modules/repoData')
 const { bookmarksToLinks } = require('./_modules/bookmarksToLinks')
+const { get } = require('axios')
 const { getScore } = require('./_modules/getScore')
-const { repoData: repoDataModule, repoDataSecondary } = require('./_modules/repoData')
-const { titleCase } = require('string-fn')
+const { readFileSync, writeFileSync } = require('fs')
+const { titleCase } = require('./_helpers/titleCase.js')
 const { toGithubURL } = require('./_modules/toGithubURL')
+const { writeJSONSync, readJSONSync } = require('fs-extra')
 
 const BOOKMARKS = `${ __dirname }/links.txt`
 const SECONDARY_INPUT = `${ __dirname }/gists.json`
@@ -35,24 +38,21 @@ const TITLE = '# {{num}} Useful {{tag}} libraries\n\n'
 const AWESOME_TITLE = '# {{num}} Useful {{tag}}\n\n'
 const TITLE_PROJECTS = '# {{num}} Useful Javascript projects\n\n'
 const OTHER_TITLE = '# {{num}} Other libraries and resources\n\n'
-const TEMPLATE = [
-  '## [{{title}}]({{url}})',
-  '> {{description}}',
-].join('\n\n')
+const TEMPLATE = [ '## [{{title}}]({{url}})', '> {{description}}' ].join(
+  '\n\n'
+)
 
 const TEMPLATE_NO_DESC = '## [{{title}}]({{url}})'
 s()
 
-async function generateLinks(bookmarksContent) {
+async function generateLinks(bookmarksContent){
   const allLinks = bookmarksContent
     .split('\n')
     .s(reject(includes('gist.')))
     .s(reject(includes('?tab')))
     .s(reject(includes('trending')))
-    .s(
-      filter(x => x.includes('github.com') || x.includes('npmjs'))
-    )
-  
+    .s(filter(x => x.includes('github.com') || x.includes('npmjs')))
+
   const withCorrectLinks = await mapAsync(async x => {
     if (x.includes('github.com')) return x
     const url = await toGithubURL(x)
@@ -69,28 +69,27 @@ async function generateLinks(bookmarksContent) {
   )
 }
 
-async function createDataJSON() {
-  const bookmarksContent = readFileSync(
-    BOOKMARKS
-  ).toString()
+async function createDataJSON(){
+  const bookmarksContent = readFileSync(BOOKMARKS).toString()
 
   const bookmarksContentSecondary = readFileSync(
     SECONDARY_OUTPUT
   ).toString()
 
   const links = await generateLinks(bookmarksContent)
-  const linksSecondary = await generateLinks(
-    bookmarksContentSecondary
-  )
+  const linksSecondary = await generateLinks(bookmarksContentSecondary)
 
   writeJSONSync(
-    LINKS, 
-    { links, linksSecondary},
-    {spaces:'\t'}
+    LINKS,
+    {
+      links,
+      linksSecondary,
+    },
+    { spaces : '\t' }
   )
 }
 
-async function createScores() {
+async function createScores(){
   const { links, linksSecondary } = readJSONSync(LINKS)
   const withRepoDataRaw = await mapAsync(repoDataModule, links)
   const withRepoDataSecondaryRaw = await mapAsync(
@@ -99,9 +98,7 @@ async function createScores() {
   )
 
   const withRepoData = withRepoDataRaw.filter(Boolean)
-  const withRepoDataSecondary = withRepoDataSecondaryRaw.filter(
-    Boolean
-  )
+  const withRepoDataSecondary = withRepoDataSecondaryRaw.filter(Boolean)
 
   const score = withRepoData.map(x => ({
     ...x,
@@ -111,16 +108,15 @@ async function createScores() {
     ...x,
     score : getScore(x, true),
   }))
-  const toSave = uniqWith((a,b) => a.name === b.name, [ ...score, ...scoreSecondary ]) 
+  const toSave = uniqWith((a, b) => a.name === b.name, [
+    ...score,
+    ...scoreSecondary,
+  ])
 
-  writeJSONSync(
-    REPO_DATA, 
-    { repoData : toSave },
-    { spaces: '\t'}
-  )
+  writeJSONSync(REPO_DATA, { repoData : toSave }, { spaces : '\t' })
 }
 
-async function updateSecondaryFn() {
+async function updateSecondaryFn(){
   const { links } = readJSONSync(SECONDARY_INPUT)
   const out = await mapAsync(async url => {
     const { data } = await get(url)
@@ -132,12 +128,9 @@ async function updateSecondaryFn() {
   writeFileSync(SECONDARY_OUTPUT, allLinks)
 }
 
-function createReadmePartial(list) {
+function createReadmePartial(list){
   return list
     .map(x => {
-      if(x.html_url.includes('n0shake')){
-        console.log({x},titleCase(x.name)) 
-      }
       const templateInput = {
         description : x.description ? x.description.trim() : '',
         title       : titleCase(x.name),
@@ -152,7 +145,7 @@ function createReadmePartial(list) {
     .join('\n')
 }
 
-function isJS(x) {
+function isJS(x){
   if (x.language === null) return false
 
   return anyTrue(
@@ -178,11 +171,11 @@ function isLibrary(library){
   return allTrue(
     prop('isLibrary', library),
     prop('isReact', library) === false,
-    prop('isTypescript', library) === false,
+    prop('isTypescript', library) === false
   )
 }
 
-function isAwesomeRepo({name}){
+function isAwesomeRepo({ name }){
   return name.toLowerCase().startsWith('awesome-')
 }
 
@@ -193,7 +186,7 @@ async function populate({
   score,
   updateSecondary,
   fromSelfrefactor,
-}) {
+}){
   if (bookmarks) bookmarksToLinks(BOOKMARKS)
   if (fromSelfrefactor) await updateFromSelfrefactor()
   if (updateSecondary) await updateSecondaryFn()
@@ -221,24 +214,36 @@ async function populate({
   const jsProjectsContent = createReadmePartial(jsProjects)
   const otherContent = createReadmePartial(otherLibs)
 
-  const jsTitle = template(TITLE, { num : jsLibs.length, tag: 'Javascript' })
-  const awesomeTitle = template(AWESOME_TITLE, { num : awesomeRepos.length, tag: 'Awesome lists' })
-  const reactTitle = template(TITLE, { num : reactLibs.length, tag: 'React' })
-  const tsTitle = template(TITLE, { num : tsLibs.length, tag: 'Typescript' })
+  const jsTitle = template(TITLE, {
+    num : jsLibs.length,
+    tag : 'Javascript',
+  })
+  const awesomeTitle = template(AWESOME_TITLE, {
+    num : awesomeRepos.length,
+    tag : 'Awesome lists',
+  })
+  const reactTitle = template(TITLE, {
+    num : reactLibs.length,
+    tag : 'React',
+  })
+  const tsTitle = template(TITLE, {
+    num : tsLibs.length,
+    tag : 'Typescript',
+  })
   const jsProjectsTitle = template(TITLE_PROJECTS, { num : jsProjects.length })
   const otherTitle = template(OTHER_TITLE, { num : otherLibs.length })
 
   const sep = '---\n\n'
   const js = `${ jsTitle }${ jsContent }`
-  const react = `${sep}${ reactTitle }${ reactContent }`
-  const ts = `${sep}${ tsTitle }${ tsContent }`
-  const awesome = `${sep}${ awesomeTitle }${ awesomeContent }`
-  const projects = `${sep}${ jsProjectsTitle }${ jsProjectsContent }`
-  const other = `${sep}${ otherTitle }${ otherContent }`
+  const react = `${ sep }${ reactTitle }${ reactContent }`
+  const ts = `${ sep }${ tsTitle }${ tsContent }`
+  const awesome = `${ sep }${ awesomeTitle }${ awesomeContent }`
+  const projects = `${ sep }${ jsProjectsTitle }${ jsProjectsContent }`
+  const other = `${ sep }${ otherTitle }${ otherContent }`
 
   writeFileSync(
     `${ process.cwd() }/README.md`,
-    `${ js }\n${awesome}${react}${ts}${projects}${ other }`
+    `${ js }\n${ awesome }${ react }${ ts }${ projects }${ other }`
   )
 }
 

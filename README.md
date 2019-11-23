@@ -546,7 +546,7 @@
 
 > A really simple way to move a function or class to a web worker. 🏋️‍♀️→ 😄
 
-## [Pwa Builder Cli](https://github.com/pwa-builder/PWABuilder-CLI)
+## [Pwabuilder Cli](https://github.com/pwa-builder/PWABuilder-CLI)
 
 > Node.js tool for App Generation
 
@@ -2864,7 +2864,7 @@
 
 > Go dependency management tool
 
-## [Public Ap Is](https://github.com/n0shake/Public-APIs)
+## [Public Apis](https://github.com/n0shake/Public-APIs)
 
 > 📚 A public list of APIs from round the web.
 

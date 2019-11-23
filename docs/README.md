@@ -1,4 +1,4 @@
-# 358 Useful Javascript libraries
+# 350 Useful Javascript libraries
 
 ## [Javascript Algorithms](https://github.com/trekhleb/javascript-algorithms)
 
@@ -68,10 +68,6 @@
 
 > A simple, lightweight JavaScript API for handling browser cookies
 
-## [Blessed Contrib](https://github.com/yaronn/blessed-contrib)
-
-> Build terminal dashboards using ascii/ansi art and javascript
-
 ## [React Native Vector Icons](https://github.com/oblador/react-native-vector-icons)
 
 > Customizable Icons for React Native with support for NavBar/TabBar/ToolbarAndroid, image source and full styling.
@@ -115,10 +111,6 @@
 ## [Ndb](https://github.com/GoogleChromeLabs/ndb)
 
 > ndb is an improved debugging experience for Node.js, enabled by Chrome DevTools
-
-## [Blessed](https://github.com/chjj/blessed)
-
-> A high-level terminal interface library for node.js.
 
 ## [Ungit](https://github.com/FredrikNoren/ungit)
 
@@ -292,10 +284,6 @@
 
 > A framework to make it easy for developers to add product tours to their pages.
 
-## [R](https://github.com/mikeal/r2)
-
-> HTTP client. Spiritual successor to request.
-
 ## [Minify](https://github.com/babel/minify)
 
 > :scissors: An ES6+ aware minifier based on the Babel toolchain (beta)
@@ -336,10 +324,6 @@
 
 > CSS Element-Queries aka Container Queries. High-speed element dimension/media queries in valid css.
 
-## [Nodejs Dashboard](https://github.com/FormidableLabs/nodejs-dashboard)
-
-> Telemetry dashboard for node.js apps from the terminal!
-
 ## [Exercises](https://github.com/kolodny/exercises)
 
 > Some basic javascript coding challenges and interview questions
@@ -347,10 +331,6 @@
 ## [Vtop](https://github.com/MrRio/vtop)
 
 > Wow such top. So stats. More better than regular top.
-
-## [Engineer Manager](https://github.com/ryanburgess/engineer-manager)
-
-> A list of engineering manager resource links.
 
 ## [Workerize](https://github.com/developit/workerize)
 
@@ -395,10 +375,6 @@
 ## [Node Clinic](https://github.com/nearform/node-clinic)
 
 > Clinic.js diagnoses your Node.js performance issues
-
-## [Angular Phonecat](https://github.com/angular/angular-phonecat)
-
-> Tutorial on building an angular application.
 
 ## [Node Lru Cache](https://github.com/isaacs/node-lru-cache)
 
@@ -570,7 +546,7 @@
 
 > A really simple way to move a function or class to a web worker. 🏋️‍♀️→ 😄
 
-## [Pwa Builder Cli](https://github.com/pwa-builder/PWABuilder-CLI)
+## [Pwabuilder Cli](https://github.com/pwa-builder/PWABuilder-CLI)
 
 > Node.js tool for App Generation
 
@@ -2888,7 +2864,7 @@
 
 > Go dependency management tool
 
-## [Public Ap Is](https://github.com/n0shake/Public-APIs)
+## [Public Apis](https://github.com/n0shake/Public-APIs)
 
 > 📚 A public list of APIs from round the web.
 
