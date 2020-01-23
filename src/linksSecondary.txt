@@ -223,7 +223,6 @@ https://www.calhoun.io/guide-to-go/
 https://github.com/NekR/offline-plugin
 https://github.com/popeindustries/sw-tips
 https://fkhadra.github.io/react-toastify/
-https://github.com/vasanthk/css-refresher-notes
 http://www.electrode.io/index.html
 https://github.com/callstack/linaria
 https://github.com/yankouskia/is-incognito-mode
@@ -688,7 +687,6 @@ https://developers.google.com/web/updates/2017/12/chrome-loadtimes-deprecated
 https://github.com/tumblr/webpack-web-app-manifest-plugin
 https://github.com/typeorm/typeorm
 https://www.smashingmagazine.com/2015/11/using-system-ui-fonts-practical-guide/
-https://github.com/vasanthk/css-refresher-notes#known-issues
 https://github.com/wiredjs/wired-elements
 https://github.com/wix/redux-saga-tester
 https://programmingon.stream/programming
@@ -970,7 +968,6 @@ https://www.smashingmagazine.com/2015/11/using-system-ui-fonts-practical-guide/
 https://github.com/web-animations/web-animations-js
 https://github.com/IanLunn/Hover/blob/master/css/hover.css
 http://bennettfeely.com/clippy/
-https://github.com/vasanthk/css-refresher-notes
 https://github.com/davidtheclark/scalable-css-reading-list
 http://css4.rocks/selectors-level-4/
 https://css-tricks.com/almanac/
@@ -1153,7 +1150,6 @@ https://www.npmjs.com/package/deep-equal
 https://github.com/FelipeBB/Design-Patterns-JS/blob/master/src/behavioral/chain-of-resp/chain-of-resp.js
 https://auth0.com/blog/four-types-of-leaks-in-your-javascript-code-and-how-to-get-rid-of-them/
 https://github.com/developit/greenlet
-https://github.com/devongovett/regexgen
 https://github.com/dfahlander/Dexie.js
 http://demo.agektmr.com/dialog/
 https://github.com/dmytroyarmak/frontend-dev-resources
@@ -1421,7 +1417,6 @@ https://www.npmjs.com/package/v8-profiler
 https://github.com/vadimdemedes/ink#getting-started
 https://github.com/vadimdemedes/trevor
 http://www.vanillalist.com/
-https://github.com/vasanthk/web-security-basics
 https://github.com/vesparny/fair-analytics
 https://visualgo.net/en
 http://vorlonjs.com/
