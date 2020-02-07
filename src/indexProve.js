@@ -71,19 +71,12 @@ async function generateLinks(bookmarksContent){
 
 async function createDataJSON(){
   const bookmarksContent = readFileSync(BOOKMARKS).toString()
-
-  const bookmarksContentSecondary = readFileSync(
-    SECONDARY_OUTPUT
-  ).toString()
-
   const links = await generateLinks(bookmarksContent)
-  const linksSecondary = await generateLinks(bookmarksContentSecondary)
 
   writeJSONSync(
     LINKS,
     {
       links,
-      linksSecondary,
     },
     { spaces : '\t' }
   )
