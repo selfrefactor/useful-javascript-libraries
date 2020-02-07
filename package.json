@@ -33,7 +33,8 @@
   },
   "commitMessage": {
     "support": [
-      "new to.delete gist"
+      "new to.delete gist",
+      "docsify"
     ],
     "feature": [
       "remove"
