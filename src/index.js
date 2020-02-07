@@ -170,7 +170,7 @@ async function updateFromSelfrefactor(){
 function isLibrary(library){
   return allTrue(
     prop('isLibrary', library),
-    prop('isReact', library) === false,
+    prop('isAngular', library) === false,
     prop('isTypescript', library) === false
   )
 }
@@ -202,14 +202,14 @@ async function populate({
 
   const jsRelated = repos.filter(isJS)
   const jsLibs = jsRelated.filter(isLibrary)
-  const reactLibs = jsRelated.filter(prop('isReact'))
+  const angularLibs = jsRelated.filter(prop('isAngular'))
   const tsLibs = jsRelated.filter(prop('isTypescript'))
   const jsProjects = jsRelated.filter(complement(prop('isLibrary')))
   const otherLibs = repos.filter(complement(isJS))
 
   const jsContent = createReadmePartial(jsLibs)
   const awesomeContent = createReadmePartial(awesomeRepos)
-  const reactContent = createReadmePartial(reactLibs)
+  const angularContent = createReadmePartial(angularLibs)
   const tsContent = createReadmePartial(tsLibs)
   const jsProjectsContent = createReadmePartial(jsProjects)
   const otherContent = createReadmePartial(otherLibs)
@@ -222,9 +222,9 @@ async function populate({
     num : awesomeRepos.length,
     tag : 'Awesome lists',
   })
-  const reactTitle = template(TITLE, {
-    num : reactLibs.length,
-    tag : 'React',
+  const angularTitle = template(TITLE, {
+    num : angularLibs.length,
+    tag : 'Angular',
   })
   const tsTitle = template(TITLE, {
     num : tsLibs.length,
@@ -235,7 +235,7 @@ async function populate({
 
   const sep = '---\n\n'
   const js = `${ jsTitle }${ jsContent }`
-  const angular = `${ sep }${ reactTitle }${ reactContent }`
+  const angular = `${ sep }${ angularTitle }${ angularContent }`
   const ts = `${ sep }${ tsTitle }${ tsContent }`
   const awesome = `${ sep }${ awesomeTitle }${ awesomeContent }`
   const projects = `${ sep }${ jsProjectsTitle }${ jsProjectsContent }`

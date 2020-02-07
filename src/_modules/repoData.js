@@ -43,15 +43,15 @@ async function repoData(input, secondaryFlag) {
     )
 
     let isLibrary
-    let isReact = false
+    let isAngular = false
     let isTypescript = false
     try {
       const response = await get(packageJsonUrl)
       const dependencies = getDependencies(
         path('data.content', response)
       )
-      if (safeIncludes(dependencies, 'react')) {
-        isReact = true
+      if (safeIncludes(dependencies, '@angular/core')) {
+        isAngular = true
       } else if (safeIncludes(dependencies, 'typescript')) {
         isTypescript = true
       }
@@ -79,14 +79,14 @@ async function repoData(input, secondaryFlag) {
       owner,
       repo,
       isLibrary,
-      isReact,
+      isAngular,
       isTypescript,
     })
 
     return {
       ...picked,
       isLibrary,
-      isReact,
+      isAngular,
       isTypescript,
     }
   } catch (error) {
