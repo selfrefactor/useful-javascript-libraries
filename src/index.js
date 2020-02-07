@@ -71,12 +71,19 @@ async function generateLinks(bookmarksContent){
 
 async function createDataJSON(){
   const bookmarksContent = readFileSync(BOOKMARKS).toString()
+
+  const bookmarksContentSecondary = readFileSync(
+    SECONDARY_OUTPUT
+  ).toString()
+
   const links = await generateLinks(bookmarksContent)
+  const linksSecondary = await generateLinks(bookmarksContentSecondary)
 
   writeJSONSync(
     LINKS,
     {
       links,
+      linksSecondary,
     },
     { spaces : '\t' }
   )
@@ -228,7 +235,7 @@ async function populate({
 
   const sep = '---\n\n'
   const js = `${ jsTitle }${ jsContent }`
-  const react = `${ sep }${ reactTitle }${ reactContent }`
+  const angular = `${ sep }${ reactTitle }${ reactContent }`
   const ts = `${ sep }${ tsTitle }${ tsContent }`
   const awesome = `${ sep }${ awesomeTitle }${ awesomeContent }`
   const projects = `${ sep }${ jsProjectsTitle }${ jsProjectsContent }`
@@ -236,16 +243,16 @@ async function populate({
 
   writeFileSync(
     `${ process.cwd() }/README.md`,
-    `${ js }\n${ awesome }${ react }${ ts }${ projects }${ other }`
+    `${ js }\n${ awesome }${ angular }${ ts }${ projects }${ other }`
   )
 }
 
 populate({
-  bookmarks        : 0,
-  fromSelfrefactor : 0,
-  updateSecondary  : 0,
-  createData       : 0,
-  score            : 0,
+  bookmarks        : 1,
+  fromSelfrefactor : 1,
+  updateSecondary  : 1,
+  createData       : 1,
+  score            : 1,
   createReadme     : 1,
 })
   .then(console.log)
