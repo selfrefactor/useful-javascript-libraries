@@ -246,9 +246,9 @@ async function populate({
     `${ js }\n${ awesome }${ angular }${ ts }${ projects }${ other }`
   )
 }
-
+ 
 populate({
-  bookmarks        : 0,
+  bookmarks        : 1,
   fromSelfrefactor : 1,
   updateSecondary  : 1,
   createData       : 1,
