@@ -248,11 +248,11 @@ async function populate({
 }
  
 populate({
-  bookmarks        : 1,
-  fromSelfrefactor : 1,
-  updateSecondary  : 1,
-  createData       : 1,
-  score            : 1,
+  bookmarks        : 0,
+  fromSelfrefactor : 0,
+  updateSecondary  : 0,
+  createData       : 0,
+  score            : 0,
   createReadme     : 1,
 })
   .then(console.log)

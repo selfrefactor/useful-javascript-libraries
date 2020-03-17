@@ -522,19 +522,6 @@
 		},
 		{
 			"language": "JavaScript",
-			"name": "matchbox",
-			"description": "🔥 A react UI component library",
-			"html_url": "https://github.com/SparkPost/matchbox",
-			"updated_at": "2020-03-06T17:33:54Z",
-			"stargazers_count": 53,
-			"open_issues": 46,
-			"isLibrary": true,
-			"isAngular": false,
-			"isTypescript": false,
-			"score": -9535
-		},
-		{
-			"language": "JavaScript",
 			"name": "style-transfer.js",
 			"description": "👨‍🎨️ Generate novel artistic images in Node.js ",
 			"html_url": "https://github.com/DavidCai1993/style-transfer.js",
@@ -818,19 +805,6 @@
 			"isAngular": false,
 			"isTypescript": true,
 			"score": -9534
-		},
-		{
-			"language": "JavaScript",
-			"name": "styled-icons",
-			"description": "💅 Popular icon packs like Font Awesome, Material Design, and Octicons, available as React Styled Components",
-			"html_url": "https://github.com/jacobwgillespie/styled-icons",
-			"updated_at": "2020-03-16T21:11:18Z",
-			"stargazers_count": 1180,
-			"open_issues": 10,
-			"isLibrary": true,
-			"isAngular": false,
-			"isTypescript": false,
-			"score": -7550
 		},
 		{
 			"language": "TypeScript",
@@ -1117,19 +1091,6 @@
 			"isAngular": false,
 			"isTypescript": true,
 			"score": -8906
-		},
-		{
-			"language": "TypeScript",
-			"name": "reaction",
-			"description": "Artsy’s React Components",
-			"html_url": "https://github.com/artsy/reaction",
-			"updated_at": "2020-03-17T13:44:23Z",
-			"stargazers_count": 330,
-			"open_issues": 35,
-			"isLibrary": true,
-			"isAngular": false,
-			"isTypescript": true,
-			"score": -9025
 		},
 		{
 			"language": "JavaScript",
@@ -2965,19 +2926,6 @@
 			"score": 62065
 		},
 		{
-			"language": "TypeScript",
-			"name": "react-apollo-hooks",
-			"description": "Use Apollo Client as React hooks",
-			"html_url": "https://github.com/trojanowski/react-apollo-hooks",
-			"updated_at": "2020-03-16T20:19:50Z",
-			"stargazers_count": 2407,
-			"open_issues": 78,
-			"isLibrary": true,
-			"isAngular": false,
-			"isTypescript": true,
-			"score": -4484
-		},
-		{
 			"language": null,
 			"name": "awesome-regression-testing",
 			"description": "🕶️ A curated list of resources around the topic: visual regression testing",
@@ -3030,19 +2978,6 @@
 			"score": -9187
 		},
 		{
-			"language": "TypeScript",
-			"name": "react-styleguidist",
-			"description": "Isolated React component development environment with a living style guide",
-			"html_url": "https://github.com/styleguidist/react-styleguidist",
-			"updated_at": "2020-03-17T15:49:48Z",
-			"stargazers_count": 8551,
-			"open_issues": 79,
-			"isLibrary": true,
-			"isAngular": false,
-			"isTypescript": true,
-			"score": 7813
-		},
-		{
 			"language": null,
 			"name": "awesome-visibility",
 			"description": "Curated list to achieve visibility for your product",
@@ -3054,19 +2989,6 @@
 			"isAngular": false,
 			"isTypescript": false,
 			"score": -9384
-		},
-		{
-			"language": "JavaScript",
-			"name": "axios-hooks",
-			"description": "🦆 React hooks for axios",
-			"html_url": "https://github.com/simoneb/axios-hooks",
-			"updated_at": "2020-03-17T09:08:01Z",
-			"stargazers_count": 401,
-			"open_issues": 5,
-			"isLibrary": true,
-			"isAngular": false,
-			"isTypescript": true,
-			"score": -9153
 		},
 		{
 			"language": "JavaScript",
@@ -3082,45 +3004,6 @@
 			"score": 4862
 		},
 		{
-			"language": "JavaScript",
-			"name": "react-browser-hooks",
-			"description": "React Browser Hooks",
-			"html_url": "https://github.com/nearform/react-browser-hooks",
-			"updated_at": "2020-02-12T11:23:04Z",
-			"stargazers_count": 113,
-			"open_issues": 21,
-			"isLibrary": true,
-			"isAngular": false,
-			"isTypescript": false,
-			"score": -9755
-		},
-		{
-			"language": "JavaScript",
-			"name": "react-pdf",
-			"description": "Display PDFs in your React app as easily as if they were images.",
-			"html_url": "https://github.com/wojtekmaj/react-pdf",
-			"updated_at": "2020-03-17T18:45:29Z",
-			"stargazers_count": 2655,
-			"open_issues": 69,
-			"isLibrary": true,
-			"isAngular": false,
-			"isTypescript": false,
-			"score": -4069
-		},
-		{
-			"language": "TypeScript",
-			"name": "rest-hooks",
-			"description": "Delightful data fetching for React.",
-			"html_url": "https://github.com/coinbase/rest-hooks",
-			"updated_at": "2020-03-17T16:00:31Z",
-			"stargazers_count": 948,
-			"open_issues": 13,
-			"isLibrary": true,
-			"isAngular": false,
-			"isTypescript": true,
-			"score": -7987
-		},
-		{
 			"language": null,
 			"name": "dev-movies",
 			"description": "Movies and Series I've loved over the years, for the people with software development background, IT Engineers or general people who love movies",
@@ -3132,19 +3015,6 @@
 			"isAngular": false,
 			"isTypescript": false,
 			"score": -10596
-		},
-		{
-			"language": null,
-			"name": "react-typescript-cheatsheet",
-			"description": "Cheatsheets for experienced React developers getting started with TypeScript",
-			"html_url": "https://github.com/typescript-cheatsheets/react-typescript-cheatsheet",
-			"updated_at": "2020-03-17T18:31:54Z",
-			"stargazers_count": 11358,
-			"open_issues": 31,
-			"isLibrary": true,
-			"isAngular": false,
-			"isTypescript": false,
-			"score": 12995
 		},
 		{
 			"language": "JavaScript",
@@ -3184,19 +3054,6 @@
 			"isAngular": false,
 			"isTypescript": true,
 			"score": 23487
-		},
-		{
-			"language": "TypeScript",
-			"name": "umi",
-			"description": "🌋 Pluggable enterprise-level react application framework.",
-			"html_url": "https://github.com/umijs/umi",
-			"updated_at": "2020-03-17T17:45:13Z",
-			"stargazers_count": 7405,
-			"open_issues": 175,
-			"isLibrary": true,
-			"isAngular": false,
-			"isTypescript": false,
-			"score": 6385
 		},
 		{
 			"language": "TypeScript",
@@ -3342,19 +3199,6 @@
 			"score": -7437
 		},
 		{
-			"language": "TypeScript",
-			"name": "retoggle",
-			"description": "🎨 UI controls as React Hooks to control your component state from outside",
-			"html_url": "https://github.com/Raathigesh/retoggle",
-			"updated_at": "2020-03-17T08:54:06Z",
-			"stargazers_count": 1349,
-			"open_issues": 6,
-			"isLibrary": true,
-			"isAngular": false,
-			"isTypescript": true,
-			"score": -7248
-		},
-		{
 			"language": "JavaScript",
 			"name": "most-active-github-users-nodejs",
 			"description": "List of most active users by country using GitHub based on commits.top of lauripiispanen/most-active-github-users-counter",
@@ -3366,32 +3210,6 @@
 			"isAngular": false,
 			"isTypescript": false,
 			"score": -9884
-		},
-		{
-			"language": "TypeScript",
-			"name": "react-zen",
-			"description": "React utilities for working with APIs",
-			"html_url": "https://github.com/jamesknelson/react-zen",
-			"updated_at": "2020-03-07T15:48:17Z",
-			"stargazers_count": 110,
-			"open_issues": 2,
-			"isLibrary": true,
-			"isAngular": false,
-			"isTypescript": false,
-			"score": -9812
-		},
-		{
-			"language": "TypeScript",
-			"name": "swr",
-			"description": "React Hooks library for remote data fetching",
-			"html_url": "https://github.com/zeit/swr",
-			"updated_at": "2020-03-17T18:04:09Z",
-			"stargazers_count": 7642,
-			"open_issues": 69,
-			"isLibrary": true,
-			"isAngular": false,
-			"isTypescript": true,
-			"score": 5905
 		},
 		{
 			"language": "TypeScript",
@@ -3431,19 +3249,6 @@
 			"isAngular": false,
 			"isTypescript": false,
 			"score": -6549
-		},
-		{
-			"language": "JavaScript",
-			"name": "react-hooks-async",
-			"description": "React custom hooks for async functions with abortability and composability ",
-			"html_url": "https://github.com/dai-shi/react-hooks-async",
-			"updated_at": "2020-03-16T07:46:22Z",
-			"stargazers_count": 355,
-			"open_issues": 2,
-			"isLibrary": true,
-			"isAngular": false,
-			"isTypescript": true,
-			"score": -9277
 		},
 		{
 			"language": "JavaScript",

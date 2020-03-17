@@ -30,7 +30,6 @@ https://nobsgames.stavros.io/android/
 https://github.com/antonmedv/finder
 https://loader.io/
 https://art42.net/
-https://github.com/artsy/reaction
 https://autocode.stdlib.com/
 https://github.com/awesome-selfhosted/awesome-selfhosted
 https://github.com/bahmutov/start-server-and-test
@@ -322,7 +321,6 @@ https://github.com/Igglybuff/awesome-piracy
 https://github.com/Codertocat/hello-world-npm
 https://github.com/Hack-with-Github/Awesome-Hacking
 https://github.com/patr0nus/DeskGap/
-https://github.com/trojanowski/react-apollo-hooks
 https://github.com/mojoaxel/awesome-regression-testing
 https://search.creativecommons.org/search?q=cat&provider&li&lt&searchBy
 https://github.com/remoteinterview/zero
@@ -330,7 +328,6 @@ https://github.com/Y2Z/monolith
 https://marketplace.visualstudio.com/items?itemName=humao.rest-client
 https://github.com/trimstray/the-book-of-secret-knowledge
 https://github.com/sharkdp/great-puzzles
-https://github.com/styleguidist/react-styleguidist
 https://github.com/matiassingers/awesome-readme
 https://github.com/dehenne/awesome-visibility
 https://github.com/binhnguyennus/awesome-scalability
@@ -339,12 +336,9 @@ https://remixicon.com/
 https://store.steampowered.com/app/1119870/Bot_Land/
 https://github.com/simoneb/axios-hooks
 https://github.com/LeaVerou/awesomplete
-https://github.com/nearform/react-browser-hooks
-https://github.com/wojtekmaj/react-pdf
 https://github.com/coinbase/rest-hooks
 https://github.com/jwilber/roughViz
 https://github.com/aryaminus/dev-movies
-https://github.com/typescript-cheatsheets/react-typescript-cheatsheet
 https://github.com/plopjs/plop
 https://github.com/lukeed/throttles
 https://github.com/handsontable/handsontable
@@ -380,7 +374,6 @@ https://github.com/knrt10/kubernetes-basicLearning
 https://github.com/Raathigesh/retoggle
 https://github.com/gayanvoice/GitHubStats
 https://github.com/knrt10/kubernetes-basicLearning/
-https://github.com/jamesknelson/react-zen?utm_campaign=React%2BNewsletter&utm_medium=web&utm_source=React_Newsletter_184
 https://github.com/zeit/swr
 https://github.com/WolkSoftware/tsmod
 https://app.devhubapp.com/
@@ -388,7 +381,6 @@ https://github.com/jesseduffield/lazydocker
 https://github.com/jimmywarting/StreamSaver.js
 https://github.com/4gray/vsc-github-trending
 https://apiwithgithub.com/
-https://github.com/dai-shi/react-hooks-async
 https://undefined.fm/
 https://waxy.org/
 https://github.com/styled-components/jest-styled-components
