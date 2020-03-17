@@ -187,6 +187,7 @@ async function populate({
   updateSecondary,
   fromSelfrefactor,
 }){
+  return
   if (bookmarks) bookmarksToLinks(BOOKMARKS)
   if (fromSelfrefactor) await updateFromSelfrefactor()
   if (updateSecondary) await updateSecondaryFn()

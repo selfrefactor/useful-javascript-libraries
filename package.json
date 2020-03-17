@@ -5,7 +5,7 @@
   "main": "./src/index.js",
   "scripts": {
     "out": "docsify init ./docs",
-    "on": "node src/index.js"
+    "on": "node src/build.js"
   },
   "repository": {
     "type": "git",
