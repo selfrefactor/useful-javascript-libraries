@@ -1,4 +1,4 @@
-# 88 Useful Javascript libraries
+# 82 Useful Javascript libraries
 
 ## [Anime](https://github.com/juliangarnier/anime)
 
@@ -35,10 +35,6 @@
 ## [Bull](https://github.com/OptimalBits/bull)
 
 > Premium Queue package for handling distributed jobs and messages in NodeJS.
-
-## [Umi](https://github.com/umijs/umi)
-
-> 🌋 Pluggable enterprise-level react application framework.
 
 ## [Awesomplete](https://github.com/LeaVerou/awesomplete)
 
@@ -112,10 +108,6 @@
 
 > OWASP Juice Shop: Probably the most modern and sophisticated insecure web application
 
-## [React Pdf](https://github.com/wojtekmaj/react-pdf)
-
-> Display PDFs in your React app as easily as if they were images.
-
 ## [Fitty](https://github.com/rikschennink/fitty)
 
 > ✨ Makes text fit perfectly
@@ -147,10 +139,6 @@
 ## [Bent](https://github.com/mikeal/bent)
 
 > Functional JS HTTP client (Node.js & Fetch) w/ async await
-
-## [Styled Icons](https://github.com/jacobwgillespie/styled-icons)
-
-> 💅 Popular icon packs like Font Awesome, Material Design, and Octicons, available as React Styled Components
 
 ## [Keyv](https://github.com/lukechilds/keyv)
 
@@ -252,10 +240,6 @@
 
 > The best way to build Electron apps with security in mind.
 
-## [Matchbox](https://github.com/SparkPost/matchbox)
-
-> 🔥 A react UI component library
-
 ## [Repo Automation Bots](https://github.com/googleapis/repo-automation-bots)
 
 > A collection of bots, based on probot, for performing common maintenance tasks across the open-source repos managed by Google on GitHub.
@@ -267,10 +251,6 @@
 ## [Google Drive Electron](https://github.com/alexkim205/Google-Drive-Electron)
 
 > A simple Electron Wrapper that converts Google Drive into a desktop office suite app.
-
-## [React Browser Hooks](https://github.com/nearform/react-browser-hooks)
-
-> React Browser Hooks
 
 ## [Lighthouse Badges](https://github.com/emazzotta/lighthouse-badges)
 
@@ -287,10 +267,6 @@
 ## [Dom To Image More](https://github.com/1904labs/dom-to-image-more)
 
 > Generates an image from a DOM node using HTML5 canvas
-
-## [React Zen](https://github.com/jamesknelson/react-zen)
-
-> React utilities for working with APIs
 
 ## [Freedrum Js](https://github.com/charliegerard/freedrum.js)
 
@@ -542,7 +518,7 @@
 ## [Stories](https://github.com/selfrefactor/stories)
 ---
 
-# 79 Useful Typescript libraries
+# 71 Useful Typescript libraries
 
 ## [Slate](https://github.com/ianstormtaylor/slate)
 
@@ -567,14 +543,6 @@
 ## [Nexe](https://github.com/nexe/nexe)
 
 > 🎉 create a single executable out of your node.js apps
-
-## [React Styleguidist](https://github.com/styleguidist/react-styleguidist)
-
-> Isolated React component development environment with a living style guide
-
-## [Swr](https://github.com/zeit/swr)
-
-> React Hooks library for remote data fetching
 
 ## [Peerjs](https://github.com/peers/peerjs)
 
@@ -624,10 +592,6 @@
 
 > Runtime type system for IO decoding/encoding
 
-## [React Apollo Hooks](https://github.com/trojanowski/react-apollo-hooks)
-
-> Use Apollo Client as React hooks
-
 ## [Sucrase](https://github.com/alangpierce/sucrase)
 
 > Super-fast alternative to Babel for when you can target modern JS runtimes
@@ -643,10 +607,6 @@
 ## [Jest Styled Components](https://github.com/styled-components/jest-styled-components)
 
 > 🔧 💅 Jest utilities for Styled Components
-
-## [Retoggle](https://github.com/Raathigesh/retoggle)
-
-> 🎨 UI controls as React Hooks to control your component state from outside
 
 ## [Kafkajs](https://github.com/tulios/kafkajs)
 
@@ -671,10 +631,6 @@
 ## [Flipping](https://github.com/davidkpiano/flipping)
 
 > Flipping awesome animations.
-
-## [Rest Hooks](https://github.com/coinbase/rest-hooks)
-
-> Delightful data fetching for React.
 
 ## [Dependency Cruiser](https://github.com/sverweij/dependency-cruiser)
 
@@ -724,10 +680,6 @@
 
 > Just a simple logging module for your Electron application
 
-## [Reaction](https://github.com/artsy/reaction)
-
-> Artsy’s React Components
-
 ## [Json Function](https://github.com/aykutkardas/Json-Function)
 
 > It allows you to use methods such as schema, innerJoin, where, limit, select, orderBy on JSON data.
@@ -740,10 +692,6 @@
 
 > TypeScript common pattern shortcut definitions / utility gist library
 
-## [Axios Hooks](https://github.com/simoneb/axios-hooks)
-
-> 🦆 React hooks for axios
-
 ## [Exthouse](https://github.com/treosh/exthouse)
 
 > Analyze the impact of a browser extension on web performance.
@@ -751,10 +699,6 @@
 ## [Meta Typing](https://github.com/ronami/meta-typing)
 
 > 📚 Functions and algorithms implemented purely with TypeScript's type system
-
-## [React Hooks Async](https://github.com/dai-shi/react-hooks-async)
-
-> React custom hooks for async functions with abortability and composability
 
 ## [Type Coverage](https://github.com/plantain-00/type-coverage)
 
@@ -908,7 +852,7 @@
 > Navigate through modules, classes, and declarations in GitHub like an IDE
 ---
 
-# 51 Other libraries and resources
+# 50 Other libraries and resources
 
 ## [Build Your Own X](https://github.com/danistefanovic/build-your-own-x)
 
@@ -957,10 +901,6 @@
 ## [Flexbugs](https://github.com/philipwalton/flexbugs)
 
 > A community-curated list of flexbox issues and cross-browser workarounds for them.
-
-## [React Typescript Cheatsheet](https://github.com/typescript-cheatsheets/react-typescript-cheatsheet)
-
-> Cheatsheets for experienced React developers getting started with TypeScript
 
 ## [Nginx Admins Handbook](https://github.com/trimstray/nginx-admins-handbook)
 
