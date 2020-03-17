@@ -26,7 +26,6 @@ function bookmarksToLinks(output){
   const newLinks = filtered.map(
     remove([ 'HREF="', /".+/g ])
   ).join('\n')
-
   writeFileSync(output, newLinks)
 }
 
