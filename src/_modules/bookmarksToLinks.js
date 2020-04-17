@@ -1,32 +1,28 @@
 const dayjs = require('dayjs')
-const { match, anyTrue, remove } = require('rambdax')
-const { readFileSync, writeFileSync } = require('fs')
+const { readFile } = require('fs-extra')
 const { resolve } = require('path')
+const { trim, remove } = require('rambdax')
+const { writeFileSync } = require('fs')
 
-const today = dayjs().format('YYYY_MM_DD')
-const FILE = resolve(
-  __dirname,
-  `../bookmarks-${ today }.json`
-)
+const today = dayjs().format('YYYY-MM-DD')
 const GITHUB_MARKER = 'https://github.com/'
-const NPM_MARKER = 'https://www.npmjs.com/package/'
 
-function bookmarksToLinks(output){
-  const content = readFileSync(FILE).toString()
-  const matched = match(
-    /href=".+" ICON/gmi,
-    content
-  )
+async function bookmarksToLinks(destinationFilePath){
+  console.log({ destinationFilePath })
+  const asText = await readFile(resolve(__dirname, `../../bookmarks-${ today }.json`))
 
-  const filtered = matched.filter(x => anyTrue(
-    x.includes(GITHUB_MARKER),
-    x.includes(NPM_MARKER),
-  ))
+  const githubRepos = asText
+    .toString()
+    .match(/\"uri\":\s\".+(?=\")/g)
+    .filter(x => !x.includes('selfrefactor') && x.includes(GITHUB_MARKER))
+    .map(remove([ 'uri', ':', /\"/g ]))
+    .map(trim)
+    .filter(x => !x.includes('trending') && x.split('/').length === 5)
+    .join('\n')
 
-  const newLinks = filtered.map(
-    remove([ 'HREF="', /".+/g ])
-  ).join('\n')
-  // writeFileSync(output, newLinks)
+  writeFileSync(destinationFilePath, githubRepos)
+
+  return githubRepos
 }
 
 exports.bookmarksToLinks = bookmarksToLinks
