@@ -5,7 +5,7 @@ const { envFn } = require('env-fn')
 envFn('special')
 
 const { pass } = require('rambdax')
-const { repoData, getGithubData } = require('./repoData')
+const { repoData, getGithubData, getDependencyData } = require('./repoData')
 
 const schema = {
   description      : 'string',
@@ -14,6 +14,14 @@ const schema = {
   stargazers_count : 'number',
   open_issues      : 'number',
 }
+
+test.skip('get dependency info', async () => {
+  const result = await getDependencyData({
+    repo  : 'rambdax',
+    owner : 'selfrefactor',
+  })
+  console.log(result)
+})
 
 test.skip('github', async () => {
   const result = await getGithubData({
