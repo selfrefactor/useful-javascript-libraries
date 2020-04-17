@@ -1,9 +1,11 @@
 /**
  * @jest-environment node
  */
-const { isAttach } = require('rambdax')
-const { repoData } = require('./repoData')
-isAttach()
+const { envFn } = require('env-fn')
+envFn('special')
+
+const { pass } = require('rambdax')
+const { repoData, getGithubData } = require('./repoData')
 
 const schema = {
   description      : 'string',
@@ -13,10 +15,17 @@ const schema = {
   open_issues      : 'number',
 }
 
-test('', async () => {
+test.skip('github', async () => {
+  const result = await getGithubData({
+    repo  : 'rambdax',
+    owner : 'selfrefactor',
+  })
+  console.log({ result })
+})
+
+test.skip('happy', async () => {
   const url = 'https://github.com/selfrefactor/rambda'
 
   const data = await repoData(url)
   console.log({ data })
-  expect(data.is(schema)).toBe(true)
 })

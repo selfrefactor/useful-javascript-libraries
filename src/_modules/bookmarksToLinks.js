@@ -3,10 +3,10 @@ const { match, anyTrue, remove } = require('rambdax')
 const { readFileSync, writeFileSync } = require('fs')
 const { resolve } = require('path')
 
-const today = dayjs().format('M_DD_YY')
+const today = dayjs().format('YYYY_MM_DD')
 const FILE = resolve(
   __dirname,
-  `../bookmarks_${ today }.html`
+  `../bookmarks-${ today }.json`
 )
 const GITHUB_MARKER = 'https://github.com/'
 const NPM_MARKER = 'https://www.npmjs.com/package/'
@@ -26,7 +26,7 @@ function bookmarksToLinks(output){
   const newLinks = filtered.map(
     remove([ 'HREF="', /".+/g ])
   ).join('\n')
-  writeFileSync(output, newLinks)
+  // writeFileSync(output, newLinks)
 }
 
 exports.bookmarksToLinks = bookmarksToLinks

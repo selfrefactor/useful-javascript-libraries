@@ -21,7 +21,7 @@
     "axios": "^0.19.0",
     "dayjs": "^1.8.15",
     "docsify-cli": "^4.3.0",
-    "env-fn": "1.1.2",
+    "env-fn": "2.1.0",
     "fs-extra": "^8.1.0",
     "helpers-fn": "0.2.0",
     "js-base64": "^2.5.1",

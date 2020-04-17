@@ -35,7 +35,6 @@ test('second is better', () => {
 test('third is better', () => {
   const secondScore = getScore(second)
   const thirdScore = getScore(third)
-  //console.log({thirdScore, secondScore})
 
   expect(thirdScore).toBeGreaterThan(secondScore)
 })
@@ -43,7 +42,6 @@ test('third is better', () => {
 test('otherFlag has enough influence', () => {
   const firstScore = getScore(first, true)
   const thirdScore = getScore(third)
-  //console.log({thirdScore, firstScore})
 
   expect(thirdScore).toBeGreaterThan(firstScore)
 })

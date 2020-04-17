@@ -1,5 +1,5 @@
+const axios = require('axios')
 const { dateDiff } = require('../_helpers/dateDiff')
-const { get } = require('axios')
 const { getDependencies } = require('../_helpers/getDependencies')
 const { takeLast, pick, glue, path } = require('rambdax')
 
@@ -11,27 +11,41 @@ function safeIncludes(list, target){
   return list.includes(target)
 }
 
+async function getGithubData({ owner, repo }){
+  const url = `https://api.github.com/repos/${ owner }/${ repo } `
+
+  const { status, data } = await axios({
+    method  : 'get',
+    url,
+    timeout : 1000,
+    headers : {
+      // 'Authorization': `token ${process.env.GITHUB}`
+    },
+  })
+
+  return {
+    status,
+    data,
+  }
+}
+
 async function repoData(input, secondaryFlag){
   try {
     const splitted = input.split('/')
     if (splitted.length !== 5) return false
     const [ owner, repo ] = takeLast(2, splitted)
-    console.log(repo)
-    const url = glue(
-      `
+    const url = glue(`
       https://api.github.com
       repos
       ${ owner }
       ${ repo }?access_token=${ process.env.GITHUB }  
     `,
-      '/'
-    )
+    '/')
 
     const { status, data } = await get(url)
     if (status > 200) return false
 
-    const packageJsonUrl = glue(
-      `
+    const packageJsonUrl = glue(`
       https://api.github.com
       repos
       ${ owner }
@@ -39,14 +53,13 @@ async function repoData(input, secondaryFlag){
       contents
       package.json?access_token=${ process.env.GITHUB }  
     `,
-      '/'
-    )
+    '/')
 
     let isLibrary
     let isAngular = false
     let isTypescript = false
     try {
-      const response = await get(packageJsonUrl)
+      const response = await axios.get(packageJsonUrl)
       const dependencies = getDependencies(path('data.content', response))
       if (safeIncludes(dependencies, '@angular/core')){
         isAngular = true
@@ -58,10 +71,8 @@ async function repoData(input, secondaryFlag){
       isLibrary = false
     }
 
-    const picked = pick(
-      'language,name,description,html_url,updated_at,stargazers_count,open_issues',
-      data
-    )
+    const picked = pick('language,name,description,html_url,updated_at,stargazers_count,open_issues',
+      data)
     if (secondaryFlag){
       const updatedSince = dateDiff(data.updated_at, Date.now())
       console.log({ okUpdated : updatedSince < ALLOWED_UPDATED_DAYS })
@@ -87,5 +98,7 @@ async function repoData(input, secondaryFlag){
   }
 }
 
+exports.module = module
+exports.getGithubData = getGithubData
 exports.repoData = repoData
 exports.repoDataSecondary = x => repoData(x, true)

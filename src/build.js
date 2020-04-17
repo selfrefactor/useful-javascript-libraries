@@ -1,4 +1,6 @@
-require('env-fn')('special')
+const { envFn } = require('env-fn')
+envFn('special')
+
 const {
   allTrue,
   anyTrue,
@@ -38,9 +40,7 @@ const TITLE = '# {{num}} Useful {{tag}} libraries\n\n'
 const AWESOME_TITLE = '# {{num}} Useful {{tag}}\n\n'
 const TITLE_PROJECTS = '# {{num}} Useful Javascript projects\n\n'
 const OTHER_TITLE = '# {{num}} Other libraries and resources\n\n'
-const TEMPLATE = [ '## [{{title}}]({{url}})', '> {{description}}' ].join(
-  '\n\n'
-)
+const TEMPLATE = [ '## [{{title}}]({{url}})', '> {{description}}' ].join('\n\n')
 
 const TEMPLATE_NO_DESC = '## [{{title}}]({{url}})'
 s()
@@ -60,21 +60,19 @@ async function generateLinks(bookmarksContent){
     return url
   }, allLinks)
 
-  return withCorrectLinks.s(filter(Boolean)).s(
-    map(x => {
-      const replaced = replace(/(git:)|(ssh:)/, 'https:', x)
+  return withCorrectLinks.s(filter(Boolean)).s(map(x => {
+    const replaced = replace(
+      /(git:)|(ssh:)/, 'https:', x
+    )
 
-      return remove('git@', replaced)
-    })
-  )
+    return remove('git@', replaced)
+  }))
 }
 
 async function createDataJSON(){
   const bookmarksContent = readFileSync(BOOKMARKS).toString()
 
-  const bookmarksContentSecondary = readFileSync(
-    SECONDARY_OUTPUT
-  ).toString()
+  const bookmarksContentSecondary = readFileSync(SECONDARY_OUTPUT).toString()
 
   const links = await generateLinks(bookmarksContent)
   const linksSecondary = await generateLinks(bookmarksContentSecondary)
@@ -92,10 +90,8 @@ async function createDataJSON(){
 async function createScores(){
   const { links, linksSecondary } = readJSONSync(LINKS)
   const withRepoDataRaw = await mapAsync(repoDataModule, links)
-  const withRepoDataSecondaryRaw = await mapAsync(
-    repoDataSecondary,
-    linksSecondary
-  )
+  const withRepoDataSecondaryRaw = await mapAsync(repoDataSecondary,
+    linksSecondary)
 
   const withRepoData = withRepoDataRaw.filter(Boolean)
   const withRepoDataSecondary = withRepoDataSecondaryRaw.filter(Boolean)
@@ -113,7 +109,9 @@ async function createScores(){
     ...scoreSecondary,
   ])
 
-  writeJSONSync(REPO_DATA, { repoData : toSave }, { spaces : '\t' })
+  writeJSONSync(
+    REPO_DATA, { repoData : toSave }, { spaces : '\t' }
+  )
 }
 
 async function updateSecondaryFn(){
@@ -148,10 +146,8 @@ function createReadmePartial(list){
 function isJS(x){
   if (x.language === null) return false
 
-  return anyTrue(
-    x.language.toLowerCase() === 'javascript',
-    x.language.toLowerCase() === 'typescript'
-  )
+  return anyTrue(x.language.toLowerCase() === 'javascript',
+    x.language.toLowerCase() === 'typescript')
 }
 
 async function updateFromSelfrefactor(){
@@ -241,12 +237,10 @@ async function populate({
   const projects = `${ sep }${ jsProjectsTitle }${ jsProjectsContent }`
   const other = `${ sep }${ otherTitle }${ otherContent }`
 
-  writeFileSync(
-    `${ process.cwd() }/README.md`,
-    `${ js }\n${ awesome }${ angular }${ ts }${ projects }${ other }`
-  )
+  writeFileSync(`${ process.cwd() }/README.md`,
+    `${ js }\n${ awesome }${ angular }${ ts }${ projects }${ other }`)
 }
- 
+
 populate({
   bookmarks        : 0,
   fromSelfrefactor : 0,

@@ -1467,14 +1467,6 @@ end-of-stream@^1.1.0:
   dependencies:
     once "^1.4.0"
 
-env-fn@1.1.2:
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/env-fn/-/env-fn-1.1.2.tgz#e6be3280dbf005e07fc7fd3d91dec968ac9eb734"
-  integrity sha512-yoe6PnaRN6/W1GvE2fYv+VpPG3w+nEx5KTgcoinMvFaz3NHbVT7UHBr7m9Qz2SBgDW9ryuQPmcjqV133Gtf8kQ==
-  dependencies:
-    fs-extra "8.0.1"
-    rambda "2.7.1"
-
 env-fn@2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/env-fn/-/env-fn-2.1.0.tgz#1dd088d571f2169800ada9a8c9ad397beb708e2a"
@@ -1827,15 +1819,6 @@ fresh@0.5.2:
   version "0.5.2"
   resolved "https://registry.yarnpkg.com/fresh/-/fresh-0.5.2.tgz#3d8cadd90d976569fa835ab1f8e4b23a105605a7"
   integrity sha1-PYyt2Q2XZWn6g1qx+OSyOhBWBac=
-
-fs-extra@8.0.1:
-  version "8.0.1"
-  resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-8.0.1.tgz#90294081f978b1f182f347a440a209154344285b"
-  integrity sha512-W+XLrggcDzlle47X/XnS7FXrXu9sDo+Ze9zpndeBxdgv88FHLm1HtmkhEwavruS6koanBjp098rUpHs65EmG7A==
-  dependencies:
-    graceful-fs "^4.1.2"
-    jsonfile "^4.0.0"
-    universalify "^0.1.0"
 
 fs-extra@^2.1.2:
   version "2.1.2"
@@ -4036,11 +4019,6 @@ qs@~6.5.2:
   version "6.5.2"
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.2.tgz#cb3ae806e8740444584ef154ce8ee98d403f3e36"
   integrity sha512-N5ZAX4/LxJmF+7wN74pUD6qAh9/wnvdQcjq9TZjevvXzSUo7bfmw91saqMjzGS2xq91/odN2dW/WOl7qQHNDGA==
-
-rambda@2.7.1:
-  version "2.7.1"
-  resolved "https://registry.yarnpkg.com/rambda/-/rambda-2.7.1.tgz#56c3d4100131db0e252236a26bed75faffa229d8"
-  integrity sha512-EjTEdqAOqMWSgiyIs/7cd9ByCN1hlVq5YBxaTdlmGygIpvAtM+qv4rO2eptiTUIkP8E5lGusuq7hohtFM23knw==
 
 rambda@^1.2.6:
   version "1.2.6"
