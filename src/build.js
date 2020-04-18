@@ -45,37 +45,13 @@ const TEMPLATE = [ '## [{{title}}]({{url}})', '> {{description}}' ].join('\n\n')
 const TEMPLATE_NO_DESC = '## [{{title}}]({{url}})'
 s()
 
-async function generateLinks(bookmarksContent){
-  const allLinks = bookmarksContent
-    .split('\n')
-    .s(reject(includes('gist.')))
-    .s(reject(includes('?tab')))
-    .s(reject(includes('trending')))
-    .s(filter(x => x.includes('github.com') || x.includes('npmjs')))
-
-  const withCorrectLinks = await mapAsync(async x => {
-    if (x.includes('github.com')) return x
-    const url = await toGithubURL(x)
-
-    return url
-  }, allLinks)
-
-  return withCorrectLinks.s(filter(Boolean)).s(map(x => {
-    const replaced = replace(
-      /(git:)|(ssh:)/, 'https:', x
-    )
-
-    return remove('git@', replaced)
-  }))
-}
-
 async function createDataJSON(){
-  const bookmarksContent = readFileSync(BOOKMARKS).toString()
+  const links = (readFileSync(BOOKMARKS).toString()).split('\n').filter(Boolean)
 
-  const bookmarksContentSecondary = readFileSync(SECONDARY_OUTPUT).toString()
-
-  const links = await generateLinks(bookmarksContent)
-  const linksSecondary = await generateLinks(bookmarksContentSecondary)
+  const linksSecondary = (readFileSync(SECONDARY_OUTPUT).toString()).split('\n')
+  .filter(x => x.startsWith('https://github.com/'))
+  .filter(x => x.split('/').length === 5)
+  .filter(x => !x.includes('selfrefactor'))
 
   writeJSONSync(
     LINKS,
@@ -187,9 +163,9 @@ async function populate({
   if (fromSelfrefactor) await updateFromSelfrefactor()
   if (updateSecondary) await updateSecondaryFn()
   if (createData) await createDataJSON()
-  if (score) await createScores()
-  if (!createReadme) return
-
+  // if (score) await createScores()
+  // if (!createReadme) return
+  return
   const { repoData } = readJSONSync(REPO_DATA)
   const sorted = sort((a, b) => b.score - a.score, repoData)
   const reposRaw = uniqWith((a, b) => a.name === b.name, sorted)
@@ -242,11 +218,11 @@ async function populate({
 }
 
 populate({
-  bookmarks        : 0,
-  fromSelfrefactor : 0,
+  bookmarks        : 1,
+  fromSelfrefactor : 1,
   updateSecondary  : 0,
-  createData       : 0,
-  score            : 0,
+  createData       : 1,
+  score            : 1,
   createReadme     : 1,
 })
   .then(console.log)
