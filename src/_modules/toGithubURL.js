@@ -1,5 +1,5 @@
 const { last, path, remove } = require('rambdax')
-const { exec } = require('helpers')
+const { exec } = require('helpers-fn')
 
 const execCommand = async command => {
   const [execOutput] = await exec({command,  cwd : process.cwd() })
