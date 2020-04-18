@@ -84,7 +84,7 @@ async function repoData(input, secondaryFlag){
 
     if (secondaryFlag){
       const updatedSince = dateDiff(data.updated_at, Date.now())
-      console.log({ okUpdated : updatedSince < ALLOWED_UPDATED_DAYS })
+      console.log({updatedSince,  okUpdated : updatedSince < ALLOWED_UPDATED_DAYS })
 
       if (updatedSince > ALLOWED_UPDATED_DAYS) return false
     }

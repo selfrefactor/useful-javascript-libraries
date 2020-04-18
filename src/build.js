@@ -163,9 +163,9 @@ async function populate({
   if (fromSelfrefactor) await updateFromSelfrefactor()
   if (updateSecondary) await updateSecondaryFn()
   if (createData) await createDataJSON()
-  // if (score) await createScores()
-  // if (!createReadme) return
-  return
+  if (score) await createScores()
+  if (!createReadme) return
+  
   const { repoData } = readJSONSync(REPO_DATA)
   const sorted = sort((a, b) => b.score - a.score, repoData)
   const reposRaw = uniqWith((a, b) => a.name === b.name, sorted)
@@ -218,11 +218,11 @@ async function populate({
 }
 
 populate({
-  bookmarks        : 1,
-  fromSelfrefactor : 1,
+  bookmarks        : 0,
+  fromSelfrefactor : 0,
   updateSecondary  : 0,
-  createData       : 1,
-  score            : 1,
+  createData       : 0,
+  score            : 0,
   createReadme     : 1,
 })
   .then(console.log)
