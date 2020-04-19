@@ -1,4 +1,4 @@
-# 78 Useful Javascript libraries
+# 70 Useful Javascript libraries
 
 ## [Anime](https://github.com/juliangarnier/anime)
 
@@ -60,10 +60,6 @@
 
 > Chance - Random generator helper for JavaScript
 
-## [Zero](https://github.com/remoteinterview/zero)
-
-> Zero is a web server to simplify web development.
-
 ## [Rough Viz](https://github.com/jwilber/roughViz)
 
 > Reusable JavaScript library for creating sketchy/hand-drawn styled charts in the browser.
@@ -95,10 +91,6 @@
 ## [Web Animations Js](https://github.com/web-animations/web-animations-js)
 
 > JavaScript implementation of the Web Animations API
-
-## [Sharedb](https://github.com/share/sharedb)
-
-> Realtime database backend based on Operational Transformation (OT)
 
 ## [Node Clinic](https://github.com/nearform/node-clinic)
 
@@ -176,17 +168,9 @@
 
 > Functional tools that couldn’t be simpler.
 
-## [Eslint Plugin Node](https://github.com/mysticatea/eslint-plugin-node)
-
-> Additional ESLint's rules for Node.js
-
 ## [Start Server And Test](https://github.com/bahmutov/start-server-and-test)
 
 > Starts server, waits for URL, then runs test command; when the tests end, shuts down server
-
-## [Packem](https://github.com/packem/packem)
-
-> 📦⚡ A precompiled JavaScript module bundler
 
 ## [Puppetry](https://github.com/dsheiko/puppetry)
 
@@ -244,10 +228,6 @@
 
 > Site audit for your site from terminal
 
-## [Pogo](https://github.com/sholladay/pogo)
-
-> Server framework for Deno
-
 ## [Tana](https://github.com/jMavarez/Tana)
 
 > Bringing the Picture-in-Picture experience to the desktop.
@@ -267,10 +247,6 @@
 ## [Lint Action](https://github.com/samuelmeuli/lint-action)
 
 > ✨ GitHub Action for detecting and fixing lint errors
-
-## [String To Color](https://github.com/Gustu/string-to-color)
-
-> Time invariant color from any object.
 
 ## [Throttles](https://github.com/lukeed/throttles)
 
@@ -300,17 +276,9 @@
 
 > Simple nodejs package to download torrents using torrent-indexer and webtorrent, especially movie and series.
 
-## [Napd](https://github.com/RafaelGSS/napd)
-
-> Node API Project Design - CLI for generate structure base of api.
-
 ## [Ukkonen](https://github.com/sunesimonsen/ukkonen)
 
 > Ukkonen's Approximate String Matching algorithm
-
-## [Eslint Plugin Mongodb](https://github.com/SebastienElet/eslint-plugin-mongodb)
-
-> 🔎 MongoDB best practices rules for ESLint
 
 ---
 
@@ -500,7 +468,7 @@
 > NgRx Workshop Example Application based on Shopping Cart from Angular.io docs
 ---
 
-# 73 Useful Typescript libraries
+# 71 Useful Typescript libraries
 
 ## [Slate](https://github.com/ianstormtaylor/slate)
 
@@ -521,10 +489,6 @@
 ## [Nexe](https://github.com/nexe/nexe)
 
 > 🎉 create a single executable out of your node.js apps
-
-## [Swr](https://github.com/zeit/swr)
-
-> React Hooks library for remote data fetching
 
 ## [Peerjs](https://github.com/peers/peerjs)
 
@@ -689,10 +653,6 @@
 ## [Type Coverage](https://github.com/plantain-00/type-coverage)
 
 > A CLI tool to check type coverage for typescript code
-
-## [Tslint Consistent Codestyle](https://github.com/ajafff/tslint-consistent-codestyle)
-
-> Collection of awesome rules to extend TSLint
 
 ## [Ts Json Validator](https://github.com/ostrowr/ts-json-validator)
 
