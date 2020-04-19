@@ -88,7 +88,6 @@ https://github.com/goldfire/howler.js#documentation
 https://datastudio.google.com/navigation/reporting
 https://github.com/googleapis/repo-automation-bots
 https://github.com/GoogleChromeLabs?language=javascript
-https://github.com/Gustu/string-to-color
 https://cryptobook.nakov.com/cryptographic-hash-functions
 https://htmlhead.dev/
 https://linuxize.com/post/how-to-remove-docker-images-containers-volumes-and-networks/
@@ -310,7 +309,6 @@ https://github.com/gcanti/io-ts
 https://sonic-pi.net/
 https://github.com/you-dont-need/You-Dont-Need-Momentjs
 https://github.com/ngneat/until-destroy
-https://github.com/packem/packem
 https://github.com/rametta/pratica
 https://github.com/nicoespeon/abracadabra
 https://github.com/acoshift/http-caching-guide

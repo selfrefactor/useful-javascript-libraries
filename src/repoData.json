@@ -1276,19 +1276,6 @@
 		},
 		{
 			"language": "JavaScript",
-			"name": "string-to-color",
-			"description": "Time invariant color from any object.",
-			"html_url": "https://github.com/Gustu/string-to-color",
-			"updated_at": "2020-04-14T13:01:16Z",
-			"stargazers_count": 60,
-			"open_issues": 2,
-			"isLibrary": true,
-			"isAngular": false,
-			"isTypescript": false,
-			"score": -9877
-		},
-		{
-			"language": "JavaScript",
 			"name": "lion",
 			"description": "Lion Web Components",
 			"html_url": "https://github.com/ing-bank/lion",
@@ -1640,19 +1627,6 @@
 		},
 		{
 			"language": "JavaScript",
-			"name": "sharedb",
-			"description": "Realtime database backend based on Operational Transformation (OT)",
-			"html_url": "https://github.com/share/sharedb",
-			"updated_at": "2020-04-18T07:01:53Z",
-			"stargazers_count": 3054,
-			"open_issues": 84,
-			"isLibrary": true,
-			"isAngular": false,
-			"isTypescript": false,
-			"score": -3136
-		},
-		{
-			"language": "JavaScript",
 			"name": "JSON-Patch",
 			"description": "Lean and mean Javascript implementation of the JSON-Patch standard (RFC 6902). Update JSON documents using delta patches.",
 			"html_url": "https://github.com/Starcounter-Jack/JSON-Patch",
@@ -1951,19 +1925,6 @@
 			"score": -7812
 		},
 		{
-			"language": "JavaScript",
-			"name": "pogo",
-			"description": "Server framework for Deno",
-			"html_url": "https://github.com/sholladay/pogo",
-			"updated_at": "2020-04-17T12:46:38Z",
-			"stargazers_count": 122,
-			"open_issues": 7,
-			"isLibrary": true,
-			"isAngular": false,
-			"isTypescript": false,
-			"score": -9693
-		},
-		{
 			"language": "Shell",
 			"name": "professional-programming",
 			"description": "A collection of full-stack resources for programmers.",
@@ -2170,19 +2131,6 @@
 			"isAngular": false,
 			"isTypescript": true,
 			"score": -1896
-		},
-		{
-			"language": "JavaScript",
-			"name": "napd",
-			"description": "Node API Project Design - CLI for generate structure base of api.",
-			"html_url": "https://github.com/RafaelGSS/napd",
-			"updated_at": "2020-01-23T16:42:16Z",
-			"stargazers_count": 10,
-			"open_issues": 2,
-			"isLibrary": true,
-			"isAngular": false,
-			"isTypescript": false,
-			"score": -10387
 		},
 		{
 			"language": null,
@@ -2640,19 +2588,6 @@
 			"score": -8723
 		},
 		{
-			"language": "JavaScript",
-			"name": "packem",
-			"description": "📦⚡ A precompiled JavaScript module bundler",
-			"html_url": "https://github.com/packem/packem",
-			"updated_at": "2020-04-17T09:20:31Z",
-			"stargazers_count": 511,
-			"open_issues": 7,
-			"isLibrary": true,
-			"isAngular": false,
-			"isTypescript": false,
-			"score": -8915
-		},
-		{
 			"language": "TypeScript",
 			"name": "pratica",
 			"description": "🥃 Functional Algebraic Data Types",
@@ -2781,19 +2716,6 @@
 			"isAngular": false,
 			"isTypescript": false,
 			"score": -7731
-		},
-		{
-			"language": "JavaScript",
-			"name": "zero",
-			"description": "Zero is a web server to simplify web development.",
-			"html_url": "https://github.com/remoteinterview/zero",
-			"updated_at": "2020-04-18T07:30:56Z",
-			"stargazers_count": 5489,
-			"open_issues": 30,
-			"isLibrary": true,
-			"isAngular": false,
-			"isTypescript": false,
-			"score": 1248
 		},
 		{
 			"language": "Rust",
@@ -3096,19 +3018,6 @@
 		},
 		{
 			"language": "TypeScript",
-			"name": "swr",
-			"description": "React Hooks library for remote data fetching",
-			"html_url": "https://github.com/zeit/swr",
-			"updated_at": "2020-04-18T07:48:59Z",
-			"stargazers_count": 8362,
-			"open_issues": 85,
-			"isLibrary": true,
-			"isAngular": false,
-			"isTypescript": true,
-			"score": 7489
-		},
-		{
-			"language": "TypeScript",
 			"name": "tsmod",
 			"description": "Refactor TypScript code programmatically using codemods",
 			"html_url": "https://github.com/WolkSoftware/tsmod",
@@ -3187,19 +3096,6 @@
 		},
 		{
 			"language": "JavaScript",
-			"name": "eslint-plugin-mongodb",
-			"description": "🔎 MongoDB best practices rules for ESLint",
-			"html_url": "https://github.com/SebastienElet/eslint-plugin-mongodb",
-			"updated_at": "2019-11-07T09:10:14Z",
-			"stargazers_count": 12,
-			"open_issues": 2,
-			"isLibrary": true,
-			"isAngular": false,
-			"isTypescript": false,
-			"score": -10773
-		},
-		{
-			"language": "JavaScript",
 			"name": "eslint-plugin-fp",
 			"description": "ESLint rules for functional programming",
 			"html_url": "https://github.com/jfmengels/eslint-plugin-fp",
@@ -3239,19 +3135,6 @@
 		},
 		{
 			"language": "TypeScript",
-			"name": "tslint-consistent-codestyle",
-			"description": "Collection of awesome rules to extend TSLint",
-			"html_url": "https://github.com/ajafff/tslint-consistent-codestyle",
-			"updated_at": "2020-04-03T20:56:20Z",
-			"stargazers_count": 192,
-			"open_issues": 31,
-			"isLibrary": true,
-			"isAngular": false,
-			"isTypescript": true,
-			"score": -9407
-		},
-		{
-			"language": "TypeScript",
 			"name": "ts-json-validator",
 			"description": "Let JSON play nicely with Typescript",
 			"html_url": "https://github.com/ostrowr/ts-json-validator",
@@ -3262,19 +3145,6 @@
 			"isAngular": false,
 			"isTypescript": true,
 			"score": -9454
-		},
-		{
-			"language": "JavaScript",
-			"name": "eslint-plugin-node",
-			"description": "Additional ESLint's rules for Node.js",
-			"html_url": "https://github.com/mysticatea/eslint-plugin-node",
-			"updated_at": "2020-04-16T04:47:00Z",
-			"stargazers_count": 606,
-			"open_issues": 34,
-			"isLibrary": true,
-			"isAngular": false,
-			"isTypescript": false,
-			"score": -8492
 		},
 		{
 			"language": "JavaScript",
