@@ -985,3 +985,7 @@
 ## [Dev Movies](https://github.com/aryaminus/dev-movies)
 
 > Movies and Series I've loved over the years, for the people with software development background, IT Engineers or general people who love movies
+
+## [GuideChimp](https://github.com/Labs64/GuideChimp)
+
+> Create interactive guided product tours in minutes with the most non-technical friendly, lightweight and extendable library
