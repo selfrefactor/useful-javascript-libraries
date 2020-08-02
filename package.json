@@ -29,7 +29,10 @@
     "string-fn": "^2.9.0"
   },
   "devDependencies": {
+    "@types/jest": "^26.0.8",
     "jest": "^24.9.0"
   },
-  "depFn": ["rambdax"]
+  "depFn": [
+    "rambdax"
+  ]
 }

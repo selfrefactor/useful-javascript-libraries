@@ -8,23 +8,21 @@ const today = dayjs().format('YYYY-MM-DD')
 const GITHUB_MARKER = 'https://github.com/'
 
 async function bookmarksToLinks(destinationFilePath){
-  console.log({ destinationFilePath })
-  const sourcePath = resolve(__dirname, `../../bookmarks-${ today }.json`)
-  console.log({sourcePath})
-  const asText = await readFile(sourcePath)
+    const sourcePath = resolve(__dirname, `../../bookmarks-${ today }.json`)
+    const asText = await readFile(sourcePath)
 
-  const githubRepos = asText
-    .toString()
-    .match(/\"uri\":\s\".+(?=\")/g)
-    .filter(x => !x.includes('selfrefactor') && x.includes(GITHUB_MARKER))
-    .map(remove([ 'uri', ':', /\"/g ]))
-    .map(trim)
-    .filter(x => !x.includes('trending') && x.split('/').length === 5)
-    .join('\n')
-
-  writeFileSync(destinationFilePath, githubRepos)
-
-  return githubRepos
+    const githubRepos = asText
+      .toString()
+      .match(/\"uri\":\s\".+(?=\")/g)
+      .filter(x => !x.includes('selfrefactor') && x.includes(GITHUB_MARKER))
+      .map(remove([ 'uri', ':', /\"/g ]))
+      .map(trim)
+      .filter(x => !x.includes('trending') && x.split('/').length === 5)
+      .join('\n')
+  
+    writeFileSync(destinationFilePath, githubRepos)
+  
+    return githubRepos
 }
 
 exports.bookmarksToLinks = bookmarksToLinks
