@@ -31,14 +31,5 @@
   "devDependencies": {
     "jest": "^24.9.0"
   },
-  "commitMessage": {
-    "support": [
-      "new to.delete gist",
-      "docsify"
-    ],
-    "feature": [
-      "remove"
-    ],
-    "workInProgress": ""
-  }
+  "depFn": ["rambdax"]
 }

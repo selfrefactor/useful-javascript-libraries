@@ -5,15 +5,10 @@ const {
   allTrue,
   anyTrue,
   complement,
-  filter,
   flatten,
-  includes,
-  map,
   mapAsync,
   prop,
   reject,
-  remove,
-  replace,
   s,
   sort,
   template,
@@ -218,11 +213,11 @@ async function populate({
 }
 
 populate({
-  bookmarks        : 0,
-  fromSelfrefactor : 0,
-  updateSecondary  : 0,
-  createData       : 0,
-  score            : 0,
+  bookmarks        : 1,
+  fromSelfrefactor : 1,
+  updateSecondary  : 1,
+  createData       : 1,
+  score            : 1,
   createReadme     : 1,
 })
   .then(console.log)

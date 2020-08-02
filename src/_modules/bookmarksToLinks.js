@@ -9,7 +9,9 @@ const GITHUB_MARKER = 'https://github.com/'
 
 async function bookmarksToLinks(destinationFilePath){
   console.log({ destinationFilePath })
-  const asText = await readFile(resolve(__dirname, `../../bookmarks-${ today }.json`))
+  const sourcePath = resolve(__dirname, `../../bookmarks-${ today }.json`)
+  console.log({sourcePath})
+  const asText = await readFile(sourcePath)
 
   const githubRepos = asText
     .toString()
