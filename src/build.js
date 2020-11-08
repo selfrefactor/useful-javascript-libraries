@@ -23,7 +23,6 @@ const { get } = require('axios')
 const { getScore } = require('./_modules/getScore')
 const { readFileSync, writeFileSync } = require('fs')
 const { titleCase } = require('./_helpers/titleCase.js')
-const { toGithubURL } = require('./_modules/toGithubURL')
 const { writeJSONSync, readJSONSync } = require('fs-extra')
 
 const BOOKMARKS = `${ __dirname }/links.txt`
