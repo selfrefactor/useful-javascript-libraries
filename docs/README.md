@@ -550,6 +550,22 @@
 
 > Readable Curried Functions with Prettier-Eslint and VSCode
 
+---
+
+# Best of stars
+
+If you like such collection of repos, then you might like [Best of stars](https://github.com/selfrefactor/services/tree/master/packages/all-stars-of) list.
+
+It contains list of repos(sorted by their stars) using one of the following libraries:
+
+- Angular
+- Nest.js
+- Playwright
+- Puppeteer
+- Rambda
+
+---
+
 # 51 Useful Awesome lists
 
 ## [Awesome Selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted)
