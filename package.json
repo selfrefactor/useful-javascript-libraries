@@ -1,0 +1,14 @@
+{
+  "name": "useful-javascript-libraries",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:selfrefactor/useful-javascript-libraries.git",
+  "author": "Dejan Totev <dejan.totev@psinteractive.io>",
+  "license": "MIT",
+  "dependencies": {
+    "docsify-cli": "^4.4.2"
+  },
+  "scripts":{
+    "out": "docsify init ./docs&&run d"
+  }
+}
