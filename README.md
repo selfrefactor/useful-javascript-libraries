@@ -1,4 +1,4 @@
-# 151 Useful Javascript libraries
+# 150 Useful Javascript libraries
 
 ## [Iptv](https://github.com/iptv-org/iptv)
 
@@ -167,10 +167,6 @@
 ## [Plasmo](https://github.com/PlasmoHQ/plasmo)
 
   The browser extension framework
-
-## [Web Animations Js](https://github.com/web-animations/web-animations-js)
-
-  JavaScript implementation of the Web Animations API
 
 ## [Markmap](https://github.com/gera2ld/markmap)
 
@@ -604,9 +600,9 @@
 
 ---
 
-# Best of stars
+# Popular dependents list
 
-If you like such collection of repos, then you might like [Best of stars](https://github.com/selfrefactor/services/tree/master/packages/all-stars-of) list.
+If you like such collection of repos, then you might like [Popular dependents list](https://github.com/selfrefactor/popular-dependents) list.
 
 It contains list of repos(sorted by their stars) using one of the following libraries:
 
@@ -615,6 +611,9 @@ It contains list of repos(sorted by their stars) using one of the following libr
 - Playwright
 - Puppeteer
 - Rambda
+- Ramda
+- Seneca
+- Vite
 
 ---
 
