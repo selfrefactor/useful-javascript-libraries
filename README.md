@@ -1034,6 +1034,10 @@ It contains list of repos(sorted by their stars) using one of the following libr
 ## [Awesome Networked Media](https://github.com/omarcostahamido/awesome-networked-media)
 
   Awesome list of tools for using multimedia in the network
+  
+## [Awesome JavaScript Libraries](https://kandi.openweaver.com/explore/javascript)
+
+  🔎 Discover & find a curated list of popular & new libraries, top authors, trending project kits, discussions, tutorials & learning resources on kandi.
 
 ## [Awesome Does Not Exist](https://github.com/Aggregate-Intellect/awesome-does-not-exist)
 
