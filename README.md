@@ -1,14 +1,10 @@
 ---
 
-# 173 Useful Typescript libraries
+# 166 Useful Typescript libraries
 
 ## [Type Challenges](https://github.com/type-challenges/type-challenges)
 
   Collection of TypeScript type challenges with online judge
-
-## [React Hook Form](https://github.com/react-hook-form/react-hook-form)
-
-  📋 React Hooks for form state management and validation (Web + React Native)
 
 ## [Novu](https://github.com/novuhq/novu)
 
@@ -26,18 +22,6 @@
 
   Presentation Slides for Developers
 
-## [Jsoncrack Com](https://github.com/AykutSarac/jsoncrack.com)
-
-  ✨ Innovative and open-source visualization application that transforms various data formats, such as JSON, YAML, XML, CSV and more, into interactive graphs.
-
-## [Remix](https://github.com/remix-run/remix)
-
-  Build Better Websites. Create modern, resilient user experiences with web fundamentals.
-
-## [Xstate](https://github.com/statelyai/xstate)
-
-  State machines and statecharts for the modern web.
-
 ## [Sst](https://github.com/sst/sst)
 
   Build modern full-stack applications on AWS
@@ -45,10 +29,6 @@
 ## [Next Auth](https://github.com/nextauthjs/next-auth)
 
   Authentication for the Web.
-
-## [Create T App](https://github.com/t3-oss/create-t3-app)
-
-  The best way to start a full-stack, typesafe Next.js app
 
 ## [Upscayl](https://github.com/upscayl/upscayl)
 
@@ -62,17 +42,9 @@
 
   A lightweight, extendable front-end developer tool for mobile web page.
 
-## [Gpt Crawler](https://github.com/BuilderIO/gpt-crawler)
-
-  Crawl a site to generate knowledge files to create your own custom GPT from a URL
-
 ## [Reactotron](https://github.com/infinitered/reactotron)
 
   A desktop app for inspecting your React JS and React Native projects. macOS, Linux, and Windows.
-
-## [Brain Js](https://github.com/BrainJS/brain.js)
-
-  🤖 GPU accelerated Neural networks in JavaScript for Browsers and Node.js
 
 ## [Yjs](https://github.com/yjs/yjs)
 
@@ -133,10 +105,6 @@
 ## [Juice Shop](https://github.com/juice-shop/juice-shop)
 
   OWASP Juice Shop: Probably the most modern and sophisticated insecure web application
-
-## [Probot](https://github.com/probot/probot)
-
-  🤖 A framework for building GitHub Apps to automate and improve your workflow
 
 ## [Jsonhero Web](https://github.com/triggerdotdev/jsonhero-web)
 
@@ -397,6 +365,10 @@
 
   VSCode extension for code suggestion
 
+## [Js Joda](https://github.com/js-joda/js-joda)
+
+  :clock2: Immutable date and time library for javascript
+
 ## [Mrm](https://github.com/sapegin/mrm)
 
   Codemods for your project config files
@@ -404,6 +376,10 @@
 ## [Js Image Carver](https://github.com/trekhleb/js-image-carver)
 
   🌅 Content-aware image resizer and object remover based on Seam Carving algorithm
+
+## [Testcontainers Node](https://github.com/testcontainers/testcontainers-node)
+
+  Testcontainers is a NodeJS library that supports tests, providing lightweight, throwaway instances of common databases, Selenium web browsers, or anything else that can run in a Docker container.
 
 ## [React Rewards](https://github.com/thedevelobear/react-rewards)
 
@@ -468,13 +444,13 @@
 
   🔧 Fast, modern, and practical utility library for FP in TypeScript.
 
-## [Clipanion](https://github.com/arcanis/clipanion)
-
-  Type-safe CLI library / framework with no runtime dependencies
-
 ## [Shikiji](https://github.com/antfu/shikiji)
 
   An ESM-focused rewrite of shiki, and a little bit more.
+
+## [Clipanion](https://github.com/arcanis/clipanion)
+
+  Type-safe CLI library / framework with no runtime dependencies
 
 ## [Codeswing](https://github.com/lostintangent/codeswing)
 
@@ -621,13 +597,13 @@
 
   An OpenID Connect client built using only Web APIs
 
-## [Schema Typed](https://github.com/rsuite/schema-typed)
-
-  Schema for data modeling & validation
-
 ## [Eslint Plugin Yml](https://github.com/ota-meshi/eslint-plugin-yml)
 
   This ESLint plugin provides linting rules for YAML.
+
+## [Schema Typed](https://github.com/rsuite/schema-typed)
+
+  Schema for data modeling & validation
 
 ## [Storybook Addon Playwright](https://github.com/ccpu/storybook-addon-playwright)
 
@@ -684,43 +660,19 @@
 ## [Typescript Library Template](https://github.com/reconbot/typescript-library-template)
 
   Rollup your code and types for publishing
-
-## [Rxmq Js](https://github.com/rxmqjs/rxmq.js)
-
-  JavaScript pub/sub library based on RxJS
-# 73 Useful Javascript libraries
+# 59 Useful Javascript libraries
 
 ## [Developer Roadmap](https://github.com/kamranahmedse/developer-roadmap)
 
   Interactive roadmaps, guides and other educational content to help developers grow in their careers.
 
-## [Supabase](https://github.com/supabase/supabase)
-
-  The open source Firebase alternative.
-
-## [Hoppscotch](https://github.com/hoppscotch/hoppscotch)
-
-  👽 Open source API development ecosystem - https://hoppscotch.io
-
 ## [Ai Expert Roadmap](https://github.com/AMAI-GmbH/AI-Expert-Roadmap)
 
   Roadmap to becoming an Artificial Intelligence Expert in 2022
 
-## [Bull](https://github.com/OptimalBits/bull)
-
-  Premium Queue package for handling distributed jobs and messages in NodeJS.
-
-## [Ng Zorro Antd](https://github.com/NG-ZORRO/ng-zorro-antd)
-
-  Angular UI Component Library based on Ant Design
-
 ## [Muuri](https://github.com/haltu/muuri)
 
   Infinite responsive, sortable, filterable and draggable layouts
-
-## [Auto Animate](https://github.com/formkit/auto-animate)
-
-  A zero-config, drop-in animation utility that adds smooth transitions to your web app. You can use it with React, Vue, or any other JavaScript application.
 
 ## [Easydiffusion](https://github.com/easydiffusion/easydiffusion)
 
@@ -818,14 +770,6 @@
 
   GitHub's Web Component collection.
 
-## [Rx Angular](https://github.com/rx-angular/rx-angular)
-
-  Reactive Extensions for Angular.
-
-## [Analog](https://github.com/analogjs/analog)
-
-  The fullstack meta-framework for Angular. Powered by Vite
-
 ## [Puppeteer Webperf](https://github.com/addyosmani/puppeteer-webperf)
 
   Automating Web Performance testing with Puppeteer 🎪
@@ -858,17 +802,13 @@
 
   Add comics to your website or app with an API
 
-## [Capo Js](https://github.com/rviscomi/capo.js)
-
-  Get your <head> in order
-
 ## [Github Activity Readme](https://github.com/jamesgeorge007/github-activity-readme)
 
   Updates README with the recent GitHub activity of a user
 
-## [Ng Clarity](https://github.com/vmware-clarity/ng-clarity)
+## [Capo Js](https://github.com/rviscomi/capo.js)
 
-  Clarity Angular is a scalable, accessible, customizable, open-source design system built for Angular.
+  Get your <head> in order
 
 ## [Fast Diff](https://github.com/jhchen/fast-diff)
 
@@ -914,10 +854,6 @@
 
   A self hosted recommendation feed generated from your browsing habits
 
-## [Shallow Render](https://github.com/getsaf/shallow-render)
-
-  Angular testing made easy with shallow rendering and easy mocking. https://getsaf.github.io/shallow-render
-
 ## [Play Sound](https://github.com/shime/play-sound)
 
   Play sounds by shelling out to one of the available audio players.
@@ -929,14 +865,6 @@
 ## [Network Idle Callback](https://github.com/pastelsky/network-idle-callback)
 
   Like requestIdleCallback, but for detecting network idle
-
-## [Rxjs Debug](https://github.com/rxjs-debug/rxjs-debug)
-
-  Automated RxJS Visualizer
-
-## [Ng Aquila](https://github.com/allianz/ng-aquila)
-
-  Angular UI Component library for the Open Insurance Platform
 
 ## [Search Gpt](https://github.com/tobiasbueschel/search-gpt)
 
@@ -950,25 +878,17 @@
 
   Google Search SERP Scraper
 
-## [Ng Mono Repo Starter](https://github.com/alan-agius4/ng-mono-repo-starter)
-
-  Angular Mono Repo Starter
-
 ## [Top User Agents](https://github.com/Kikobeats/top-user-agents)
 
   A list of most common User Agent used on Internet.
-
-## [Folderslint](https://github.com/denisraslov/folderslint)
-
-  📁  Directory structure linter for Front-End projects
 
 ## [Testdeck](https://github.com/testdeck/testdeck)
 
   Object oriented testing
 
-## [Angular Starterkit](https://github.com/rickvandermey/angular-starterkit)
+## [Folderslint](https://github.com/denisraslov/folderslint)
 
-  Blazing fast 🚀advanced Angular Starterkit, with many features 😍🎯
+  📁  Directory structure linter for Front-End projects
 
 ## [Cc](https://github.com/shuding/cc)
 
@@ -978,13 +898,9 @@
 
   Display youch error message on terminal
 
-## [Angular Zen](https://github.com/BeSpunky/angular-zen)
-
-  The Angular tools you always wished were there. This is a monorepo for: angular-zen, angular-zen-ux and angular-zen-seo.
-
 ---
 
-# 111 Useful Awesome lists
+# 106 Useful Awesome lists
 
 ## [Awesome Public Datasets](https://github.com/awesomedata/awesome-public-datasets)
 
@@ -1081,14 +997,6 @@
 ## [Awesome Leading And Managing](https://github.com/LappleApple/awesome-leading-and-managing)
 
   Awesome List of resources on leading people and being a manager. Geared toward tech, but potentially useful to anyone.
-
-## [Awesome Serverless](https://github.com/anaibol/awesome-serverless)
-
-  :cloud: A curated list of awesome services, solutions and resources for serverless / nobackend applications.
-
-## [Awesome Pipeline](https://github.com/pditommaso/awesome-pipeline)
-
-  A curated list of awesome pipeline toolkits inspired by Awesome Sysadmin
 
 ## [Awesome Langchain](https://github.com/kyrolabs/awesome-langchain)
 
@@ -1370,10 +1278,6 @@
 
   A curated list of awesome system integration software and resources.
 
-## [Awesome Python](https://github.com/dylanhogg/awesome-python)
-
-  🐍 Hand-picked awesome Python libraries and frameworks, with an emphasis on data and machine learning, organised by category
-
 ## [Awesome Container Queries](https://github.com/sturobson/Awesome-Container-Queries)
 
   A repo with links to posts of things around container queries.
@@ -1414,10 +1318,6 @@
 
   :dragon: Personal Learning Notes - Today I Learned (TIL)
 
-## [Awesome Does Not Exist](https://github.com/Aggregate-Intellect/awesome-does-not-exist)
-
-  A collection of This * Does Not Exist websites.
-
 ## [Awesome Stars](https://github.com/ngryman/awesome-stars)
 
   A curated list of my GitHub stars!
@@ -1425,10 +1325,6 @@
 ## [Awesome Security Articles](https://github.com/irgoncalves/awesome-security-articles)
 
   This repository contains links to awesome security articles.
-
-## [Awesome Adventofcode](https://github.com/Topener/awesome-adventofcode)
-
-  An Awesome List of AdventOfCode Participants
 ---
 
 # 8 Useful Javascript projects
@@ -1436,6 +1332,10 @@
 ## [Responsively App](https://github.com/responsively-org/responsively-app)
 
   A modified web browser that helps in responsive web development. A web developer's must have dev-tool.
+
+## [Mind Expanding Books](https://github.com/hackerkid/Mind-Expanding-Books)
+
+  :books: Find your next book to read!
 
 ## [Prisma Examples](https://github.com/prisma/prisma-examples)
 
@@ -1456,10 +1356,6 @@
 ## [Opendream](https://github.com/varunshenoy/opendream)
 
   An extensible, easy-to-use, and portable diffusion web UI 👨‍🎨
-
-## [Testcontainers Node](https://github.com/testcontainers/testcontainers-node)
-
-  Testcontainers is a NodeJS library that supports tests, providing lightweight, throwaway instances of common databases, Selenium web browsers, or anything else that can run in a Docker container.
 
 ## [Coffeechat](https://github.com/fharper/coffeechat)
 
@@ -1532,6 +1428,10 @@
 
   Run your GitHub Actions locally 🚀
 
+## [Open Interpreter](https://github.com/KillianLucas/open-interpreter)
+
+  OpenAI's Code Interpreter in your terminal, running locally
+
 ## [Task Matrix](https://github.com/moymix/TaskMatrix)
 
 
@@ -1583,10 +1483,6 @@
 
   🐸💬 - a deep learning toolkit for Text-to-Speech, battle-tested in research and production
 
-## [Days Of Dev Ops](https://github.com/MichaelCade/90DaysOfDevOps)
-
-  I am using this repository to document my journey learning about DevOps. I began this process on January 1, 2022, and plan to continue until March 31. I will be dedicating one hour each day, including weekends, to gaining a foundational understanding of the various aspects of DevOps. This will be a 90-day intensive study period. 2022 & 2023 inc.
-
 ## [Professional Programming](https://github.com/charlax/professional-programming)
 
   A collection of learning resources for curious software engineers
@@ -1618,6 +1514,10 @@
 ## [Free Certifications](https://github.com/cloudcommunity/Free-Certifications)
 
   A curated list of free courses & certifications.
+
+## [Guidance](https://github.com/guidance-ai/guidance)
+
+  A guidance language for controlling large language models.
 
 ## [Local Ai](https://github.com/mudler/LocalAI)
 
@@ -1718,10 +1618,6 @@
 ## [Ssh Action](https://github.com/appleboy/ssh-action)
 
   GitHub Actions for executing remote ssh commands.
-
-## [Angular Performance Checklist](https://github.com/mgechev/angular-performance-checklist)
-
-  ⚡ Cheatsheet for developing lightning fast progressive Angular applications
 
 ## [Facebook Scraper](https://github.com/kevinzg/facebook-scraper)
 
