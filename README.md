@@ -1,718 +1,3 @@
-# 62 Useful Javascript libraries
-
-## [Developer Roadmap](https://github.com/kamranahmedse/developer-roadmap)
-
-  Interactive roadmaps, guides and other educational content to help developers grow in their careers.
-
-## [Supabase](https://github.com/supabase/supabase)
-
-  The open source Firebase alternative.
-
-## [Hoppscotch](https://github.com/hoppscotch/hoppscotch)
-
-  👽 Open source API development ecosystem - https://hoppscotch.io
-
-## [Ai Expert Roadmap](https://github.com/AMAI-GmbH/AI-Expert-Roadmap)
-
-  Roadmap to becoming an Artificial Intelligence Expert in 2022
-
-## [Bull](https://github.com/OptimalBits/bull)
-
-  Premium Queue package for handling distributed jobs and messages in NodeJS.
-
-## [Muuri](https://github.com/haltu/muuri)
-
-  Infinite responsive, sortable, filterable and draggable layouts
-
-## [Easydiffusion](https://github.com/easydiffusion/easydiffusion)
-
-  Easiest 1-click way to create beautiful artwork on your PC using AI, with no tech knowledge. Provides a browser UI for generating images from text prompts and images. Just enter your text prompt, and see the generated image.
-
-## [Howtheysre](https://github.com/upgundecha/howtheysre)
-
-  A curated collection of publicly available resources on how technology and tech-savvy organizations around the world practice Site Reliability Engineering (SRE)
-
-## [Highlight](https://github.com/highlight/highlight)
-
-  highlight.io: The open source, full-stack monitoring platform. Error monitoring, session replay, logging and more.
-
-## [Plasmo](https://github.com/PlasmoHQ/plasmo)
-
-  🧩 The Browser Extension Framework
-
-## [Trigger Dev](https://github.com/triggerdotdev/trigger.dev)
-
-  ✨ Trigger.dev is the open source background jobs framework for TypeScript. With features like API integrations, webhooks, scheduling and delays.
-
-## [Js Framework Benchmark](https://github.com/krausest/js-framework-benchmark)
-
-  A comparison of the performance of a few popular javascript frameworks
-
-## [Size Limit](https://github.com/ai/size-limit)
-
-  Calculate the real cost to run your JS app or lib to keep good performance. Show error in pull request if the cost exceeds the limit.
-
-## [Hackernews Daily](https://github.com/headllines/hackernews-daily)
-
-  Hacker News daily top 10 posts
-
-## [Node Clinic](https://github.com/clinicjs/node-clinic)
-
-  Clinic.js diagnoses your Node.js performance issues
-
-## [Css Doodle](https://github.com/css-doodle/css-doodle)
-
-  🎨  A web component for drawing patterns with CSS.
-
-## [Wmr](https://github.com/preactjs/wmr)
-
-  👩‍🚀 The tiny all-in-one development tool for modern web apps.
-
-## [Super Expressive](https://github.com/francisrstokes/super-expressive)
-
-  🦜 Super Expressive is a zero-dependency JavaScript library for building regular expressions in (almost) natural language
-
-## [Codetour](https://github.com/microsoft/codetour)
-
-  VS Code extension that allows you to record and play back guided tours of codebases, directly within the editor.
-
-## [Codehike](https://github.com/code-hike/codehike)
-
-  Marvellous code walkthroughs
-
-## [React Flip Toolkit](https://github.com/aholachek/react-flip-toolkit)
-
-  A lightweight magic-move library for configurable layout transitions
-
-## [Automatisch](https://github.com/automatisch/automatisch)
-
-  The open source Zapier alternative. Build workflow automation without spending time and money.
-
-## [Fuite](https://github.com/nolanlawson/fuite)
-
-  A tool for finding memory leaks in web apps
-
-## [Webextensions Examples](https://github.com/mdn/webextensions-examples)
-
-  Example Firefox add-ons created using the WebExtensions API
-
-## [Fuzzysort](https://github.com/farzher/fuzzysort)
-
-  Fast SublimeText-like fuzzy search for JavaScript.
-
-## [Gluon](https://github.com/gluon-framework/gluon)
-
-  A new framework for creating desktop apps from websites, using system installed browsers and NodeJS
-
-## [Serialize Javascript](https://github.com/yahoo/serialize-javascript)
-
-  Serialize JavaScript to a superset of JSON that includes regular expressions and functions.
-
-## [Systeminformation](https://github.com/sebhildebrandt/systeminformation)
-
-  System Information Library for Node.JS
-
-## [Tonal](https://github.com/tonaljs/tonal)
-
-  A functional music theory library for Javascript
-
-## [Github Elements](https://github.com/github/github-elements)
-
-  GitHub's Web Component collection.
-
-## [Puppeteer Webperf](https://github.com/addyosmani/puppeteer-webperf)
-
-  Automating Web Performance testing with Puppeteer 🎪
-
-## [Start Server And Test](https://github.com/bahmutov/start-server-and-test)
-
-  Starts server, waits for URL, then runs test command; when the tests end, shuts down server
-
-## [Click To Component](https://github.com/ericclemmons/click-to-component)
-
-  Option+Click React components in your browser to instantly open the source in VS Code
-
-## [Node Js Design Patterns Third Edition](https://github.com/PacktPublishing/Node.js-Design-Patterns-Third-Edition)
-
-  Node.js Design Patterns Third Edition, published by Packt
-
-## [Plugin Samples](https://github.com/figma/plugin-samples)
-
-  🔌 Sample Figma plugins.
-
-## [Threat Dragon](https://github.com/OWASP/threat-dragon)
-
-  An open source threat modeling tool from OWASP
-
-## [Flip](https://github.com/pqina/flip)
-
-  ⏳ The online version of the classic flip clock
-
-## [Comicgen](https://github.com/gramener/comicgen)
-
-  Add comics to your website or app with an API
-
-## [Capo Js](https://github.com/rviscomi/capo.js)
-
-  Get your <head> in order
-
-## [Github Activity Readme](https://github.com/jamesgeorge007/github-activity-readme)
-
-  Updates README with the recent GitHub activity of a user
-
-## [Fast Diff](https://github.com/jhchen/fast-diff)
-
-  A fast Javascript string diff
-
-## [Pidusage](https://github.com/soyuka/pidusage)
-
-  Cross-platform process cpu % and memory usage of a PID
-
-## [Log Process Errors](https://github.com/ehmicky/log-process-errors)
-
-  Show some ❤️ to Node.js process errors
-
-## [Framework Benchmarks](https://github.com/BuilderIO/framework-benchmarks)
-
-  Test each framework for it's performance cost
-
-## [Proposal Throw Expressions](https://github.com/tc39/proposal-throw-expressions)
-
-  Proposal for ECMAScript 'throw' expressions
-
-## [Eslint Plugin Unused Imports](https://github.com/sweepline/eslint-plugin-unused-imports)
-
-  Package to separate no-unused-vars and no-unused-imports for eslint as well as providing an autofixer for the latter.
-
-## [Stylelint No Unsupported Browser Features](https://github.com/RJWadley/stylelint-no-unsupported-browser-features)
-
-  Disallow features that aren't supported by your target browser audience.
-
-## [Youtube Dl Exec](https://github.com/microlinkhq/youtube-dl-exec)
-
-  A simple Node.js wrapper for youtube-dl/yt-dlp.
-
-## [Phaser Ui Tools](https://github.com/jsfehler/phaser-ui-tools)
-
-  UI Kit for the Phaser game engine. Rows, columns, viewports, scrollbars, stuff like that.
-
-## [Sequencer](https://github.com/ertdfgcvb/Sequencer)
-
-  A fast(?) fullscreen image-sequence player
-
-## [My Algorithm](https://github.com/jawerty/myAlgorithm)
-
-  A self hosted recommendation feed generated from your browsing habits
-
-## [Play Sound](https://github.com/shime/play-sound)
-
-  Play sounds by shelling out to one of the available audio players.
-
-## [Workshop Web Audio](https://github.com/mattdesl/workshop-web-audio)
-
-  Web Audio workshop with Frontend Masters
-
-## [Network Idle Callback](https://github.com/pastelsky/network-idle-callback)
-
-  Like requestIdleCallback, but for detecting network idle
-
-## [Search Gpt](https://github.com/tobiasbueschel/search-gpt)
-
-  🌳 Connecting ChatGPT with the Internet
-
-## [Ml Classify Text Js](https://github.com/andreekeberg/ml-classify-text-js)
-
-  Machine learning based text classification in JavaScript using n-grams and cosine similarity
-
-## [Serp](https://github.com/christophebe/serp)
-
-  Google Search SERP Scraper
-
-## [Top User Agents](https://github.com/Kikobeats/top-user-agents)
-
-  A list of most common User Agent used on Internet.
-
-## [Folderslint](https://github.com/denisraslov/folderslint)
-
-  📁  Directory structure linter for Front-End projects
-
-## [Testdeck](https://github.com/testdeck/testdeck)
-
-  Object oriented testing
-
-## [Cc](https://github.com/shuding/cc)
-
-  Shu's Creative Coding template.
-
-## [Youch Terminal](https://github.com/poppinss/youch-terminal)
-
-  Display youch error message on terminal
-
----
-
-# Popular dependents list
-
-If you like such collection of repos, then you might like [Popular dependents list](https://github.com/selfrefactor/popular-dependents) list.
-
-It contains list of repos(sorted by their stars) using one of the following libraries:
-
-- Playwright
-- FpTs
-- Rambda
-- Ramda
-- Rough
-- Solid
-- Esbuild
-- Nest
-- Puppeteer
-
----
-
-# 111 Useful Awesome lists
-
-## [Awesome Public Datasets](https://github.com/awesomedata/awesome-public-datasets)
-
-  A topic-centric list of HQ open datasets.
-
-## [Awesome Scalability](https://github.com/binhnguyennus/awesome-scalability)
-
-  The Patterns of Scalable, Reliable, and Performant Large-Scale Systems
-
-## [Awesome Actions](https://github.com/sdras/awesome-actions)
-
-  A curated list of awesome actions to use on GitHub
-
-## [Awesome Piracy](https://github.com/Igglybuff/awesome-piracy)
-
-  A curated list of awesome warez and piracy links
-
-## [Awesome Github Profile Readme](https://github.com/abhisheknaiidu/awesome-github-profile-readme)
-
-  😎 A curated list of awesome GitHub Profile READMEs 📝
-
-## [Awesome Cto](https://github.com/kuchin/awesome-cto)
-
-  A curated and opinionated list of resources for Chief Technology Officers, with the emphasis on startups
-
-## [Awesome Design](https://github.com/gztchan/awesome-design)
-
-  🌟 Curated design resources from all over the world.
-
-## [Awesome Oss Alternatives](https://github.com/RunaCapital/awesome-oss-alternatives)
-
-  Awesome list of open-source startup alternatives to well-known SaaS products 🚀
-
-## [Awesome Vite](https://github.com/vitejs/awesome-vite)
-
-  ⚡️ A curated list of awesome things related to Vite.js
-
-## [Awesome Creative Coding](https://github.com/terkelg/awesome-creative-coding)
-
-  Creative Coding: Generative Art, Data visualization, Interaction Design, Resources.
-
-## [Awesome Sre](https://github.com/dastergon/awesome-sre)
-
-  A curated list of Site Reliability and Production Engineering resources.
-
-## [Awesome Tunneling](https://github.com/anderspitman/awesome-tunneling)
-
-  List of ngrok alternatives and other ngrok-like tunneling software and services. Focus on self-hosting.
-
-## [Awesome Privacy](https://github.com/pluja/awesome-privacy)
-
-  Awesome Privacy - A curated list of services and alternatives that respect your privacy because PRIVACY MATTERS.
-
-## [Awesome Llm](https://github.com/Hannibal046/Awesome-LLM)
-
-  Awesome-LLM: a curated list of Large Language Model
-
-## [Awesome Ddd](https://github.com/heynickc/awesome-ddd)
-
-  A curated list of Domain-Driven Design (DDD), Command Query Responsibility Segregation (CQRS), Event Sourcing, and Event Storming resources
-
-## [Awesome Distributed Systems](https://github.com/theanalyst/awesome-distributed-systems)
-
-  A curated list to learn about distributed systems
-
-## [Awesome Nextjs](https://github.com/unicodeveloper/awesome-nextjs)
-
-  :notebook_with_decorative_cover: :books: A curated list of awesome resources : books, videos, articles about using Next.js (A minimalistic framework for universal server-rendered React applications)
-
-## [Awesome Postgres](https://github.com/dhamaniasad/awesome-postgres)
-
-  A curated list of awesome PostgreSQL software, libraries, tools and resources, inspired by awesome-mysql
-
-## [Awesome Nestjs](https://github.com/nestjs/awesome-nestjs)
-
-  A curated list of awesome things related to NestJS 😎
-
-## [Awesome Wpo](https://github.com/davidsonfellipe/awesome-wpo)
-
-  :pencil: A curated list of Web Performance Optimization. Everyone can contribute here!
-
-## [Awesome Database Learning](https://github.com/pingcap/awesome-database-learning)
-
-  A list of learning materials to understand databases internals
-
-## [Awesome Developer Streams](https://github.com/bnb/awesome-developer-streams)
-
-  👩🏿‍💻👨🏾‍💻👩🏼‍💻👨🏽‍💻👩🏻‍💻 Awesome Developers, Streaming
-
-## [Awesome System Design](https://github.com/madd86/awesome-system-design)
-
-  A curated list of awesome System Design (A.K.A. Distributed Systems) resources.
-
-## [Awesome Leading And Managing](https://github.com/LappleApple/awesome-leading-and-managing)
-
-  Awesome List of resources on leading people and being a manager. Geared toward tech, but potentially useful to anyone.
-
-## [Awesome Serverless](https://github.com/anaibol/awesome-serverless)
-
-  :cloud: A curated list of awesome services, solutions and resources for serverless / nobackend applications.
-
-## [Awesome Pipeline](https://github.com/pditommaso/awesome-pipeline)
-
-  A curated list of awesome pipeline toolkits inspired by Awesome Sysadmin
-
-## [Awesome Langchain](https://github.com/kyrolabs/awesome-langchain)
-
-  😎 Awesome list of tools and projects with the awesome LangChain framework
-
-## [Awesome Learning Resources](https://github.com/lauragift21/awesome-learning-resources)
-
-  🔥 Awesome list of resources on Web Development.
-
-## [Awesome Css](https://github.com/awesome-css-group/awesome-css)
-
-  :art: A curated contents of amazing CSS :)
-
-## [Awesome Youtubers](https://github.com/JoseDeFreitas/awesome-youtubers)
-
-  An awesome list of awesome YouTubers that teach about technology. Tutorials about web development, computer science, machine learning, game development, cybersecurity, and more.
-
-## [Awesome Uses](https://github.com/wesbos/awesome-uses)
-
-  A list of /uses pages detailing developer setups, gear, software and configs.
-
-## [Awesome Totally Open Chatgpt](https://github.com/nichtdax/awesome-totally-open-chatgpt)
-
-  A list of totally open alternatives to ChatGPT
-
-## [Awesome Ipfs](https://github.com/ipfs/awesome-ipfs)
-
-  Community list of awesome projects, apps, tools, pinning services and more related to IPFS.
-
-## [Awesome Deno](https://github.com/denolib/awesome-deno)
-
-  Curated list of awesome things related to Deno
-
-## [Awesome Chatgpt](https://github.com/sindresorhus/awesome-chatgpt)
-
-  🤖 Awesome list for ChatGPT — an artificial intelligence chatbot developed by OpenAI
-
-## [Awesome Generative Ai](https://github.com/steven2358/awesome-generative-ai)
-
-  A curated list of modern Generative Artificial Intelligence projects and services
-
-## [Awesome Newsletters](https://github.com/zudochkin/awesome-newsletters)
-
-  A list of amazing Newsletters
-
-## [Awesome Landing Page](https://github.com/nordicgiant2/awesome-landing-page)
-
-  A series of beautiful and practical landing page templates
-
-## [Awesome Software Architecture](https://github.com/mehdihadeli/awesome-software-architecture)
-
-  A curated list of awesome articles, videos, and other resources to learn and practice software architecture, patterns, and principles.
-
-## [Awesome Notebooks](https://github.com/jupyter-naas/awesome-notebooks)
-
-  A powerful data & AI notebook templates catalog: prompts, plugins, models, workflow automation, analytics, code snippets - following the IMO framework to be searchable and reusable in any context.
-
-## [Awesome Nodejs Security](https://github.com/lirantal/awesome-nodejs-security)
-
-  Awesome Node.js Security resources
-
-## [Awesome No Login Web Apps](https://github.com/aviaryan/awesome-no-login-web-apps)
-
-  🚀 Awesome (free) web apps that work without login
-
-## [Awesome Web Components](https://github.com/web-padawan/awesome-web-components)
-
-  A curated list of awesome Web Components resources.
-
-## [Awesome Images](https://github.com/heyalexej/awesome-images)
-
-  A curated list of amazingly awesome free (stock) photo resources inspired by all the other awesomes.
-
-## [Awesome Api Security](https://github.com/arainho/awesome-api-security)
-
-  A collection of awesome API Security tools and resources. The focus goes to open-source tools and resources that benefit all the community.
-
-## [Awesome Programmers](https://github.com/rekihattori/awesome-programmers)
-
-  A list of history's greatest software engineers and tech pioneers
-
-## [Awesome Html](https://github.com/diegocard/awesome-html5)
-
-  :memo: A curated list of awesome HTML5 resources
-
-## [Awesome Llmops](https://github.com/tensorchord/Awesome-LLMOps)
-
-  An awesome & curated list of best LLMOps tools for developers
-
-## [Awesome Bun](https://github.com/oven-sh/awesome-bun)
-
-  ⚡️ A curated list of awesome things related to Bun
-
-## [Awesome Regression Testing](https://github.com/mojoaxel/awesome-regression-testing)
-
-  🕶️ A curated list of resources around the topic: visual regression testing
-
-## [Awesome Repos](https://github.com/pawelborkar/awesome-repos)
-
-  A curated list of GitHub Repositories full of FREE Resources.
-
-## [Awesome Engineering Management](https://github.com/engineering-management/awesome-engineering-management)
-
-  Pointers and tools for learning and day-to-day practice of engineering management & leadership.
-
-## [Awesome Developer Experience](https://github.com/workos/awesome-developer-experience)
-
-  🤘 A curated list of DX (Developer Experience) resources
-
-## [Awesome Engineering Team Management](https://github.com/kdeldycke/awesome-engineering-team-management)
-
-  👔 How to transition from software development to engineering management
-
-## [Awesome Ai Art Image Synthesis](https://github.com/altryne/awesome-ai-art-image-synthesis)
-
-  A list of awesome tools, ideas, prompt engineering tools, colabs, models, and helpers for the prompt designer playing with aiArt and image synthesis. Covers Dalle2, MidJourney, StableDiffusion, and open source tools.
-
-## [Awesome Node Based Uis](https://github.com/xyflow/awesome-node-based-uis)
-
-  A curated list with resources about node-based UIs
-
-## [Awesome Web Archiving](https://github.com/iipc/awesome-web-archiving)
-
-  An Awesome List for getting started with web archiving
-
-## [Awesome Music](https://github.com/noteflakes/awesome-music)
-
-  Awesome Music Projects
-
-## [Awesome Github Profiles](https://github.com/EddieHubCommunity/awesome-github-profiles)
-
-  List of GitHub profiles that have awesome customisation, that you can use for inspiration
-
-## [Awesome Loginless](https://github.com/fiatjaf/awesome-loginless)
-
-  an awesome list of internet services that don't require logins or registrations
-
-## [Awesome Dynamodb](https://github.com/alexdebrie/awesome-dynamodb)
-
-  List of resources for learning about modeling, operating, and using Amazon DynamoDB
-
-## [Awesome Fonts](https://github.com/brabadu/awesome-fonts)
-
-  Curated list of fonts and everything
-
-## [Awesome Chat Gpt Repositories](https://github.com/taishi-i/awesome-ChatGPT-repositories)
-
-  A curated list of resources dedicated to open source GitHub repositories related to ChatGPT
-
-## [Awesome Lit](https://github.com/web-padawan/awesome-lit)
-
-  A curated list of awesome Lit resources.
-
-## [Awesome Web Animation](https://github.com/sergey-pimenov/awesome-web-animation)
-
-  A list of awesome web animation libraries, books, apps etc.
-
-## [Awesome Naming](https://github.com/gruhn/awesome-naming)
-
-  A curated list for when naming things is done right.
-
-## [Awesome Styleguides](https://github.com/streamich/awesome-styleguides)
-
-  A curated list of UI styleguides — 😎💄
-
-## [Awesome Devsecops](https://github.com/TaptuIT/awesome-devsecops)
-
-  Curating the best DevSecOps resources and tooling.
-
-## [Awesome Threat Modelling](https://github.com/hysnsec/awesome-threat-modelling)
-
-  A curated list of threat modeling resources (Books, courses - free and paid, videos, tools, tutorials and workshops to practice on ) for learning Threat modeling and initial phases of security review.
-
-## [Awesome Template Literal Types](https://github.com/ghoullier/awesome-template-literal-types)
-
-  Curated list of awesome Template Literal Types examples
-
-## [Awesome Design Tokens](https://github.com/sturobson/Awesome-Design-Tokens)
-
-  A list of resources on all things to do with Design Tokens
-
-## [Awesome Programming For Kids](https://github.com/HollyAdele/awesome-programming-for-kids)
-
-  A curated list of resources for teaching kids programming.
-
-## [Awesome Webaudio](https://github.com/notthetup/awesome-webaudio)
-
-  A curated list of awesome WebAudio packages and resources.
-
-## [Awesome Aws Security](https://github.com/jassics/awesome-aws-security)
-
-  Curated list of links, references, books videos, tutorials (Free or Paid), Exploit, CTFs, Hacking Practices etc. which are related to AWS Security
-
-## [Awesome Ui Component Library](https://github.com/anubhavsrivastava/awesome-ui-component-library)
-
-  Curated list of framework component libraries for UI styles/toolkit
-
-## [Awesome Whisper](https://github.com/sindresorhus/awesome-whisper)
-
-  🔊 Awesome list for Whisper — an open-source AI-powered speech recognition system developed by OpenAI
-
-## [Awesome Decentralized](https://github.com/croqaz/awesome-decentralized)
-
-  🕶 Awesome list of distributed, decentralized, p2p apps and tools 👍
-
-## [Awesome Developer First](https://github.com/agamm/awesome-developer-first)
-
-  A curated list of awesome developer-first tools products.
-
-## [Awesome Stenciljs](https://github.com/mappmechanic/awesome-stenciljs)
-
-  List of Awesome Web Components Built with StencilJS
-
-## [Awesome Redis](https://github.com/JamzyWang/awesome-redis)
-
-  A curated list of amazingly awesome redis and redis ecosystem resources.
-
-## [Awesome Design Systems](https://github.com/klaufel/awesome-design-systems)
-
-  📒 A curated list of bookmarks, resources and articles about design systems focused on developers.
-
-## [Awesome Webcomponents](https://github.com/obetomuniz/awesome-webcomponents)
-
-  A curated list of awesome Web Components tools, articles and resources.
-
-## [Awesome Prisma](https://github.com/catalinmiron/awesome-prisma)
-
-  A collection of awesome things regarding Prisma ecosystem.
-
-## [Awesome Tiny Js](https://github.com/thoughtspile/awesome-tiny-js)
-
-  A collection of tiny JS libraries (under 2 kB) to put your bundle on a diet
-
-## [Awesome Cloudformation](https://github.com/aws-cloudformation/awesome-cloudformation)
-
-  A curated list of resources and projects for working with AWS CloudFormation.
-
-## [Awesome Opensource](https://github.com/github-20k/awesome-opensource)
-
-  Best open-source GitHub libraries voted by members 🎤
-
-## [Awesome Rss Feeds](https://github.com/plenaryapp/awesome-rss-feeds)
-
-  Awesome RSS feeds - A curated list of RSS feeds (and OPML files) used in Recommended Feeds and local news sections of Plenary - an RSS reader, article downloader and a podcast player app for android
-
-## [Awesome Plugins](https://github.com/targed/Awesome-Plugins)
-
-  Awesome-Plugins is a GitHub repository that serves as a comprehensive list of plugins, add-ons, and extensions for ChatGPT, as well as other language models that are compatible with the GPT architecture.
-
-## [Awesome Stylelint](https://github.com/stylelint/awesome-stylelint)
-
-  A list of awesome Stylelint plugins, configs, etc.
-
-## [Awesome German Piracy](https://github.com/SeppPenner/awesome-german-piracy)
-
-  A curated list of (not only) German piracy sites.
-
-## [Awesome Creative Technology](https://github.com/j0hnm4r5/awesome-creative-technology)
-
-  Curated list of Creative Technology groups, companies, studios, collectives, etc.
-
-## [Awesome Llm And Aigc](https://github.com/codingonion/awesome-llm-and-aigc)
-
-  🚀🚀🚀A collection of some awesome public projects about Large Language Model, Vision Foundation Model and AI Generated Content.
-
-## [Awesome Authorization](https://github.com/warrant-dev/awesome-authorization)
-
-  A curated list of information and resources about authorization.
-
-## [Awesome Svelte](https://github.com/rocketlaunchr/awesome-svelte)
-
-  Awesome Svelte: Useful resources for developing Svelte applications
-
-## [Awesome Arr](https://github.com/Ravencentric/awesome-arr)
-
-  A collection of *arrs and related stuff.
-
-## [Awesome Integration](https://github.com/stn1slv/awesome-integration)
-
-  A curated list of awesome system integration software and resources.
-
-## [Awesome Python](https://github.com/dylanhogg/awesome-python)
-
-  🐍 Hand-picked awesome Python libraries and frameworks, with an emphasis on data and machine learning, organised by category
-
-## [Awesome Container Queries](https://github.com/sturobson/Awesome-Container-Queries)
-
-  A repo with links to posts of things around container queries.
-
-## [Awesome Philosophy](https://github.com/HussainAther/awesome-philosophy)
-
-  A curated list of awesome philosophy
-
-## [Awesome Utils Dev](https://github.com/pegaltier/awesome-utils-dev)
-
-  📔 📚 A curated list of awesome tools, utilities, resources, links, notes, tips, tricks, helpers made by a developer and for developers in order to improve dev journey and boost productivity...
-
-## [Awesome Illustrations Projects](https://github.com/Anmol-Baranwal/Awesome-Illustrations-4Projects)
-
-  🔥 An awesome list of illustrations to improve your projects, posts & portfolios. Fork & add your own.
-
-## [Awesome Systems Learning](https://github.com/tensorush/Awesome-Systems-Learning)
-
-  😎 💡 Collection of the most awesome learning resources on computer systems in the form of videos, courses and tutorials.
-
-## [Awesome Fp Ts](https://github.com/albohlabs/awesome-fp-ts)
-
-  A curated list of amazingly awesome fp-ts resources
-
-## [Awesome Networked Media](https://github.com/omarcostahamido/awesome-networked-media)
-
-  Awesome list of tools for using multimedia in the network
-
-## [Awesome Stoicism](https://github.com/DavidWells/awesome-stoicism)
-
-  💆‍♂️ Stoic philosophy resources
-
-## [Awesome Web Audio](https://github.com/amilajack/awesome-web-audio)
-
-  A list of resources and projects to help learn about audio
-
-## [Awesome Notes](https://github.com/sabertazimi/awesome-notes)
-
-  :dragon: Personal Learning Notes - Today I Learned (TIL)
-
-## [Awesome Does Not Exist](https://github.com/Aggregate-Intellect/awesome-does-not-exist)
-
-  A collection of This * Does Not Exist websites.
-
-## [Awesome Stars](https://github.com/ngryman/awesome-stars)
-
-  A curated list of my GitHub stars!
-
-## [Awesome Security Articles](https://github.com/irgoncalves/awesome-security-articles)
-
-  This repository contains links to awesome security articles.
-
-## [Awesome Adventofcode](https://github.com/Topener/awesome-adventofcode)
-
-  An Awesome List of AdventOfCode Participants
 ---
 
 # 173 Useful Typescript libraries
@@ -1403,6 +688,747 @@ It contains list of repos(sorted by their stars) using one of the following libr
 ## [Rxmq Js](https://github.com/rxmqjs/rxmq.js)
 
   JavaScript pub/sub library based on RxJS
+# 73 Useful Javascript libraries
+
+## [Developer Roadmap](https://github.com/kamranahmedse/developer-roadmap)
+
+  Interactive roadmaps, guides and other educational content to help developers grow in their careers.
+
+## [Supabase](https://github.com/supabase/supabase)
+
+  The open source Firebase alternative.
+
+## [Hoppscotch](https://github.com/hoppscotch/hoppscotch)
+
+  👽 Open source API development ecosystem - https://hoppscotch.io
+
+## [Ai Expert Roadmap](https://github.com/AMAI-GmbH/AI-Expert-Roadmap)
+
+  Roadmap to becoming an Artificial Intelligence Expert in 2022
+
+## [Bull](https://github.com/OptimalBits/bull)
+
+  Premium Queue package for handling distributed jobs and messages in NodeJS.
+
+## [Ng Zorro Antd](https://github.com/NG-ZORRO/ng-zorro-antd)
+
+  Angular UI Component Library based on Ant Design
+
+## [Muuri](https://github.com/haltu/muuri)
+
+  Infinite responsive, sortable, filterable and draggable layouts
+
+## [Auto Animate](https://github.com/formkit/auto-animate)
+
+  A zero-config, drop-in animation utility that adds smooth transitions to your web app. You can use it with React, Vue, or any other JavaScript application.
+
+## [Easydiffusion](https://github.com/easydiffusion/easydiffusion)
+
+  Easiest 1-click way to create beautiful artwork on your PC using AI, with no tech knowledge. Provides a browser UI for generating images from text prompts and images. Just enter your text prompt, and see the generated image.
+
+## [Howtheysre](https://github.com/upgundecha/howtheysre)
+
+  A curated collection of publicly available resources on how technology and tech-savvy organizations around the world practice Site Reliability Engineering (SRE)
+
+## [Highlight](https://github.com/highlight/highlight)
+
+  highlight.io: The open source, full-stack monitoring platform. Error monitoring, session replay, logging and more.
+
+## [Plasmo](https://github.com/PlasmoHQ/plasmo)
+
+  🧩 The Browser Extension Framework
+
+## [Trigger Dev](https://github.com/triggerdotdev/trigger.dev)
+
+  ✨ Trigger.dev is the open source background jobs framework for TypeScript. With features like API integrations, webhooks, scheduling and delays.
+
+## [Js Framework Benchmark](https://github.com/krausest/js-framework-benchmark)
+
+  A comparison of the performance of a few popular javascript frameworks
+
+## [Size Limit](https://github.com/ai/size-limit)
+
+  Calculate the real cost to run your JS app or lib to keep good performance. Show error in pull request if the cost exceeds the limit.
+
+## [Hackernews Daily](https://github.com/headllines/hackernews-daily)
+
+  Hacker News daily top 10 posts
+
+## [Node Clinic](https://github.com/clinicjs/node-clinic)
+
+  Clinic.js diagnoses your Node.js performance issues
+
+## [Css Doodle](https://github.com/css-doodle/css-doodle)
+
+  🎨  A web component for drawing patterns with CSS.
+
+## [Wmr](https://github.com/preactjs/wmr)
+
+  👩‍🚀 The tiny all-in-one development tool for modern web apps.
+
+## [Super Expressive](https://github.com/francisrstokes/super-expressive)
+
+  🦜 Super Expressive is a zero-dependency JavaScript library for building regular expressions in (almost) natural language
+
+## [Codetour](https://github.com/microsoft/codetour)
+
+  VS Code extension that allows you to record and play back guided tours of codebases, directly within the editor.
+
+## [Codehike](https://github.com/code-hike/codehike)
+
+  Marvellous code walkthroughs
+
+## [React Flip Toolkit](https://github.com/aholachek/react-flip-toolkit)
+
+  A lightweight magic-move library for configurable layout transitions
+
+## [Automatisch](https://github.com/automatisch/automatisch)
+
+  The open source Zapier alternative. Build workflow automation without spending time and money.
+
+## [Fuite](https://github.com/nolanlawson/fuite)
+
+  A tool for finding memory leaks in web apps
+
+## [Webextensions Examples](https://github.com/mdn/webextensions-examples)
+
+  Example Firefox add-ons created using the WebExtensions API
+
+## [Fuzzysort](https://github.com/farzher/fuzzysort)
+
+  Fast SublimeText-like fuzzy search for JavaScript.
+
+## [Gluon](https://github.com/gluon-framework/gluon)
+
+  A new framework for creating desktop apps from websites, using system installed browsers and NodeJS
+
+## [Serialize Javascript](https://github.com/yahoo/serialize-javascript)
+
+  Serialize JavaScript to a superset of JSON that includes regular expressions and functions.
+
+## [Systeminformation](https://github.com/sebhildebrandt/systeminformation)
+
+  System Information Library for Node.JS
+
+## [Tonal](https://github.com/tonaljs/tonal)
+
+  A functional music theory library for Javascript
+
+## [Github Elements](https://github.com/github/github-elements)
+
+  GitHub's Web Component collection.
+
+## [Rx Angular](https://github.com/rx-angular/rx-angular)
+
+  Reactive Extensions for Angular.
+
+## [Analog](https://github.com/analogjs/analog)
+
+  The fullstack meta-framework for Angular. Powered by Vite
+
+## [Puppeteer Webperf](https://github.com/addyosmani/puppeteer-webperf)
+
+  Automating Web Performance testing with Puppeteer 🎪
+
+## [Start Server And Test](https://github.com/bahmutov/start-server-and-test)
+
+  Starts server, waits for URL, then runs test command; when the tests end, shuts down server
+
+## [Click To Component](https://github.com/ericclemmons/click-to-component)
+
+  Option+Click React components in your browser to instantly open the source in VS Code
+
+## [Node Js Design Patterns Third Edition](https://github.com/PacktPublishing/Node.js-Design-Patterns-Third-Edition)
+
+  Node.js Design Patterns Third Edition, published by Packt
+
+## [Plugin Samples](https://github.com/figma/plugin-samples)
+
+  🔌 Sample Figma plugins.
+
+## [Threat Dragon](https://github.com/OWASP/threat-dragon)
+
+  An open source threat modeling tool from OWASP
+
+## [Flip](https://github.com/pqina/flip)
+
+  ⏳ The online version of the classic flip clock
+
+## [Comicgen](https://github.com/gramener/comicgen)
+
+  Add comics to your website or app with an API
+
+## [Capo Js](https://github.com/rviscomi/capo.js)
+
+  Get your <head> in order
+
+## [Github Activity Readme](https://github.com/jamesgeorge007/github-activity-readme)
+
+  Updates README with the recent GitHub activity of a user
+
+## [Ng Clarity](https://github.com/vmware-clarity/ng-clarity)
+
+  Clarity Angular is a scalable, accessible, customizable, open-source design system built for Angular.
+
+## [Fast Diff](https://github.com/jhchen/fast-diff)
+
+  A fast Javascript string diff
+
+## [Pidusage](https://github.com/soyuka/pidusage)
+
+  Cross-platform process cpu % and memory usage of a PID
+
+## [Log Process Errors](https://github.com/ehmicky/log-process-errors)
+
+  Show some ❤️ to Node.js process errors
+
+## [Framework Benchmarks](https://github.com/BuilderIO/framework-benchmarks)
+
+  Test each framework for it's performance cost
+
+## [Proposal Throw Expressions](https://github.com/tc39/proposal-throw-expressions)
+
+  Proposal for ECMAScript 'throw' expressions
+
+## [Eslint Plugin Unused Imports](https://github.com/sweepline/eslint-plugin-unused-imports)
+
+  Package to separate no-unused-vars and no-unused-imports for eslint as well as providing an autofixer for the latter.
+
+## [Stylelint No Unsupported Browser Features](https://github.com/RJWadley/stylelint-no-unsupported-browser-features)
+
+  Disallow features that aren't supported by your target browser audience.
+
+## [Youtube Dl Exec](https://github.com/microlinkhq/youtube-dl-exec)
+
+  A simple Node.js wrapper for youtube-dl/yt-dlp.
+
+## [Phaser Ui Tools](https://github.com/jsfehler/phaser-ui-tools)
+
+  UI Kit for the Phaser game engine. Rows, columns, viewports, scrollbars, stuff like that.
+
+## [Sequencer](https://github.com/ertdfgcvb/Sequencer)
+
+  A fast(?) fullscreen image-sequence player
+
+## [My Algorithm](https://github.com/jawerty/myAlgorithm)
+
+  A self hosted recommendation feed generated from your browsing habits
+
+## [Shallow Render](https://github.com/getsaf/shallow-render)
+
+  Angular testing made easy with shallow rendering and easy mocking. https://getsaf.github.io/shallow-render
+
+## [Play Sound](https://github.com/shime/play-sound)
+
+  Play sounds by shelling out to one of the available audio players.
+
+## [Workshop Web Audio](https://github.com/mattdesl/workshop-web-audio)
+
+  Web Audio workshop with Frontend Masters
+
+## [Network Idle Callback](https://github.com/pastelsky/network-idle-callback)
+
+  Like requestIdleCallback, but for detecting network idle
+
+## [Rxjs Debug](https://github.com/rxjs-debug/rxjs-debug)
+
+  Automated RxJS Visualizer
+
+## [Ng Aquila](https://github.com/allianz/ng-aquila)
+
+  Angular UI Component library for the Open Insurance Platform
+
+## [Search Gpt](https://github.com/tobiasbueschel/search-gpt)
+
+  🌳 Connecting ChatGPT with the Internet
+
+## [Ml Classify Text Js](https://github.com/andreekeberg/ml-classify-text-js)
+
+  Machine learning based text classification in JavaScript using n-grams and cosine similarity
+
+## [Serp](https://github.com/christophebe/serp)
+
+  Google Search SERP Scraper
+
+## [Ng Mono Repo Starter](https://github.com/alan-agius4/ng-mono-repo-starter)
+
+  Angular Mono Repo Starter
+
+## [Top User Agents](https://github.com/Kikobeats/top-user-agents)
+
+  A list of most common User Agent used on Internet.
+
+## [Folderslint](https://github.com/denisraslov/folderslint)
+
+  📁  Directory structure linter for Front-End projects
+
+## [Testdeck](https://github.com/testdeck/testdeck)
+
+  Object oriented testing
+
+## [Angular Starterkit](https://github.com/rickvandermey/angular-starterkit)
+
+  Blazing fast 🚀advanced Angular Starterkit, with many features 😍🎯
+
+## [Cc](https://github.com/shuding/cc)
+
+  Shu's Creative Coding template.
+
+## [Youch Terminal](https://github.com/poppinss/youch-terminal)
+
+  Display youch error message on terminal
+
+## [Angular Zen](https://github.com/BeSpunky/angular-zen)
+
+  The Angular tools you always wished were there. This is a monorepo for: angular-zen, angular-zen-ux and angular-zen-seo.
+
+---
+
+# 111 Useful Awesome lists
+
+## [Awesome Public Datasets](https://github.com/awesomedata/awesome-public-datasets)
+
+  A topic-centric list of HQ open datasets.
+
+## [Awesome Scalability](https://github.com/binhnguyennus/awesome-scalability)
+
+  The Patterns of Scalable, Reliable, and Performant Large-Scale Systems
+
+## [Awesome Actions](https://github.com/sdras/awesome-actions)
+
+  A curated list of awesome actions to use on GitHub
+
+## [Awesome Piracy](https://github.com/Igglybuff/awesome-piracy)
+
+  A curated list of awesome warez and piracy links
+
+## [Awesome Github Profile Readme](https://github.com/abhisheknaiidu/awesome-github-profile-readme)
+
+  😎 A curated list of awesome GitHub Profile READMEs 📝
+
+## [Awesome Cto](https://github.com/kuchin/awesome-cto)
+
+  A curated and opinionated list of resources for Chief Technology Officers, with the emphasis on startups
+
+## [Awesome Design](https://github.com/gztchan/awesome-design)
+
+  🌟 Curated design resources from all over the world.
+
+## [Awesome Oss Alternatives](https://github.com/RunaCapital/awesome-oss-alternatives)
+
+  Awesome list of open-source startup alternatives to well-known SaaS products 🚀
+
+## [Awesome Vite](https://github.com/vitejs/awesome-vite)
+
+  ⚡️ A curated list of awesome things related to Vite.js
+
+## [Awesome Creative Coding](https://github.com/terkelg/awesome-creative-coding)
+
+  Creative Coding: Generative Art, Data visualization, Interaction Design, Resources.
+
+## [Awesome Sre](https://github.com/dastergon/awesome-sre)
+
+  A curated list of Site Reliability and Production Engineering resources.
+
+## [Awesome Tunneling](https://github.com/anderspitman/awesome-tunneling)
+
+  List of ngrok alternatives and other ngrok-like tunneling software and services. Focus on self-hosting.
+
+## [Awesome Privacy](https://github.com/pluja/awesome-privacy)
+
+  Awesome Privacy - A curated list of services and alternatives that respect your privacy because PRIVACY MATTERS.
+
+## [Awesome Llm](https://github.com/Hannibal046/Awesome-LLM)
+
+  Awesome-LLM: a curated list of Large Language Model
+
+## [Awesome Ddd](https://github.com/heynickc/awesome-ddd)
+
+  A curated list of Domain-Driven Design (DDD), Command Query Responsibility Segregation (CQRS), Event Sourcing, and Event Storming resources
+
+## [Awesome Distributed Systems](https://github.com/theanalyst/awesome-distributed-systems)
+
+  A curated list to learn about distributed systems
+
+## [Awesome Nextjs](https://github.com/unicodeveloper/awesome-nextjs)
+
+  :notebook_with_decorative_cover: :books: A curated list of awesome resources : books, videos, articles about using Next.js (A minimalistic framework for universal server-rendered React applications)
+
+## [Awesome Postgres](https://github.com/dhamaniasad/awesome-postgres)
+
+  A curated list of awesome PostgreSQL software, libraries, tools and resources, inspired by awesome-mysql
+
+## [Awesome Nestjs](https://github.com/nestjs/awesome-nestjs)
+
+  A curated list of awesome things related to NestJS 😎
+
+## [Awesome Wpo](https://github.com/davidsonfellipe/awesome-wpo)
+
+  :pencil: A curated list of Web Performance Optimization. Everyone can contribute here!
+
+## [Awesome Database Learning](https://github.com/pingcap/awesome-database-learning)
+
+  A list of learning materials to understand databases internals
+
+## [Awesome Developer Streams](https://github.com/bnb/awesome-developer-streams)
+
+  👩🏿‍💻👨🏾‍💻👩🏼‍💻👨🏽‍💻👩🏻‍💻 Awesome Developers, Streaming
+
+## [Awesome System Design](https://github.com/madd86/awesome-system-design)
+
+  A curated list of awesome System Design (A.K.A. Distributed Systems) resources.
+
+## [Awesome Leading And Managing](https://github.com/LappleApple/awesome-leading-and-managing)
+
+  Awesome List of resources on leading people and being a manager. Geared toward tech, but potentially useful to anyone.
+
+## [Awesome Serverless](https://github.com/anaibol/awesome-serverless)
+
+  :cloud: A curated list of awesome services, solutions and resources for serverless / nobackend applications.
+
+## [Awesome Pipeline](https://github.com/pditommaso/awesome-pipeline)
+
+  A curated list of awesome pipeline toolkits inspired by Awesome Sysadmin
+
+## [Awesome Langchain](https://github.com/kyrolabs/awesome-langchain)
+
+  😎 Awesome list of tools and projects with the awesome LangChain framework
+
+## [Awesome Learning Resources](https://github.com/lauragift21/awesome-learning-resources)
+
+  🔥 Awesome list of resources on Web Development.
+
+## [Awesome Css](https://github.com/awesome-css-group/awesome-css)
+
+  :art: A curated contents of amazing CSS :)
+
+## [Awesome Youtubers](https://github.com/JoseDeFreitas/awesome-youtubers)
+
+  An awesome list of awesome YouTubers that teach about technology. Tutorials about web development, computer science, machine learning, game development, cybersecurity, and more.
+
+## [Awesome Uses](https://github.com/wesbos/awesome-uses)
+
+  A list of /uses pages detailing developer setups, gear, software and configs.
+
+## [Awesome Totally Open Chatgpt](https://github.com/nichtdax/awesome-totally-open-chatgpt)
+
+  A list of totally open alternatives to ChatGPT
+
+## [Awesome Ipfs](https://github.com/ipfs/awesome-ipfs)
+
+  Community list of awesome projects, apps, tools, pinning services and more related to IPFS.
+
+## [Awesome Deno](https://github.com/denolib/awesome-deno)
+
+  Curated list of awesome things related to Deno
+
+## [Awesome Chatgpt](https://github.com/sindresorhus/awesome-chatgpt)
+
+  🤖 Awesome list for ChatGPT — an artificial intelligence chatbot developed by OpenAI
+
+## [Awesome Generative Ai](https://github.com/steven2358/awesome-generative-ai)
+
+  A curated list of modern Generative Artificial Intelligence projects and services
+
+## [Awesome Newsletters](https://github.com/zudochkin/awesome-newsletters)
+
+  A list of amazing Newsletters
+
+## [Awesome Landing Page](https://github.com/nordicgiant2/awesome-landing-page)
+
+  A series of beautiful and practical landing page templates
+
+## [Awesome Software Architecture](https://github.com/mehdihadeli/awesome-software-architecture)
+
+  A curated list of awesome articles, videos, and other resources to learn and practice software architecture, patterns, and principles.
+
+## [Awesome Notebooks](https://github.com/jupyter-naas/awesome-notebooks)
+
+  A powerful data & AI notebook templates catalog: prompts, plugins, models, workflow automation, analytics, code snippets - following the IMO framework to be searchable and reusable in any context.
+
+## [Awesome Nodejs Security](https://github.com/lirantal/awesome-nodejs-security)
+
+  Awesome Node.js Security resources
+
+## [Awesome No Login Web Apps](https://github.com/aviaryan/awesome-no-login-web-apps)
+
+  🚀 Awesome (free) web apps that work without login
+
+## [Awesome Web Components](https://github.com/web-padawan/awesome-web-components)
+
+  A curated list of awesome Web Components resources.
+
+## [Awesome Images](https://github.com/heyalexej/awesome-images)
+
+  A curated list of amazingly awesome free (stock) photo resources inspired by all the other awesomes.
+
+## [Awesome Api Security](https://github.com/arainho/awesome-api-security)
+
+  A collection of awesome API Security tools and resources. The focus goes to open-source tools and resources that benefit all the community.
+
+## [Awesome Programmers](https://github.com/rekihattori/awesome-programmers)
+
+  A list of history's greatest software engineers and tech pioneers
+
+## [Awesome Html](https://github.com/diegocard/awesome-html5)
+
+  :memo: A curated list of awesome HTML5 resources
+
+## [Awesome Llmops](https://github.com/tensorchord/Awesome-LLMOps)
+
+  An awesome & curated list of best LLMOps tools for developers
+
+## [Awesome Bun](https://github.com/oven-sh/awesome-bun)
+
+  ⚡️ A curated list of awesome things related to Bun
+
+## [Awesome Regression Testing](https://github.com/mojoaxel/awesome-regression-testing)
+
+  🕶️ A curated list of resources around the topic: visual regression testing
+
+## [Awesome Repos](https://github.com/pawelborkar/awesome-repos)
+
+  A curated list of GitHub Repositories full of FREE Resources.
+
+## [Awesome Engineering Management](https://github.com/engineering-management/awesome-engineering-management)
+
+  Pointers and tools for learning and day-to-day practice of engineering management & leadership.
+
+## [Awesome Developer Experience](https://github.com/workos/awesome-developer-experience)
+
+  🤘 A curated list of DX (Developer Experience) resources
+
+## [Awesome Engineering Team Management](https://github.com/kdeldycke/awesome-engineering-team-management)
+
+  👔 How to transition from software development to engineering management
+
+## [Awesome Ai Art Image Synthesis](https://github.com/altryne/awesome-ai-art-image-synthesis)
+
+  A list of awesome tools, ideas, prompt engineering tools, colabs, models, and helpers for the prompt designer playing with aiArt and image synthesis. Covers Dalle2, MidJourney, StableDiffusion, and open source tools.
+
+## [Awesome Node Based Uis](https://github.com/xyflow/awesome-node-based-uis)
+
+  A curated list with resources about node-based UIs
+
+## [Awesome Web Archiving](https://github.com/iipc/awesome-web-archiving)
+
+  An Awesome List for getting started with web archiving
+
+## [Awesome Music](https://github.com/noteflakes/awesome-music)
+
+  Awesome Music Projects
+
+## [Awesome Github Profiles](https://github.com/EddieHubCommunity/awesome-github-profiles)
+
+  List of GitHub profiles that have awesome customisation, that you can use for inspiration
+
+## [Awesome Loginless](https://github.com/fiatjaf/awesome-loginless)
+
+  an awesome list of internet services that don't require logins or registrations
+
+## [Awesome Dynamodb](https://github.com/alexdebrie/awesome-dynamodb)
+
+  List of resources for learning about modeling, operating, and using Amazon DynamoDB
+
+## [Awesome Fonts](https://github.com/brabadu/awesome-fonts)
+
+  Curated list of fonts and everything
+
+## [Awesome Chat Gpt Repositories](https://github.com/taishi-i/awesome-ChatGPT-repositories)
+
+  A curated list of resources dedicated to open source GitHub repositories related to ChatGPT
+
+## [Awesome Lit](https://github.com/web-padawan/awesome-lit)
+
+  A curated list of awesome Lit resources.
+
+## [Awesome Web Animation](https://github.com/sergey-pimenov/awesome-web-animation)
+
+  A list of awesome web animation libraries, books, apps etc.
+
+## [Awesome Naming](https://github.com/gruhn/awesome-naming)
+
+  A curated list for when naming things is done right.
+
+## [Awesome Styleguides](https://github.com/streamich/awesome-styleguides)
+
+  A curated list of UI styleguides — 😎💄
+
+## [Awesome Devsecops](https://github.com/TaptuIT/awesome-devsecops)
+
+  Curating the best DevSecOps resources and tooling.
+
+## [Awesome Threat Modelling](https://github.com/hysnsec/awesome-threat-modelling)
+
+  A curated list of threat modeling resources (Books, courses - free and paid, videos, tools, tutorials and workshops to practice on ) for learning Threat modeling and initial phases of security review.
+
+## [Awesome Template Literal Types](https://github.com/ghoullier/awesome-template-literal-types)
+
+  Curated list of awesome Template Literal Types examples
+
+## [Awesome Design Tokens](https://github.com/sturobson/Awesome-Design-Tokens)
+
+  A list of resources on all things to do with Design Tokens
+
+## [Awesome Programming For Kids](https://github.com/HollyAdele/awesome-programming-for-kids)
+
+  A curated list of resources for teaching kids programming.
+
+## [Awesome Webaudio](https://github.com/notthetup/awesome-webaudio)
+
+  A curated list of awesome WebAudio packages and resources.
+
+## [Awesome Aws Security](https://github.com/jassics/awesome-aws-security)
+
+  Curated list of links, references, books videos, tutorials (Free or Paid), Exploit, CTFs, Hacking Practices etc. which are related to AWS Security
+
+## [Awesome Ui Component Library](https://github.com/anubhavsrivastava/awesome-ui-component-library)
+
+  Curated list of framework component libraries for UI styles/toolkit
+
+## [Awesome Whisper](https://github.com/sindresorhus/awesome-whisper)
+
+  🔊 Awesome list for Whisper — an open-source AI-powered speech recognition system developed by OpenAI
+
+## [Awesome Decentralized](https://github.com/croqaz/awesome-decentralized)
+
+  🕶 Awesome list of distributed, decentralized, p2p apps and tools 👍
+
+## [Awesome Developer First](https://github.com/agamm/awesome-developer-first)
+
+  A curated list of awesome developer-first tools products.
+
+## [Awesome Stenciljs](https://github.com/mappmechanic/awesome-stenciljs)
+
+  List of Awesome Web Components Built with StencilJS
+
+## [Awesome Redis](https://github.com/JamzyWang/awesome-redis)
+
+  A curated list of amazingly awesome redis and redis ecosystem resources.
+
+## [Awesome Design Systems](https://github.com/klaufel/awesome-design-systems)
+
+  📒 A curated list of bookmarks, resources and articles about design systems focused on developers.
+
+## [Awesome Webcomponents](https://github.com/obetomuniz/awesome-webcomponents)
+
+  A curated list of awesome Web Components tools, articles and resources.
+
+## [Awesome Prisma](https://github.com/catalinmiron/awesome-prisma)
+
+  A collection of awesome things regarding Prisma ecosystem.
+
+## [Awesome Tiny Js](https://github.com/thoughtspile/awesome-tiny-js)
+
+  A collection of tiny JS libraries (under 2 kB) to put your bundle on a diet
+
+## [Awesome Cloudformation](https://github.com/aws-cloudformation/awesome-cloudformation)
+
+  A curated list of resources and projects for working with AWS CloudFormation.
+
+## [Awesome Opensource](https://github.com/github-20k/awesome-opensource)
+
+  Best open-source GitHub libraries voted by members 🎤
+
+## [Awesome Rss Feeds](https://github.com/plenaryapp/awesome-rss-feeds)
+
+  Awesome RSS feeds - A curated list of RSS feeds (and OPML files) used in Recommended Feeds and local news sections of Plenary - an RSS reader, article downloader and a podcast player app for android
+
+## [Awesome Plugins](https://github.com/targed/Awesome-Plugins)
+
+  Awesome-Plugins is a GitHub repository that serves as a comprehensive list of plugins, add-ons, and extensions for ChatGPT, as well as other language models that are compatible with the GPT architecture.
+
+## [Awesome Stylelint](https://github.com/stylelint/awesome-stylelint)
+
+  A list of awesome Stylelint plugins, configs, etc.
+
+## [Awesome German Piracy](https://github.com/SeppPenner/awesome-german-piracy)
+
+  A curated list of (not only) German piracy sites.
+
+## [Awesome Creative Technology](https://github.com/j0hnm4r5/awesome-creative-technology)
+
+  Curated list of Creative Technology groups, companies, studios, collectives, etc.
+
+## [Awesome Llm And Aigc](https://github.com/codingonion/awesome-llm-and-aigc)
+
+  🚀🚀🚀A collection of some awesome public projects about Large Language Model, Vision Foundation Model and AI Generated Content.
+
+## [Awesome Authorization](https://github.com/warrant-dev/awesome-authorization)
+
+  A curated list of information and resources about authorization.
+
+## [Awesome Svelte](https://github.com/rocketlaunchr/awesome-svelte)
+
+  Awesome Svelte: Useful resources for developing Svelte applications
+
+## [Awesome Arr](https://github.com/Ravencentric/awesome-arr)
+
+  A collection of *arrs and related stuff.
+
+## [Awesome Integration](https://github.com/stn1slv/awesome-integration)
+
+  A curated list of awesome system integration software and resources.
+
+## [Awesome Python](https://github.com/dylanhogg/awesome-python)
+
+  🐍 Hand-picked awesome Python libraries and frameworks, with an emphasis on data and machine learning, organised by category
+
+## [Awesome Container Queries](https://github.com/sturobson/Awesome-Container-Queries)
+
+  A repo with links to posts of things around container queries.
+
+## [Awesome Philosophy](https://github.com/HussainAther/awesome-philosophy)
+
+  A curated list of awesome philosophy
+
+## [Awesome Utils Dev](https://github.com/pegaltier/awesome-utils-dev)
+
+  📔 📚 A curated list of awesome tools, utilities, resources, links, notes, tips, tricks, helpers made by a developer and for developers in order to improve dev journey and boost productivity...
+
+## [Awesome Illustrations Projects](https://github.com/Anmol-Baranwal/Awesome-Illustrations-4Projects)
+
+  🔥 An awesome list of illustrations to improve your projects, posts & portfolios. Fork & add your own.
+
+## [Awesome Systems Learning](https://github.com/tensorush/Awesome-Systems-Learning)
+
+  😎 💡 Collection of the most awesome learning resources on computer systems in the form of videos, courses and tutorials.
+
+## [Awesome Fp Ts](https://github.com/albohlabs/awesome-fp-ts)
+
+  A curated list of amazingly awesome fp-ts resources
+
+## [Awesome Networked Media](https://github.com/omarcostahamido/awesome-networked-media)
+
+  Awesome list of tools for using multimedia in the network
+
+## [Awesome Stoicism](https://github.com/DavidWells/awesome-stoicism)
+
+  💆‍♂️ Stoic philosophy resources
+
+## [Awesome Web Audio](https://github.com/amilajack/awesome-web-audio)
+
+  A list of resources and projects to help learn about audio
+
+## [Awesome Notes](https://github.com/sabertazimi/awesome-notes)
+
+  :dragon: Personal Learning Notes - Today I Learned (TIL)
+
+## [Awesome Does Not Exist](https://github.com/Aggregate-Intellect/awesome-does-not-exist)
+
+  A collection of This * Does Not Exist websites.
+
+## [Awesome Stars](https://github.com/ngryman/awesome-stars)
+
+  A curated list of my GitHub stars!
+
+## [Awesome Security Articles](https://github.com/irgoncalves/awesome-security-articles)
+
+  This repository contains links to awesome security articles.
+
+## [Awesome Adventofcode](https://github.com/Topener/awesome-adventofcode)
+
+  An Awesome List of AdventOfCode Participants
 ---
 
 # 8 Useful Javascript projects
@@ -1905,3 +1931,21 @@ It contains list of repos(sorted by their stars) using one of the following libr
 ## [Open Instructions](https://github.com/langbridgeai/Open-Instructions)
 
   Open-Instructions: A Pavilion of recent Open Source GPT Projects for decentralized AI.
+
+---
+
+# Popular dependents list
+
+If you like such collection of repos, then you might like [Popular dependents list](https://github.com/selfrefactor/popular-dependents) list.
+
+It contains list of repos(sorted by their stars) using one of the following libraries:
+
+- Playwright
+- FpTs
+- Rambda
+- Ramda
+- Rough
+- Solid
+- Esbuild
+- Nest
+- Puppeteer
