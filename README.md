@@ -1,5 +1,3 @@
----
-
 # 105 Useful Typescript libraries
 
 ## [Juice Shop](https://github.com/juice-shop/juice-shop)
