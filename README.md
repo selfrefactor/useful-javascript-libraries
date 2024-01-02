@@ -1,10 +1,6 @@
 ---
 
-# 161 Useful Typescript libraries
-
-## [Domain Driven Hexagon](https://github.com/Sairyss/domain-driven-hexagon)
-
-  Learn Domain-Driven Design, software architecture, design patterns, best practices. Code examples included
+# 105 Useful Typescript libraries
 
 ## [Juice Shop](https://github.com/juice-shop/juice-shop)
 
@@ -13,6 +9,10 @@
 ## [Clarity](https://github.com/vmware-archive/clarity)
 
   Clarity is a scalable, accessible, customizable, open source design system built with web components. Works with any JavaScript framework, built for enterprises, and designed to  be inclusive.
+
+## [Next Js Boilerplate](https://github.com/ixartz/Next-js-Boilerplate)
+
+  🚀🎉📚 Boilerplate and Starter for Next.js 14+ with App Router and Page Router support, Tailwind CSS 3.4 and TypeScript ⚡️ Made with developer experience first: Next.js + TypeScript + ESLint + Prettier + Husky + Lint-Staged + Jest + Testing Library + Cypress + Storybook + Commitlint + VSCode + Netlify + PostCSS + Tailwind CSS
 
 ## [React Konva](https://github.com/konvajs/react-konva)
 
@@ -38,14 +38,6 @@
 
   Presentation Slides for Developers
 
-## [Upscayl](https://github.com/upscayl/upscayl)
-
-  🆙 Upscayl - Free and Open Source AI Image Upscaler for Linux, MacOS and Windows built with Linux-First philosophy.
-
-## [Refine](https://github.com/refinedev/refine)
-
-  A React Framework for building  internal tools, admin panels, dashboards & B2B apps with unmatched flexibility.
-
 ## [V Console](https://github.com/Tencent/vConsole)
 
   A lightweight, extendable front-end developer tool for mobile web page.
@@ -66,6 +58,10 @@
 
   Botkit is an open source developer tool for building chat bots, apps and custom integrations for major messaging platforms.
 
+## [Auto Animate](https://github.com/formkit/auto-animate)
+
+  A zero-config, drop-in animation utility that adds smooth transitions to your web app. You can use it with React, Vue, or any other JavaScript application.
+
 ## [Why Did You Render](https://github.com/welldone-software/why-did-you-render)
 
   why-did-you-render by Welldone Software monkey patches React to notify you about potentially avoidable re-renders. (Works with React Native as well.)
@@ -78,33 +74,13 @@
 
   Zero-runtime Stylesheets-in-TypeScript
 
-## [Probot](https://github.com/probot/probot)
-
-  🤖 A framework for building GitHub Apps to automate and improve your workflow
-
 ## [Jsonhero Web](https://github.com/triggerdotdev/jsonhero-web)
 
   JSON Hero is an open-source, beautiful JSON explorer for the web that lets you browse, search and navigate your JSON files at speed. 🚀. Built with 💜 by the Trigger.dev team.
 
-## [Two Js](https://github.com/jonobr1/two.js)
-
-  A renderer agnostic two-dimensional drawing api for the web.
-
-## [Inshellisense](https://github.com/microsoft/inshellisense)
-
-  IDE style command line auto complete
-
-## [Ariakit](https://github.com/ariakit/ariakit)
-
-  Toolkit for building accessible web apps with React
-
 ## [Fiddle](https://github.com/electron/fiddle)
 
   :electron: 🚀 The easiest way to get started with Electron
-
-## [Type Chat](https://github.com/microsoft/TypeChat)
-
-  TypeChat is a library that makes it easy to build natural language interfaces using types.
 
 ## [Ts Reset](https://github.com/total-typescript/ts-reset)
 
@@ -117,6 +93,10 @@
 ## [Web Vitals](https://github.com/GoogleChrome/web-vitals)
 
   Essential metrics for a healthy site.
+
+## [Mikro Orm](https://github.com/mikro-orm/mikro-orm)
+
+  TypeScript ORM for Node.js based on Data Mapper, Unit of Work and Identity Map patterns. Supports MongoDB, MySQL, MariaDB, PostgreSQL and SQLite databases.
 
 ## [Tsx](https://github.com/privatenumber/tsx)
 
@@ -134,14 +114,6 @@
 
   Create structured, declarative and beautifully organized class-based controllers with heavy decorators usage in Express / Koa using TypeScript and Routing Controllers Framework.
 
-## [Markdownlint](https://github.com/DavidAnson/markdownlint)
-
-  A Node.js style checker and lint tool for Markdown/CommonMark files.
-
-## [Peerjs Server](https://github.com/peers/peerjs-server)
-
-  Server for PeerJS
-
 ## [Fast Check](https://github.com/dubzzz/fast-check)
 
   Property based testing framework for JavaScript (like QuickCheck) written in TypeScript
@@ -150,29 +122,9 @@
 
   Prettier for File Structures
 
-## [Unlighthouse](https://github.com/harlan-zw/unlighthouse)
-
-  Scan your entire site with Google Lighthouse in 2 minutes (on average). Open source, fully configurable with minimal setup.
-
-## [Mermaid Live Editor](https://github.com/mermaid-js/mermaid-live-editor)
-
-  Edit, preview and share mermaid charts/diagrams. New implementation of the live editor.
-
-## [Nodejs Integration Tests Best Practices](https://github.com/testjavascript/nodejs-integration-tests-best-practices)
-
-  ✅  Beyond the basics of Node.js testing. Including a super-comprehensive best practices list and an example app (July 2023)
-
 ## [Htmlhint](https://github.com/htmlhint/HTMLHint)
 
   ⚙️ The static code analysis tool you need for your HTML
-
-## [Perfume Js](https://github.com/Zizzamia/perfume.js)
-
-  Web performance library for measuring all performance vitals metrics
-
-## [Piping Server](https://github.com/nwtgck/piping-server)
-
-  Infinitely transfer between every device over pure HTTP with pipes or browsers
 
 ## [Speechgpt](https://github.com/hahahumble/speechgpt)
 
@@ -202,14 +154,6 @@
 
   Fast, disk space efficient package manager
 
-## [Next Auth](https://github.com/nextauthjs/next-auth)
-
-  Authentication for the Web.
-
-## [Sst](https://github.com/sst/sst)
-
-  Build modern full-stack applications on AWS
-
 ## [Reactotron](https://github.com/infinitered/reactotron)
 
   A desktop app for inspecting your React JS and React Native projects. macOS, Linux, and Windows.
@@ -222,25 +166,17 @@
 
   Generate types and converters from JSON, Schema, and GraphQL
 
-## [Mitosis](https://github.com/BuilderIO/mitosis)
-
-  Write components once, run everywhere. Compiles to React, Vue, Qwik, Solid, Angular, Svelte, and more.
-
 ## [Class Validator](https://github.com/typestack/class-validator)
 
   Decorator-based property validation for classes.
 
+## [Ng Zorro Antd](https://github.com/NG-ZORRO/ng-zorro-antd)
+
+  Angular UI Component Library based on Ant Design
+
 ## [Graphql Yoga](https://github.com/dotansimha/graphql-yoga)
 
   🧘 Rewrite of a fully-featured GraphQL Server with focus on easy setup, performance & great developer experience.  The core of Yoga implements WHATWG Fetch API and can run/deploy on any JS environment.
-
-## [Midway](https://github.com/midwayjs/midway)
-
-  🍔 A Node.js Serverless Framework for front-end/full-stack developers. Build the application for next decade. Works on AWS, Alibaba Cloud, Tencent Cloud and traditional VM/Container. Super easy integrate with React and Vue. 🌈
-
-## [Rancher Desktop](https://github.com/rancher-sandbox/rancher-desktop)
-
-  Container Management and Kubernetes on the Desktop
 
 ## [Toolkit](https://github.com/actions/toolkit)
 
@@ -258,13 +194,6 @@
 
   一个基于node.js的高速视频制作库  A fast video processing library based on node.js
 
-## [Remirror](https://github.com/remirror/remirror)
-
-  ProseMirror toolkit for React 🎉
-
-## [React Resizable Panels](https://github.com/bvaughn/react-resizable-panels)
-
-
 ## [Chrome Extension Typescript Starter](https://github.com/chibat/chrome-extension-typescript-starter)
 
   Chrome Extension TypeScript Starter
@@ -273,48 +202,9 @@
 
   🖥🔋Web Extension starter to build "Write Once Run on Any Browser" extension
 
-## [Tasuku](https://github.com/privatenumber/tasuku)
-
-  ✅ タスク — The minimal task visualizer for Node.js
-
-## [Eslint Plugin Simple Import Sort](https://github.com/lydell/eslint-plugin-simple-import-sort)
-
-  Easy autofixable import sorting.
-
-## [Copilot Clone](https://github.com/hieunc229/copilot-clone)
-
-  VSCode extension for code suggestion
-
-## [Mrm](https://github.com/sapegin/mrm)
-
-  Codemods for your project config files
-
 ## [Js Image Carver](https://github.com/trekhleb/js-image-carver)
 
   🌅 Content-aware image resizer and object remover based on Seam Carving algorithm
-
-## [React Rewards](https://github.com/thedevelobear/react-rewards)
-
-  A package containing a few micro-interactions you can use to reward your users for little things and make them smile!
-
-## [Ts Monorepo](https://github.com/NiGhTTraX/ts-monorepo)
-
-  Template for setting up a TypeScript monorepo
-
-## [Ink Ui](https://github.com/vadimdemedes/ink-ui)
-
-  💄 Ink-redible command-line interfaces made easy
-
-## [Nextjs Monorepo Example](https://github.com/belgattitude/nextjs-monorepo-example)
-
-  Collection of monorepo tips & tricks
-
-## [Github Unwrapped](https://github.com/remotion-dev/github-unwrapped-2022)
-
-  Your coding year in review #GitHubUnwrapped
-
-## [Planby](https://github.com/karolkozer/planby)
-
 
 ## [Frourio](https://github.com/frouriojs/frourio)
 
@@ -326,51 +216,19 @@
 
 ## [Shikiji](https://github.com/antfu/shikiji)
 
-  An ESM-focused rewrite of shiki, and a little bit more.
-
-## [Stryker Js](https://github.com/stryker-mutator/stryker-js)
-
-  Mutation testing for JavaScript and friends
-
-## [Use Sound](https://github.com/joshwcomeau/use-sound)
-
-  A React Hook for playing sound effects
+  A syntax highlighter based on TextMate grammars. ESM rewrite of shiki, with more features and capabilities.
 
 ## [Tsd](https://github.com/tsdjs/tsd)
 
   Check TypeScript type definitions
 
-## [Vscode File Nesting Config](https://github.com/antfu/vscode-file-nesting-config)
-
-  Config of File Nesting for VS Code
-
 ## [Magicast](https://github.com/unjs/magicast)
 
   🧀  Programmatically modify JavaScript and TypeScript source codes with a simplified, elegant and familiar syntax powered by recast and babel.
 
-## [Yoha](https://github.com/handtracking-io/yoha)
+## [Analog](https://github.com/analogjs/analog)
 
-  A practical hand tracking engine.
-
-## [Nestjs](https://github.com/golevelup/nestjs)
-
-  A collection of badass modules and utilities to help you level up your NestJS applications 🚀
-
-## [Vscode Webview Ui Toolkit](https://github.com/microsoft/vscode-webview-ui-toolkit)
-
-  A component library for building webview-based extensions in Visual Studio Code.
-
-## [Json Patch](https://github.com/Starcounter-Jack/JSON-Patch)
-
-  Lean and mean Javascript implementation of the JSON-Patch standard (RFC 6902). Update JSON documents using delta patches.
-
-## [Vscode Front Matter](https://github.com/estruyf/vscode-front-matter)
-
-  Front Matter is a CMS running straight in Visual Studio Code. Can be used with static site generators like Hugo, Jekyll, Hexo, NextJs, Gatsby, and many more...
-
-## [Js Joda](https://github.com/js-joda/js-joda)
-
-  :clock2: Immutable date and time library for javascript
+  The fullstack meta-framework for Angular. Powered by Vite
 
 ## [Swc Node](https://github.com/swc-project/swc-node)
 
@@ -380,21 +238,13 @@
 
   Testcontainers is a NodeJS library that supports tests, providing lightweight, throwaway instances of common databases, Selenium web browsers, or anything else that can run in a Docker container.
 
-## [Yarn Deduplicate](https://github.com/scinos/yarn-deduplicate)
+## [Ai Pr Reviewer](https://github.com/coderabbitai/ai-pr-reviewer)
 
-  Deduplication tool for yarn.lock files
-
-## [Chrome Extension Boilerplate React Vite](https://github.com/Jonghakseo/chrome-extension-boilerplate-react-vite)
-
-  Chrome Extension Boilerplate with React + Vite + Typescript
+  AI-based Pull Request Summarizer and Reviewer with Chat Capabilities.
 
 ## [Preconstruct](https://github.com/preconstruct/preconstruct)
 
   🎁 Dev and build your code painlessly in monorepos
-
-## [Ai Pr Reviewer](https://github.com/coderabbitai/ai-pr-reviewer)
-
-  AI-based Pull Request Summarizer and Reviewer with Chat Capabilities.
 
 ## [Serpbear](https://github.com/towfiqi/serpbear)
 
@@ -404,108 +254,61 @@
 
   Creepy device and browser fingerprinting
 
-## [Clipanion](https://github.com/arcanis/clipanion)
+## [Rx Angular](https://github.com/rx-angular/rx-angular)
 
-  Type-safe CLI library / framework with no runtime dependencies
-
-## [Projen](https://github.com/projen/projen)
-
-  A new generation of project generators
-
-## [Chrome Extension Tools](https://github.com/crxjs/chrome-extension-tools)
-
-  Bundling Chrome Extensions can be pretty complex. It doesn't have to be.
-
-## [Vscode Pets](https://github.com/tonybaloney/vscode-pets)
-
-  Adds playful pets 🦀🐱🐶 in your VS Code window
+  Reactive Extensions for Angular.
 
 ## [Owid Grapher](https://github.com/owid/owid-grapher)
 
   A platform for creating interactive data visualizations
 
-## [React Useanimations](https://github.com/useAnimations/react-useanimations)
-
-  React-useanimations is a collection of free animated open source icons for React.js.
-
-## [Hyper Express](https://github.com/kartikk221/hyper-express)
-
-  High performance Node.js webserver with a simple-to-use API powered by uWebsockets.js under the hood.
-
 ## [Tinybench](https://github.com/tinylibs/tinybench)
 
   🔎 A simple, tiny and lightweight benchmarking library!
-
-## [Nestjs Project Structure](https://github.com/CatsMiaow/nestjs-project-structure)
-
-  Node.js framework NestJS project structure
-
-## [Fzf For Js](https://github.com/ajitid/fzf-for-js)
-
-  Do fuzzy matching using FZF algorithm in JavaScript
-
-## [Dev Resources](https://github.com/marcelscruz/dev-resources)
-
-  A collaborative list of resources for developers
-
-## [Untun](https://github.com/unjs/untun)
-
-  🚇 Tunnel your local HTTP(s) server to the world! powered by  Cloudflare Quick Tunnels.
-
-## [Isbot](https://github.com/omrilotan/isbot)
-
-  🤖/👨‍🦰 Detect bots/crawlers/spiders using the user agent string
 
 ## [Lambda Local](https://github.com/ashiina/lambda-local)
 
   Commandline tool to run Amazon Lambda function on local machines.
 
-## [Nest Clean Architecture](https://github.com/VincentJouanne/nest-clean-architecture)
+## [Llama Coder](https://github.com/ex3ndr/llama-coder)
 
-  🏛️   Nest.js clean architecture example following some DDD principles with use-cases written in functionnal programming.
+  Replace Copilot with a more powerful and local AI
 
 ## [Type Trident](https://github.com/anuraghazra/type-trident)
 
   A curated list of advanced type level madness
 
-## [Llama Coder](https://github.com/ex3ndr/llama-coder)
-
-  Replace Copilot with a more powerful and local AI
-
 ## [Replay](https://github.com/edbentley/replay)
 
   A cross-platform JS game engine inspired by React
 
-## [Library Nestjs](https://github.com/ddd-by-examples/library-nestjs)
+## [Eslint Define Config](https://github.com/eslint-types/eslint-define-config)
 
+  Provide a defineConfig function for .eslintrc.js files
 
 ## [Package Template](https://github.com/napi-rs/package-template)
 
   Template project for using napi-rs to build native package
 
-## [Svg To Ts](https://github.com/kreuzerk/svg-to-ts)
+## [Shallow Render](https://github.com/getsaf/shallow-render)
 
-  Build performant SVG icon libraries by converting raw SVG files to TypeScript that is optimized for modern tree shaking mechanisms.
-
-## [Devtools Ds](https://github.com/intuit/devtools-ds)
-
-  UI components, libraries, and templates for building robust devtools experiences.
-
-## [Vscode Live Frame](https://github.com/jevakallio/vscode-live-frame)
-
-  Run your web app inside VS Code
+  Angular testing made easy with shallow rendering and easy mocking. https://getsaf.github.io/shallow-render
 
 ## [Kalm Js](https://github.com/kalm/kalm.js)
 
   The socket manager
 
-## [Eslint Plugin Tutorial](https://github.com/Quramy/eslint-plugin-tutorial)
+## [Ng Aquila](https://github.com/allianz/ng-aquila)
 
-  A tutorial/template repository to explain how to create your eslint plugins
+  Angular UI Component library for the Open Insurance Platform
 
-## [Eslint Kit](https://github.com/eslint-kit/eslint-kit)
+## [Rxjs Debug](https://github.com/rxjs-debug/rxjs-debug)
 
-  All-in-one solution for configuring ESLint in all of your projects
+  Automated RxJS Visualizer
+
+## [Rxmq Js](https://github.com/rxmqjs/rxmq.js)
+
+  JavaScript pub/sub library based on RxJS
 
 ## [Stable Socket](https://github.com/github/stable-socket)
 
@@ -514,10 +317,6 @@
 ## [Emphasize](https://github.com/wooorm/emphasize)
 
   ANSI syntax highlighting for the terminal
-
-## [Ts Belt](https://github.com/mobily/ts-belt)
-
-  🔧 Fast, modern, and practical utility library for FP in TypeScript.
 
 ## [Codeswing](https://github.com/lostintangent/codeswing)
 
@@ -543,10 +342,6 @@
 
   A module for using NestJS to build up CLI applications
 
-## [Vscode Blockman](https://github.com/leodevbro/vscode-blockman)
-
-  VSCode extension to highlight nested code blocks
-
 ## [Betterfountain](https://github.com/piersdeseilligny/betterfountain)
 
   A screenwriting app integrated into visual studio code
@@ -556,10 +351,6 @@
 
 ## [Puppeteer Screen Recorder](https://github.com/prasanaworld/puppeteer-screen-recorder)
 
-
-## [Eslint Define Config](https://github.com/eslint-types/eslint-define-config)
-
-  Provide a defineConfig function for .eslintrc.js files
 
 ## [Pptr Testing Library](https://github.com/testing-library/pptr-testing-library)
 
@@ -573,21 +364,25 @@
 
   Actors for the modern web
 
-## [Npm Package Json Lint](https://github.com/tclindner/npm-package-json-lint)
-
-  Configurable linter for package.json files
-
 ## [Schema Typed](https://github.com/rsuite/schema-typed)
 
   Schema for data modeling & validation
 
-## [Extension Starter Kit](https://github.com/dkthehuman/extension-starter-kit)
+## [Npm Package Json Lint](https://github.com/tclindner/npm-package-json-lint)
+
+  Configurable linter for package.json files
+
+## [Extension Starter Kit](https://github.com/namukang/extension-starter-kit)
 
   Starter kit for building Chrome/Firefox extensions
 
 ## [Iter Tools](https://github.com/iter-tools/iter-tools)
 
   The iterable toolbox
+
+## [Ng Clarity](https://github.com/vmware-clarity/ng-clarity)
+
+  Clarity Angular is a scalable, accessible, customizable, open-source design system built for Angular.
 
 ## [Ink Tab](https://github.com/jdeniau/ink-tab)
 
@@ -605,29 +400,17 @@
 
   Data on the share of ESM vs CJS on the public npm registry
 
-## [Screenplay Js](https://github.com/cucumber/screenplay.js)
+## [Angular Starterkit](https://github.com/rickvandermey/angular-starterkit)
 
-  Library to ease implementation of the Screenplay pattern with CucumberJS
-
-## [Phaser Ts Snowpack Eslint](https://github.com/pawap90/phaser3-ts-snowpack-eslint)
-
-  A modern Phaser 3 template with TypeScript, Snowpack & ESLint
-
-## [Subscribable Things](https://github.com/chrisguttandin/subscribable-things)
-
-  A collection of reactive wrappers for various browser APIs.
-
-## [Ts To Md](https://github.com/skarab42/ts-to-md)
-
-  TypeScript Definitions to Markdown
-
-## [Vite Plugin React Click To Component](https://github.com/ArnaudBarre/vite-plugin-react-click-to-component)
-
-  Option+Click React components in your browser to open the source in your editor
+  Blazing fast 🚀advanced Angular Starterkit, with many features 😍🎯
 
 ## [Package Build Stats](https://github.com/pastelsky/package-build-stats)
 
   This is the cloud function that powers the core of building, minifying and gzipping of packages in bundlephobia
+
+## [Ng Mono Repo Starter](https://github.com/alan-agius4/ng-mono-repo-starter)
+
+  Angular Mono Repo Starter
 
 ## [Storybook Addon Playwright](https://github.com/ccpu/storybook-addon-playwright)
 
@@ -637,11 +420,11 @@
 
   An OpenID Connect client built using only Web APIs
 
-## [Typescript Library Template](https://github.com/reconbot/typescript-library-template)
+# 45 Useful Javascript libraries
 
-  Rollup your code and types for publishing
+## [Ws](https://github.com/websockets/ws)
 
-# 59 Useful Javascript libraries
+  Simple to use, blazing fast and thoroughly tested WebSocket client and server for Node.js
 
 ## [Howtheysre](https://github.com/upgundecha/howtheysre)
 
@@ -659,10 +442,6 @@
 
   Calculate the real cost to run your JS app or lib to keep good performance. Show error in pull request if the cost exceeds the limit.
 
-## [Trigger Dev](https://github.com/triggerdotdev/trigger.dev)
-
-  ✨ Trigger.dev is the open source background jobs framework for TypeScript. With features like API integrations, webhooks, scheduling and delays.
-
 ## [Js Framework Benchmark](https://github.com/krausest/js-framework-benchmark)
 
   A comparison of the performance of a few popular javascript frameworks
@@ -674,10 +453,6 @@
 ## [Css Doodle](https://github.com/css-doodle/css-doodle)
 
   🎨  A web component for drawing patterns with CSS.
-
-## [Wmr](https://github.com/preactjs/wmr)
-
-  👩‍🚀 The tiny all-in-one development tool for modern web apps.
 
 ## [Super Expressive](https://github.com/francisrstokes/super-expressive)
 
@@ -727,13 +502,13 @@
 
   Infinite responsive, sortable, filterable and draggable layouts
 
-## [Easydiffusion](https://github.com/easydiffusion/easydiffusion)
-
-  Easiest 1-click way to create beautiful artwork on your PC using AI, with no tech knowledge. Provides a browser UI for generating images from text prompts and images. Just enter your text prompt, and see the generated image.
-
 ## [Plasmo](https://github.com/PlasmoHQ/plasmo)
 
   🧩 The Browser Extension Framework
+
+## [Trigger Dev](https://github.com/triggerdotdev/trigger.dev)
+
+  ✨ Trigger.dev is the open source background jobs framework for TypeScript. With features like API integrations, webhooks, scheduling and delays.
 
 ## [Highlight](https://github.com/highlight/highlight)
 
@@ -747,14 +522,6 @@
 
   System Information Library for Node.JS
 
-## [Puppeteer Webperf](https://github.com/addyosmani/puppeteer-webperf)
-
-  Automating Web Performance testing with Puppeteer 🎪
-
-## [Click To Component](https://github.com/ericclemmons/click-to-component)
-
-  Option+Click React components in your browser to instantly open the source in VS Code
-
 ## [Start Server And Test](https://github.com/bahmutov/start-server-and-test)
 
   Starts server, waits for URL, then runs test command; when the tests end, shuts down server
@@ -763,17 +530,9 @@
 
   Node.js Design Patterns Third Edition, published by Packt
 
-## [Plugin Samples](https://github.com/figma/plugin-samples)
-
-  🔌 Sample Figma plugins.
-
 ## [Fast Diff](https://github.com/jhchen/fast-diff)
 
   A fast Javascript string diff
-
-## [Log Process Errors](https://github.com/ehmicky/log-process-errors)
-
-  Show some ❤️ to Node.js process errors
 
 ## [Framework Benchmarks](https://github.com/BuilderIO/framework-benchmarks)
 
@@ -799,49 +558,17 @@
 
   A self hosted recommendation feed generated from your browsing habits
 
-## [Sequencer](https://github.com/ertdfgcvb/Sequencer)
-
-  A fast(?) fullscreen image-sequence player
-
-## [Testdeck](https://github.com/testdeck/testdeck)
-
-  Object oriented testing
-
-## [Workshop Web Audio](https://github.com/mattdesl/workshop-web-audio)
-
-  Web Audio workshop with Frontend Masters
-
 ## [Folderslint](https://github.com/denisraslov/folderslint)
 
   📁  Directory structure linter for Front-End projects
 
-## [Search Gpt](https://github.com/tobiasbueschel/search-gpt)
+## [Top User Agents](https://github.com/microlinkhq/top-user-agents)
 
-  🌳 Connecting ChatGPT with the Internet
-
-## [Top User Agents](https://github.com/Kikobeats/top-user-agents)
-
-  A list of most common User Agent used on Internet.
+  An always up-to-date list of the top 100 HTTP user-agents most used over the Internet.
 
 ## [Ml Classify Text Js](https://github.com/andreekeberg/ml-classify-text-js)
 
   Machine learning based text classification in JavaScript using n-grams and cosine similarity
-
-## [Flip](https://github.com/pqina/flip)
-
-  ⏳ The online version of the classic flip clock
-
-## [Github Activity Readme](https://github.com/jamesgeorge007/github-activity-readme)
-
-  Updates README with the recent GitHub activity of a user
-
-## [Threat Dragon](https://github.com/OWASP/threat-dragon)
-
-  An open source threat modeling tool from OWASP
-
-## [Capo Js](https://github.com/rviscomi/capo.js)
-
-  Get your <head> in order
 
 ## [Comicgen](https://github.com/gramener/comicgen)
 
@@ -863,10 +590,6 @@
 
   Like requestIdleCallback, but for detecting network idle
 
-## [Hackernews Daily](https://github.com/headllines/hackernews-daily)
-
-  Hacker News daily top 10 posts
-
 ## [Serp](https://github.com/christophebe/serp)
 
   Google Search SERP Scraper
@@ -881,7 +604,8 @@
 
 ---
 
-# 8 Useful Javascript projects
+# 105 Other libraries and resources
+
 
 ## [Mind Expanding Books](https://github.com/hackerkid/Mind-Expanding-Books)
 
@@ -915,21 +639,21 @@
 
   List of awesome people offering their time for free to have a "coffee chat" with others about different topics, mostly in a mentorship kind of way.
 
----
+## [Hackernews Daily](https://github.com/headllines/hackernews-daily)
 
-# 118 Other libraries and resources
+  Hacker News daily top 10 posts
 
 ## [Front End Checklist](https://github.com/thedaviddias/Front-End-Checklist)
 
   🗂 The perfect Front-End Checklist for modern websites and meticulous developers
 
-## [Professional Programming](https://github.com/charlax/professional-programming)
-
-  A collection of learning resources for curious software engineers
-
 ## [System Design](https://github.com/karanpratapsingh/system-design)
 
   Learn how to design systems at scale and prepare for system design interviews
+
+## [Professional Programming](https://github.com/charlax/professional-programming)
+
+  A collection of learning resources for curious software engineers
 
 ## [Mid Journey Styles And Keywords Reference](https://github.com/willwulfken/MidJourney-Styles-and-Keywords-Reference)
 
@@ -947,13 +671,13 @@
 
   📜 A collective list of public GraphQL APIs
 
+## [Angular Performance Checklist](https://github.com/mgechev/angular-performance-checklist)
+
+  ⚡ Cheatsheet for developing lightning fast progressive Angular applications
+
 ## [Triangula](https://github.com/rh12503/triangula)
 
   Generate high-quality triangulated and polygonal art from images.
-
-## [Best Of Python](https://github.com/ml-tooling/best-of-python)
-
-  🏆 A ranked list of awesome Python open-source libraries and tools. Updated weekly.
 
 ## [Victor Mono](https://github.com/rubjo/victor-mono)
 
@@ -987,34 +711,6 @@
 
   Explain complex systems using visuals and simple terms. Help you prepare for system design interviews.
 
-## [Fiber](https://github.com/gofiber/fiber)
-
-  ⚡️ Express inspired web framework written in Go
-
-## [Reverse Interview](https://github.com/viraptor/reverse-interview)
-
-  Questions to ask the company during your interview
-
-## [Ai For Beginners](https://github.com/microsoft/AI-For-Beginners)
-
-  12 Weeks, 24 Lessons, AI for All!
-
-## [Tts](https://github.com/coqui-ai/TTS)
-
-  🐸💬 - a deep learning toolkit for Text-to-Speech, battle-tested in research and production
-
-## [Days Of Dev Ops](https://github.com/MichaelCade/90DaysOfDevOps)
-
-  I am using this repository to document my journey learning about DevOps. I began this process on January 1, 2022, and plan to continue until March 31. I will be dedicating one hour each day, including weekends, to gaining a foundational understanding of the various aspects of DevOps. This will be a 90-day intensive study period. 2022 & 2023 inc.
-
-## [Jarvis](https://github.com/microsoft/JARVIS)
-
-  JARVIS, a system to connect LLMs with ML community. Paper: https://arxiv.org/pdf/2303.17580.pdf
-
-## [Distroless](https://github.com/GoogleContainerTools/distroless)
-
-  🥑  Language focused docker images, minus the operating system.
-
 ## [Free Certifications](https://github.com/cloudcommunity/Free-Certifications)
 
   A curated list of free courses & certifications.
@@ -1022,10 +718,6 @@
 ## [Best Of Ml Python](https://github.com/ml-tooling/best-of-ml-python)
 
   🏆 A ranked list of awesome machine learning Python libraries. Updated weekly.
-
-## [Lama Cleaner](https://github.com/Sanster/lama-cleaner)
-
-  Image inpainting tool powered by SOTA AI Model. Remove any unwanted object, defect, people from your pictures or erase and replace(powered by stable diffusion) any thing on your pictures.
 
 ## [Post Mortems](https://github.com/danluu/post-mortems)
 
@@ -1051,6 +743,10 @@
 
   Operating LLMs in production
 
+## [Type Chat](https://github.com/microsoft/TypeChat)
+
+  TypeChat is a library that makes it easy to build natural language interfaces using types.
+
 ## [Loc](https://github.com/phuocng/1loc)
 
   What's your favorite JavaScript single LOC (line of code)?
@@ -1063,25 +759,9 @@
 
   A web interface for chatting with Alpaca through llama.cpp. Fully dockerized, with an easy to use API.
 
-## [Essential Java Script Interview Questions](https://github.com/ganqqwerty/123-Essential-JavaScript-Interview-Questions)
-
-  JavaScript interview Questions
-
-## [Ssh Action](https://github.com/appleboy/ssh-action)
-
-  GitHub Actions for executing remote ssh commands.
-
 ## [Video Crafter](https://github.com/AILab-CVC/VideoCrafter)
 
   VideoCrafter1: Open Diffusion Models for High-Quality Video Generation
-
-## [Things Every Programmer Should Know](https://github.com/97-things/97-things-every-programmer-should-know)
-
-  Pearls of wisdom for programmers collected from leading practitioners.
-
-## [System Design Primer](https://github.com/donnemartin/system-design-primer)
-
-  Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards.
 
 ## [Build Your Own X](https://github.com/codecrafters-io/build-your-own-x)
 
@@ -1142,10 +822,6 @@
 
   Get up and running with Llama 2 and other large language models locally
 
-## [Mini Gpt](https://github.com/Vision-CAIR/MiniGPT-4)
-
-  Open-sourced codes for MiniGPT-4 and MiniGPT-v2 (https://minigpt-4.github.io, https://minigpt-v2.github.io/)
-
 ## [Turbo](https://github.com/vercel/turbo)
 
   Incremental bundler and build system optimized for JavaScript and TypeScript, written in Rust – including Turbopack and Turborepo.
@@ -1189,10 +865,6 @@
 ## [Purescript](https://github.com/purescript/purescript)
 
   A strongly-typed language that compiles to JavaScript
-
-## [Biome](https://github.com/biomejs/biome)
-
-  A toolchain for web projects, aimed to provide functionalities to maintain them. Biome offers formatter and linter, usable via CLI and LSP.
 
 ## [Text Generation Inference](https://github.com/huggingface/text-generation-inference)
 
@@ -1242,12 +914,12 @@
 
   ⚡️ 💾  Web Performance Snippets
 
+## [Context Mapping](https://github.com/ddd-crew/context-mapping)
+
+
 ## [Proposal Iterator Helpers](https://github.com/tc39/proposal-iterator-helpers)
 
   Methods for working with iterators in ECMAScript
-
-## [Context Mapping](https://github.com/ddd-crew/context-mapping)
-
 
 ## [Llama Lab](https://github.com/run-llama/llama-lab)
 
@@ -1343,13 +1015,13 @@
 ## [Alpaca B Truss](https://github.com/basetenlabs/alpaca-7b-truss)
 
 
+## [Free Music Demixer](https://github.com/sevagh/free-music-demixer)
+
+  free website for client-side music demixing with Demucs + WebAssembly
+
 ## [Open Alpaca](https://github.com/yxuansu/OpenAlpaca)
 
   OpenAlpaca: A Fully Open-Source Instruction-Following Model Based On OpenLLaMA
-
-## [Free Music Demixer](https://github.com/sevagh/free-music-demixer)
-
-  free website for client-side music demixing with Demucs + Open-Unmix + WebAssembly
 
 ## [Go Best Practices](https://github.com/smallnest/go-best-practices)
 
@@ -1381,7 +1053,7 @@
 
 ## [Playwright Adventures](https://github.com/edumserrano/playwright-adventures)
 
-  Playwright demos and tips.
+  Playwright demos and tips such as how to run in docker, how to get code coverage, etc
 
 ## [Sql](https://github.com/Tungana-Bhavya/SQL)
 
@@ -1389,15 +1061,15 @@
 
 ---
 
-# 106 Useful Awesome lists
-
-## [Awesome Piracy](https://github.com/Igglybuff/awesome-piracy)
-
-  A curated list of awesome warez and piracy links
+# 103 Useful Awesome lists
 
 ## [Awesome Cto](https://github.com/kuchin/awesome-cto)
 
   A curated and opinionated list of resources for Chief Technology Officers, with the emphasis on startups
+
+## [Awesome Piracy](https://github.com/Igglybuff/awesome-piracy)
+
+  A curated list of awesome warez and piracy links
 
 ## [Awesome Llm](https://github.com/Hannibal046/Awesome-LLM)
 
@@ -1415,13 +1087,13 @@
 
   :pencil: A curated list of Web Performance Optimization. Everyone can contribute here!
 
-## [Awesome Developer Streams](https://github.com/bnb/awesome-developer-streams)
-
-  👩🏿‍💻👨🏾‍💻👩🏼‍💻👨🏽‍💻👩🏻‍💻 Awesome Developers, Streaming
-
 ## [Awesome System Design](https://github.com/madd86/awesome-system-design)
 
   A curated list of awesome System Design (A.K.A. Distributed Systems) resources.
+
+## [Awesome Developer Streams](https://github.com/bnb/awesome-developer-streams)
+
+  👩🏿‍💻👨🏾‍💻👩🏼‍💻👨🏽‍💻👩🏻‍💻 Awesome Developers, Streaming
 
 ## [Awesome Leading And Managing](https://github.com/LappleApple/awesome-leading-and-managing)
 
@@ -1470,6 +1142,10 @@
 ## [Awesome Nodejs Security](https://github.com/lirantal/awesome-nodejs-security)
 
   Awesome Node.js Security resources
+
+## [Awesome Api Security](https://github.com/arainho/awesome-api-security)
+
+  A collection of awesome API Security tools and resources. The focus goes to open-source tools and resources that benefit all the community.
 
 ## [Awesome Scalability](https://github.com/binhnguyennus/awesome-scalability)
 
@@ -1543,10 +1219,6 @@
 
   Awesome Privacy - A curated list of services and alternatives that respect your privacy because PRIVACY MATTERS.
 
-## [Awesome Api Security](https://github.com/arainho/awesome-api-security)
-
-  A collection of awesome API Security tools and resources. The focus goes to open-source tools and resources that benefit all the community.
-
 ## [Awesome Web Components](https://github.com/web-padawan/awesome-web-components)
 
   A curated list of awesome Web Components resources.
@@ -1591,13 +1263,13 @@
 
   List of resources for learning about modeling, operating, and using Amazon DynamoDB
 
-## [Awesome Fonts](https://github.com/brabadu/awesome-fonts)
-
-  Curated list of fonts and everything
-
 ## [Awesome Chat Gpt Repositories](https://github.com/taishi-i/awesome-ChatGPT-repositories)
 
   A curated list of resources dedicated to open source GitHub repositories related to ChatGPT
+
+## [Awesome Fonts](https://github.com/brabadu/awesome-fonts)
+
+  Curated list of fonts and everything
 
 ## [Awesome Lit](https://github.com/web-padawan/awesome-lit)
 
@@ -1755,13 +1427,13 @@
 
   Awesome Svelte: Useful resources for developing Svelte applications
 
-## [Awesome Integration](https://github.com/stn1slv/awesome-integration)
-
-  A curated list of awesome system integration software and resources.
-
 ## [Awesome Arr](https://github.com/Ravencentric/awesome-arr)
 
   A collection of *arrs and related stuff.
+
+## [Awesome Integration](https://github.com/stn1slv/awesome-integration)
+
+  A curated list of awesome system integration software and resources.
 
 ## [Awesome Container Queries](https://github.com/sturobson/Awesome-Container-Queries)
 
@@ -1770,10 +1442,6 @@
 ## [Awesome Philosophy](https://github.com/HussainAther/awesome-philosophy)
 
   A curated list of awesome philosophy
-
-## [Awesome Stoicism](https://github.com/DavidWells/awesome-stoicism)
-
-  💆‍♂️ Stoic philosophy resources
 
 ## [Awesome Utils Dev](https://github.com/pegaltier/awesome-utils-dev)
 
@@ -1795,10 +1463,6 @@
 
   Awesome list of tools for using multimedia in the network
 
-## [Awesome Fp Ts](https://github.com/albohlabs/awesome-fp-ts)
-
-  A curated list of amazingly awesome fp-ts resources
-
 ## [Awesome Notes](https://github.com/sabertazimi/awesome-notes)
 
   :dragon: Personal Learning Notes - Today I Learned (TIL)
@@ -1810,10 +1474,6 @@
 ## [Awesome Illustrations Projects](https://github.com/Anmol-Baranwal/Awesome-Illustrations-4Projects)
 
   🔥 An awesome list of illustrations to improve your projects, posts & portfolios. Fork & add your own.
-
-## [Awesome Stars](https://github.com/ngryman/awesome-stars)
-
-  A curated list of my GitHub stars!
 
 ---
 
