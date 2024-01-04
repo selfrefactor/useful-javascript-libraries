@@ -1,12 +1,8 @@
-# 45 Useful Typescript libraries
+# 33 Useful Typescript libraries
 
 ## [Juice Shop](https://github.com/juice-shop/juice-shop)
 
   OWASP Juice Shop: Probably the most modern and sophisticated insecure web application
-
-## [Clarity](https://github.com/vmware-archive/clarity)
-
-  Clarity is a scalable, accessible, customizable, open source design system built with web components. Works with any JavaScript framework, built for enterprises, and designed to  be inclusive.
 
 ## [Minisearch](https://github.com/lucaong/minisearch)
 
@@ -28,14 +24,6 @@
 
   Presentation Slides for Developers
 
-## [Auto Animate](https://github.com/formkit/auto-animate)
-
-  A zero-config, drop-in animation utility that adds smooth transitions to your web app. You can use it with React, Vue, or any other JavaScript application.
-
-## [Vanilla Extract](https://github.com/vanilla-extract-css/vanilla-extract)
-
-  Zero-runtime Stylesheets-in-TypeScript
-
 ## [Jsonhero Web](https://github.com/triggerdotdev/jsonhero-web)
 
   JSON Hero is an open-source, beautiful JSON explorer for the web that lets you browse, search and navigate your JSON files at speed. 🚀. Built with 💜 by the Trigger.dev team.
@@ -43,10 +31,6 @@
 ## [Ts Reset](https://github.com/total-typescript/ts-reset)
 
   A 'CSS reset' for TypeScript, improving types for common JavaScript API's
-
-## [Tsx](https://github.com/privatenumber/tsx)
-
-  ⚡️ TypeScript Execute: Node.js enhanced to run TypeScript & ESM
 
 ## [Shiki](https://github.com/shikijs/shiki)
 
@@ -60,10 +44,6 @@
 
   Prettier for File Structures
 
-## [Htmlhint](https://github.com/htmlhint/HTMLHint)
-
-  ⚙️ The static code analysis tool you need for your HTML
-
 ## [Type Challenges](https://github.com/type-challenges/type-challenges)
 
   Collection of TypeScript type challenges with online judge
@@ -71,10 +51,6 @@
 ## [Novu](https://github.com/novuhq/novu)
 
   🔥 The open-source notification infrastructure with fully functional embedded notification center 🚀🚀🚀
-
-## [Ioredis](https://github.com/redis/ioredis)
-
-  🚀 A robust, performance-focused, and full-featured Redis client for Node.js.
 
 ## [Quicktype](https://github.com/glideapps/quicktype)
 
@@ -88,10 +64,6 @@
 
   💡 A hinting engine for the web
 
-## [Rrule](https://github.com/jkbrzt/rrule)
-
-  JavaScript library for working with recurrence rules for calendar dates as defined in the iCalendar RFC and more.
-
 ## [Ffcreator](https://github.com/tnfe/FFCreator)
 
   一个基于node.js的高速视频制作库  A fast video processing library based on node.js
@@ -99,10 +71,6 @@
 ## [Magicast](https://github.com/unjs/magicast)
 
   🧀  Programmatically modify JavaScript and TypeScript source codes with a simplified, elegant and familiar syntax powered by recast and babel.
-
-## [Swc Node](https://github.com/swc-project/swc-node)
-
-  Faster ts-node without typecheck
 
 ## [Tinybench](https://github.com/tinylibs/tinybench)
 
@@ -132,10 +100,6 @@
 
   The socket manager
 
-## [Codeswing](https://github.com/lostintangent/codeswing)
-
-  VS Code extension for building web applications ("swings") using a interactive and editor-integrated coding environment
-
 ## [Twoslash](https://github.com/shikijs/twoslash)
 
   You take some Shiki, add a hint of TypeScript compiler, and 🎉 incredible static code samples
@@ -144,24 +108,12 @@
 
   Efficient embeddable adblocker library
 
-## [Nest Commander](https://github.com/jmcdo29/nest-commander)
-
-  A module for using NestJS to build up CLI applications
-
 ## [Betterfountain](https://github.com/piersdeseilligny/betterfountain)
 
   A screenwriting app integrated into visual studio code
 
 ## [Cucumber Playwright](https://github.com/Tallyb/cucumber-playwright)
 
-
-## [Xactor](https://github.com/statelyai/xactor)
-
-  Actors for the modern web
-
-## [Extension Starter Kit](https://github.com/namukang/extension-starter-kit)
-
-  Starter kit for building Chrome/Firefox extensions
 
 ## [Ink Tab](https://github.com/jdeniau/ink-tab)
 
@@ -179,7 +131,7 @@
 
   VS Code integration for node:test native tests
 
-# 46 Useful Javascript libraries
+# 43 Useful Javascript libraries
 
 ## [Ws](https://github.com/websockets/ws)
 
@@ -253,25 +205,13 @@
 
   Serialize JavaScript to a superset of JSON that includes regular expressions and functions.
 
-## [Tonal](https://github.com/tonaljs/tonal)
-
-  A functional music theory library for Javascript
-
 ## [Developer Roadmap](https://github.com/kamranahmedse/developer-roadmap)
 
   Interactive roadmaps, guides and other educational content to help developers grow in their careers.
 
-## [Muuri](https://github.com/haltu/muuri)
-
-  Infinite responsive, sortable, filterable and draggable layouts
-
 ## [Plasmo](https://github.com/PlasmoHQ/plasmo)
 
   🧩 The Browser Extension Framework
-
-## [Highlight](https://github.com/highlight/highlight)
-
-  highlight.io: The open source, full-stack monitoring platform. Error monitoring, session replay, logging and more.
 
 ## [Automatisch](https://github.com/automatisch/automatisch)
 
@@ -367,7 +307,7 @@
 
 ---
 
-# 105 Other libraries and resources
+# 93 Other libraries and resources
 
 
 ## [Mind Expanding Books](https://github.com/hackerkid/Mind-Expanding-Books)
@@ -397,10 +337,6 @@
 ## [Opendream](https://github.com/varunshenoy/opendream)
 
   An extensible, easy-to-use, and portable diffusion web UI 👨‍🎨
-
-## [Playwright Go](https://github.com/playwright-community/playwright-go)
-
-  Playwright for Go a browser automation library to control Chromium, Firefox and WebKit with a single API.
 
 ## [Coffeechat](https://github.com/fharper/coffeechat)
 
@@ -433,14 +369,6 @@
 ## [Graphql Apis](https://github.com/graphql-kit/graphql-apis)
 
   📜 A collective list of public GraphQL APIs
-
-## [Angular Performance Checklist](https://github.com/mgechev/angular-performance-checklist)
-
-  ⚡ Cheatsheet for developing lightning fast progressive Angular applications
-
-## [Triangula](https://github.com/rh12503/triangula)
-
-  Generate high-quality triangulated and polygonal art from images.
 
 ## [Victor Mono](https://github.com/rubjo/victor-mono)
 
@@ -478,10 +406,6 @@
 
   A curated list of free courses & certifications.
 
-## [Best Of Ml Python](https://github.com/ml-tooling/best-of-ml-python)
-
-  🏆 A ranked list of awesome machine learning Python libraries. Updated weekly.
-
 ## [Post Mortems](https://github.com/danluu/post-mortems)
 
   A collection of postmortems. Sorry for the delay in merging PRs!
@@ -490,29 +414,13 @@
 
   Code to accompany "A Method for Animating Children's Drawings of the Human Figure"
 
-## [Spark Joy](https://github.com/swyxio/spark-joy)
-
-  ✨😂 2000+ ways to add design flair, user delight, and whimsy to your product.
-
-## [Csslayout](https://github.com/phuocng/csslayout)
-
-  A collection of popular layouts and patterns made with CSS. Now it has 100+ patterns and continues growing!
-
 ## [Imagin Airy](https://github.com/brycedrennan/imaginAIry)
 
   Pythonic AI generation of images and videos
 
-## [Open Llm](https://github.com/bentoml/OpenLLM)
-
-  Operating LLMs in production
-
 ## [Type Chat](https://github.com/microsoft/TypeChat)
 
   TypeChat is a library that makes it easy to build natural language interfaces using types.
-
-## [Loc](https://github.com/phuocng/1loc)
-
-  What's your favorite JavaScript single LOC (line of code)?
 
 ## [Alternative Front Ends](https://github.com/mendel5/alternative-front-ends)
 
@@ -521,14 +429,6 @@
 ## [Serge](https://github.com/serge-chat/serge)
 
   A web interface for chatting with Alpaca through llama.cpp. Fully dockerized, with an easy to use API.
-
-## [Video Crafter](https://github.com/AILab-CVC/VideoCrafter)
-
-  VideoCrafter1: Open Diffusion Models for High-Quality Video Generation
-
-## [Build Your Own X](https://github.com/codecrafters-io/build-your-own-x)
-
-  Master programming by recreating your favorite technologies from scratch.
 
 ## [The Art Of Command Line](https://github.com/jlevy/the-art-of-command-line)
 
@@ -580,18 +480,6 @@
 ## [Bark](https://github.com/suno-ai/bark)
 
   🔊 Text-Prompted Generative Audio Model
-
-## [Ollama](https://github.com/jmorganca/ollama)
-
-  Get up and running with Llama 2 and other large language models locally
-
-## [Turbo](https://github.com/vercel/turbo)
-
-  Incremental bundler and build system optimized for JavaScript and TypeScript, written in Rust – including Turbopack and Turborepo.
-
-## [Lux](https://github.com/iawia002/lux)
-
-  👾 Fast and simple video download library and CLI tool written in Go
 
 ## [Games](https://github.com/leereilly/games)
 
