@@ -1,4 +1,4 @@
-# 47 Useful Typescript libraries
+# 45 Useful Typescript libraries
 
 ## [Juice Shop](https://github.com/juice-shop/juice-shop)
 
@@ -104,10 +104,6 @@
 
   Faster ts-node without typecheck
 
-## [Ai Pr Reviewer](https://github.com/coderabbitai/ai-pr-reviewer)
-
-  AI-based Pull Request Summarizer and Reviewer with Chat Capabilities.
-
 ## [Tinybench](https://github.com/tinylibs/tinybench)
 
   🔎 A simple, tiny and lightweight benchmarking library!
@@ -115,10 +111,6 @@
 ## [Lambda Local](https://github.com/ashiina/lambda-local)
 
   Commandline tool to run Amazon Lambda function on local machines.
-
-## [Nest Clean Architecture](https://github.com/VincentJouanne/nest-clean-architecture)
-
-  🏛️   Nest.js clean architecture example following some DDD principles with use-cases written in functionnal programming.
 
 ## [Llama Coder](https://github.com/ex3ndr/llama-coder)
 
@@ -241,13 +233,13 @@
 
   A lightweight magic-move library for configurable layout transitions
 
-## [Fuite](https://github.com/nolanlawson/fuite)
-
-  A tool for finding memory leaks in web apps
-
 ## [Webextensions Examples](https://github.com/mdn/webextensions-examples)
 
   Example Firefox add-ons created using the WebExtensions API
+
+## [Fuite](https://github.com/nolanlawson/fuite)
+
+  A tool for finding memory leaks in web apps
 
 ## [Fuzzysort](https://github.com/farzher/fuzzysort)
 
@@ -375,7 +367,7 @@
 
 ---
 
-# 104 Other libraries and resources
+# 105 Other libraries and resources
 
 
 ## [Mind Expanding Books](https://github.com/hackerkid/Mind-Expanding-Books)
@@ -425,6 +417,10 @@
 ## [Professional Programming](https://github.com/charlax/professional-programming)
 
   A collection of learning resources for curious software engineers
+
+## [Mid Journey Styles And Keywords Reference](https://github.com/willwulfken/MidJourney-Styles-and-Keywords-Reference)
+
+  A reference containing Styles and Keywords that you can use with MidJourney AI. There are also pages showing resolution comparison, image weights, and much more!
 
 ## [Howtheytest](https://github.com/abhivaikar/howtheytest)
 
@@ -828,7 +824,7 @@
 
 ---
 
-# 103 Useful Awesome lists
+# 102 Useful Awesome lists
 
 ## [Awesome Cto](https://github.com/kuchin/awesome-cto)
 
@@ -885,10 +881,6 @@
 ## [Awesome Totally Open Chatgpt](https://github.com/nichtdax/awesome-totally-open-chatgpt)
 
   A list of totally open alternatives to ChatGPT
-
-## [Awesome Ipfs](https://github.com/ipfs/awesome-ipfs)
-
-  Community list of awesome projects, apps, tools, pinning services and more related to IPFS.
 
 ## [Awesome Deno](https://github.com/denolib/awesome-deno)
 
