@@ -1,4 +1,4 @@
-# 105 Useful Typescript libraries
+# 47 Useful Typescript libraries
 
 ## [Juice Shop](https://github.com/juice-shop/juice-shop)
 
@@ -7,14 +7,6 @@
 ## [Clarity](https://github.com/vmware-archive/clarity)
 
   Clarity is a scalable, accessible, customizable, open source design system built with web components. Works with any JavaScript framework, built for enterprises, and designed to  be inclusive.
-
-## [Next Js Boilerplate](https://github.com/ixartz/Next-js-Boilerplate)
-
-  🚀🎉📚 Boilerplate and Starter for Next.js 14+ with App Router and Page Router support, Tailwind CSS 3.4 and TypeScript ⚡️ Made with developer experience first: Next.js + TypeScript + ESLint + Prettier + Husky + Lint-Staged + Jest + Testing Library + Cypress + Storybook + Commitlint + VSCode + Netlify + PostCSS + Tailwind CSS
-
-## [React Konva](https://github.com/konvajs/react-konva)
-
-  React + Canvas = Love. JavaScript library for drawing complex canvas graphics using React.
 
 ## [Minisearch](https://github.com/lucaong/minisearch)
 
@@ -36,37 +28,9 @@
 
   Presentation Slides for Developers
 
-## [V Console](https://github.com/Tencent/vConsole)
-
-  A lightweight, extendable front-end developer tool for mobile web page.
-
-## [Yjs](https://github.com/yjs/yjs)
-
-  Shared data types for building collaborative software
-
-## [Million](https://github.com/aidenybai/million)
-
-  Make React Faster. Automatically.
-
-## [Pino](https://github.com/pinojs/pino)
-
-  🌲 super fast, all natural json logger
-
-## [Botkit](https://github.com/howdyai/botkit)
-
-  Botkit is an open source developer tool for building chat bots, apps and custom integrations for major messaging platforms.
-
 ## [Auto Animate](https://github.com/formkit/auto-animate)
 
   A zero-config, drop-in animation utility that adds smooth transitions to your web app. You can use it with React, Vue, or any other JavaScript application.
-
-## [Why Did You Render](https://github.com/welldone-software/why-did-you-render)
-
-  why-did-you-render by Welldone Software monkey patches React to notify you about potentially avoidable re-renders. (Works with React Native as well.)
-
-## [Comlink](https://github.com/GoogleChromeLabs/comlink)
-
-  Comlink makes WebWorkers enjoyable.
 
 ## [Vanilla Extract](https://github.com/vanilla-extract-css/vanilla-extract)
 
@@ -76,25 +40,9 @@
 
   JSON Hero is an open-source, beautiful JSON explorer for the web that lets you browse, search and navigate your JSON files at speed. 🚀. Built with 💜 by the Trigger.dev team.
 
-## [Fiddle](https://github.com/electron/fiddle)
-
-  :electron: 🚀 The easiest way to get started with Electron
-
 ## [Ts Reset](https://github.com/total-typescript/ts-reset)
 
   A 'CSS reset' for TypeScript, improving types for common JavaScript API's
-
-## [Nsfwjs](https://github.com/infinitered/nsfwjs)
-
-  NSFW detection on the client-side via TensorFlow.js
-
-## [Web Vitals](https://github.com/GoogleChrome/web-vitals)
-
-  Essential metrics for a healthy site.
-
-## [Mikro Orm](https://github.com/mikro-orm/mikro-orm)
-
-  TypeScript ORM for Node.js based on Data Mapper, Unit of Work and Identity Map patterns. Supports MongoDB, MySQL, MariaDB, PostgreSQL and SQLite databases.
 
 ## [Tsx](https://github.com/privatenumber/tsx)
 
@@ -103,14 +51,6 @@
 ## [Shiki](https://github.com/shikijs/shiki)
 
   A beautiful Syntax Highlighter.
-
-## [Gts](https://github.com/google/gts)
-
-  ☂️ TypeScript style guide, formatter, and linter.
-
-## [Routing Controllers](https://github.com/typestack/routing-controllers)
-
-  Create structured, declarative and beautifully organized class-based controllers with heavy decorators usage in Express / Koa using TypeScript and Routing Controllers Framework.
 
 ## [Fast Check](https://github.com/dubzzz/fast-check)
 
@@ -124,18 +64,6 @@
 
   ⚙️ The static code analysis tool you need for your HTML
 
-## [Speechgpt](https://github.com/hahahumble/speechgpt)
-
-  💬 SpeechGPT is a web application that enables you to converse with ChatGPT.
-
-## [Tsed](https://github.com/tsedio/tsed)
-
-  :triangular_ruler:  Ts.ED is a Node.js and TypeScript framework on top of Express to write your application with TypeScript (or ES6). It provides a lot of decorators and guideline to make your code more readable and less error-prone. ⭐️ Star to support our work!
-
-## [Haunted](https://github.com/matthewp/haunted)
-
-  React's Hooks API implemented for web components 👻
-
 ## [Type Challenges](https://github.com/type-challenges/type-challenges)
 
   Collection of TypeScript type challenges with online judge
@@ -144,18 +72,6 @@
 
   🔥 The open-source notification infrastructure with fully functional embedded notification center 🚀🚀🚀
 
-## [Trpc](https://github.com/trpc/trpc)
-
-  🧙‍♀️  Move Fast and Break Nothing. End-to-end typesafe APIs made easy.
-
-## [Pnpm](https://github.com/pnpm/pnpm)
-
-  Fast, disk space efficient package manager
-
-## [Reactotron](https://github.com/infinitered/reactotron)
-
-  A desktop app for inspecting your React JS and React Native projects. macOS, Linux, and Windows.
-
 ## [Ioredis](https://github.com/redis/ioredis)
 
   🚀 A robust, performance-focused, and full-featured Redis client for Node.js.
@@ -163,18 +79,6 @@
 ## [Quicktype](https://github.com/glideapps/quicktype)
 
   Generate types and converters from JSON, Schema, and GraphQL
-
-## [Class Validator](https://github.com/typestack/class-validator)
-
-  Decorator-based property validation for classes.
-
-## [Ng Zorro Antd](https://github.com/NG-ZORRO/ng-zorro-antd)
-
-  Angular UI Component Library based on Ant Design
-
-## [Graphql Yoga](https://github.com/dotansimha/graphql-yoga)
-
-  🧘 Rewrite of a fully-featured GraphQL Server with focus on easy setup, performance & great developer experience.  The core of Yoga implements WHATWG Fetch API and can run/deploy on any JS environment.
 
 ## [Toolkit](https://github.com/actions/toolkit)
 
@@ -192,73 +96,17 @@
 
   一个基于node.js的高速视频制作库  A fast video processing library based on node.js
 
-## [Chrome Extension Typescript Starter](https://github.com/chibat/chrome-extension-typescript-starter)
-
-  Chrome Extension TypeScript Starter
-
-## [Web Extension Starter](https://github.com/abhijithvijayan/web-extension-starter)
-
-  🖥🔋Web Extension starter to build "Write Once Run on Any Browser" extension
-
-## [Js Image Carver](https://github.com/trekhleb/js-image-carver)
-
-  🌅 Content-aware image resizer and object remover based on Seam Carving algorithm
-
-## [Frourio](https://github.com/frouriojs/frourio)
-
-  Fast and type-safe full stack framework, for TypeScript
-
-## [Stargazer](https://github.com/pomber/stargazer)
-
-  Your repo reached a stars milestone? Celebrate with a video of your stargazers!
-
-## [Shikiji](https://github.com/antfu/shikiji)
-
-  A syntax highlighter based on TextMate grammars. ESM rewrite of shiki, with more features and capabilities.
-
-## [Tsd](https://github.com/tsdjs/tsd)
-
-  Check TypeScript type definitions
-
 ## [Magicast](https://github.com/unjs/magicast)
 
   🧀  Programmatically modify JavaScript and TypeScript source codes with a simplified, elegant and familiar syntax powered by recast and babel.
-
-## [Analog](https://github.com/analogjs/analog)
-
-  The fullstack meta-framework for Angular. Powered by Vite
 
 ## [Swc Node](https://github.com/swc-project/swc-node)
 
   Faster ts-node without typecheck
 
-## [Testcontainers Node](https://github.com/testcontainers/testcontainers-node)
-
-  Testcontainers is a NodeJS library that supports tests, providing lightweight, throwaway instances of common databases, Selenium web browsers, or anything else that can run in a Docker container.
-
 ## [Ai Pr Reviewer](https://github.com/coderabbitai/ai-pr-reviewer)
 
   AI-based Pull Request Summarizer and Reviewer with Chat Capabilities.
-
-## [Preconstruct](https://github.com/preconstruct/preconstruct)
-
-  🎁 Dev and build your code painlessly in monorepos
-
-## [Serpbear](https://github.com/towfiqi/serpbear)
-
-  Search Engine Position Rank Tracking App
-
-## [Creepjs](https://github.com/abrahamjuliot/creepjs)
-
-  Creepy device and browser fingerprinting
-
-## [Rx Angular](https://github.com/rx-angular/rx-angular)
-
-  Reactive Extensions for Angular.
-
-## [Owid Grapher](https://github.com/owid/owid-grapher)
-
-  A platform for creating interactive data visualizations
 
 ## [Tinybench](https://github.com/tinylibs/tinybench)
 
@@ -268,6 +116,10 @@
 
   Commandline tool to run Amazon Lambda function on local machines.
 
+## [Nest Clean Architecture](https://github.com/VincentJouanne/nest-clean-architecture)
+
+  🏛️   Nest.js clean architecture example following some DDD principles with use-cases written in functionnal programming.
+
 ## [Llama Coder](https://github.com/ex3ndr/llama-coder)
 
   Replace Copilot with a more powerful and local AI
@@ -276,45 +128,17 @@
 
   A curated list of advanced type level madness
 
-## [Replay](https://github.com/edbentley/replay)
-
-  A cross-platform JS game engine inspired by React
-
 ## [Eslint Define Config](https://github.com/eslint-types/eslint-define-config)
 
   Provide a defineConfig function for .eslintrc.js files
 
-## [Package Template](https://github.com/napi-rs/package-template)
+## [Replay](https://github.com/edbentley/replay)
 
-  Template project for using napi-rs to build native package
-
-## [Shallow Render](https://github.com/getsaf/shallow-render)
-
-  Angular testing made easy with shallow rendering and easy mocking. https://getsaf.github.io/shallow-render
+  A cross-platform JS game engine inspired by React
 
 ## [Kalm Js](https://github.com/kalm/kalm.js)
 
   The socket manager
-
-## [Ng Aquila](https://github.com/allianz/ng-aquila)
-
-  Angular UI Component library for the Open Insurance Platform
-
-## [Rxjs Debug](https://github.com/rxjs-debug/rxjs-debug)
-
-  Automated RxJS Visualizer
-
-## [Rxmq Js](https://github.com/rxmqjs/rxmq.js)
-
-  JavaScript pub/sub library based on RxJS
-
-## [Stable Socket](https://github.com/github/stable-socket)
-
-  A web socket that reconnects.
-
-## [Emphasize](https://github.com/wooorm/emphasize)
-
-  ANSI syntax highlighting for the terminal
 
 ## [Codeswing](https://github.com/lostintangent/codeswing)
 
@@ -324,17 +148,9 @@
 
   You take some Shiki, add a hint of TypeScript compiler, and 🎉 incredible static code samples
 
-## [Eslint Stylistic](https://github.com/eslint-stylistic/eslint-stylistic)
-
-  Monorepo for ESLint Stylistic plugins and configs
-
 ## [Adblocker](https://github.com/ghostery/adblocker)
 
   Efficient embeddable adblocker library
-
-## [Typescript Runtime Type Benchmarks](https://github.com/moltar/typescript-runtime-type-benchmarks)
-
-  📊 Benchmark Comparison of Packages with Runtime Validation and TypeScript Support
 
 ## [Nest Commander](https://github.com/jmcdo29/nest-commander)
 
@@ -347,40 +163,13 @@
 ## [Cucumber Playwright](https://github.com/Tallyb/cucumber-playwright)
 
 
-## [Puppeteer Screen Recorder](https://github.com/prasanaworld/puppeteer-screen-recorder)
-
-
-## [Pptr Testing Library](https://github.com/testing-library/pptr-testing-library)
-
-  puppeteer + dom-testing-library = 💖
-
-## [Code Complexity](https://github.com/simonrenoult/code-complexity)
-
-  Measure the churn/complexity ratio. Higher values mean hotspots where refactorings should happen.
-
 ## [Xactor](https://github.com/statelyai/xactor)
 
   Actors for the modern web
 
-## [Schema Typed](https://github.com/rsuite/schema-typed)
-
-  Schema for data modeling & validation
-
-## [Npm Package Json Lint](https://github.com/tclindner/npm-package-json-lint)
-
-  Configurable linter for package.json files
-
 ## [Extension Starter Kit](https://github.com/namukang/extension-starter-kit)
 
   Starter kit for building Chrome/Firefox extensions
-
-## [Iter Tools](https://github.com/iter-tools/iter-tools)
-
-  The iterable toolbox
-
-## [Ng Clarity](https://github.com/vmware-clarity/ng-clarity)
-
-  Clarity Angular is a scalable, accessible, customizable, open-source design system built for Angular.
 
 ## [Ink Tab](https://github.com/jdeniau/ink-tab)
 
@@ -390,35 +179,15 @@
 
   This ESLint plugin provides linting rules for YAML.
 
-## [Pr Codex](https://github.com/decentralizedlabs/pr-codex)
-
-  A ChatGPT-powered bot to summarize PR code diffs
-
-## [Npm Esm Vs Cjs](https://github.com/wooorm/npm-esm-vs-cjs)
-
-  Data on the share of ESM vs CJS on the public npm registry
-
-## [Angular Starterkit](https://github.com/rickvandermey/angular-starterkit)
-
-  Blazing fast 🚀advanced Angular Starterkit, with many features 😍🎯
-
 ## [Package Build Stats](https://github.com/pastelsky/package-build-stats)
 
   This is the cloud function that powers the core of building, minifying and gzipping of packages in bundlephobia
 
-## [Ng Mono Repo Starter](https://github.com/alan-agius4/ng-mono-repo-starter)
+## [Nodejs Testing](https://github.com/connor4312/nodejs-testing)
 
-  Angular Mono Repo Starter
+  VS Code integration for node:test native tests
 
-## [Storybook Addon Playwright](https://github.com/ccpu/storybook-addon-playwright)
-
-  An addon to visually test the stories in the multiple browser within storybook environment
-
-## [Web Oidc](https://github.com/sergiodxa/web-oidc)
-
-  An OpenID Connect client built using only Web APIs
-
-# 45 Useful Javascript libraries
+# 46 Useful Javascript libraries
 
 ## [Ws](https://github.com/websockets/ws)
 
@@ -435,6 +204,10 @@
 ## [Ai Expert Roadmap](https://github.com/AMAI-GmbH/AI-Expert-Roadmap)
 
   Roadmap to becoming an Artificial Intelligence Expert in 2022
+
+## [Trigger Dev](https://github.com/triggerdotdev/trigger.dev)
+
+  ✨ Trigger.dev is the open source background jobs framework for TypeScript. With features like API integrations, webhooks, scheduling and delays.
 
 ## [Size Limit](https://github.com/ai/size-limit)
 
@@ -503,10 +276,6 @@
 ## [Plasmo](https://github.com/PlasmoHQ/plasmo)
 
   🧩 The Browser Extension Framework
-
-## [Trigger Dev](https://github.com/triggerdotdev/trigger.dev)
-
-  ✨ Trigger.dev is the open source background jobs framework for TypeScript. With features like API integrations, webhooks, scheduling and delays.
 
 ## [Highlight](https://github.com/highlight/highlight)
 
@@ -588,6 +357,10 @@
 
   Like requestIdleCallback, but for detecting network idle
 
+## [Hackernews Daily](https://github.com/headllines/hackernews-daily)
+
+  Hacker News daily top 10 posts
+
 ## [Serp](https://github.com/christophebe/serp)
 
   Google Search SERP Scraper
@@ -602,7 +375,7 @@
 
 ---
 
-# 105 Other libraries and resources
+# 104 Other libraries and resources
 
 
 ## [Mind Expanding Books](https://github.com/hackerkid/Mind-Expanding-Books)
@@ -621,6 +394,10 @@
 
   A modified web browser that helps in responsive web development. A web developer's must have dev-tool.
 
+## [Monaspace](https://github.com/githubnext/monaspace)
+
+  An innovative superfamily of fonts for code
+
 ## [Copilot Kit](https://github.com/CopilotKit/CopilotKit)
 
   Build in-app AI chatbots 🤖, and AI-powered Textareas ✨, into react web apps.
@@ -637,10 +414,6 @@
 
   List of awesome people offering their time for free to have a "coffee chat" with others about different topics, mostly in a mentorship kind of way.
 
-## [Hackernews Daily](https://github.com/headllines/hackernews-daily)
-
-  Hacker News daily top 10 posts
-
 ## [Front End Checklist](https://github.com/thedaviddias/Front-End-Checklist)
 
   🗂 The perfect Front-End Checklist for modern websites and meticulous developers
@@ -652,10 +425,6 @@
 ## [Professional Programming](https://github.com/charlax/professional-programming)
 
   A collection of learning resources for curious software engineers
-
-## [Mid Journey Styles And Keywords Reference](https://github.com/willwulfken/MidJourney-Styles-and-Keywords-Reference)
-
-  A reference containing Styles and Keywords that you can use with MidJourney AI. There are also pages showing resolution comparison, image weights, and much more!
 
 ## [Howtheytest](https://github.com/abhivaikar/howtheytest)
 
@@ -908,6 +677,10 @@
 
   functional programming library for golang
 
+## [Modern Guide To Packaging Js Library](https://github.com/frehner/modern-guide-to-packaging-js-library)
+
+  A guide to help ensure your JavaScript library is the most compatible, fast, and efficient library you can make.
+
 ## [Webperf Snippets](https://github.com/nucliweb/webperf-snippets)
 
   ⚡️ 💾  Web Performance Snippets
@@ -949,10 +722,6 @@
 ## [Rejected Github Profile Achievements](https://github.com/Flet/rejected-github-profile-achievements)
 
   😵 GitHub achievements that did not make the cut.
-
-## [Modern Guide To Packaging Js Library](https://github.com/frehner/modern-guide-to-packaging-js-library)
-
-  A guide to help ensure your JavaScript library is the most compatible, fast, and efficient library you can make.
 
 ## [Zrok](https://github.com/openziti/zrok)
 
@@ -1421,13 +1190,13 @@
 
   Curated list of Creative Technology groups, companies, studios, collectives, etc.
 
-## [Awesome Svelte](https://github.com/rocketlaunchr/awesome-svelte)
-
-  Awesome Svelte: Useful resources for developing Svelte applications
-
 ## [Awesome Arr](https://github.com/Ravencentric/awesome-arr)
 
   A collection of *arrs and related stuff.
+
+## [Awesome Svelte](https://github.com/rocketlaunchr/awesome-svelte)
+
+  Awesome Svelte: Useful resources for developing Svelte applications
 
 ## [Awesome Integration](https://github.com/stn1slv/awesome-integration)
 
