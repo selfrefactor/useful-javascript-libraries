@@ -236,6 +236,10 @@
 
   why-did-you-render by Welldone Software monkey patches React to notify you about potentially avoidable re-renders. (Works with React Native as well.)
 
+## [React Scan](https://github.com/aidenybai/react-scan)
+
+  `React scan` is a small library that show components rerenders and how much time is takes. Can be installed by simply adding 1 script tag into HTML. From creators of million.js.
+
 ## [Js Framework Benchmark](https://github.com/krausest/js-framework-benchmark)
 
   A comparison of the performance of a few popular javascript frameworks
